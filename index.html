@@ -1,13 +1,103 @@
-<html>
-    <head>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/pako.min.js"></script>
-        <script type="text/javascript" src="https://melvoridle.com/assets/js/game/constants.js?637"></script>
-        <script type="text/javascript" src="https://melvoridle.com/assets/js/game/items.js?637"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-    </head>
-    <body>
-        <h1>Melvor Idle Completion Helper</h1>
-        <textarea id="saveImport" rows="2"></textarea>
-    </body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Melvor Idle Completionist Tool</title>
+    <style>
+        .card-header {
+            padding-top: 0.375rem;
+            padding-right: 0.625rem;
+            padding-bottom: 0.375rem;
+            padding-left: 0.625rem;
+        }
+        .card-header .btn {
+            padding-top: 0.1875rem;
+            padding-right: 0.375rem;
+            padding-bottom: 0.1875rem;
+            padding-left: 0.375rem;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <div class="container container-sm">
+		<div class="pb-3 text-center">
+			<h1>Melvor Idle Completion Helper</h2>
+        </div>
+        <div class="form-group">
+            <label for="saveImport">Get Started: Paste Your Melvor Idle Save Data Below</label>
+            <textarea class="form-control" id="saveImport" rows="3"></textarea>
+        </div>
+        <div class="accordion" id="missingAccordion">
+            <div class="card">
+                <div class="card-header mb-0" id="headingItems">
+                    <h4 class="my-0 py-0">
+                        <button class="btn btn-link" style="vertical-align: middle;" type="button" data-toggle="collapse" data-target="#collapseItems" aria-expanded="true" aria-controls="collapseItems">
+                            Missing Items
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseItems" class="collapse show" aria-labelledby="headingItems">
+                    <div class="card-body">
+                        <div>
+                            <table class="table" id="tableItems">
+                                <thead>
+                                    <tr>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Item Name</th>
+                                    <th scope="col">Source</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header mb-0" id="headingPets">
+                    <h4 class="my-0 py-0">
+                        <button class="btn btn-link" style="vertical-align: middle;" type="button" data-toggle="collapse" data-target="#collapsePets" aria-expanded="true" aria-controls="collapsePets">
+                            Missing Pets
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapsePets" class="collapse" aria-labelledby="headingPets">
+                    <div class="card-body">
+                        This will have stuff eventually.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header mb-0" id="headingMonsters">
+                    <h4 class="my-0 py-0">
+                        <button class="btn btn-link" style="vertical-align: middle;" type="button" data-toggle="collapse" data-target="#collapseMonsters" aria-expanded="true" aria-controls="collapseMonsters">
+                            Missing Monsters
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseMonsters" class="collapse" aria-labelledby="headingMonsters">
+                    <div class="card-body">
+                        This will have stuff eventually.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/pako.min.js"></script>
+    <script type="text/javascript" src="https://melvoridle.com/assets/js/game/constants.js?637"></script>
+    <script type="text/javascript" src="https://melvoridle.com/assets/js/game/items.js?637"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
