@@ -1,0 +1,1 @@
+melvor-idle-completion-helper
