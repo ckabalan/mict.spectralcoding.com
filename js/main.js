@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // On Load Code
-
+    CDNPrefix = 'https://cdn.melvor.net/core/v018/';
     // Functions
     function getMissingItemIDs(itemStats) {
         console.log(itemStats);
@@ -12,10 +12,10 @@ $(document).ready(function() {
         });
         return missingIDs;
     }
-    function itemLink(itemID, brackets = false) {
+    function itemLink(itemID, brackets = false, image = false) {
         itemName = items[itemID].name;
-        articleName = itemName.replace('#', '')
-        return '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + itemName + (brackets?']':'') + '</a>';
+        articleName = itemName.replace('#', '');
+        return '<img src="' + CDNPrefix + items[itemID].media + '" /><a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + itemName + (brackets?']':'') + '</a>';
     }
 
     function generateSourceString(itemID) {
