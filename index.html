@@ -26,9 +26,13 @@
             cursor: pointer !important;
         }
         .table img {
-            width:24px;
-            height:24px;
-            margin-right:5px;
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
+        .table th {
+            border-top: none;
+            padding-top: 0px;
         }
     </style>
 </head>
@@ -52,12 +56,12 @@
                 <div id="collapseItems" class="collapse show" aria-labelledby="headingItems">
                     <div class="card-body">
                         <div>
-                            <table class="table" id="tableItems">
+                            <table class="table mb-0 table-sm" style="border-top:none;" id="tableItems">
                                 <thead>
                                     <tr>
-                                    <th scope="col">ID</th>
-                                    <th scope="col">Item Name</th>
-                                    <th scope="col">Source</th>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">Item Name</th>
+                                        <th scope="col">Source</th>
                                     </tr>
                                 </thead>
                                 <tbody></tbody>
