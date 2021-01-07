@@ -41,5 +41,6 @@ $(document).ready(function() {
             console.log(items[itemID]);
             $('#tableItems tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID) + '</td><td>' + generateSourceString(itemID) + '</td></tr>');
         });
+        $('#missingAccordion').removeClass('d-none');
     });
 });
