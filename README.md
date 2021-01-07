@@ -1,10 +1,6 @@
-# Melvor Idle Completionist Tool
+# Melvor Idle Completionist Tool - Tooling
 
 Work In Progress!
-
-## Credits
-
-Checklist icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [Flaticon](https://www.flaticon.com/)
 
 ## License
 
