@@ -15,7 +15,7 @@ $(document).ready(function() {
     function itemLink(itemID, brackets = false, image = false) {
         itemName = items[itemID].name;
         articleName = itemName.replace('#', '');
-        return '<img src="' + CDNPrefix + items[itemID].media + '" /><a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + itemName + (brackets?']':'') + '</a>';
+        return (brackets?'<img src="' + CDNPrefix + items[itemID].media + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + itemName + (brackets?']':'') + '</a>';
     }
 
     function generateSourceString(itemID) {
