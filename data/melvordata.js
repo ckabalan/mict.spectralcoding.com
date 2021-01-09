@@ -12,7 +12,18 @@ var melvorData = {
                 0
             ],
             "firemakingID": 0,
-            "woodcuttingLevel": 1
+            "woodcuttingID": 0,
+            "woodcuttingLevel": 1,
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        21,
+                        80
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 1,
@@ -26,7 +37,27 @@ var melvorData = {
                 1
             ],
             "firemakingID": 1,
-            "woodcuttingLevel": 10
+            "woodcuttingID": 1,
+            "woodcuttingLevel": 10,
+            "farmingLevel": 15,
+            "farmingXP": 1167,
+            "timeToGrow": 24000,
+            "farmReq": [
+                {
+                    "id": 160,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        3,
+                        16
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 2,
@@ -40,7 +71,27 @@ var melvorData = {
                 2
             ],
             "firemakingID": 2,
-            "woodcuttingLevel": 25
+            "woodcuttingID": 2,
+            "woodcuttingLevel": 25,
+            "farmingLevel": 30,
+            "farmingXP": 3637,
+            "timeToGrow": 33600,
+            "farmReq": [
+                {
+                    "id": 161,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        9,
+                        80
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 3,
@@ -80,7 +131,18 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "woodcuttingLevel": 35
+            "woodcuttingID": 3,
+            "woodcuttingLevel": 35,
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        3,
+                        40
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 4,
@@ -120,7 +182,27 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "woodcuttingLevel": 45
+            "woodcuttingID": 4,
+            "woodcuttingLevel": 45,
+            "farmingLevel": 45,
+            "farmingXP": 8507,
+            "timeToGrow": 38400,
+            "farmReq": [
+                {
+                    "id": 162,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        9,
+                        160
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 5,
@@ -134,7 +216,18 @@ var melvorData = {
                 5
             ],
             "firemakingID": 5,
-            "woodcuttingLevel": 55
+            "woodcuttingID": 5,
+            "woodcuttingLevel": 55,
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        21,
+                        800
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 6,
@@ -174,7 +267,27 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "woodcuttingLevel": 60
+            "woodcuttingID": 6,
+            "woodcuttingLevel": 60,
+            "farmingLevel": 60,
+            "farmingXP": 17672,
+            "timeToGrow": 48000,
+            "farmReq": [
+                {
+                    "id": 163,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        3,
+                        160
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 7,
@@ -188,7 +301,27 @@ var melvorData = {
                 7
             ],
             "firemakingID": 7,
-            "woodcuttingLevel": 75
+            "woodcuttingID": 7,
+            "woodcuttingLevel": 75,
+            "farmingLevel": 75,
+            "farmingXP": 34450,
+            "timeToGrow": 57600,
+            "farmReq": [
+                {
+                    "id": 164,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        3,
+                        400
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 8,
@@ -202,7 +335,18 @@ var melvorData = {
                 8
             ],
             "firemakingID": 8,
-            "woodcuttingLevel": 90
+            "woodcuttingID": 8,
+            "woodcuttingLevel": 90,
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        3,
+                        800
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 9,
@@ -211,12 +355,6 @@ var melvorData = {
             "name": "Raw Shrimp",
             "sellsFor": 1,
             "media": "assets/media/bank/shrimp.svg",
-            "cookingCategory": 0,
-            "cookingID": 0,
-            "cookingLevel": 1,
-            "cookingXP": 5,
-            "cookedItemID": 21,
-            "burntItemID": 33,
             "masteryID": [
                 1,
                 0
@@ -243,6 +381,16 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        15,
+                        98
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -252,12 +400,6 @@ var melvorData = {
             "name": "Raw Sardine",
             "sellsFor": 3,
             "media": "assets/media/bank/sardine.svg",
-            "cookingCategory": 0,
-            "cookingID": 1,
-            "cookingLevel": 5,
-            "cookingXP": 10,
-            "cookedItemID": 22,
-            "burntItemID": 34,
             "masteryID": [
                 1,
                 1
@@ -276,6 +418,16 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        15,
+                        112
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -285,12 +437,6 @@ var melvorData = {
             "name": "Raw Herring",
             "sellsFor": 8,
             "media": "assets/media/bank/herring.svg",
-            "cookingCategory": 0,
-            "cookingID": 2,
-            "cookingLevel": 10,
-            "cookingXP": 15,
-            "cookedItemID": 23,
-            "burntItemID": 35,
             "masteryID": [
                 1,
                 2
@@ -309,6 +455,16 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        45,
+                        392
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -318,12 +474,6 @@ var melvorData = {
             "name": "Raw Trout",
             "sellsFor": 16,
             "media": "assets/media/bank/trout.svg",
-            "cookingCategory": 0,
-            "cookingID": 3,
-            "cookingLevel": 20,
-            "cookingXP": 25,
-            "cookedItemID": 24,
-            "burntItemID": 36,
             "masteryID": [
                 1,
                 3
@@ -358,6 +508,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        75,
+                        784
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -367,12 +527,6 @@ var melvorData = {
             "name": "Raw Salmon",
             "sellsFor": 35,
             "media": "assets/media/bank/salmon.svg",
-            "cookingCategory": 0,
-            "cookingID": 4,
-            "cookingLevel": 35,
-            "cookingXP": 30,
-            "cookedItemID": 25,
-            "burntItemID": 37,
             "masteryID": [
                 1,
                 4
@@ -407,6 +561,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        15,
+                        196
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -416,12 +580,6 @@ var melvorData = {
             "name": "Raw Lobster",
             "sellsFor": 65,
             "media": "assets/media/bank/lobster.svg",
-            "cookingCategory": 0,
-            "cookingID": 5,
-            "cookingLevel": 40,
-            "cookingXP": 40,
-            "cookedItemID": 26,
-            "burntItemID": 38,
             "masteryID": [
                 1,
                 5
@@ -456,6 +614,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        3,
+                        49
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -465,12 +633,6 @@ var melvorData = {
             "name": "Raw Swordfish",
             "sellsFor": 80,
             "media": "assets/media/bank/swordfish.svg",
-            "cookingCategory": 0,
-            "cookingID": 6,
-            "cookingLevel": 50,
-            "cookingXP": 50,
-            "cookedItemID": 27,
-            "burntItemID": 39,
             "masteryID": [
                 1,
                 6
@@ -479,7 +641,17 @@ var melvorData = {
             "fishingLevel": 50,
             "fishingXP": 80,
             "minFishingInterval": 4000,
-            "maxFishingInterval": 12000
+            "maxFishingInterval": 12000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        9,
+                        196
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 16,
@@ -488,12 +660,6 @@ var melvorData = {
             "name": "Raw Crab",
             "sellsFor": 135,
             "media": "assets/media/bank/crab.svg",
-            "cookingCategory": 0,
-            "cookingID": 7,
-            "cookingLevel": 60,
-            "cookingXP": 70,
-            "cookedItemID": 28,
-            "burntItemID": 40,
             "masteryID": [
                 1,
                 7
@@ -512,6 +678,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        15,
+                        392
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -521,12 +697,6 @@ var melvorData = {
             "name": "Raw Shark",
             "sellsFor": 270,
             "media": "assets/media/bank/shark.svg",
-            "cookingCategory": 0,
-            "cookingID": 8,
-            "cookingLevel": 70,
-            "cookingXP": 80,
-            "cookedItemID": 29,
-            "burntItemID": 41,
             "masteryID": [
                 1,
                 8
@@ -535,7 +705,17 @@ var melvorData = {
             "fishingLevel": 70,
             "fishingXP": 150,
             "minFishingInterval": 5000,
-            "maxFishingInterval": 15000
+            "maxFishingInterval": 15000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        15,
+                        784
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 18,
@@ -544,12 +724,6 @@ var melvorData = {
             "name": "Raw Cave Fish",
             "sellsFor": 215,
             "media": "assets/media/bank/cavefish.svg",
-            "cookingCategory": 0,
-            "cookingID": 9,
-            "cookingLevel": 75,
-            "cookingXP": 100,
-            "cookedItemID": 30,
-            "burntItemID": 42,
             "masteryID": [
                 1,
                 9
@@ -558,7 +732,17 @@ var melvorData = {
             "fishingLevel": 75,
             "fishingXP": 300,
             "minFishingInterval": 5000,
-            "maxFishingInterval": 15000
+            "maxFishingInterval": 15000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        3,
+                        392
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 19,
@@ -567,12 +751,6 @@ var melvorData = {
             "name": "Raw Manta Ray",
             "sellsFor": 650,
             "media": "assets/media/bank/mantaray.svg",
-            "cookingCategory": 0,
-            "cookingID": 10,
-            "cookingLevel": 85,
-            "cookingXP": 125,
-            "cookedItemID": 31,
-            "burntItemID": 43,
             "masteryID": [
                 1,
                 10
@@ -590,12 +768,6 @@ var melvorData = {
             "name": "Raw Whale",
             "sellsFor": 750,
             "media": "assets/media/bank/whale.svg",
-            "cookingCategory": 0,
-            "cookingID": 11,
-            "cookingLevel": 95,
-            "cookingXP": 150,
-            "cookedItemID": 32,
-            "burntItemID": 44,
             "masteryID": [
                 1,
                 11
@@ -618,7 +790,37 @@ var melvorData = {
                 3,
                 0
             ],
-            "media": "assets/media/bank/shrimp_cooked.svg"
+            "media": "assets/media/bank/shrimp_cooked.svg",
+            "cookingLevel": 1,
+            "cookingXP": 5,
+            "cookingCategory": 0,
+            "cookingID": 0,
+            "cookReq": [
+                {
+                    "id": 9,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        6
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        5
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 22,
@@ -632,7 +834,27 @@ var melvorData = {
                 3,
                 1
             ],
-            "media": "assets/media/bank/sardine_cooked.svg"
+            "media": "assets/media/bank/sardine_cooked.svg",
+            "cookingLevel": 5,
+            "cookingXP": 10,
+            "cookingCategory": 0,
+            "cookingID": 1,
+            "cookReq": [
+                {
+                    "id": 10,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        7,
+                        48
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 23,
@@ -646,7 +868,27 @@ var melvorData = {
                 3,
                 2
             ],
-            "media": "assets/media/bank/herring_cooked.svg"
+            "media": "assets/media/bank/herring_cooked.svg",
+            "cookingLevel": 10,
+            "cookingXP": 15,
+            "cookingCategory": 0,
+            "cookingID": 2,
+            "cookReq": [
+                {
+                    "id": 11,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        8
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 24,
@@ -669,6 +911,36 @@ var melvorData = {
                         1151
                     ],
                     "maxQty": 30
+                }
+            ],
+            "cookingLevel": 20,
+            "cookingXP": 25,
+            "cookingCategory": 0,
+            "cookingID": 3,
+            "cookReq": [
+                {
+                    "id": 12,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        5,
+                        48
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        10
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -718,6 +990,26 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "cookingLevel": 35,
+            "cookingXP": 30,
+            "cookingCategory": 0,
+            "cookingID": 4,
+            "cookReq": [
+                {
+                    "id": 13,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        12
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -758,6 +1050,36 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "cookingLevel": 40,
+            "cookingXP": 40,
+            "cookingCategory": 0,
+            "cookingID": 5,
+            "cookReq": [
+                {
+                    "id": 14,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        15
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        10
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -772,7 +1094,27 @@ var melvorData = {
                 3,
                 6
             ],
-            "media": "assets/media/bank/swordfish_cooked.svg"
+            "media": "assets/media/bank/swordfish_cooked.svg",
+            "cookingLevel": 50,
+            "cookingXP": 50,
+            "cookingCategory": 0,
+            "cookingID": 6,
+            "cookReq": [
+                {
+                    "id": 15,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        30
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 28,
@@ -793,6 +1135,26 @@ var melvorData = {
                     "chance": [
                         200,
                         401
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "cookingLevel": 60,
+            "cookingXP": 70,
+            "cookingCategory": 0,
+            "cookingID": 7,
+            "cookReq": [
+                {
+                    "id": 16,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        48
                     ],
                     "maxQty": 1
                 }
@@ -836,6 +1198,36 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "cookingLevel": 70,
+            "cookingXP": 80,
+            "cookingCategory": 0,
+            "cookingID": 8,
+            "cookReq": [
+                {
+                    "id": 17,
+                    "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        2,
+                        25
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -850,7 +1242,17 @@ var melvorData = {
                 3,
                 9
             ],
-            "media": "assets/media/bank/cavefish_cooked.svg"
+            "media": "assets/media/bank/cavefish_cooked.svg",
+            "cookingLevel": 75,
+            "cookingXP": 100,
+            "cookingCategory": 0,
+            "cookingID": 9,
+            "cookReq": [
+                {
+                    "id": 18,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 31,
@@ -864,7 +1266,27 @@ var melvorData = {
                 3,
                 10
             ],
-            "media": "assets/media/bank/mantaray_cooked.svg"
+            "media": "assets/media/bank/mantaray_cooked.svg",
+            "cookingLevel": 85,
+            "cookingXP": 125,
+            "cookingCategory": 0,
+            "cookingID": 10,
+            "cookReq": [
+                {
+                    "id": 19,
+                    "qty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        20
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 32,
@@ -878,7 +1300,27 @@ var melvorData = {
                 3,
                 11
             ],
-            "media": "assets/media/bank/whale_cooked.svg"
+            "media": "assets/media/bank/whale_cooked.svg",
+            "cookingLevel": 95,
+            "cookingXP": 150,
+            "cookingCategory": 0,
+            "cookingID": 11,
+            "cookReq": [
+                {
+                    "id": 20,
+                    "qty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        20
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 33,
@@ -886,7 +1328,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Shrimp",
             "sellsFor": 1,
-            "media": "assets/media/bank/shrimp_burnt.svg"
+            "media": "assets/media/bank/shrimp_burnt.svg",
+            "cookingLevel": 1,
+            "cookingXP": 5,
+            "cookingCategory": 0,
+            "cookingID": 0,
+            "cookReq": [
+                {
+                    "id": 9,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 34,
@@ -894,7 +1346,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Sardine",
             "sellsFor": 1,
-            "media": "assets/media/bank/sardine_burnt.svg"
+            "media": "assets/media/bank/sardine_burnt.svg",
+            "cookingLevel": 5,
+            "cookingXP": 10,
+            "cookingCategory": 0,
+            "cookingID": 1,
+            "cookReq": [
+                {
+                    "id": 10,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 35,
@@ -902,7 +1364,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Herring",
             "sellsFor": 1,
-            "media": "assets/media/bank/herring_burnt.svg"
+            "media": "assets/media/bank/herring_burnt.svg",
+            "cookingLevel": 10,
+            "cookingXP": 15,
+            "cookingCategory": 0,
+            "cookingID": 2,
+            "cookReq": [
+                {
+                    "id": 11,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 36,
@@ -910,7 +1382,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Trout",
             "sellsFor": 1,
-            "media": "assets/media/bank/trout_burnt.svg"
+            "media": "assets/media/bank/trout_burnt.svg",
+            "cookingLevel": 20,
+            "cookingXP": 25,
+            "cookingCategory": 0,
+            "cookingID": 3,
+            "cookReq": [
+                {
+                    "id": 12,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 37,
@@ -918,7 +1400,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Salmon",
             "sellsFor": 1,
-            "media": "assets/media/bank/salmon_burnt.svg"
+            "media": "assets/media/bank/salmon_burnt.svg",
+            "cookingLevel": 35,
+            "cookingXP": 30,
+            "cookingCategory": 0,
+            "cookingID": 4,
+            "cookReq": [
+                {
+                    "id": 13,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 38,
@@ -926,7 +1418,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Lobster",
             "sellsFor": 1,
-            "media": "assets/media/bank/lobster_burnt.svg"
+            "media": "assets/media/bank/lobster_burnt.svg",
+            "cookingLevel": 40,
+            "cookingXP": 40,
+            "cookingCategory": 0,
+            "cookingID": 5,
+            "cookReq": [
+                {
+                    "id": 14,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 39,
@@ -934,7 +1436,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Swordfish",
             "sellsFor": 1,
-            "media": "assets/media/bank/swordfish_burnt.svg"
+            "media": "assets/media/bank/swordfish_burnt.svg",
+            "cookingLevel": 50,
+            "cookingXP": 50,
+            "cookingCategory": 0,
+            "cookingID": 6,
+            "cookReq": [
+                {
+                    "id": 15,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 40,
@@ -942,7 +1454,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Crab",
             "sellsFor": 1,
-            "media": "assets/media/bank/crab_burnt.svg"
+            "media": "assets/media/bank/crab_burnt.svg",
+            "cookingLevel": 60,
+            "cookingXP": 70,
+            "cookingCategory": 0,
+            "cookingID": 7,
+            "cookReq": [
+                {
+                    "id": 16,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 41,
@@ -950,7 +1472,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Shark",
             "sellsFor": 1,
-            "media": "assets/media/bank/shark_burnt.svg"
+            "media": "assets/media/bank/shark_burnt.svg",
+            "cookingLevel": 70,
+            "cookingXP": 80,
+            "cookingCategory": 0,
+            "cookingID": 8,
+            "cookReq": [
+                {
+                    "id": 17,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 42,
@@ -958,7 +1490,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Cave Fish",
             "sellsFor": 1,
-            "media": "assets/media/bank/cavefish_burnt.svg"
+            "media": "assets/media/bank/cavefish_burnt.svg",
+            "cookingLevel": 75,
+            "cookingXP": 100,
+            "cookingCategory": 0,
+            "cookingID": 9,
+            "cookReq": [
+                {
+                    "id": 18,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 43,
@@ -966,7 +1508,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Manta Ray",
             "sellsFor": 1,
-            "media": "assets/media/bank/mantaray_burnt.svg"
+            "media": "assets/media/bank/mantaray_burnt.svg",
+            "cookingLevel": 85,
+            "cookingXP": 125,
+            "cookingCategory": 0,
+            "cookingID": 10,
+            "cookReq": [
+                {
+                    "id": 19,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 44,
@@ -974,7 +1526,17 @@ var melvorData = {
             "type": "Cooked Fish",
             "name": "Burnt Whale",
             "sellsFor": 1,
-            "media": "assets/media/bank/whale_burnt.svg"
+            "media": "assets/media/bank/whale_burnt.svg",
+            "cookingLevel": 95,
+            "cookingXP": 150,
+            "cookingCategory": 0,
+            "cookingID": 11,
+            "cookReq": [
+                {
+                    "id": 20,
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 45,
@@ -991,7 +1553,17 @@ var melvorData = {
             "miningLevel": 1,
             "miningXP": 7,
             "miningRespawnInterval": 3000,
-            "maxMiningRespawnInterval": 6000
+            "maxMiningRespawnInterval": 6000,
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        21,
+                        124
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 46,
@@ -1008,7 +1580,17 @@ var melvorData = {
             "miningLevel": 1,
             "miningXP": 7,
             "miningRespawnInterval": 3000,
-            "maxMiningRespawnInterval": 6000
+            "maxMiningRespawnInterval": 6000,
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        21,
+                        124
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 47,
@@ -1034,6 +1616,16 @@ var melvorData = {
                         4
                     ],
                     "maxQty": 5
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        7,
+                        62
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -1069,6 +1661,34 @@ var melvorData = {
                         2
                     ],
                     "maxQty": 5
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        10
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        35,
+                        261
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 774,
+                    "chance": [
+                        100,
+                        289
+                    ],
+                    "qty": 3000
                 }
             ]
         },
@@ -1113,6 +1733,26 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        5,
+                        62
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        25,
+                        261
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -1130,7 +1770,27 @@ var melvorData = {
             "miningLevel": 40,
             "miningXP": 28,
             "miningRespawnInterval": 10000,
-            "maxMiningRespawnInterval": 20000
+            "maxMiningRespawnInterval": 20000,
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        2,
+                        31
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        87
+                    ],
+                    "qty": 20
+                }
+            ]
         },
         {
             "id": 51,
@@ -1180,6 +1840,26 @@ var melvorData = {
                         88
                     ],
                     "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        5,
+                        124
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 774,
+                    "chance": [
+                        100,
+                        289
+                    ],
+                    "qty": 3000
                 }
             ]
         },
@@ -1232,6 +1912,26 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        124
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 774,
+                    "chance": [
+                        40,
+                        289
+                    ],
+                    "qty": 3000
+                }
             ]
         },
         {
@@ -1259,6 +1959,26 @@ var melvorData = {
                     ],
                     "maxQty": 5
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        1240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 774,
+                    "chance": [
+                        30,
+                        289
+                    ],
+                    "qty": 1000
+                }
             ]
         },
         {
@@ -1276,7 +1996,17 @@ var melvorData = {
             "miningLevel": 90,
             "miningXP": 101,
             "miningRespawnInterval": 120000,
-            "maxMiningRespawnInterval": 240000
+            "maxMiningRespawnInterval": 240000,
+            "chestSources": [
+                {
+                    "chest": 774,
+                    "chance": [
+                        10,
+                        289
+                    ],
+                    "qty": 1000
+                }
+            ]
         },
         {
             "id": 55,
@@ -1311,6 +2041,22 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        5
+                    ],
+                    "qty": 1
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1342,6 +2088,12 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1401,6 +2153,22 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        20
+                    ],
+                    "qty": 1
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1464,6 +2232,38 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        100,
+                        1281
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        50,
+                        723
+                    ],
+                    "qty": 200
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        80,
+                        409
+                    ],
+                    "qty": 2000
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1531,6 +2331,38 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        20
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 360,
+                    "chance": [
+                        50,
+                        1281
+                    ],
+                    "qty": 25
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        50,
+                        723
+                    ],
+                    "qty": 100
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1574,6 +2406,38 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        25
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 360,
+                    "chance": [
+                        10,
+                        427
+                    ],
+                    "qty": 25
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        241
+                    ],
+                    "qty": 100
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1609,6 +2473,38 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        50
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 360,
+                    "chance": [
+                        20,
+                        1281
+                    ],
+                    "qty": 25
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        20,
+                        723
+                    ],
+                    "qty": 100
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1656,6 +2552,38 @@ var melvorData = {
                     ],
                     "maxQty": 25
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        100
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 360,
+                    "chance": [
+                        10,
+                        1281
+                    ],
+                    "qty": 10
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        723
+                    ],
+                    "qty": 100
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -1699,6 +2627,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        10,
+                        167
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -1732,7 +2670,17 @@ var melvorData = {
             "strengthBonus": 5,
             "defenceBonus": 0,
             "attackSpeed": 2400,
-            "attackLevelRequired": 1
+            "attackLevelRequired": 1,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        10,
+                        167
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 65,
@@ -1775,6 +2723,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        10,
+                        167
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -1808,7 +2766,17 @@ var melvorData = {
             "strengthBonus": 18,
             "defenceBonus": 0,
             "attackSpeed": 3600,
-            "attackLevelRequired": 1
+            "attackLevelRequired": 1,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        10,
+                        167
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 67,
@@ -2023,6 +2991,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        65,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -2056,7 +3034,17 @@ var melvorData = {
             "strengthBonus": 7,
             "defenceBonus": 0,
             "attackSpeed": 2400,
-            "attackLevelRequired": 1
+            "attackLevelRequired": 1,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        65,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 73,
@@ -2089,7 +3077,17 @@ var melvorData = {
             "strengthBonus": 13,
             "defenceBonus": 0,
             "attackSpeed": 3100,
-            "attackLevelRequired": 1
+            "attackLevelRequired": 1,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        65,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 74,
@@ -2122,7 +3120,17 @@ var melvorData = {
             "strengthBonus": 25,
             "defenceBonus": 0,
             "attackSpeed": 3600,
-            "attackLevelRequired": 1
+            "attackLevelRequired": 1,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        65,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 75,
@@ -2355,6 +3363,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        25,
+                        668
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -2398,6 +3416,26 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        25,
+                        668
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        50,
+                        427
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -2431,7 +3469,17 @@ var melvorData = {
             "strengthBonus": 20,
             "defenceBonus": 0,
             "attackSpeed": 3100,
-            "attackLevelRequired": 5
+            "attackLevelRequired": 5,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        25,
+                        668
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 82,
@@ -2464,7 +3512,17 @@ var melvorData = {
             "strengthBonus": 39,
             "defenceBonus": 0,
             "attackSpeed": 3600,
-            "attackLevelRequired": 5
+            "attackLevelRequired": 5,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        25,
+                        668
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "id": 83,
@@ -2715,6 +3773,26 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        15,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        25
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -2758,6 +3836,34 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        15,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        100,
+                        1281
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        174
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -2791,7 +3897,27 @@ var melvorData = {
             "strengthBonus": 29,
             "defenceBonus": 0,
             "attackSpeed": 3100,
-            "attackLevelRequired": 20
+            "attackLevelRequired": 20,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        15,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        174
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 90,
@@ -2831,6 +3957,16 @@ var melvorData = {
                     "chance": [
                         450,
                         1127
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        15,
+                        1336
                     ],
                     "maxQty": 1
                 }
@@ -3034,6 +4170,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        174
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -3074,6 +4220,16 @@ var melvorData = {
                     "chance": [
                         5,
                         29
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        5,
+                        1336
                     ],
                     "maxQty": 1
                 }
@@ -3120,6 +4276,34 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        5,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        10,
+                        183
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        522
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -3153,7 +4337,27 @@ var melvorData = {
             "strengthBonus": 41,
             "defenceBonus": 0,
             "attackSpeed": 3100,
-            "attackLevelRequired": 30
+            "attackLevelRequired": 30,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        5,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        522
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 98,
@@ -3193,6 +4397,16 @@ var melvorData = {
                     "chance": [
                         225,
                         1127
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        5,
+                        1336
                     ],
                     "maxQty": 1
                 }
@@ -3396,6 +4610,24 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        50,
+                        723
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        522
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -3490,6 +4722,26 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        20,
+                        1281
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -3530,6 +4782,16 @@ var melvorData = {
                     "chance": [
                         1,
                         100
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        1336
                     ],
                     "maxQty": 1
                 }
@@ -3736,6 +4998,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        20,
+                        723
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -3783,6 +5055,16 @@ var melvorData = {
                         160
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        20,
+                        723
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -3850,7 +5132,17 @@ var melvorData = {
             "strengthBonus": 63,
             "defenceBonus": 0,
             "attackSpeed": 2400,
-            "attackLevelRequired": 60
+            "attackLevelRequired": 60,
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        5,
+                        1281
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 113,
@@ -4048,7 +5340,17 @@ var melvorData = {
             "rangedAttackBonus": -7,
             "magicAttackBonus": -21,
             "rangedDefenceBonus": 65,
-            "magicDefenceBonus": -4
+            "magicDefenceBonus": -4,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        5,
+                        723
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 118,
@@ -4086,7 +5388,17 @@ var melvorData = {
             "rangedAttackBonus": -10,
             "magicAttackBonus": -30,
             "rangedDefenceBonus": 106,
-            "magicDefenceBonus": -6
+            "magicDefenceBonus": -6,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        5,
+                        723
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 119,
@@ -4261,6 +5573,16 @@ var melvorData = {
                     "chance": [
                         1,
                         101
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        3,
+                        784
                     ],
                     "maxQty": 1
                 }
@@ -4446,6 +5768,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        174
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -4493,6 +5825,16 @@ var melvorData = {
                         48
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        522
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -4623,6 +5965,54 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        1240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        200,
+                        1281
+                    ],
+                    "qty": 30
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        20,
+                        241
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 622,
+                    "chance": [
+                        25,
+                        79
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        100,
+                        409
+                    ],
+                    "qty": 300
+                }
+            ],
+            "altMagicSources": [
+                6,
+                9
             ]
         },
         {
@@ -4650,6 +6040,54 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        1240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        100,
+                        1281
+                    ],
+                    "qty": 25
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        50,
+                        723
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 622,
+                    "chance": [
+                        75,
+                        316
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        50,
+                        409
+                    ],
+                    "qty": 300
+                }
+            ],
+            "altMagicSources": [
+                6,
+                9
             ]
         },
         {
@@ -4685,6 +6123,54 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        1240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        100,
+                        1281
+                    ],
+                    "qty": 25
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        40,
+                        723
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 622,
+                    "chance": [
+                        75,
+                        316
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        30,
+                        409
+                    ],
+                    "qty": 300
+                }
+            ],
+            "altMagicSources": [
+                6,
+                9
             ]
         },
         {
@@ -4720,6 +6206,54 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        1240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        20,
+                        427
+                    ],
+                    "qty": 25
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        241
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 622,
+                    "chance": [
+                        10,
+                        79
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        30,
+                        409
+                    ],
+                    "qty": 300
+                }
+            ],
+            "altMagicSources": [
+                6,
+                9
             ]
         },
         {
@@ -4739,6 +6273,54 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        1240
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        50,
+                        1281
+                    ],
+                    "qty": 20
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        20,
+                        723
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 622,
+                    "chance": [
+                        25,
+                        316
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        10,
+                        409
+                    ],
+                    "qty": 300
+                }
+            ],
+            "altMagicSources": [
+                6,
+                9
             ]
         },
         {
@@ -4770,6 +6352,38 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        200,
+                        1281
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 362,
+                    "chance": [
+                        100,
+                        723
+                    ],
+                    "qty": 200
+                },
+                {
+                    "chest": 775,
+                    "chance": [
+                        100,
+                        409
+                    ],
+                    "qty": 2000
+                }
+            ],
+            "altMagicSources": [
+                1,
+                4,
+                8,
+                11
             ]
         },
         {
@@ -4797,6 +6411,16 @@ var melvorData = {
                     "chance": [
                         1,
                         68
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        35,
+                        1336
                     ],
                     "maxQty": 1
                 }
@@ -4830,6 +6454,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        35,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -4860,6 +6494,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        35,
+                        1336
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -4887,6 +6531,16 @@ var melvorData = {
                     "chance": [
                         1,
                         102
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        35,
+                        1336
                     ],
                     "maxQty": 1
                 }
@@ -5078,11 +6732,7 @@ var melvorData = {
                 11,
                 0
             ],
-            "farmingLevel": 1,
-            "farmingXP": 8,
             "seedsRequired": 3,
-            "timeToGrow": 7200,
-            "grownItemID": 151,
             "farmingMasteryID": 0,
             "monsterSources": [
                 {
@@ -5101,6 +6751,34 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        35,
+                        199
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        28,
+                        101
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        35,
+                        261
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -5115,11 +6793,7 @@ var melvorData = {
                 11,
                 1
             ],
-            "farmingLevel": 5,
-            "farmingXP": 10,
             "seedsRequired": 3,
-            "timeToGrow": 7200,
-            "grownItemID": 152,
             "farmingMasteryID": 1,
             "monsterSources": [
                 {
@@ -5146,6 +6820,34 @@ var melvorData = {
                     ],
                     "maxQty": 5
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        45,
+                        398
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        18,
+                        101
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        25,
+                        261
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -5160,11 +6862,7 @@ var melvorData = {
                 11,
                 2
             ],
-            "farmingLevel": 7,
-            "farmingXP": 11,
             "seedsRequired": 3,
-            "timeToGrow": 7200,
-            "grownItemID": 153,
             "farmingMasteryID": 2,
             "monsterSources": [
                 {
@@ -5191,6 +6889,34 @@ var melvorData = {
                     ],
                     "maxQty": 5
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        35,
+                        398
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        14,
+                        101
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        20,
+                        261
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -5205,11 +6931,7 @@ var melvorData = {
                 11,
                 3
             ],
-            "farmingLevel": 12,
-            "farmingXP": 14,
             "seedsRequired": 3,
-            "timeToGrow": 7200,
-            "grownItemID": 154,
             "farmingMasteryID": 3,
             "monsterSources": [
                 {
@@ -5236,6 +6958,34 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        55,
+                        796
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        11,
+                        101
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        87
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -5250,11 +7000,7 @@ var melvorData = {
                 11,
                 4
             ],
-            "farmingLevel": 20,
-            "farmingXP": 21,
             "seedsRequired": 3,
-            "timeToGrow": 10800,
-            "grownItemID": 155,
             "farmingMasteryID": 4,
             "monsterSources": [
                 {
@@ -5273,6 +7019,26 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        10,
+                        199
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        8,
+                        101
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -5287,11 +7053,7 @@ var melvorData = {
                 11,
                 5
             ],
-            "farmingLevel": 31,
-            "farmingXP": 39,
             "seedsRequired": 3,
-            "timeToGrow": 10800,
-            "grownItemID": 156,
             "farmingMasteryID": 5,
             "monsterSources": [
                 {
@@ -5318,6 +7080,26 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        25,
+                        796
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        5,
+                        101
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -5332,11 +7114,7 @@ var melvorData = {
                 11,
                 6
             ],
-            "farmingLevel": 47,
-            "farmingXP": 78,
             "seedsRequired": 3,
-            "timeToGrow": 14400,
-            "grownItemID": 157,
             "farmingMasteryID": 6,
             "monsterSources": [
                 {
@@ -5363,6 +7141,26 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        5,
+                        398
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        2,
+                        101
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -5377,11 +7175,7 @@ var melvorData = {
                 11,
                 7
             ],
-            "farmingLevel": 61,
-            "farmingXP": 92,
             "seedsRequired": 3,
-            "timeToGrow": 12600,
-            "grownItemID": 158,
             "farmingMasteryID": 7,
             "monsterSources": [
                 {
@@ -5408,6 +7202,26 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        9,
+                        796
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        1,
+                        101
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -5428,6 +7242,15 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "farmingLevel": 1,
+            "farmingXP": 8,
+            "timeToGrow": 7200,
+            "farmReq": [
+                {
+                    "id": 143,
+                    "qty": 3
+                }
             ]
         },
         {
@@ -5437,7 +7260,16 @@ var melvorData = {
             "name": "Onions",
             "healsFor": 2,
             "sellsFor": 2,
-            "media": "assets/media/bank/onion.svg"
+            "media": "assets/media/bank/onion.svg",
+            "farmingLevel": 5,
+            "farmingXP": 10,
+            "timeToGrow": 7200,
+            "farmReq": [
+                {
+                    "id": 144,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5446,7 +7278,16 @@ var melvorData = {
             "name": "Cabbage",
             "healsFor": 3,
             "sellsFor": 5,
-            "media": "assets/media/bank/cabbage.svg"
+            "media": "assets/media/bank/cabbage.svg",
+            "farmingLevel": 7,
+            "farmingXP": 11,
+            "timeToGrow": 7200,
+            "farmReq": [
+                {
+                    "id": 145,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5455,7 +7296,16 @@ var melvorData = {
             "name": "Tomatoes",
             "healsFor": 4,
             "sellsFor": 1,
-            "media": "assets/media/bank/tomato.svg"
+            "media": "assets/media/bank/tomato.svg",
+            "farmingLevel": 12,
+            "farmingXP": 14,
+            "timeToGrow": 7200,
+            "farmReq": [
+                {
+                    "id": 146,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5464,7 +7314,16 @@ var melvorData = {
             "name": "Sweetcorn",
             "healsFor": 5,
             "sellsFor": 8,
-            "media": "assets/media/bank/sweetcorn.svg"
+            "media": "assets/media/bank/sweetcorn.svg",
+            "farmingLevel": 20,
+            "farmingXP": 21,
+            "timeToGrow": 10800,
+            "farmReq": [
+                {
+                    "id": 147,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5473,7 +7332,16 @@ var melvorData = {
             "name": "Strawberries",
             "healsFor": 6,
             "sellsFor": 10,
-            "media": "assets/media/bank/strawberry.svg"
+            "media": "assets/media/bank/strawberry.svg",
+            "farmingLevel": 31,
+            "farmingXP": 39,
+            "timeToGrow": 10800,
+            "farmReq": [
+                {
+                    "id": 148,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5482,7 +7350,16 @@ var melvorData = {
             "name": "Watermelons",
             "healsFor": 7,
             "sellsFor": 15,
-            "media": "assets/media/bank/watermelon.svg"
+            "media": "assets/media/bank/watermelon.svg",
+            "farmingLevel": 47,
+            "farmingXP": 78,
+            "timeToGrow": 14400,
+            "farmReq": [
+                {
+                    "id": 149,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5491,7 +7368,16 @@ var melvorData = {
             "name": "Snape Grass",
             "healsFor": 8,
             "sellsFor": 23,
-            "media": "assets/media/bank/snape_grass.svg"
+            "media": "assets/media/bank/snape_grass.svg",
+            "farmingLevel": 61,
+            "farmingXP": 92,
+            "timeToGrow": 12600,
+            "farmReq": [
+                {
+                    "id": 150,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -5517,6 +7403,16 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        5,
+                        398
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -5530,11 +7426,7 @@ var melvorData = {
                 11,
                 8
             ],
-            "farmingLevel": 15,
-            "farmingXP": 1167,
             "seedsRequired": 1,
-            "timeToGrow": 24000,
-            "grownItemID": 1,
             "farmingMasteryID": 8,
             "monsterSources": [
                 {
@@ -5553,6 +7445,34 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        10,
+                        199
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        8,
+                        101
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        25,
+                        261
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -5566,11 +7486,7 @@ var melvorData = {
                 11,
                 9
             ],
-            "farmingLevel": 30,
-            "farmingXP": 3637,
             "seedsRequired": 1,
-            "timeToGrow": 33600,
-            "grownItemID": 2,
             "farmingMasteryID": 9,
             "monsterSources": [
                 {
@@ -5580,6 +7496,26 @@ var melvorData = {
                         266
                     ],
                     "maxQty": 8
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        15,
+                        796
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        3,
+                        101
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -5594,11 +7530,7 @@ var melvorData = {
                 11,
                 10
             ],
-            "farmingLevel": 45,
-            "farmingXP": 8507,
             "seedsRequired": 1,
-            "timeToGrow": 38400,
-            "grownItemID": 4,
             "farmingMasteryID": 10,
             "monsterSources": [
                 {
@@ -5608,6 +7540,34 @@ var melvorData = {
                         532
                     ],
                     "maxQty": 8
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        15,
+                        1592
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        3,
+                        202
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        5,
+                        87
+                    ],
+                    "qty": 5
                 }
             ]
         },
@@ -5622,11 +7582,7 @@ var melvorData = {
                 11,
                 11
             ],
-            "farmingLevel": 60,
-            "farmingXP": 17672,
             "seedsRequired": 1,
-            "timeToGrow": 48000,
-            "grownItemID": 6,
             "farmingMasteryID": 11,
             "monsterSources": [
                 {
@@ -5645,6 +7601,34 @@ var melvorData = {
                     ],
                     "maxQty": 8
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        5,
+                        1592
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        1,
+                        202
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 382,
+                    "chance": [
+                        10,
+                        261
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -5658,11 +7642,7 @@ var melvorData = {
                 11,
                 12
             ],
-            "farmingLevel": 75,
-            "farmingXP": 34450,
             "seedsRequired": 1,
-            "timeToGrow": 57600,
-            "grownItemID": 7,
             "farmingMasteryID": 12,
             "monsterSources": [
                 {
@@ -5672,6 +7652,26 @@ var melvorData = {
                         532
                     ],
                     "maxQty": 8
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        1592
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        1,
+                        1010
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -8528,7 +10528,17 @@ var melvorData = {
             "defenceBonus": 0,
             "attackSpeed": 0,
             "damageReduction": 0,
-            "fishingSpeedBonus": 20
+            "fishingSpeedBonus": 20,
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        1,
+                        100
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -9146,7 +11156,17 @@ var melvorData = {
             "fletchingLevel": 55,
             "fletchingXP": 55,
             "ammoTypeRequired": 0,
-            "fletchingCategory": 2
+            "fletchingCategory": 2,
+            "chestSources": [
+                {
+                    "chest": 442,
+                    "chance": [
+                        30,
+                        571
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -9251,6 +11271,16 @@ var melvorData = {
                         193
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 442,
+                    "chance": [
+                        15,
+                        571
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -9445,6 +11475,16 @@ var melvorData = {
                     ],
                     "maxQty": 15
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 442,
+                    "chance": [
+                        250,
+                        571
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9511,6 +11551,24 @@ var melvorData = {
                         33
                     ],
                     "maxQty": 15
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        11
+                    ],
+                    "qty": 200
+                },
+                {
+                    "chest": 442,
+                    "chance": [
+                        150,
+                        571
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -9579,6 +11637,24 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        2,
+                        55
+                    ],
+                    "qty": 200
+                },
+                {
+                    "chest": 442,
+                    "chance": [
+                        75,
+                        571
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9638,6 +11714,24 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        55
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 442,
+                    "chance": [
+                        40,
+                        571
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9688,6 +11782,24 @@ var melvorData = {
                         226
                     ],
                     "maxQty": 10
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        110
+                    ],
+                    "qty": 100
+                },
+                {
+                    "chest": 442,
+                    "chance": [
+                        5,
+                        571
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -9958,6 +12070,16 @@ var melvorData = {
                         1
                     ],
                     "maxQty": 45
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 346,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "qty": 400
                 }
             ]
         },
@@ -10405,7 +12527,17 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 7,
-            "craftingXP": 16
+            "craftingXP": 16,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        11
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10439,7 +12571,17 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 9,
-            "craftingXP": 18
+            "craftingXP": 18,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        11
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10473,7 +12615,17 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 11,
-            "craftingXP": 22
+            "craftingXP": 22,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        11
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10541,7 +12693,17 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 18,
-            "craftingXP": 27
+            "craftingXP": 27,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        11
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10579,7 +12741,17 @@ var melvorData = {
             "craftingLevel": 57,
             "craftingXP": 50,
             "canUpgrade": true,
-            "trimmedItemID": 738
+            "trimmedItemID": 738,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        3,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10617,7 +12789,17 @@ var melvorData = {
             "craftingLevel": 60,
             "craftingXP": 99,
             "canUpgrade": true,
-            "trimmedItemID": 739
+            "trimmedItemID": 739,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        3,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10655,7 +12837,17 @@ var melvorData = {
             "craftingLevel": 63,
             "craftingXP": 148,
             "canUpgrade": true,
-            "trimmedItemID": 740
+            "trimmedItemID": 740,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        3,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10693,7 +12885,17 @@ var melvorData = {
             "craftingLevel": 66,
             "craftingXP": 56,
             "canUpgrade": true,
-            "trimmedItemID": 741
+            "trimmedItemID": 741,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        2,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10731,7 +12933,17 @@ var melvorData = {
             "craftingLevel": 68,
             "craftingXP": 112,
             "canUpgrade": true,
-            "trimmedItemID": 742
+            "trimmedItemID": 742,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        2,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10769,7 +12981,17 @@ var melvorData = {
             "craftingLevel": 71,
             "craftingXP": 168,
             "canUpgrade": true,
-            "trimmedItemID": 743
+            "trimmedItemID": 743,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        2,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10807,7 +13029,25 @@ var melvorData = {
             "craftingLevel": 73,
             "craftingXP": 62,
             "canUpgrade": true,
-            "trimmedItemID": 744
+            "trimmedItemID": 744,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        241
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 363,
+                    "chance": [
+                        3,
+                        110
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10845,7 +13085,25 @@ var melvorData = {
             "craftingLevel": 75,
             "craftingXP": 129,
             "canUpgrade": true,
-            "trimmedItemID": 745
+            "trimmedItemID": 745,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        241
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 363,
+                    "chance": [
+                        3,
+                        110
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10883,7 +13141,25 @@ var melvorData = {
             "craftingLevel": 77,
             "craftingXP": 187,
             "canUpgrade": true,
-            "trimmedItemID": 746
+            "trimmedItemID": 746,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        241
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 363,
+                    "chance": [
+                        3,
+                        110
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10921,7 +13197,25 @@ var melvorData = {
             "craftingLevel": 79,
             "craftingXP": 86,
             "canUpgrade": true,
-            "trimmedItemID": 747
+            "trimmedItemID": 747,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        5,
+                        241
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10959,7 +13253,25 @@ var melvorData = {
             "craftingLevel": 82,
             "craftingXP": 172,
             "canUpgrade": true,
-            "trimmedItemID": 748
+            "trimmedItemID": 748,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        5,
+                        241
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -10997,7 +13309,25 @@ var melvorData = {
             "craftingLevel": 84,
             "craftingXP": 258,
             "canUpgrade": true,
-            "trimmedItemID": 749
+            "trimmedItemID": 749,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        5,
+                        241
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        55
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -11922,7 +14252,17 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 30,
             "rangedDefenceBonus": -30,
-            "rangedStrengthBonus": 30
+            "rangedStrengthBonus": 30,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        10,
+                        723
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12030,7 +14370,17 @@ var melvorData = {
                 ]
             ],
             "canUpgrade": true,
-            "trimmedItemID": 819
+            "trimmedItemID": 819,
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        1,
+                        522
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12104,7 +14454,17 @@ var melvorData = {
             "attackSpeed": 2400,
             "attackLevelRequired": 70,
             "hasSpecialAttack": true,
-            "specialAttackID": 3
+            "specialAttackID": 3,
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        1,
+                        1281
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12128,7 +14488,17 @@ var melvorData = {
             "rangedAttackBonus": -2,
             "magicAttackBonus": -5,
             "rangedDefenceBonus": 50,
-            "magicDefenceBonus": -3
+            "magicDefenceBonus": -3,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        1,
+                        241
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12152,7 +14522,17 @@ var melvorData = {
             "rangedAttackBonus": -2,
             "magicAttackBonus": -25,
             "rangedDefenceBonus": 79,
-            "magicDefenceBonus": -5
+            "magicDefenceBonus": -5,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        2,
+                        723
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12176,7 +14556,17 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "magicAttackBonus": -20,
             "rangedDefenceBonus": 101,
-            "magicDefenceBonus": -4
+            "magicDefenceBonus": -4,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        2,
+                        723
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 127,
@@ -12201,7 +14591,17 @@ var melvorData = {
             "rangedAttackBonus": -4,
             "magicAttackBonus": -10,
             "rangedDefenceBonus": 67,
-            "magicDefenceBonus": -3
+            "magicDefenceBonus": -3,
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        1,
+                        241
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12619,7 +15019,10 @@ var melvorData = {
             "rangedDefenceBonus": 11,
             "rangedStrengthBonus": 0,
             "magicDefenceBonus": 11,
-            "prayerBonus": 2
+            "prayerBonus": 2,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "category": "Dungeons",
@@ -12949,7 +15352,17 @@ var melvorData = {
             "rangedLevelRequired": 40,
             "magicAttackBonus": -10,
             "magicDefenceBonus": 4,
-            "ammoPreservation": 5
+            "ammoPreservation": 5,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        110
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -12974,7 +15387,17 @@ var melvorData = {
             "rangedLevelRequired": 40,
             "magicAttackBonus": -10,
             "magicDefenceBonus": 4,
-            "ammoPreservation": 5
+            "ammoPreservation": 5,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        110
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -13006,6 +15429,24 @@ var melvorData = {
                         1269
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 362,
+                    "chance": [
+                        8,
+                        723
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 622,
+                    "chance": [
+                        1,
+                        316
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -13039,6 +15480,16 @@ var melvorData = {
                         1001
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        5,
+                        1281
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -13074,6 +15525,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        110
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -13096,7 +15557,17 @@ var melvorData = {
             "attackSpeed": 2200,
             "attackLevelRequired": 40,
             "hasSpecialAttack": true,
-            "specialAttackID": 4
+            "specialAttackID": 4,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 104,
@@ -13128,6 +15599,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -13150,7 +15631,17 @@ var melvorData = {
             "attackSpeed": 3100,
             "attackLevelRequired": 40,
             "hasSpecialAttack": true,
-            "specialAttackID": 4
+            "specialAttackID": 4,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 106,
@@ -13173,7 +15664,17 @@ var melvorData = {
             "attackSpeed": 3600,
             "attackLevelRequired": 40,
             "hasSpecialAttack": true,
-            "specialAttackID": 4
+            "specialAttackID": 4,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 107,
@@ -13199,7 +15700,17 @@ var melvorData = {
             "rangedAttackBonus": 13,
             "magicAttackBonus": -6,
             "rangedDefenceBonus": 27,
-            "magicDefenceBonus": -1
+            "magicDefenceBonus": -1,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 108,
@@ -13225,7 +15736,17 @@ var melvorData = {
             "rangedAttackBonus": 6,
             "magicAttackBonus": -3,
             "rangedDefenceBonus": 0,
-            "magicDefenceBonus": 0
+            "magicDefenceBonus": 0,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 109,
@@ -13251,7 +15772,17 @@ var melvorData = {
             "rangedAttackBonus": 12,
             "magicAttackBonus": -21,
             "rangedDefenceBonus": 34,
-            "magicDefenceBonus": -4
+            "magicDefenceBonus": -4,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        2,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 110,
@@ -13277,7 +15808,17 @@ var melvorData = {
             "rangedAttackBonus": 22,
             "magicAttackBonus": -10,
             "rangedDefenceBonus": 72,
-            "magicDefenceBonus": -6
+            "magicDefenceBonus": -6,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        1,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "id": 126,
@@ -13313,6 +15854,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -13344,6 +15895,16 @@ var melvorData = {
                     ],
                     "maxQty": 20
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 200
+                }
             ]
         },
         {
@@ -13370,7 +15931,17 @@ var melvorData = {
             "rangedLevelRequired": 40,
             "ammoTypeRequired": 0,
             "hasSpecialAttack": true,
-            "specialAttackID": 4
+            "specialAttackID": 4,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -13396,7 +15967,17 @@ var melvorData = {
             "rangedLevelRequired": 40,
             "ammoTypeRequired": 0,
             "hasSpecialAttack": true,
-            "specialAttackID": 4
+            "specialAttackID": 4,
+            "chestSources": [
+                {
+                    "chest": 381,
+                    "chance": [
+                        5,
+                        53
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Dungeons",
@@ -13621,7 +16202,17 @@ var melvorData = {
             "defenceBonus": 0,
             "damageReduction": 0,
             "rangedAttackBonus": 0,
-            "rangedDefenceBonus": 0
+            "rangedDefenceBonus": 0,
+            "chestSources": [
+                {
+                    "chest": 363,
+                    "chance": [
+                        1,
+                        22
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fletching",
@@ -13761,6 +16352,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 442,
+                    "chance": [
+                        5,
+                        571
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -13817,6 +16418,16 @@ var melvorData = {
                         449
                     ],
                     "maxQty": 10
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        23
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -13906,6 +16517,16 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        23
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -13954,6 +16575,16 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        23
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -14001,6 +16632,16 @@ var melvorData = {
                         449
                     ],
                     "maxQty": 10
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        23
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -14098,6 +16739,16 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        1,
+                        23
+                    ],
+                    "qty": 50
+                }
             ]
         },
         {
@@ -14162,6 +16813,24 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        115
+                    ],
+                    "qty": 50
+                },
+                {
+                    "chest": 773,
+                    "chance": [
+                        50,
+                        143
+                    ],
+                    "qty": 1000
+                }
             ]
         },
         {
@@ -14184,7 +16853,17 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 8,
-            "runecraftingCategory": 0
+            "runecraftingCategory": 0,
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        25,
+                        143
+                    ],
+                    "qty": 1000
+                }
+            ]
         },
         {
             "category": "Runecrafting",
@@ -14206,7 +16885,25 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 9,
-            "runecraftingCategory": 0
+            "runecraftingCategory": 0,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        1,
+                        575
+                    ],
+                    "qty": 10
+                },
+                {
+                    "chest": 773,
+                    "chance": [
+                        10,
+                        143
+                    ],
+                    "qty": 1000
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -14508,6 +17205,24 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        6,
+                        575
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 773,
+                    "chance": [
+                        10,
+                        143
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -14577,6 +17292,24 @@ var melvorData = {
                         30
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        1,
+                        115
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 773,
+                    "chance": [
+                        10,
+                        143
+                    ],
+                    "qty": 20
                 }
             ]
         },
@@ -14648,6 +17381,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        10,
+                        143
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -14718,6 +17461,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        10,
+                        143
+                    ],
+                    "qty": 20
+                }
             ]
         },
         {
@@ -14770,7 +17523,17 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 28,
-            "runecraftingCategory": 2
+            "runecraftingCategory": 2,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        575
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15091,6 +17854,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        46
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -15123,6 +17896,16 @@ var melvorData = {
                         449
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        46
+                    ],
+                    "qty": 1
                 }
             ]
         },
@@ -15157,6 +17940,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        46
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -15190,6 +17983,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        46
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -15213,7 +18016,17 @@ var melvorData = {
             "magicDefenceBonus": 4,
             "magicDamageBonus": 0,
             "magicLevelRequired": 30,
-            "runecraftingCategory": 2
+            "runecraftingCategory": 2,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        115
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15236,7 +18049,17 @@ var melvorData = {
             "magicDefenceBonus": 20,
             "magicDamageBonus": 0,
             "magicLevelRequired": 30,
-            "runecraftingCategory": 2
+            "runecraftingCategory": 2,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        115
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15259,7 +18082,17 @@ var melvorData = {
             "magicDefenceBonus": 15,
             "magicDamageBonus": 0,
             "magicLevelRequired": 30,
-            "runecraftingCategory": 2
+            "runecraftingCategory": 2,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        115
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15282,7 +18115,17 @@ var melvorData = {
             "magicDefenceBonus": 3,
             "magicDamageBonus": 0,
             "magicLevelRequired": 30,
-            "runecraftingCategory": 2
+            "runecraftingCategory": 2,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        115
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15441,7 +18284,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 5,
             "increasedMinWaterSpellDmg": 5,
             "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 5,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        2,
+                        575
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15469,7 +18322,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 5,
             "increasedMinWaterSpellDmg": 5,
             "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 5,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        1150
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15497,7 +18360,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 5,
             "increasedMinWaterSpellDmg": 5,
             "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 5,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        3,
+                        1150
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15525,7 +18398,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 5,
             "increasedMinWaterSpellDmg": 5,
             "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 5,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        1,
+                        230
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15901,7 +18784,716 @@ var melvorData = {
             "isBones": true,
             "sellsFor": 5,
             "media": "assets/media/bank/bones.svg",
-            "prayerPoints": 1
+            "prayerPoints": 1,
+            "monsterSources": [
+                {
+                    "monster": 0,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 3,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 4,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 5,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 6,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 8,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 9,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 10,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 11,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 12,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 13,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 14,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 15,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 16,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 17,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 18,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 19,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 20,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 21,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 28,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 29,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 30,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 31,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 35,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 36,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 37,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 38,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 39,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 40,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 41,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 42,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 43,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 44,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 45,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 46,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 47,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 50,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 51,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 52,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 53,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 54,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 55,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 56,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 57,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 58,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 59,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 60,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 62,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 67,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 68,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 69,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 70,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 71,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 72,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 73,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 74,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 75,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 76,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 79,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 81,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 82,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 83,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 84,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 112,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 113,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 114,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 115,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 116,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 117,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 118,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 119,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 120,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 121,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 122,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 123,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 125,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 129,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 130,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 139,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 140,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 141,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 142,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 143,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 144,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 145,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 147,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 148,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 149,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "altMagicSources": [
+                3
+            ]
         },
         {
             "category": "Misc",
@@ -15910,7 +19502,73 @@ var melvorData = {
             "isBones": true,
             "sellsFor": 30,
             "media": "assets/media/bank/dragon_bones.svg",
-            "prayerPoints": 5
+            "prayerPoints": 5,
+            "monsterSources": [
+                {
+                    "monster": 63,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 64,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 65,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 66,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 109,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 131,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 132,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 133,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -15919,7 +19577,73 @@ var melvorData = {
             "isBones": true,
             "sellsFor": 50,
             "media": "assets/media/bank/magic_bones.svg",
-            "prayerPoints": 10
+            "prayerPoints": 10,
+            "monsterSources": [
+                {
+                    "monster": 23,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 48,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 49,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 78,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 134,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 135,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 136,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 146,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Dungeons",
@@ -16012,7 +19736,17 @@ var melvorData = {
             "rangedLevelRequired": 70,
             "hasSpecialAttack": true,
             "specialAttackID": 13,
-            "ammoTypeRequired": 0
+            "ammoTypeRequired": 0,
+            "chestSources": [
+                {
+                    "chest": 442,
+                    "chance": [
+                        1,
+                        571
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -16834,12 +20568,28 @@ var melvorData = {
                 11,
                 13
             ],
-            "farmingLevel": 69,
-            "farmingXP": 118,
             "seedsRequired": 3,
-            "timeToGrow": 12600,
-            "grownItemID": 470,
-            "farmingMasteryID": 13
+            "farmingMasteryID": 13,
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        15,
+                        1592
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        9,
+                        1010
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -16848,7 +20598,16 @@ var melvorData = {
             "name": "Carrot",
             "healsFor": 9,
             "sellsFor": 28,
-            "media": "assets/media/bank/carrot.svg"
+            "media": "assets/media/bank/carrot.svg",
+            "farmingLevel": 69,
+            "farmingXP": 118,
+            "timeToGrow": 12600,
+            "farmReq": [
+                {
+                    "id": 469,
+                    "qty": 3
+                }
+            ]
         },
         {
             "category": "Mastery",
@@ -17341,6 +21100,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        10,
+                        143
+                    ],
+                    "qty": 10
+                }
             ]
         },
         {
@@ -17386,6 +21155,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        4,
+                        143
+                    ],
+                    "qty": 1
+                }
             ]
         },
         {
@@ -17415,7 +21194,17 @@ var melvorData = {
             "providesRune": [
                 820
             ],
-            "providesRuneQty": 1
+            "providesRuneQty": 1,
+            "chestSources": [
+                {
+                    "chest": 461,
+                    "chance": [
+                        1,
+                        230
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -17588,7 +21377,60 @@ var melvorData = {
             "isBones": true,
             "sellsFor": 45,
             "media": "assets/media/bank/holy_dust.svg",
-            "prayerPoints": 3
+            "prayerPoints": 3,
+            "monsterSources": [
+                {
+                    "monster": 24,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 25,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 26,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 27,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 137,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 138,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "altMagicSources": [
+                7
+            ]
         },
         {
             "category": "Combat",
@@ -17682,6 +21524,16 @@ var melvorData = {
                     ],
                     "maxQty": 20
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        80,
+                        447
+                    ],
+                    "qty": 400
+                }
             ]
         },
         {
@@ -17748,7 +21600,105 @@ var melvorData = {
             "isBones": true,
             "sellsFor": 13,
             "media": "assets/media/bank/big_bones.svg",
-            "prayerPoints": 3
+            "prayerPoints": 3,
+            "monsterSources": [
+                {
+                    "monster": 1,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 2,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 7,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 22,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 32,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 33,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 34,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 110,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 124,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 126,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 127,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 128,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18266,6 +22216,15 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "farmingLevel": 5,
+            "farmingXP": 9,
+            "timeToGrow": 5400,
+            "farmReq": [
+                {
+                    "id": 527,
+                    "qty": 2
+                }
             ]
         },
         {
@@ -18283,6 +22242,15 @@ var melvorData = {
                         14
                     ],
                     "maxQty": 3
+                }
+            ],
+            "farmingLevel": 15,
+            "farmingXP": 12,
+            "timeToGrow": 5400,
+            "farmReq": [
+                {
+                    "id": 528,
+                    "qty": 2
                 }
             ]
         },
@@ -18302,6 +22270,15 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "farmingLevel": 25,
+            "farmingXP": 16,
+            "timeToGrow": 7200,
+            "farmReq": [
+                {
+                    "id": 529,
+                    "qty": 2
+                }
             ]
         },
         {
@@ -18319,6 +22296,15 @@ var melvorData = {
                         14
                     ],
                     "maxQty": 3
+                }
+            ],
+            "farmingLevel": 35,
+            "farmingXP": 28,
+            "timeToGrow": 9000,
+            "farmReq": [
+                {
+                    "id": 530,
+                    "qty": 2
                 }
             ]
         },
@@ -18338,6 +22324,15 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "farmingLevel": 50,
+            "farmingXP": 35,
+            "timeToGrow": 10800,
+            "farmReq": [
+                {
+                    "id": 531,
+                    "qty": 2
+                }
             ]
         },
         {
@@ -18346,7 +22341,16 @@ var melvorData = {
             "name": "Poraxx Herb",
             "description": "Base ingredient used in Herblore",
             "sellsFor": 150,
-            "media": "assets/media/bank/herb_poraxx.svg"
+            "media": "assets/media/bank/herb_poraxx.svg",
+            "farmingLevel": 60,
+            "farmingXP": 48,
+            "timeToGrow": 12600,
+            "farmReq": [
+                {
+                    "id": 532,
+                    "qty": 2
+                }
+            ]
         },
         {
             "category": "Herblore",
@@ -18354,7 +22358,16 @@ var melvorData = {
             "name": "Pigtayle Herb",
             "description": "Base ingredient used in Herblore",
             "sellsFor": 210,
-            "media": "assets/media/bank/herb_pigtayle.svg"
+            "media": "assets/media/bank/herb_pigtayle.svg",
+            "farmingLevel": 70,
+            "farmingXP": 69,
+            "timeToGrow": 12600,
+            "farmReq": [
+                {
+                    "id": 533,
+                    "qty": 2
+                }
+            ]
         },
         {
             "category": "Herblore",
@@ -18362,7 +22375,16 @@ var melvorData = {
             "name": "Barrentoe Herb",
             "description": "Base ingredient used in Herblore",
             "sellsFor": 330,
-            "media": "assets/media/bank/herb_barrentoe.svg"
+            "media": "assets/media/bank/herb_barrentoe.svg",
+            "farmingLevel": 80,
+            "farmingXP": 92,
+            "timeToGrow": 14400,
+            "farmReq": [
+                {
+                    "id": 534,
+                    "qty": 2
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -18375,11 +22397,7 @@ var melvorData = {
                 11,
                 14
             ],
-            "farmingLevel": 5,
-            "farmingXP": 9,
             "seedsRequired": 2,
-            "timeToGrow": 5400,
-            "grownItemID": 519,
             "farmingMasteryID": 14,
             "monsterSources": [
                 {
@@ -18446,6 +22464,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        25,
+                        79
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18459,11 +22487,7 @@ var melvorData = {
                 11,
                 15
             ],
-            "farmingLevel": 15,
-            "farmingXP": 12,
             "seedsRequired": 2,
-            "timeToGrow": 5400,
-            "grownItemID": 520,
             "farmingMasteryID": 15,
             "monsterSources": [
                 {
@@ -18490,6 +22514,16 @@ var melvorData = {
                     ],
                     "maxQty": 2
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        20,
+                        79
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18503,11 +22537,7 @@ var melvorData = {
                 11,
                 16
             ],
-            "farmingLevel": 25,
-            "farmingXP": 16,
             "seedsRequired": 2,
-            "timeToGrow": 7200,
-            "grownItemID": 521,
             "farmingMasteryID": 16,
             "monsterSources": [
                 {
@@ -18550,6 +22580,16 @@ var melvorData = {
                     ],
                     "maxQty": 2
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        15,
+                        79
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18563,11 +22603,7 @@ var melvorData = {
                 11,
                 17
             ],
-            "farmingLevel": 35,
-            "farmingXP": 28,
             "seedsRequired": 2,
-            "timeToGrow": 9000,
-            "grownItemID": 522,
             "farmingMasteryID": 17,
             "monsterSources": [
                 {
@@ -18626,6 +22662,16 @@ var melvorData = {
                     ],
                     "maxQty": 5
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        10,
+                        79
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18639,11 +22685,7 @@ var melvorData = {
                 11,
                 18
             ],
-            "farmingLevel": 50,
-            "farmingXP": 35,
             "seedsRequired": 2,
-            "timeToGrow": 10800,
-            "grownItemID": 523,
             "farmingMasteryID": 18,
             "monsterSources": [
                 {
@@ -18702,6 +22744,16 @@ var melvorData = {
                     ],
                     "maxQty": 5
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        5,
+                        79
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18715,11 +22767,7 @@ var melvorData = {
                 11,
                 19
             ],
-            "farmingLevel": 60,
-            "farmingXP": 48,
             "seedsRequired": 2,
-            "timeToGrow": 12600,
-            "grownItemID": 524,
             "farmingMasteryID": 19,
             "monsterSources": [
                 {
@@ -18738,6 +22786,16 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        5,
+                        158
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18751,11 +22809,7 @@ var melvorData = {
                 11,
                 20
             ],
-            "farmingLevel": 70,
-            "farmingXP": 69,
             "seedsRequired": 2,
-            "timeToGrow": 12600,
-            "grownItemID": 525,
             "farmingMasteryID": 20,
             "monsterSources": [
                 {
@@ -18782,6 +22836,16 @@ var melvorData = {
                     ],
                     "maxQty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        5,
+                        316
+                    ],
+                    "qty": 5
+                }
             ]
         },
         {
@@ -18795,11 +22859,7 @@ var melvorData = {
                 11,
                 21
             ],
-            "farmingLevel": 80,
-            "farmingXP": 92,
             "seedsRequired": 2,
-            "timeToGrow": 14400,
-            "grownItemID": 526,
             "farmingMasteryID": 21,
             "monsterSources": [
                 {
@@ -18817,6 +22877,16 @@ var melvorData = {
                         1127
                     ],
                     "maxQty": 3
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 620,
+                    "chance": [
+                        1,
+                        316
+                    ],
+                    "qty": 5
                 }
             ]
         },
@@ -22168,6 +26238,16 @@ var melvorData = {
                 5,
                 5,
                 5
+            ],
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        75,
+                        796
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -22189,7 +26269,17 @@ var melvorData = {
             "attackSpeed": 2200,
             "attackLevelRequired": 70,
             "hasSpecialAttack": true,
-            "specialAttackID": 5
+            "specialAttackID": 5,
+            "chestSources": [
+                {
+                    "chest": 360,
+                    "chance": [
+                        10,
+                        1281
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Miscellaneous",
@@ -23267,12 +27357,6 @@ var melvorData = {
             "name": "Raw Anglerfish",
             "sellsFor": 50,
             "media": "assets/media/bank/anglerfish.svg",
-            "cookingCategory": 0,
-            "cookingID": 12,
-            "cookingLevel": 50,
-            "cookingXP": 60,
-            "cookedItemID": 671,
-            "burntItemID": 675,
             "masteryID": [
                 1,
                 18
@@ -23289,12 +27373,6 @@ var melvorData = {
             "name": "Raw Fanfish",
             "sellsFor": 120,
             "media": "assets/media/bank/fanfish.svg",
-            "cookingCategory": 0,
-            "cookingID": 13,
-            "cookingLevel": 55,
-            "cookingXP": 60,
-            "cookedItemID": 672,
-            "burntItemID": 676,
             "masteryID": [
                 1,
                 19
@@ -23311,12 +27389,6 @@ var melvorData = {
             "name": "Raw Seahorse",
             "sellsFor": 40,
             "media": "assets/media/bank/seahorse.svg",
-            "cookingCategory": 0,
-            "cookingID": 14,
-            "cookingLevel": 15,
-            "cookingXP": 30,
-            "cookedItemID": 673,
-            "burntItemID": 677,
             "masteryID": [
                 1,
                 20
@@ -23333,12 +27405,6 @@ var melvorData = {
             "name": "Raw Carp",
             "sellsFor": 190,
             "media": "assets/media/bank/carp.svg",
-            "cookingCategory": 0,
-            "cookingID": 15,
-            "cookingLevel": 65,
-            "cookingXP": 75,
-            "cookedItemID": 674,
-            "burntItemID": 678,
             "masteryID": [
                 1,
                 21
@@ -23470,7 +27536,17 @@ var melvorData = {
                 12
             ],
             "healsFor": 12,
-            "canEat": true
+            "canEat": true,
+            "cookingLevel": 50,
+            "cookingXP": 60,
+            "cookingCategory": 0,
+            "cookingID": 12,
+            "cookReq": [
+                {
+                    "id": 662,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
@@ -23483,7 +27559,17 @@ var melvorData = {
                 13
             ],
             "healsFor": 14,
-            "canEat": true
+            "canEat": true,
+            "cookingLevel": 55,
+            "cookingXP": 60,
+            "cookingCategory": 0,
+            "cookingID": 13,
+            "cookReq": [
+                {
+                    "id": 663,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
@@ -23496,7 +27582,17 @@ var melvorData = {
                 14
             ],
             "healsFor": 13,
-            "canEat": true
+            "canEat": true,
+            "cookingLevel": 15,
+            "cookingXP": 30,
+            "cookingCategory": 0,
+            "cookingID": 14,
+            "cookReq": [
+                {
+                    "id": 664,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
@@ -23509,35 +27605,85 @@ var melvorData = {
                 15
             ],
             "healsFor": 18,
-            "canEat": true
+            "canEat": true,
+            "cookingLevel": 65,
+            "cookingXP": 75,
+            "cookingCategory": 0,
+            "cookingID": 15,
+            "cookReq": [
+                {
+                    "id": 665,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
             "type": "Cooked Fish",
             "name": "Burnt Anglerfish",
             "sellsFor": 1,
-            "media": "assets/media/bank/anglerfish_burnt.svg"
+            "media": "assets/media/bank/anglerfish_burnt.svg",
+            "cookingLevel": 50,
+            "cookingXP": 60,
+            "cookingCategory": 0,
+            "cookingID": 12,
+            "cookReq": [
+                {
+                    "id": 662,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
             "type": "Cooked Fish",
             "name": "Burnt Fanfish",
             "sellsFor": 1,
-            "media": "assets/media/bank/fanfish_burnt.svg"
+            "media": "assets/media/bank/fanfish_burnt.svg",
+            "cookingLevel": 55,
+            "cookingXP": 60,
+            "cookingCategory": 0,
+            "cookingID": 13,
+            "cookReq": [
+                {
+                    "id": 663,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
             "type": "Cooked Fish",
             "name": "Burnt Seahorse",
             "sellsFor": 1,
-            "media": "assets/media/bank/seahorse_burnt.svg"
+            "media": "assets/media/bank/seahorse_burnt.svg",
+            "cookingLevel": 15,
+            "cookingXP": 30,
+            "cookingCategory": 0,
+            "cookingID": 14,
+            "cookReq": [
+                {
+                    "id": 664,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
             "type": "Cooked Fish",
             "name": "Burnt Carp",
             "sellsFor": 1,
-            "media": "assets/media/bank/carp_burnt.svg"
+            "media": "assets/media/bank/carp_burnt.svg",
+            "cookingLevel": 65,
+            "cookingXP": 75,
+            "cookingCategory": 0,
+            "cookingID": 15,
+            "cookReq": [
+                {
+                    "id": 665,
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Farming",
@@ -23755,7 +27901,17 @@ var melvorData = {
             "fletchQty": 3,
             "fletchingXP": 24,
             "ammoType": 1,
-            "fletchingCategory": 3
+            "fletchingCategory": 3,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        80,
+                        447
+                    ],
+                    "qty": 100
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -23796,7 +27952,17 @@ var melvorData = {
             "fletchQty": 3,
             "fletchingXP": 45,
             "ammoType": 1,
-            "fletchingCategory": 3
+            "fletchingCategory": 3,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        40,
+                        447
+                    ],
+                    "qty": 100
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -23837,7 +28003,17 @@ var melvorData = {
             "fletchQty": 3,
             "fletchingXP": 60,
             "ammoType": 1,
-            "fletchingCategory": 3
+            "fletchingCategory": 3,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        32,
+                        447
+                    ],
+                    "qty": 100
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -23878,7 +28054,17 @@ var melvorData = {
             "fletchQty": 3,
             "fletchingXP": 130,
             "ammoType": 1,
-            "fletchingCategory": 3
+            "fletchingCategory": 3,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        8,
+                        149
+                    ],
+                    "qty": 100
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -23919,7 +28105,17 @@ var melvorData = {
             "fletchQty": 3,
             "fletchingXP": 250,
             "ammoType": 1,
-            "fletchingCategory": 3
+            "fletchingCategory": 3,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        20,
+                        447
+                    ],
+                    "qty": 100
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -24276,7 +28472,17 @@ var melvorData = {
             "rangedLevelRequired": 70,
             "ammoTypeRequired": 1,
             "hasSpecialAttack": true,
-            "specialAttackID": 22
+            "specialAttackID": 22,
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        1,
+                        634
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -24719,6 +28925,16 @@ var melvorData = {
                     ],
                     "maxQty": 25
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        80,
+                        447
+                    ],
+                    "qty": 200
+                }
             ]
         },
         {
@@ -25119,6 +29335,16 @@ var melvorData = {
                     ],
                     "maxQty": 30
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        80,
+                        447
+                    ],
+                    "qty": 200
+                }
             ]
         },
         {
@@ -25144,7 +29370,17 @@ var melvorData = {
             "rangedDefenceBonus": 50,
             "magicDefenceBonus": 10,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        25,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25169,7 +29405,17 @@ var melvorData = {
             "rangedDefenceBonus": 65,
             "magicDefenceBonus": 54,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        10,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25194,7 +29440,17 @@ var melvorData = {
             "rangedDefenceBonus": 107,
             "magicDefenceBonus": 98,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        3,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25219,7 +29475,17 @@ var melvorData = {
             "rangedDefenceBonus": 7,
             "magicDefenceBonus": 6,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        100,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25244,7 +29510,17 @@ var melvorData = {
             "rangedDefenceBonus": 0,
             "magicDefenceBonus": 22,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        50,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25275,7 +29551,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 10,
             "increasedMinWaterSpellDmg": 10,
             "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10
+            "increasedMinFireSpellDmg": 10,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        25,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25306,7 +29592,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 10,
             "increasedMinWaterSpellDmg": 10,
             "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10
+            "increasedMinFireSpellDmg": 10,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        5,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25337,7 +29633,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 10,
             "increasedMinWaterSpellDmg": 10,
             "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10
+            "increasedMinFireSpellDmg": 10,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        3,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25368,7 +29674,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 10,
             "increasedMinWaterSpellDmg": 10,
             "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10
+            "increasedMinFireSpellDmg": 10,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        50,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -25399,7 +29715,17 @@ var melvorData = {
             "increasedMinAirSpellDmg": 10,
             "increasedMinWaterSpellDmg": 10,
             "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10
+            "increasedMinFireSpellDmg": 10,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        25,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fletching",
@@ -26166,7 +30492,17 @@ var melvorData = {
             "magicAttackBonus": -10,
             "magicDefenceBonus": 14,
             "canUpgrade": true,
-            "trimmedItemID": 753
+            "trimmedItemID": 753,
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        50,
+                        317
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -26191,7 +30527,17 @@ var melvorData = {
             "magicAttackBonus": -10,
             "magicDefenceBonus": 36,
             "canUpgrade": true,
-            "trimmedItemID": 754
+            "trimmedItemID": 754,
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        10,
+                        317
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -26216,7 +30562,17 @@ var melvorData = {
             "magicAttackBonus": -15,
             "magicDefenceBonus": 65,
             "canUpgrade": true,
-            "trimmedItemID": 755
+            "trimmedItemID": 755,
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        1,
+                        317
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -26358,7 +30714,17 @@ var melvorData = {
             "type": "Dragonhide",
             "name": "Elder Dragonhide",
             "sellsFor": 2500,
-            "media": "assets/media/bank/dragonhide_elder.svg"
+            "media": "assets/media/bank/dragonhide_elder.svg",
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        250,
+                        317
+                    ],
+                    "qty": 15
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -26535,7 +30901,17 @@ var melvorData = {
             "magicAttackBonus": -10,
             "magicDefenceBonus": 23,
             "canUpgrade": true,
-            "trimmedItemID": 767
+            "trimmedItemID": 767,
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        5,
+                        317
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -26721,7 +31097,57 @@ var melvorData = {
             "media": "assets/media/bank/air_shard.svg",
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 772
+            "trimmedItemID": 772,
+            "monsterSources": [
+                {
+                    "monster": 85,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 86,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 4
+                },
+                {
+                    "monster": 87,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 8
+                },
+                {
+                    "monster": 88,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 89,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 90,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -26732,7 +31158,57 @@ var melvorData = {
             "media": "assets/media/bank/water_shard.svg",
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 773
+            "trimmedItemID": 773,
+            "monsterSources": [
+                {
+                    "monster": 91,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 92,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 4
+                },
+                {
+                    "monster": 93,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 8
+                },
+                {
+                    "monster": 94,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 95,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 96,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -26743,7 +31219,57 @@ var melvorData = {
             "media": "assets/media/bank/earth_shard.svg",
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 774
+            "trimmedItemID": 774,
+            "monsterSources": [
+                {
+                    "monster": 97,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 98,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 4
+                },
+                {
+                    "monster": 99,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 8
+                },
+                {
+                    "monster": 100,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 101,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 102,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -26754,7 +31280,57 @@ var melvorData = {
             "media": "assets/media/bank/fire_shard.svg",
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 775
+            "trimmedItemID": 775,
+            "monsterSources": [
+                {
+                    "monster": 103,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 104,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 4
+                },
+                {
+                    "monster": 105,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 8
+                },
+                {
+                    "monster": 106,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 107,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 15
+                },
+                {
+                    "monster": 108,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -27047,7 +31623,17 @@ var melvorData = {
             "rangedDefenceBonus": 63,
             "magicDefenceBonus": -8,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        25,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27071,7 +31657,17 @@ var melvorData = {
             "rangedDefenceBonus": 95,
             "magicDefenceBonus": -10,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        5,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27095,7 +31691,17 @@ var melvorData = {
             "rangedDefenceBonus": 121,
             "magicDefenceBonus": -5,
             "damageReduction": 8,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        3,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27119,7 +31725,17 @@ var melvorData = {
             "magicAttackBonus": -5,
             "rangedDefenceBonus": 10,
             "magicDefenceBonus": -4,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        50,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27143,7 +31759,17 @@ var melvorData = {
             "magicAttackBonus": -2,
             "rangedDefenceBonus": 0,
             "magicDefenceBonus": -2,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        25,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27167,7 +31793,17 @@ var melvorData = {
             "rangedDefenceBonus": 55,
             "magicDefenceBonus": -6,
             "damageReduction": 7,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        25,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27191,7 +31827,17 @@ var melvorData = {
             "rangedDefenceBonus": 82,
             "magicDefenceBonus": -6,
             "damageReduction": 7,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        5,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27215,7 +31861,17 @@ var melvorData = {
             "rangedDefenceBonus": 107,
             "magicDefenceBonus": -6,
             "damageReduction": 7,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        3,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27239,7 +31895,17 @@ var melvorData = {
             "rangedDefenceBonus": 10,
             "magicDefenceBonus": -3,
             "damageReduction": 7,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        50,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27263,7 +31929,17 @@ var melvorData = {
             "rangedDefenceBonus": 0,
             "magicDefenceBonus": 0,
             "damageReduction": 7,
-            "canUpgrade": false
+            "canUpgrade": false,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        25,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27282,7 +31958,17 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 15,
             "rangedStrengthBonus": 15,
-            "rangedDefenceBonus": 0
+            "rangedDefenceBonus": 0,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        10,
+                        447
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27305,7 +31991,17 @@ var melvorData = {
             "damageReduction": 0,
             "rangedDefenceBonus": 0,
             "chanceToCrit": 25,
-            "critDamage": 1.5
+            "critDamage": 1.5,
+            "chestSources": [
+                {
+                    "chest": 772,
+                    "chance": [
+                        1,
+                        447
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -27579,7 +32275,17 @@ var melvorData = {
             "defenceBonus": 0,
             "damageReduction": 0,
             "magicAttackBonus": 20,
-            "magicDamageBonus": 10
+            "magicDamageBonus": 10,
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        7,
+                        286
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27599,7 +32305,17 @@ var melvorData = {
             "defenceBonus": 0,
             "damageReduction": 0,
             "rangedDefenceBonus": 0,
-            "spellHeal": 20
+            "spellHeal": 20,
+            "chestSources": [
+                {
+                    "chest": 773,
+                    "chance": [
+                        1,
+                        286
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27617,7 +32333,17 @@ var melvorData = {
             "defenceBonus": 30,
             "rangedDefenceBonus": 30,
             "magicDefenceBonus": 30,
-            "damageReduction": 2
+            "damageReduction": 2,
+            "chestSources": [
+                {
+                    "chest": 774,
+                    "chance": [
+                        8,
+                        289
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27636,7 +32362,17 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 0,
             "damageReduction": 5,
-            "rangedDefenceBonus": 0
+            "rangedDefenceBonus": 0,
+            "chestSources": [
+                {
+                    "chest": 774,
+                    "chance": [
+                        1,
+                        289
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27654,7 +32390,17 @@ var melvorData = {
             "defenceBonus": 0,
             "damageReduction": 0,
             "magicAttackBonus": 12,
-            "rangedAttackBonus": 12
+            "rangedAttackBonus": 12,
+            "chestSources": [
+                {
+                    "chest": 775,
+                    "chance": [
+                        8,
+                        409
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27673,7 +32419,17 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 0,
             "damageReduction": 0,
-            "rangedDefenceBonus": 0
+            "rangedDefenceBonus": 0,
+            "chestSources": [
+                {
+                    "chest": 775,
+                    "chance": [
+                        1,
+                        409
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27694,7 +32450,17 @@ var melvorData = {
             "attackSpeed": 3200,
             "attackLevelRequired": 85,
             "hasSpecialAttack": true,
-            "specialAttackID": 6
+            "specialAttackID": 6,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        2,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27715,7 +32481,17 @@ var melvorData = {
             "attackSpeed": 3400,
             "attackLevelRequired": 85,
             "hasSpecialAttack": true,
-            "specialAttackID": 7
+            "specialAttackID": 7,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        1,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27736,7 +32512,17 @@ var melvorData = {
             "attackSpeed": 3600,
             "attackLevelRequired": 85,
             "hasSpecialAttack": true,
-            "specialAttackID": 9
+            "specialAttackID": 9,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        1,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27757,7 +32543,17 @@ var melvorData = {
             "attackSpeed": 3800,
             "attackLevelRequired": 85,
             "hasSpecialAttack": true,
-            "specialAttackID": 8
+            "specialAttackID": 8,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        1,
+                        97
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Mastery",
@@ -27767,7 +32563,41 @@ var melvorData = {
             "sellsFor": 6969,
             "media": "assets/media/bank/bank_slot_token.svg",
             "isBankToken": true,
-            "isToken": true
+            "isToken": true,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        2,
+                        193
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 789,
+                    "chance": [
+                        3,
+                        194
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 790,
+                    "chance": [
+                        3,
+                        194
+                    ],
+                    "qty": 1
+                },
+                {
+                    "chest": 791,
+                    "chance": [
+                        3,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27793,7 +32623,17 @@ var melvorData = {
             "rangedLevelRequired": 80,
             "ammoTypeRequired": 0,
             "hasSpecialAttack": true,
-            "specialAttackID": 10
+            "specialAttackID": 10,
+            "chestSources": [
+                {
+                    "chest": 788,
+                    "chance": [
+                        1,
+                        193
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27814,7 +32654,17 @@ var melvorData = {
             "defenceBonus": 21,
             "attackSpeed": 3600,
             "attackLevelRequired": 80,
-            "bossStrengthMultiplier": 1.5
+            "bossStrengthMultiplier": 1.5,
+            "chestSources": [
+                {
+                    "chest": 791,
+                    "chance": [
+                        1,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -27953,7 +32803,17 @@ var melvorData = {
             "attackSpeed": 2000,
             "attackLevelRequired": 70,
             "hasSpecialAttack": true,
-            "specialAttackID": 11
+            "specialAttackID": 11,
+            "chestSources": [
+                {
+                    "chest": 813,
+                    "chance": [
+                        1,
+                        634
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28038,7 +32898,17 @@ var melvorData = {
             "rangedAttackBonus": -9,
             "magicAttackBonus": -9,
             "rangedDefenceBonus": 78,
-            "magicDefenceBonus": -8
+            "magicDefenceBonus": -8,
+            "chestSources": [
+                {
+                    "chest": 790,
+                    "chance": [
+                        1,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Dungeons",
@@ -28129,7 +32999,17 @@ var melvorData = {
             "providesRune": [
                 391
             ],
-            "providesRuneQty": 7
+            "providesRuneQty": 7,
+            "chestSources": [
+                {
+                    "chest": 789,
+                    "chance": [
+                        1,
+                        194
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28217,7 +33097,17 @@ var melvorData = {
             "damageReduction": 0,
             "magicDefenceBonus": 0,
             "magicAttackBonus": 0,
-            "magicDamageBonus": 0
+            "magicDamageBonus": 0,
+            "chestSources": [
+                {
+                    "chest": 382,
+                    "chance": [
+                        1,
+                        522
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31549,7 +36439,17 @@ var melvorData = {
             "rangedAttackBonus": -6,
             "rangedDefenceBonus": -1,
             "magicAttackBonus": 5,
-            "magicDefenceBonus": 5
+            "magicDefenceBonus": 5,
+            "chestSources": [
+                {
+                    "chest": 939,
+                    "chance": [
+                        25,
+                        93
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31574,7 +36474,17 @@ var melvorData = {
             "rangedAttackBonus": -3,
             "rangedDefenceBonus": 0,
             "magicAttackBonus": 3,
-            "magicDefenceBonus": 3
+            "magicDefenceBonus": 3,
+            "chestSources": [
+                {
+                    "chest": 939,
+                    "chance": [
+                        50,
+                        93
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31599,7 +36509,17 @@ var melvorData = {
             "rangedAttackBonus": -21,
             "rangedDefenceBonus": -4,
             "magicAttackBonus": 12,
-            "magicDefenceBonus": 12
+            "magicDefenceBonus": 12,
+            "chestSources": [
+                {
+                    "chest": 939,
+                    "chance": [
+                        5,
+                        93
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31624,7 +36544,17 @@ var melvorData = {
             "rangedAttackBonus": -10,
             "rangedDefenceBonus": -6,
             "magicAttackBonus": 15,
-            "magicDefenceBonus": 15
+            "magicDefenceBonus": 15,
+            "chestSources": [
+                {
+                    "chest": 939,
+                    "chance": [
+                        5,
+                        186
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31649,7 +36579,17 @@ var melvorData = {
             "rangedAttackBonus": -8,
             "rangedDefenceBonus": -1,
             "magicAttackBonus": 22,
-            "magicDefenceBonus": 14
+            "magicDefenceBonus": 14,
+            "chestSources": [
+                {
+                    "chest": 939,
+                    "chance": [
+                        10,
+                        93
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31672,7 +36612,17 @@ var melvorData = {
             "attackLevelRequired": 50,
             "hasSpecialAttack": true,
             "specialAttackID": 23,
-            "canUseMagic": true
+            "canUseMagic": true,
+            "chestSources": [
+                {
+                    "chest": 939,
+                    "chance": [
+                        1,
+                        186
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -32577,7 +37527,10 @@ var melvorData = {
             "rangedStrengthBonus": 2,
             "magicAttackBonus": 3,
             "magicDefenceBonus": 13,
-            "prayerBonus": 2
+            "prayerBonus": 2,
+            "dungeonSources": [
+                14
+            ]
         },
         {
             "category": "Combat",
@@ -39905,6 +44858,1355 @@ var melvorData = {
             "passiveID": [
                 0,
                 4
+            ]
+        }
+    ],
+    "thievingTargets": [
+        {
+            "name": "Man",
+            "level": 1,
+            "xp": 5,
+            "maxHit": 1,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 20,
+            "lootTable": [],
+            "media": "assets/media/skills/thieving/man.svg"
+        },
+        {
+            "name": "Golbin",
+            "level": 10,
+            "xp": 10,
+            "maxHit": 2,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 50,
+            "lootTable": [],
+            "media": "assets/media/skills/thieving/goblin.svg"
+        },
+        {
+            "name": "Lumberjack",
+            "level": 20,
+            "xp": 20,
+            "maxHit": 3,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 100,
+            "lootTable": [
+                [
+                    0,
+                    70
+                ],
+                [
+                    1,
+                    50
+                ],
+                [
+                    2,
+                    30
+                ],
+                [
+                    3,
+                    20
+                ],
+                [
+                    4,
+                    15
+                ],
+                [
+                    5,
+                    7
+                ],
+                [
+                    6,
+                    5
+                ],
+                [
+                    7,
+                    2
+                ],
+                [
+                    8,
+                    1
+                ]
+            ],
+            "media": "assets/media/skills/thieving/lumberjack.svg"
+        },
+        {
+            "name": "Farmer",
+            "level": 30,
+            "xp": 30,
+            "maxHit": 3,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 120,
+            "lootTable": [
+                [
+                    143,
+                    280
+                ],
+                [
+                    144,
+                    180
+                ],
+                [
+                    620,
+                    150
+                ],
+                [
+                    145,
+                    140
+                ],
+                [
+                    146,
+                    110
+                ],
+                [
+                    147,
+                    80
+                ],
+                [
+                    148,
+                    50
+                ],
+                [
+                    149,
+                    20
+                ],
+                [
+                    159,
+                    20
+                ],
+                [
+                    150,
+                    18
+                ],
+                [
+                    469,
+                    15
+                ],
+                [
+                    160,
+                    80
+                ],
+                [
+                    161,
+                    30
+                ],
+                [
+                    162,
+                    15
+                ],
+                [
+                    163,
+                    5
+                ],
+                [
+                    164,
+                    1
+                ]
+            ],
+            "media": "assets/media/skills/thieving/farmer.svg"
+        },
+        {
+            "name": "Fisherman",
+            "level": 40,
+            "xp": 45,
+            "maxHit": 4,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 140,
+            "lootTable": [
+                [
+                    9,
+                    40
+                ],
+                [
+                    10,
+                    35
+                ],
+                [
+                    11,
+                    30
+                ],
+                [
+                    12,
+                    25
+                ],
+                [
+                    13,
+                    20
+                ],
+                [
+                    14,
+                    16
+                ],
+                [
+                    15,
+                    12
+                ],
+                [
+                    16,
+                    10
+                ],
+                [
+                    17,
+                    5
+                ],
+                [
+                    18,
+                    2
+                ],
+                [
+                    120,
+                    1
+                ]
+            ],
+            "media": "assets/media/skills/thieving/fisherman.svg"
+        },
+        {
+            "name": "Chef",
+            "level": 50,
+            "xp": 55,
+            "maxHit": 4,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 160,
+            "lootTable": [
+                [
+                    21,
+                    40
+                ],
+                [
+                    22,
+                    35
+                ],
+                [
+                    23,
+                    30
+                ],
+                [
+                    24,
+                    25
+                ],
+                [
+                    25,
+                    20
+                ],
+                [
+                    26,
+                    16
+                ],
+                [
+                    27,
+                    8
+                ],
+                [
+                    28,
+                    5
+                ],
+                [
+                    29,
+                    1
+                ]
+            ],
+            "media": "assets/media/skills/thieving/chef.svg"
+        },
+        {
+            "name": "Miner",
+            "level": 60,
+            "xp": 65,
+            "maxHit": 4,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 180,
+            "lootTable": [
+                [
+                    45,
+                    210
+                ],
+                [
+                    46,
+                    210
+                ],
+                [
+                    47,
+                    140
+                ],
+                [
+                    48,
+                    124
+                ],
+                [
+                    49,
+                    100
+                ],
+                [
+                    50,
+                    80
+                ],
+                [
+                    51,
+                    50
+                ],
+                [
+                    52,
+                    10
+                ],
+                [
+                    53,
+                    1
+                ],
+                [
+                    128,
+                    1
+                ],
+                [
+                    129,
+                    1
+                ],
+                [
+                    130,
+                    1
+                ],
+                [
+                    131,
+                    1
+                ],
+                [
+                    132,
+                    1
+                ]
+            ],
+            "media": "assets/media/skills/thieving/miner.svg"
+        },
+        {
+            "name": "Knight",
+            "level": 75,
+            "xp": 90,
+            "maxHit": 5,
+            "baseSuccess": 57.5,
+            "maxSuccess": 95,
+            "maxCoins": 200,
+            "lootTable": [
+                [
+                    63,
+                    80
+                ],
+                [
+                    64,
+                    80
+                ],
+                [
+                    65,
+                    80
+                ],
+                [
+                    66,
+                    80
+                ],
+                [
+                    71,
+                    65
+                ],
+                [
+                    72,
+                    65
+                ],
+                [
+                    73,
+                    65
+                ],
+                [
+                    74,
+                    65
+                ],
+                [
+                    79,
+                    50
+                ],
+                [
+                    80,
+                    50
+                ],
+                [
+                    81,
+                    50
+                ],
+                [
+                    82,
+                    50
+                ],
+                [
+                    134,
+                    35
+                ],
+                [
+                    135,
+                    35
+                ],
+                [
+                    136,
+                    35
+                ],
+                [
+                    137,
+                    35
+                ],
+                [
+                    87,
+                    15
+                ],
+                [
+                    88,
+                    15
+                ],
+                [
+                    89,
+                    15
+                ],
+                [
+                    90,
+                    15
+                ],
+                [
+                    95,
+                    5
+                ],
+                [
+                    96,
+                    5
+                ],
+                [
+                    97,
+                    5
+                ],
+                [
+                    98,
+                    5
+                ],
+                [
+                    104,
+                    1
+                ],
+                [
+                    105,
+                    1
+                ]
+            ],
+            "media": "assets/media/skills/thieving/knight.svg"
+        }
+    ],
+    "glovesCost": [
+        50000,
+        75000,
+        100000,
+        100000,
+        500000
+    ],
+    "dungeons": [
+        {
+            "name": "Chicken Coop",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/monsters/mumma_chicken.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                1
+            ],
+            "recommendedStats": [
+                20,
+                20,
+                20
+            ],
+            "monsters": [
+                37,
+                37,
+                37,
+                37,
+                39,
+                40
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                346
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Undead Graveyard",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/graveyard.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                2
+            ],
+            "recommendedStats": [
+                40,
+                40,
+                40
+            ],
+            "monsters": [
+                59,
+                59,
+                59,
+                60,
+                60,
+                60,
+                62,
+                61
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                382
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Spider Forest",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/spider_forest.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                3
+            ],
+            "recommendedStats": [
+                60,
+                60,
+                60
+            ],
+            "monsters": [
+                50,
+                51,
+                50,
+                51,
+                50,
+                52,
+                52,
+                53
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                363
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Frozen Cove",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/frozen_cove.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                4
+            ],
+            "recommendedStats": [
+                70,
+                70,
+                70
+            ],
+            "monsters": [
+                54,
+                54,
+                54,
+                55,
+                55,
+                55,
+                56,
+                57
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                381
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Deep Sea Ship",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/ship.svg",
+            "type": "<small class='badge badge-pill badge-warning'>Dungeon</small>",
+            "difficulty": [
+                4
+            ],
+            "recommendedStats": [
+                80,
+                80,
+                80
+            ],
+            "monsters": [
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                41,
+                58,
+                42,
+                43
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                360
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Volcanic Cave",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/volcanic_cave.svg",
+            "type": "<small class=\"badge badge-pill badge-danger\">Elite Dungeon</small>",
+            "difficulty": [
+                5
+            ],
+            "recommendedStats": [
+                90,
+                90,
+                90
+            ],
+            "monsters": [
+                44,
+                45,
+                46,
+                47,
+                83,
+                84,
+                48,
+                49
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                362,
+                361
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Bandit Base",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/bandit_base.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                2
+            ],
+            "monsters": [
+                75,
+                75,
+                75,
+                76,
+                76,
+                76,
+                77
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                442
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Hall of Wizards",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/hall_of_wizards.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                3
+            ],
+            "monsters": [
+                70,
+                70,
+                70,
+                79,
+                79,
+                79,
+                78,
+                78,
+                80
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                461
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Air God Dungeon",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/air_god_dungeon.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                5
+            ],
+            "monsters": [
+                85,
+                85,
+                85,
+                85,
+                85,
+                85,
+                85,
+                85,
+                86,
+                86,
+                86,
+                86,
+                86,
+                86,
+                87,
+                87,
+                87,
+                87,
+                88,
+                89,
+                90
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                788
+            ],
+            "slayerItem": 0,
+            "requiresCompletion": 5
+        },
+        {
+            "name": "Water God Dungeon",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/water_god_dungeon.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                5
+            ],
+            "monsters": [
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                91,
+                92,
+                92,
+                92,
+                92,
+                92,
+                92,
+                93,
+                93,
+                93,
+                93,
+                94,
+                95,
+                96
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                789
+            ],
+            "slayerItem": 0,
+            "requiresCompletion": 8
+        },
+        {
+            "name": "Earth God Dungeon",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/earth_god_dungeon.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                5
+            ],
+            "monsters": [
+                97,
+                97,
+                97,
+                97,
+                97,
+                97,
+                97,
+                97,
+                98,
+                98,
+                98,
+                98,
+                98,
+                98,
+                99,
+                99,
+                99,
+                99,
+                100,
+                101,
+                102
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                790
+            ],
+            "slayerItem": 0,
+            "requiresCompletion": 9
+        },
+        {
+            "name": "Fire God Dungeon",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/fire_god_dungeon.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                5
+            ],
+            "monsters": [
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                103,
+                104,
+                104,
+                104,
+                104,
+                104,
+                104,
+                105,
+                105,
+                105,
+                105,
+                106,
+                107,
+                108
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                791
+            ],
+            "slayerItem": 0,
+            "requiresCompletion": 10
+        },
+        {
+            "name": "Dragons Den",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/dragons_den.svg",
+            "type": "<small class=\"badge badge-pill badge-warning\">Dungeon</small>",
+            "difficulty": [
+                4
+            ],
+            "monsters": [
+                63,
+                63,
+                64,
+                64,
+                65,
+                65,
+                66,
+                66,
+                109
+            ],
+            "rewardCount": 1,
+            "rewards": [
+                813
+            ],
+            "slayerItem": 0
+        },
+        {
+            "name": "Miolite Caves",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/isolite_caves.svg",
+            "monsters": [
+                112,
+                112,
+                113,
+                113,
+                114,
+                114,
+                115
+            ],
+            "difficulty": [
+                3
+            ],
+            "slayerLevel": 40,
+            "slayerItem": 0,
+            "rewardCount": 1,
+            "rewards": [
+                939
+            ]
+        },
+        {
+            "name": "Infernal Stronghold",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/infernal_stronghold.svg",
+            "monsters": [
+                140,
+                140,
+                140,
+                140,
+                140,
+                141,
+                141,
+                141,
+                141,
+                142,
+                142,
+                142,
+                143,
+                143,
+                144,
+                145,
+                146
+            ],
+            "difficulty": [
+                5
+            ],
+            "slayerLevel": 75,
+            "slayerItem": 0,
+            "rewardCount": 1,
+            "rewards": [
+                940,
+                941
+            ],
+            "requiresCompletion": 5,
+            "requiresCompletionCount": 100
+        },
+        {
+            "name": "Into the Mist",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/into_the_mist.svg",
+            "monsters": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                147,
+                148,
+                149
+            ],
+            "difficulty": [
+                6
+            ],
+            "slayerLevel": 90,
+            "slayerItem": 0,
+            "rewardCount": 1,
+            "rewards": [
+                952
+            ],
+            "requiresCompletion": 11
+        }
+    ],
+    "altMagic": [
+        {
+            "name": "Just Learning",
+            "media": "assets/media/skills/magic/magic.svg",
+            "description": "Convert selected item into 1 Rune Essence.<br>5 XP",
+            "magicLevelRequired": 1,
+            "selectItem": 1,
+            "convertTo": 388,
+            "convertToQty": 1,
+            "magicXP": 5,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 389,
+                    "qty": 1
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 389,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Superheat I",
+            "media": "assets/media/skills/magic/superheat_i.svg",
+            "description": "Create 1 x bar using 1 x required ores.<br>8 XP",
+            "magicLevelRequired": 5,
+            "selectItem": 0,
+            "convertToQty": 1,
+            "magicXP": 8,
+            "ignoreCoal": false,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 392,
+                    "qty": 2
+                },
+                {
+                    "id": 393,
+                    "qty": 2
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 829,
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "name": "Item Alchemy I",
+            "media": "assets/media/skills/magic/item_alchemy.svg",
+            "description": "Convert selected item into GP worth 40% of the item base sell value.<br>10 XP",
+            "magicLevelRequired": 10,
+            "effectValue": 0.4,
+            "selectItem": 1,
+            "isAlch": true,
+            "ignoreCoal": false,
+            "magicXP": 10,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 393,
+                    "qty": 3
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 393,
+                    "qty": 3
+                }
+            ]
+        },
+        {
+            "name": "Bone Offering",
+            "media": "assets/media/bank/bones.svg",
+            "description": "Creates 2 x Bones<br>12 XP",
+            "magicLevelRequired": 18,
+            "convertTo": 439,
+            "convertToQty": 2,
+            "selectItem": -1,
+            "magicXP": 12,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 392,
+                    "qty": 1
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 392,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Superheat II",
+            "media": "assets/media/skills/magic/superheat_ii.svg",
+            "description": "Create 2 x bars using 1 x required ores.<br>15 XP",
+            "magicLevelRequired": 25,
+            "selectItem": 0,
+            "convertToQty": 2,
+            "ignoreCoal": false,
+            "magicXP": 15,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 392,
+                    "qty": 3
+                },
+                {
+                    "id": 393,
+                    "qty": 3
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 829,
+                    "qty": 3
+                }
+            ]
+        },
+        {
+            "name": "Item Alchemy II",
+            "media": "assets/media/skills/magic/item_alchemy.svg",
+            "description": "Convert selected item into GP worth 100% of the item base sell value.<br>18 XP",
+            "magicLevelRequired": 35,
+            "effectValue": 1,
+            "selectItem": 1,
+            "isAlch": true,
+            "ignoreCoal": false,
+            "magicXP": 18,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 393,
+                    "qty": 4
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 393,
+                    "qty": 4
+                }
+            ]
+        },
+        {
+            "name": "Rags to Riches I",
+            "media": "assets/media/skills/magic/rags_to_riches.svg",
+            "description": "Convert selected Junk item obtained from Fishing into a random Gem.<br>21 XP",
+            "magicLevelRequired": 48,
+            "selectItem": 1,
+            "convertToQty": 1,
+            "isJunk": true,
+            "magicXP": 21,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 391,
+                    "qty": 2
+                },
+                {
+                    "id": 392,
+                    "qty": 2
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 826,
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "name": "Blessed Offering",
+            "media": "assets/media/bank/holy_dust.svg",
+            "description": "Creates 2 x Holy Dust<br>24 XP",
+            "magicLevelRequired": 56,
+            "effectValue": 0.4,
+            "convertTo": 500,
+            "convertToQty": 2,
+            "selectItem": -1,
+            "magicXP": 24,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 2
+                },
+                {
+                    "id": 392,
+                    "qty": 1
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 2
+                },
+                {
+                    "id": 392,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Superheat III",
+            "media": "assets/media/skills/magic/superheat_iii.svg",
+            "description": "Create 3 x bars using 1 x required ores.<br>28 XP",
+            "magicLevelRequired": 64,
+            "selectItem": 0,
+            "convertToQty": 3,
+            "ignoreCoal": false,
+            "magicXP": 28,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 392,
+                    "qty": 4
+                },
+                {
+                    "id": 393,
+                    "qty": 4
+                },
+                {
+                    "id": 823,
+                    "qty": 1
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 829,
+                    "qty": 4
+                },
+                {
+                    "id": 823,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Rags to Riches II",
+            "media": "assets/media/skills/magic/rags_to_riches.svg",
+            "description": "Convert Coal Ore into a random Gem.<br>32 XP",
+            "magicLevelRequired": 70,
+            "selectItem": -1,
+            "convertToQty": 1,
+            "needCoal": true,
+            "magicXP": 32,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 2
+                },
+                {
+                    "id": 391,
+                    "qty": 4
+                },
+                {
+                    "id": 392,
+                    "qty": 4
+                },
+                {
+                    "id": 823,
+                    "qty": 2
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 826,
+                    "qty": 4
+                },
+                {
+                    "id": 823,
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "name": "Item Alchemy III",
+            "media": "assets/media/skills/magic/item_alchemy.svg",
+            "description": "Convert selected item into GP worth 160% of the item base sell value.<br>39 XP",
+            "magicLevelRequired": 76,
+            "effectValue": 1.6,
+            "selectItem": 1,
+            "isAlch": true,
+            "magicXP": 39,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 393,
+                    "qty": 5
+                },
+                {
+                    "id": 823,
+                    "qty": 2
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 1
+                },
+                {
+                    "id": 393,
+                    "qty": 5
+                },
+                {
+                    "id": 823,
+                    "qty": 2
+                }
+            ]
+        },
+        {
+            "name": "Superheat IV",
+            "media": "assets/media/skills/magic/superheat_iv.svg",
+            "description": "Create 3 x bars using 1 x required ores, ignoring all Coal Requirements.<br>50 XP",
+            "magicLevelRequired": 95,
+            "selectItem": 0,
+            "convertToQty": 3,
+            "ignoreCoal": true,
+            "magicXP": 50,
+            "runesRequired": [
+                {
+                    "id": 821,
+                    "qty": 2
+                },
+                {
+                    "id": 392,
+                    "qty": 7
+                },
+                {
+                    "id": 393,
+                    "qty": 7
+                },
+                {
+                    "id": 823,
+                    "qty": 3
+                }
+            ],
+            "runesRequiredAlt": [
+                {
+                    "id": 821,
+                    "qty": 2
+                },
+                {
+                    "id": 829,
+                    "qty": 7
+                },
+                {
+                    "id": 823,
+                    "qty": 3
+                }
             ]
         }
     ]
