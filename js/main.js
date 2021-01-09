@@ -2,7 +2,11 @@ $(document).ready(function() {
     function generateDataExport() {
         var exp = {
             'items': items,
-            'monsters': MONSTERS
+            'monsters': MONSTERS,
+            'thievingTargets': thievingNPC,
+            'glovesCost': glovesCost,
+            'dungeons': DUNGEONS,
+            'altMagic': ALTMAGIC
         }
         addSourcesToItems(exp);
         console.log(exp);
@@ -25,6 +29,20 @@ $(document).ready(function() {
                     });
                 });
             }
+            // Bones and Shards
+            if (monster.hasOwnProperty('bones') && monster['bones'] != null) {
+                if (!exp['items'][monster['bones']].hasOwnProperty('monsterSources')) {
+                    exp['items'][monster['bones']]['monsterSources'] = []
+                }
+                exp['items'][monster['bones']]['monsterSources'].push({
+                    "monster": monsterId,
+                    "chance": [1, 1],
+                    // Actual Quantity, or 1 by default
+                    "maxQty": monster['boneQty'] ?? 1
+                });
+            }
+
+
         });
         // Add Herblore Level To Item Array
         herbloreItemData.forEach(function(herbloreData) {
@@ -33,13 +51,172 @@ $(document).ready(function() {
             });
         });
         // Add Woodcutting Level To Item Array
-        trees.forEach(function(tree) {
+        trees.forEach(function(tree, index) {
             var logName = tree['type'].charAt(0).toUpperCase() + tree['type'].slice(1) + " Logs"
             exp['items'].forEach(function(item) {
                 if (item['name'] == logName) {
+                    item['woodcuttingID'] = index
                     item['woodcuttingLevel'] = tree['level']
                 }
             })
+        });
+        // Move Cooking Items From Raw to the Cooked counterpart
+        exp['items'].forEach(function(item, itemID) {
+            if (item.hasOwnProperty('cookedItemID')) {
+                exp['items'][item['cookedItemID']]['cookingLevel'] = item['cookingLevel'];
+                exp['items'][item['cookedItemID']]['cookingXP'] = item['cookingXP'];
+                exp['items'][item['cookedItemID']]['cookingCategory'] = item['cookingCategory'];
+                exp['items'][item['cookedItemID']]['cookingID'] = item['cookingID'];
+                if (!exp['items'][item['cookedItemID']].hasOwnProperty('cookReq')) {
+                    exp['items'][item['cookedItemID']]['cookReq'] = []
+                }
+                exp['items'][item['cookedItemID']]['cookReq'].push({ 'id': itemID, 'qty': 1 });
+            }
+            if (item.hasOwnProperty('burntItemID')) {
+                exp['items'][item['burntItemID']]['cookingLevel'] = item['cookingLevel'];
+                exp['items'][item['burntItemID']]['cookingXP'] = item['cookingXP'];
+                exp['items'][item['burntItemID']]['cookingCategory'] = item['cookingCategory'];
+                exp['items'][item['burntItemID']]['cookingID'] = item['cookingID'];
+                if (!exp['items'][item['burntItemID']].hasOwnProperty('cookReq')) {
+                    exp['items'][item['burntItemID']]['cookReq'] = []
+                }
+                exp['items'][item['burntItemID']]['cookReq'].push({ 'id': itemID, 'qty': 1 });
+            }
+        });
+        // Clear Cooking attributes from the raw items (which are the only ones with cooked/burnt IDs)
+        exp['items'].forEach(function(item, itemID) {
+            if (item.hasOwnProperty('cookedItemID') || item.hasOwnProperty('burntItemID')) {
+                delete item['cookingLevel'];
+                delete item['cookingXP'];
+                delete item['cookingCategory'];
+                delete item['cookingID'];
+                delete item['cookedItemID'];
+                delete item['burntItemID'];
+            }
+        });
+        // Move Farming Items From Seeds to the Grown counterpart
+        exp['items'].forEach(function(item, itemID) {
+            if (item.hasOwnProperty('grownItemID')) {
+                exp['items'][item['grownItemID']]['farmingLevel'] = item['farmingLevel'];
+                exp['items'][item['grownItemID']]['farmingXP'] = item['farmingXP'];
+                exp['items'][item['grownItemID']]['timeToGrow'] = item['timeToGrow'];
+                if (!exp['items'][item['grownItemID']].hasOwnProperty('farmReq')) {
+                    exp['items'][item['grownItemID']]['farmReq'] = []
+                }
+                exp['items'][item['grownItemID']]['farmReq'].push({ 'id': itemID, 'qty': item['seedsRequired'] });
+            }
+        });
+        // Clear Farming attributes from the seed items (which are the only ones with grown IDs)
+        exp['items'].forEach(function(item, itemID) {
+            if (item.hasOwnProperty('grownItemID')) {
+                delete item['farmingLevel'];
+                delete item['farmingXP'];
+                delete item['timeToGrow'];
+                delete item['grownItemID'];
+            }
+        });
+        // Add Thieving Drops To Item Array
+        thievingNPC.forEach(function(target, targetID) {
+            if (target.hasOwnProperty('lootTable')) {
+                // Get the drop weight, add them together.
+                var totalWeight = target['lootTable'].map(x => x[1]).reduce((a, b) => a + b, 0);
+                target['lootTable'].forEach(function(drop) {
+                    if (!exp['items'][drop[0]].hasOwnProperty('thievingSources')) {
+                        exp['items'][drop[0]]['thievingSources'] = []
+                    }
+                    exp['items'][drop[0]]['thievingSources'].push({
+                        "target": targetID,
+                        // Melvor Idle Wiki Bot lists it as: fracReduce(75 * drop[1], totalWeight),
+                        "chance": fracReduce(drop[1] * 75, totalWeight * 100),
+                        "maxQty": 1
+                    });
+                });
+            }
+        });
+        // Add Openable Drops To Item Array
+        exp['items'].forEach(function(item, itemID) {
+            if (item.hasOwnProperty('canOpen')) {
+                // Get the drop weight, add them together.
+                var totalWeight = item['dropTable'].map(x => x[1]).reduce((a, b) => a + b, 0);
+                item['dropTable'].forEach(function(drop, dropIdx) {
+                    if (!exp['items'][drop[0]].hasOwnProperty('chestSources')) {
+                        exp['items'][drop[0]]['chestSources'] = []
+                    }
+                    exp['items'][drop[0]]['chestSources'].push({
+                        "chest": itemID,
+                        // Melvor Idle Wiki Bot lists it as: fracReduce(75 * drop[1], totalWeight),
+                        "chance": fracReduce(drop[1], totalWeight),
+                        "qty": item['dropQty'][dropIdx]
+                    });
+                });
+            }
+        });
+        // Add Dungeon Rewards To Item Array
+        DUNGEONS.forEach(function(dungeon, dungeonID) {
+            dungeon['rewards'].forEach(function(itemID) {
+                // May be a false assumption but the data appears to indicate the final boss
+                // drops the reward as well as the dungeon. But some dungeons drop items (Fire Cape)
+                // that no bosses drop. For now assume that if a monster drops it it's not magically
+                // given as a dungeon reward.
+                if (!exp['items'][itemID].hasOwnProperty('monsterSources')) {
+                    if (!exp['items'][itemID].hasOwnProperty('dungeonSources')) {
+                        exp['items'][itemID]['dungeonSources'] = []
+                    }
+                    exp['items'][itemID]['dungeonSources'].push(dungeonID);
+                }
+            });
+        });
+        // Add Alt Magic Sources To Item Array
+        // https://github.com/MelvorIdle/Melvor-Wiki-Bot/blob/master/sources/main.js#L1016
+        ALTMAGIC.forEach(function(spell, spellID) {
+            if (spell['selectItem'] == -1) {
+                // Gems or ConvertTo Item
+                if (spell.hasOwnProperty('convertTo')) {
+                    // Convert To Item
+                    if (!exp['items'][spell['convertTo']].hasOwnProperty('altMagicSources')) {
+                        exp['items'][spell['convertTo']]['altMagicSources'] = []
+                    }
+                    exp['items'][spell['convertTo']]['altMagicSources'].push(spellID);
+                } else {
+                    // Create Gem
+                    exp['items'].forEach(function(item, itemID) {
+                        if (item['type'] == 'Gem') {
+                            if (!exp['items'][itemID].hasOwnProperty('altMagicSources')) {
+                                exp['items'][itemID]['altMagicSources'] = []
+                            }
+                            exp['items'][itemID]['altMagicSources'].push(spellID);
+                        }
+                    });
+                }
+            } else if (spell['selectItem'] == 0) {
+                    // Create Bar
+                    exp['items'].forEach(function(item, itemID) {
+                        if (item['type'] == 'Bar') {
+                            if (!exp['items'][itemID].hasOwnProperty('altMagicSources')) {
+                                exp['items'][itemID]['altMagicSources'] = []
+                            }
+                            exp['items'][itemID]['altMagicSources'].push(spellID);
+                        }
+                    });
+            } else if (spell['selectItem'] == 1) {
+                if (spell.hasOwnProperty('isJunk') && spell['isJunk'] == true) {
+                    // Create Gem
+                    exp['items'].forEach(function(item, itemID) {
+                        if (item['type'] == 'Gem') {
+                            if (!exp['items'][itemID].hasOwnProperty('altMagicSources')) {
+                                exp['items'][itemID]['altMagicSources'] = []
+                            }
+                            exp['items'][itemID]['altMagicSources'].push(spellID);
+                        }
+                    });
+                } else if (!spell.hasOwnProperty('isAlch') && spell['isAlch'] == false) {
+                    // Convert To Item
+                    if (!exp['items'][spell['convertTo']].hasOwnProperty('altMagicSources')) {
+                        exp['items'][spell['convertTo']]['altMagicSources'] = []
+                    }
+                    exp['items'][spell['convertTo']]['altMagicSources'].push(spellID);
+                }
+            }
         });
     }
     function fracReduce(numerator,denominator){
