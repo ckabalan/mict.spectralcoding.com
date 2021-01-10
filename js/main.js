@@ -1,6 +1,10 @@
 $(document).ready(function() {
     function generateDataExport() {
         var exp = {
+            'dataSource': {
+                'gameVersion': gameTitle.split(' :: ')[1],
+                'generationDate': (new Date()).toISOString()
+            },
             'items': items,
             'monsters': MONSTERS,
             'thievingTargets': thievingNPC,
