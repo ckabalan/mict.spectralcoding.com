@@ -219,6 +219,6 @@ $(document).ready(function() {
         missingItemIDs.forEach(function(itemID) {
             $('#tableItems tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
         });
-        $('#missingAccordion').removeClass('d-none');
+        $('#missingWrapper').removeClass('d-none');
     });
 });
