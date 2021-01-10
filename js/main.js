@@ -1,6 +1,8 @@
 $(document).ready(function() {
     // On Load Code
     CDNPrefix = 'https://cdn.melvor.net/core/v018/';
+    $('#gameDataVersion').text(melvorData['dataSource']['gameVersion']);
+    $('#gameDataGenerationDate').text(melvorData['dataSource']['generationDate']);
     // Functions
     function getMissingItemIDs(itemStats) {
         var missingIDs = Object.keys(melvorData['items']);
