@@ -70,6 +70,9 @@
                 <li class="nav-item">
                     <a class="nav-link" id="monsters-tab" data-toggle="tab" href="#tabMonsters" role="tab" aria-controls="tabMonsters" aria-selected="false">Missing Monsters</a>
                 </li>
+                <li class="nav-item ml-auto">
+                    <input type="text" class="form-control" placeholder="Filter..." aria-label="Filter" id="filter">
+                </li>
             </ul>
             <div class="tab-content bg-white p-2 border-right border-bottom border-left mb-2" id="missingTabContent">
                 <div class="tab-pane fade show active" id="tabItems" role="tabpanel" aria-labelledby="items-tab">
@@ -81,7 +84,9 @@
                                 <th scope="col">Source</th>
                             </tr>
                         </thead>
-                        <tbody></tbody>
+                        <tbody>
+                            <tr style="display:none"></tr>
+                        </tbody>
                     </table>
                 </div>
                 <div class="tab-pane fade" id="tabPets" role="tabpanel" aria-labelledby="pets-tab">

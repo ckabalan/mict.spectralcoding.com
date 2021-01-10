@@ -210,15 +210,43 @@ $(document).ready(function() {
 
     // Events
     $('#saveImport').on('blur', () => {
-        // https://stackoverflow.com/a/41106346/606974
-        saveJSON = JSON.parse(pako.ungzip(Uint8Array.from(atob($('#saveImport').val()), c => c.charCodeAt(0)), { to: 'string' }));
-        //saveData = JSON.stringify(saveJSON, null, 2);
-        // Convert Nulls to prevent errors
-        saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
-        missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
-        missingItemIDs.forEach(function(itemID) {
-            $('#tableItems tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
-        });
-        $('#missingWrapper').removeClass('d-none');
+        if ($('#saveImport').val()) {
+            // https://stackoverflow.com/a/41106346/606974
+            saveJSON = JSON.parse(pako.ungzip(Uint8Array.from(atob($('#saveImport').val()), c => c.charCodeAt(0)), { to: 'string' }));
+            //saveData = JSON.stringify(saveJSON, null, 2);
+            // Convert Nulls to prevent errors
+            saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
+            missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
+            missingItemIDs.forEach(function(itemID) {
+                $('#tableItems tbody tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
+            });
+            $('#missingWrapper').removeClass('d-none');
+        }
     });
+    $('#filter').on('input', function(){
+        // https://stackoverflow.com/a/41554434/606974
+        // https://schier.co/blog/wait-for-user-to-stop-typing-using-javascript
+        var selection = $(this).val().toLowerCase();
+        var timer;
+        clearTimeout(timer);
+        if (selection.length == 0) {
+            // If empty recognize empty search immediately
+            runFilter(selection);
+        } else {
+            // Wait for 1s pause to filter when there is content
+            timer =	setTimeout(function () {
+                runFilter(selection);
+            }, 1000);
+        }
+    });
+    function runFilter(selection) {
+        $('#missingWrapper table').show();
+        var dataset = $('#missingWrapper table tbody').find('tr');
+        // show all rows first
+        dataset.show();
+        // filter the rows that should be hidden
+        dataset.filter(function(index, item) {
+            return $(item).find('td').text().toLowerCase().indexOf(selection) === -1;
+        }).hide();
+    }
 });
