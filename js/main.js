@@ -10,11 +10,51 @@ $(document).ready(function() {
             'thievingTargets': thievingNPC,
             'glovesCost': glovesCost,
             'dungeons': DUNGEONS,
-            'altMagic': ALTMAGIC
+            'altMagic': ALTMAGIC,
+            'pets': PETS,
+            'skills': SKILLS,
+            'combatAreas': combatAreas,
+            'slayerAreas': slayerAreas,
         }
         addSourcesToItems(exp);
+        addZonesToMonsters(exp);
         console.log(exp);
         return JSON.stringify(exp, null, 4);
+    }
+    function addZonesToMonsters(exp) {
+        exp['combatAreas'].forEach(function(combatArea, combatAreaID) {
+            combatArea['monsters'].forEach(function(monsterID) {
+                if (!exp['monsters'][monsterID].hasOwnProperty('combatSources')) {
+                    exp['monsters'][monsterID]['combatSources'] = []
+                }
+                if (exp['monsters'][monsterID]['combatSources'].indexOf(combatAreaID) === -1) {
+                    // Add only if it doesn't exist already
+                    exp['monsters'][monsterID]['combatSources'].push(combatAreaID);
+                }
+            });
+        });
+        exp['slayerAreas'].forEach(function(slayerArea, slayerAreaID) {
+            slayerArea['monsters'].forEach(function(monsterID) {
+                if (!exp['monsters'][monsterID].hasOwnProperty('slayerSources')) {
+                    exp['monsters'][monsterID]['slayerSources'] = []
+                }
+                if (exp['monsters'][monsterID]['slayerSources'].indexOf(slayerAreaID) === -1) {
+                    // Add only if it doesn't exist already
+                    exp['monsters'][monsterID]['slayerSources'].push(slayerAreaID);
+                }
+            });
+        });
+        exp['dungeons'].forEach(function(dungeon, dungeonID) {
+            dungeon['monsters'].forEach(function(monsterID) {
+                if (!exp['monsters'][monsterID].hasOwnProperty('dungeonSources')) {
+                    exp['monsters'][monsterID]['dungeonSources'] = []
+                }
+                if (exp['monsters'][monsterID]['dungeonSources'].indexOf(dungeonID) === -1) {
+                    // Add only if it doesn't exist already
+                    exp['monsters'][monsterID]['dungeonSources'].push(dungeonID);
+                }
+            });
+        });
     }
     function addSourcesToItems(exp) {
         // Add Monster Drops To Item Array
