@@ -1,6 +1,10 @@
 # Melvor Idle Completionist Tool - Tooling
 
-Work In Progress!
+The Melvor Idle Completionist Tool (MICT) accepts a user's Melvor Idle Save Data Export and displays the remaining items, pets, and monsters needed to complete the game.
+
+## Documentation
+
+See the `main` and `develop` branches.
 
 ## License
 
