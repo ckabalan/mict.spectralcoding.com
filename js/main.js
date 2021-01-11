@@ -243,7 +243,7 @@ $(document).ready(function() {
         }).hide();
     }
     function resetMissingTables() {
-        $('#tableItems tbody').val('<tr style="display:none"><td></td><td></td><td></td></tr>');
+        $('#tableItems tbody').html('<tr style="display:none"><td class="d-none d-sm-table-cell"></td><td></td><td></td></tr>');
     }
     function loadSaveData() {
         // Quit if blank save
@@ -294,7 +294,7 @@ $(document).ready(function() {
             // Clear all entries
             resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
-                $('#tableItems tbody tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
+                $('#tableItems tbody tr:last').after('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
             });
             // Show tables
             $('#missingWrapper').removeClass('d-none');

@@ -54,6 +54,19 @@
             border-top: none;
             padding-top: 0px;
         }
+        #filterWrap {
+            width: 33%;
+        }
+        @media screen and (max-width: 576px) {
+            /* Make form-control be form-control-sm on screens where we shrink other items. */
+            .form-control {
+                height: calc(1.5em + .5rem + 2px);
+                padding: .25rem .5rem;
+                font-size: .875rem;
+                line-height: 1.5;
+                border-radius: .2rem;
+            }
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -75,18 +88,18 @@
         </div>
         <div class="alert alert-danger mb-1 py-1 px-2 d-none" role="alert" id="saveLoadAlert"></div>
         <div id="missingWrapper" class="d-none">
-            <ul class="nav nav-tabs" id="missingTab" role="tablist">
+            <ul class="nav nav-tabs text-wrap" id="missingTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="items-tab" data-toggle="tab" href="#tabItems" role="tab" aria-controls="tabItems" aria-selected="true">Missing Items</a>
+                    <a class="nav-link text-wrap active px-sm-3 py-sm-2 px-2 py-1" id="items-tab" data-toggle="tab" href="#tabItems" role="tab" aria-controls="tabItems" aria-selected="true">Items</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="pets-tab" data-toggle="tab" href="#tabPets" role="tab" aria-controls="tabPets" aria-selected="false">Missing Pets</a>
+                    <a class="nav-link text-wrap px-sm-3 py-sm-2 px-2 py-1" id="pets-tab" data-toggle="tab" href="#tabPets" role="tab" aria-controls="tabPets" aria-selected="false">Pets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="monsters-tab" data-toggle="tab" href="#tabMonsters" role="tab" aria-controls="tabMonsters" aria-selected="false">Missing Monsters</a>
+                    <a class="nav-link text-wrap px-sm-3 py-sm-2 px-2 py-1" id="monsters-tab" data-toggle="tab" href="#tabMonsters" role="tab" aria-controls="tabMonsters" aria-selected="false">Monsters</a>
                 </li>
-                <li class="nav-item ml-auto">
-                    <input type="text" class="form-control" placeholder="Filter..." aria-label="Filter" id="filter">
+                <li class="nav-item ml-auto" id="filterWrap">
+                    <input type="text" class="form-control px-sm-3 py-sm-2 px-1 py-0" placeholder="Filter..." aria-label="Filter" id="filter">
                 </li>
             </ul>
             <div class="tab-content bg-white p-2 border-right border-bottom border-left mb-2" id="missingTabContent">
@@ -94,13 +107,13 @@
                     <table class="table mb-0 table-sm" style="border-top:none;" id="tableItems">
                         <thead>
                             <tr>
-                                <th scope="col">ID</th>
+                                <th scope="col" class="d-none d-sm-table-cell-none d-md-table-cell">ID</th>
                                 <th scope="col">Item Name</th>
                                 <th scope="col">Source</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr style="display:none"><td></td><td></td><td></td></tr>
+                            <tr style="display:none"><td class="d-none d-sm-table-cell-none d-md-table-cell"></td><td></td><td></td></tr>
                         </tbody>
                     </table>
                 </div>
