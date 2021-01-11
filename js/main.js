@@ -18,8 +18,7 @@ $(document).ready(function() {
         }
         addSourcesToItems(exp);
         addZonesToMonsters(exp);
-        console.log(exp);
-        return JSON.stringify(exp, null, 4);
+        return exp;
     }
     function addZonesToMonsters(exp) {
         exp['combatAreas'].forEach(function(combatArea, combatAreaID) {
@@ -289,6 +288,8 @@ $(document).ready(function() {
         return returnStr;
     }
     //$('#downloadCommands').val(generateDownloadCommands());
-    $('#dataExport').val('var melvorData = ' + generateDataExport());
+    var exp = generateDataExport();
+    $('#dataExport').val('var melvorData = ' + JSON.stringify(exp, null, 4));
+    $('#dataExportMinified').val('var melvorData = ' + JSON.stringify(exp));
     //generateDataExport()
 });
