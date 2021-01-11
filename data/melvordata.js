@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.18.2",
-        "generationDate": "2021-01-10T06:09:02.548Z"
+        "generationDate": "2021-01-11T19:54:00.503Z"
     },
     "items": [
         {
@@ -38182,7 +38182,10 @@ var melvorData = {
             "lootChance": 10,
             "media": "assets/media/monsters/black_knight.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                4
+            ]
         },
         {
             "id": 1,
@@ -38248,7 +38251,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/hill_giant.svg",
             "bones": 506,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                6
+            ],
+            "dungeonSources": [
+                15
+            ]
         },
         {
             "id": 2,
@@ -38335,7 +38344,10 @@ var melvorData = {
             "lootChance": 75,
             "media": "assets/media/monsters/moss_giant.svg",
             "bones": 506,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                6
+            ]
         },
         {
             "id": 3,
@@ -38371,7 +38383,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/large_crab.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                7
+            ]
         },
         {
             "id": 4,
@@ -38417,7 +38432,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/tentacle.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                7
+            ]
         },
         {
             "id": 5,
@@ -38448,7 +38466,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/seagull.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                7
+            ]
         },
         {
             "id": 6,
@@ -38495,7 +38516,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/pirate.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                7
+            ]
         },
         {
             "id": 7,
@@ -38527,7 +38551,10 @@ var melvorData = {
             "lootChance": 1,
             "media": "assets/media/monsters/frozen_mammoth.svg",
             "bones": 506,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                8
+            ]
         },
         {
             "id": 8,
@@ -38561,7 +38588,10 @@ var melvorData = {
             "lootChance": 20,
             "media": "assets/media/monsters/frozen_archer.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                8
+            ]
         },
         {
             "id": 9,
@@ -38628,7 +38658,10 @@ var melvorData = {
             "media": "assets/media/monsters/mummy.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 13
+            "slayerXP": 13,
+            "slayerSources": [
+                0
+            ]
         },
         {
             "id": 10,
@@ -38670,7 +38703,10 @@ var melvorData = {
             "media": "assets/media/monsters/statue.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 18
+            "slayerXP": 18,
+            "slayerSources": [
+                0
+            ]
         },
         {
             "id": 11,
@@ -38720,7 +38756,10 @@ var melvorData = {
             "media": "assets/media/monsters/stone_snake.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 30
+            "slayerXP": 30,
+            "slayerSources": [
+                0
+            ]
         },
         {
             "id": 12,
@@ -38836,7 +38875,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/m12.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                2
+            ]
         },
         {
             "id": 13,
@@ -38955,7 +38997,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/m13.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                2
+            ]
         },
         {
             "id": 14,
@@ -39074,7 +39119,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/m14.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                2
+            ]
         },
         {
             "id": 15,
@@ -39106,7 +39154,10 @@ var melvorData = {
             "media": "assets/media/monsters/undead_wolf.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 24
+            "slayerXP": 24,
+            "slayerSources": [
+                0
+            ]
         },
         {
             "id": 16,
@@ -39176,7 +39227,10 @@ var melvorData = {
             "media": "assets/media/monsters/vampire.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 25
+            "slayerXP": 25,
+            "slayerSources": [
+                0
+            ]
         },
         {
             "id": 17,
@@ -39218,7 +39272,10 @@ var melvorData = {
             "media": "assets/media/monsters/fierce_devil.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 41
+            "slayerXP": 41,
+            "slayerSources": [
+                0
+            ]
         },
         {
             "id": 18,
@@ -39257,7 +39314,10 @@ var melvorData = {
             "media": "assets/media/monsters/many_eyed_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 18
+            "slayerXP": 18,
+            "slayerSources": [
+                1
+            ]
         },
         {
             "id": 19,
@@ -39294,7 +39354,10 @@ var melvorData = {
             "media": "assets/media/monsters/strange_eyed_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 32
+            "slayerXP": 32,
+            "slayerSources": [
+                1
+            ]
         },
         {
             "id": 20,
@@ -39331,7 +39394,10 @@ var melvorData = {
             "media": "assets/media/monsters/lots_of_eyes.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 12
+            "slayerXP": 12,
+            "slayerSources": [
+                1
+            ]
         },
         {
             "id": 21,
@@ -39368,7 +39434,10 @@ var melvorData = {
             "media": "assets/media/monsters/eyes.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 40
+            "slayerXP": 40,
+            "slayerSources": [
+                1
+            ]
         },
         {
             "id": 22,
@@ -39401,7 +39470,10 @@ var melvorData = {
             "media": "assets/media/monsters/griffin.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 75
+            "slayerXP": 75,
+            "slayerSources": [
+                2
+            ]
         },
         {
             "id": 23,
@@ -39434,7 +39506,10 @@ var melvorData = {
             "media": "assets/media/monsters/pegasus.svg",
             "bones": 441,
             "canSlayer": true,
-            "slayerXP": 110
+            "slayerXP": 110,
+            "slayerSources": [
+                2
+            ]
         },
         {
             "id": 24,
@@ -39500,7 +39575,10 @@ var melvorData = {
             "media": "assets/media/monsters/fairy.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 20
+            "slayerXP": 20,
+            "slayerSources": [
+                3
+            ]
         },
         {
             "id": 25,
@@ -39553,7 +39631,10 @@ var melvorData = {
             "media": "assets/media/monsters/valkyrie.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 27
+            "slayerXP": 27,
+            "slayerSources": [
+                3
+            ]
         },
         {
             "id": 26,
@@ -39609,7 +39690,10 @@ var melvorData = {
             "media": "assets/media/monsters/angel.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 40
+            "slayerXP": 40,
+            "slayerSources": [
+                3
+            ]
         },
         {
             "id": 27,
@@ -39678,7 +39762,10 @@ var melvorData = {
             "media": "assets/media/monsters/holy_archer.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 52
+            "slayerXP": 52,
+            "slayerSources": [
+                3
+            ]
         },
         {
             "id": 28,
@@ -39735,7 +39822,10 @@ var melvorData = {
             "media": "assets/media/monsters/goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 7
+            "slayerXP": 7,
+            "slayerSources": [
+                4
+            ]
         },
         {
             "id": 29,
@@ -39782,7 +39872,10 @@ var melvorData = {
             "media": "assets/media/monsters/green_goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27
+            "slayerXP": 27,
+            "slayerSources": [
+                4
+            ]
         },
         {
             "id": 30,
@@ -39834,7 +39927,10 @@ var melvorData = {
             "media": "assets/media/monsters/purple_goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27
+            "slayerXP": 27,
+            "slayerSources": [
+                4
+            ]
         },
         {
             "id": 31,
@@ -39867,7 +39963,10 @@ var melvorData = {
             "media": "assets/media/monsters/scattered_goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27
+            "slayerXP": 27,
+            "slayerSources": [
+                4
+            ]
         },
         {
             "id": 32,
@@ -39914,7 +40013,10 @@ var melvorData = {
             "media": "assets/media/monsters/raging_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 70
+            "slayerXP": 70,
+            "slayerSources": [
+                5
+            ]
         },
         {
             "id": 33,
@@ -39996,7 +40098,10 @@ var melvorData = {
             "media": "assets/media/monsters/seething_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 90
+            "slayerXP": 90,
+            "slayerSources": [
+                5
+            ]
         },
         {
             "id": 34,
@@ -40068,7 +40173,10 @@ var melvorData = {
             "media": "assets/media/monsters/dark_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 140
+            "slayerXP": 140,
+            "slayerSources": [
+                5
+            ]
         },
         {
             "id": 35,
@@ -40124,7 +40232,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/goblin.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                9
+            ]
         },
         {
             "id": 36,
@@ -40177,7 +40288,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/goblin.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                9
+            ]
         },
         {
             "id": 37,
@@ -40209,7 +40323,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/chicken.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                0
+            ],
+            "dungeonSources": [
+                0
+            ]
         },
         {
             "id": 38,
@@ -40241,7 +40361,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/cow.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                0
+            ]
         },
         {
             "id": 39,
@@ -40265,7 +40388,10 @@ var melvorData = {
                 5
             ],
             "media": "assets/media/monsters/chick.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                0
+            ]
         },
         {
             "id": 40,
@@ -40296,7 +40422,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/mumma_chicken.svg",
             "bones": 439,
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                0
+            ]
         },
         {
             "id": 41,
@@ -40319,7 +40448,10 @@ var melvorData = {
                 80
             ],
             "media": "assets/media/monsters/pirate.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                4
+            ]
         },
         {
             "id": 42,
@@ -40342,7 +40474,10 @@ var melvorData = {
                 80
             ],
             "media": "assets/media/monsters/pirate_captain.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                4
+            ]
         },
         {
             "id": 43,
@@ -40373,7 +40508,10 @@ var melvorData = {
                 ]
             ],
             "bones": 439,
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                4
+            ]
         },
         {
             "id": 44,
@@ -40396,7 +40534,10 @@ var melvorData = {
                 10
             ],
             "media": "assets/media/monsters/bat.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "id": 45,
@@ -40419,7 +40560,10 @@ var melvorData = {
                 10
             ],
             "media": "assets/media/monsters/bat_big.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "id": 46,
@@ -40447,7 +40591,10 @@ var melvorData = {
                 10
             ],
             "media": "assets/media/monsters/eye.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "id": 47,
@@ -40475,7 +40622,10 @@ var melvorData = {
                 10
             ],
             "media": "assets/media/monsters/eye_resurrected.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "id": 48,
@@ -40505,6 +40655,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 0
+            ],
+            "dungeonSources": [
+                5
             ]
         },
         {
@@ -40541,6 +40694,9 @@ var melvorData = {
             "specialAttackID": [
                 1,
                 2
+            ],
+            "dungeonSources": [
+                5
             ]
         },
         {
@@ -40564,7 +40720,10 @@ var melvorData = {
                 100
             ],
             "media": "assets/media/monsters/spider.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                2
+            ]
         },
         {
             "id": 51,
@@ -40587,7 +40746,10 @@ var melvorData = {
                 100
             ],
             "media": "assets/media/monsters/spider2.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                2
+            ]
         },
         {
             "id": 52,
@@ -40610,7 +40772,10 @@ var melvorData = {
                 250
             ],
             "media": "assets/media/monsters/spider_subboss.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                2
+            ]
         },
         {
             "id": 53,
@@ -40641,7 +40806,10 @@ var melvorData = {
                 ]
             ],
             "bones": 439,
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                2
+            ]
         },
         {
             "id": 54,
@@ -40672,7 +40840,13 @@ var melvorData = {
             ],
             "lootChance": 10,
             "media": "assets/media/monsters/ice_monster.svg",
-            "bones": 439
+            "bones": 439,
+            "combatSources": [
+                8
+            ],
+            "dungeonSources": [
+                3
+            ]
         },
         {
             "id": 55,
@@ -40695,7 +40869,10 @@ var melvorData = {
                 100
             ],
             "media": "assets/media/monsters/ice_troll.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                3
+            ]
         },
         {
             "id": 56,
@@ -40718,7 +40895,10 @@ var melvorData = {
                 100
             ],
             "media": "assets/media/monsters/ice.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                3
+            ]
         },
         {
             "id": 57,
@@ -40749,7 +40929,10 @@ var melvorData = {
                 ]
             ],
             "bones": 439,
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                3
+            ]
         },
         {
             "id": 58,
@@ -40772,7 +40955,10 @@ var melvorData = {
                 80
             ],
             "media": "assets/media/monsters/first_mate.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                4
+            ]
         },
         {
             "id": 59,
@@ -40817,7 +41003,13 @@ var melvorData = {
                 ]
             ],
             "media": "assets/media/monsters/zombie_hand.svg",
-            "bones": 439
+            "bones": 439,
+            "combatSources": [
+                10
+            ],
+            "dungeonSources": [
+                1
+            ]
         },
         {
             "id": 60,
@@ -40867,7 +41059,13 @@ var melvorData = {
                 80
             ],
             "media": "assets/media/monsters/zombie.svg",
-            "bones": 439
+            "bones": 439,
+            "combatSources": [
+                10
+            ],
+            "dungeonSources": [
+                1
+            ]
         },
         {
             "id": 61,
@@ -40897,7 +41095,10 @@ var melvorData = {
                     1
                 ]
             ],
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                1
+            ]
         },
         {
             "id": 62,
@@ -40928,7 +41129,13 @@ var melvorData = {
             ],
             "lootChance": 25,
             "media": "assets/media/monsters/ghost.svg",
-            "bones": 439
+            "bones": 439,
+            "combatSources": [
+                10
+            ],
+            "dungeonSources": [
+                1
+            ]
         },
         {
             "id": 63,
@@ -40959,7 +41166,13 @@ var melvorData = {
                 ]
             ],
             "bones": 440,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                1
+            ],
+            "dungeonSources": [
+                12
+            ]
         },
         {
             "id": 64,
@@ -40990,7 +41203,13 @@ var melvorData = {
                 ]
             ],
             "bones": 440,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                1
+            ],
+            "dungeonSources": [
+                12
+            ]
         },
         {
             "id": 65,
@@ -41021,7 +41240,13 @@ var melvorData = {
                 ]
             ],
             "bones": 440,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                1
+            ],
+            "dungeonSources": [
+                12
+            ]
         },
         {
             "id": 66,
@@ -41055,7 +41280,13 @@ var melvorData = {
                 5
             ],
             "bones": 440,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                1
+            ],
+            "dungeonSources": [
+                12
+            ]
         },
         {
             "id": 67,
@@ -41107,7 +41338,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/junior_farmer.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                0
+            ]
         },
         {
             "id": 68,
@@ -41189,7 +41423,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/adult_farmer.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                0
+            ]
         },
         {
             "id": 69,
@@ -41287,7 +41524,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/master_farmer.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                0
+            ]
         },
         {
             "id": 70,
@@ -41383,7 +41623,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/wizard.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                3
+            ],
+            "dungeonSources": [
+                7
+            ]
         },
         {
             "id": 71,
@@ -41446,7 +41692,10 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/steel_knight.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                4
+            ]
         },
         {
             "id": 72,
@@ -41513,7 +41762,10 @@ var melvorData = {
             "lootChance": 25,
             "media": "assets/media/monsters/mithril_knight.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                4
+            ]
         },
         {
             "id": 73,
@@ -41582,7 +41834,10 @@ var melvorData = {
             "lootChance": 15,
             "media": "assets/media/monsters/adamant_knight.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                4
+            ]
         },
         {
             "id": 74,
@@ -41654,7 +41909,10 @@ var melvorData = {
             "lootChance": 5,
             "media": "assets/media/monsters/rune_knight.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                4
+            ]
         },
         {
             "id": 75,
@@ -41703,7 +41961,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/bandit_trainee.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                5
+            ],
+            "dungeonSources": [
+                6
+            ]
         },
         {
             "id": 76,
@@ -41757,7 +42021,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/bandit.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                5
+            ],
+            "dungeonSources": [
+                6
+            ]
         },
         {
             "id": 77,
@@ -41789,7 +42059,10 @@ var melvorData = {
                 ]
             ],
             "media": "assets/media/monsters/bandit.svg",
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                6
+            ]
         },
         {
             "id": 78,
@@ -41860,7 +42133,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/dark_wizard.svg",
             "bones": 441,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                3
+            ],
+            "dungeonSources": [
+                7
+            ]
         },
         {
             "id": 79,
@@ -41945,7 +42224,13 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/master_wizard.svg",
             "bones": 439,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                3
+            ],
+            "dungeonSources": [
+                7
+            ]
         },
         {
             "id": 80,
@@ -41979,7 +42264,10 @@ var melvorData = {
                 ]
             ],
             "media": "assets/media/monsters/elder_wizard.svg",
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                7
+            ]
         },
         {
             "id": 81,
@@ -42012,7 +42300,10 @@ var melvorData = {
             ],
             "lootChance": 50,
             "media": "assets/media/monsters/skeleton.svg",
-            "bones": 439
+            "bones": 439,
+            "combatSources": [
+                10
+            ]
         },
         {
             "id": 82,
@@ -42049,7 +42340,10 @@ var melvorData = {
                 ]
             ],
             "media": "assets/media/monsters/leech.svg",
-            "bones": 439
+            "bones": 439,
+            "combatSources": [
+                2
+            ]
         },
         {
             "id": 83,
@@ -42075,7 +42369,10 @@ var melvorData = {
                 10
             ],
             "media": "assets/media/monsters/viscous_serpent.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "id": 84,
@@ -42103,7 +42400,10 @@ var melvorData = {
                 10
             ],
             "media": "assets/media/monsters/fire_spirit.svg",
-            "bones": 439
+            "bones": 439,
+            "dungeonSources": [
+                5
+            ]
         },
         {
             "id": 85,
@@ -42135,6 +42435,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 3
+            ],
+            "dungeonSources": [
+                8
             ]
         },
         {
@@ -42167,6 +42470,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 4
+            ],
+            "dungeonSources": [
+                8
             ]
         },
         {
@@ -42199,6 +42505,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 5
+            ],
+            "dungeonSources": [
+                8
             ]
         },
         {
@@ -42231,6 +42540,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 6
+            ],
+            "dungeonSources": [
+                8
             ]
         },
         {
@@ -42263,6 +42575,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 6
+            ],
+            "dungeonSources": [
+                8
             ]
         },
         {
@@ -42313,6 +42628,9 @@ var melvorData = {
                     1,
                     1
                 ]
+            ],
+            "dungeonSources": [
+                8
             ]
         },
         {
@@ -42347,6 +42665,9 @@ var melvorData = {
             "specialAttackID": [
                 8,
                 9
+            ],
+            "dungeonSources": [
+                9
             ]
         },
         {
@@ -42380,6 +42701,9 @@ var melvorData = {
             "specialAttackID": [
                 8,
                 10
+            ],
+            "dungeonSources": [
+                9
             ]
         },
         {
@@ -42413,6 +42737,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 11
+            ],
+            "dungeonSources": [
+                9
             ]
         },
         {
@@ -42447,6 +42774,9 @@ var melvorData = {
             "specialAttackID": [
                 8,
                 12
+            ],
+            "dungeonSources": [
+                9
             ]
         },
         {
@@ -42480,6 +42810,9 @@ var melvorData = {
             "specialAttackID": [
                 8,
                 12
+            ],
+            "dungeonSources": [
+                9
             ]
         },
         {
@@ -42531,6 +42864,9 @@ var melvorData = {
                     1,
                     1
                 ]
+            ],
+            "dungeonSources": [
+                9
             ]
         },
         {
@@ -42563,6 +42899,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 14
+            ],
+            "dungeonSources": [
+                10
             ]
         },
         {
@@ -42595,6 +42934,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 15
+            ],
+            "dungeonSources": [
+                10
             ]
         },
         {
@@ -42627,6 +42969,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 16
+            ],
+            "dungeonSources": [
+                10
             ]
         },
         {
@@ -42660,6 +43005,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 17
+            ],
+            "dungeonSources": [
+                10
             ]
         },
         {
@@ -42692,6 +43040,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 17
+            ],
+            "dungeonSources": [
+                10
             ]
         },
         {
@@ -42742,6 +43093,9 @@ var melvorData = {
                     1,
                     1
                 ]
+            ],
+            "dungeonSources": [
+                10
             ]
         },
         {
@@ -42774,6 +43128,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 19
+            ],
+            "dungeonSources": [
+                11
             ]
         },
         {
@@ -42806,6 +43163,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 20
+            ],
+            "dungeonSources": [
+                11
             ]
         },
         {
@@ -42839,6 +43199,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 21
+            ],
+            "dungeonSources": [
+                11
             ]
         },
         {
@@ -42872,6 +43235,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 22
+            ],
+            "dungeonSources": [
+                11
             ]
         },
         {
@@ -42904,6 +43270,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 22
+            ],
+            "dungeonSources": [
+                11
             ]
         },
         {
@@ -42955,6 +43324,9 @@ var melvorData = {
                     1,
                     1
                 ]
+            ],
+            "dungeonSources": [
+                11
             ]
         },
         {
@@ -42986,7 +43358,10 @@ var melvorData = {
                 ]
             ],
             "bones": 440,
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                12
+            ]
         },
         {
             "id": 110,
@@ -43036,7 +43411,10 @@ var melvorData = {
             "media": "assets/media/monsters/furious_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 150
+            "slayerXP": 150,
+            "slayerSources": [
+                5
+            ]
         },
         {
             "id": 111,
@@ -43069,7 +43447,10 @@ var melvorData = {
             "lootChance": 75,
             "media": "assets/media/monsters/plant.svg",
             "bones": null,
-            "canSlayer": true
+            "canSlayer": true,
+            "combatSources": [
+                0
+            ]
         },
         {
             "name": "Miolite Sprig",
@@ -43109,6 +43490,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 24
+            ],
+            "dungeonSources": [
+                13
             ]
         },
         {
@@ -43149,6 +43533,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 24
+            ],
+            "dungeonSources": [
+                13
             ]
         },
         {
@@ -43190,7 +43577,10 @@ var melvorData = {
             "specialAttackID": [
                 24
             ],
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                13
+            ]
         },
         {
             "name": "Miolite Monarch",
@@ -43231,7 +43621,10 @@ var melvorData = {
             "specialAttackID": [
                 25
             ],
-            "isBoss": true
+            "isBoss": true,
+            "dungeonSources": [
+                13
+            ]
         },
         {
             "name": "Druid",
@@ -43293,7 +43686,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 17
+            "slayerXP": 17,
+            "slayerSources": [
+                6
+            ]
         },
         {
             "name": "Thief",
@@ -43360,7 +43756,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27
+            "slayerXP": 27,
+            "slayerSources": [
+                6
+            ]
         },
         {
             "name": "Shaman",
@@ -43402,7 +43801,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 37
+            "slayerXP": 37,
+            "slayerSources": [
+                6
+            ]
         },
         {
             "name": "Necromancer",
@@ -43444,7 +43846,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 47
+            "slayerXP": 47,
+            "slayerSources": [
+                6
+            ]
         },
         {
             "name": "Elementalist",
@@ -43486,7 +43891,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 62
+            "slayerXP": 62,
+            "slayerSources": [
+                6
+            ]
         },
         {
             "name": "Turkul Riders",
@@ -43538,7 +43946,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27
+            "slayerXP": 27,
+            "slayerSources": [
+                7
+            ]
         },
         {
             "name": "Turkul Archers",
@@ -43590,7 +44001,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 35
+            "slayerXP": 35,
+            "slayerSources": [
+                7
+            ]
         },
         {
             "name": "Turkul Throwers",
@@ -43652,7 +44066,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 40
+            "slayerXP": 40,
+            "slayerSources": [
+                7
+            ]
         },
         {
             "name": "Turkul Giant",
@@ -43709,7 +44126,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 60
+            "slayerXP": 60,
+            "slayerSources": [
+                7
+            ]
         },
         {
             "name": "Turkul General",
@@ -43766,7 +44186,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 72
+            "slayerXP": 72,
+            "slayerSources": [
+                7
+            ]
         },
         {
             "name": "Sand Beast",
@@ -43812,6 +44235,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 26
+            ],
+            "slayerSources": [
+                7
             ]
         },
         {
@@ -43868,6 +44294,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 27
+            ],
+            "slayerSources": [
+                8
             ]
         },
         {
@@ -43919,6 +44348,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 28
+            ],
+            "slayerSources": [
+                8
             ]
         },
         {
@@ -43975,6 +44407,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 29
+            ],
+            "slayerSources": [
+                8
             ]
         },
         {
@@ -44036,6 +44471,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 30
+            ],
+            "slayerSources": [
+                8
             ]
         },
         {
@@ -44083,6 +44521,9 @@ var melvorData = {
             "specialAttackID": [
                 31,
                 32
+            ],
+            "slayerSources": [
+                9
             ]
         },
         {
@@ -44130,6 +44571,9 @@ var melvorData = {
             "specialAttackID": [
                 31,
                 33
+            ],
+            "slayerSources": [
+                9
             ]
         },
         {
@@ -44182,6 +44626,9 @@ var melvorData = {
             "specialAttackID": [
                 31,
                 34
+            ],
+            "slayerSources": [
+                9
             ]
         },
         {
@@ -44224,6 +44671,9 @@ var melvorData = {
             "specialAttackID": [
                 35,
                 36
+            ],
+            "slayerSources": [
+                10
             ]
         },
         {
@@ -44266,6 +44716,9 @@ var melvorData = {
             "specialAttackID": [
                 35,
                 37
+            ],
+            "slayerSources": [
+                10
             ]
         },
         {
@@ -44308,6 +44761,9 @@ var melvorData = {
             "specialAttackID": [
                 35,
                 38
+            ],
+            "slayerSources": [
+                10
             ]
         },
         {
@@ -44360,7 +44816,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 60
+            "slayerXP": 60,
+            "slayerSources": [
+                3
+            ]
         },
         {
             "name": "Priest",
@@ -44402,7 +44861,10 @@ var melvorData = {
             "lootChance": 100,
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 72
+            "slayerXP": 72,
+            "slayerSources": [
+                3
+            ]
         },
         {
             "name": "Wandering Bard",
@@ -44475,7 +44937,10 @@ var melvorData = {
             ],
             "lootChance": 100,
             "bones": 439,
-            "canSlayer": false
+            "canSlayer": false,
+            "dungeonSources": [
+                14
+            ]
         },
         {
             "name": "Fearful Eye",
@@ -44511,7 +44976,10 @@ var melvorData = {
             ],
             "lootChance": 100,
             "bones": 439,
-            "canSlayer": false
+            "canSlayer": false,
+            "dungeonSources": [
+                14
+            ]
         },
         {
             "name": "Red Devil",
@@ -44547,7 +45015,10 @@ var melvorData = {
             ],
             "lootChance": 100,
             "bones": 439,
-            "canSlayer": false
+            "canSlayer": false,
+            "dungeonSources": [
+                14
+            ]
         },
         {
             "name": "Phoenix",
@@ -44587,6 +45058,9 @@ var melvorData = {
             "hasPassive": true,
             "passiveID": [
                 1
+            ],
+            "dungeonSources": [
+                14
             ]
         },
         {
@@ -44627,6 +45101,9 @@ var melvorData = {
             "hasSpecialAttack": true,
             "specialAttackID": [
                 39
+            ],
+            "dungeonSources": [
+                14
             ]
         },
         {
@@ -44669,6 +45146,9 @@ var melvorData = {
             "specialAttackID": [
                 0,
                 40
+            ],
+            "dungeonSources": [
+                14
             ]
         },
         {
@@ -44713,6 +45193,9 @@ var melvorData = {
                 42,
                 43,
                 44
+            ],
+            "dungeonSources": [
+                14
             ]
         },
         {
@@ -44763,6 +45246,9 @@ var melvorData = {
             "passiveID": [
                 0,
                 2
+            ],
+            "dungeonSources": [
+                15
             ]
         },
         {
@@ -44813,6 +45299,9 @@ var melvorData = {
             "passiveID": [
                 0,
                 3
+            ],
+            "dungeonSources": [
+                15
             ]
         },
         {
@@ -44862,6 +45351,9 @@ var melvorData = {
             "passiveID": [
                 0,
                 4
+            ],
+            "dungeonSources": [
+                15
             ]
         }
     ],
@@ -46212,6 +46704,699 @@ var melvorData = {
                     "qty": 3
                 }
             ]
+        }
+    ],
+    "pets": [
+        {
+            "name": "Beavis",
+            "description": "+5% chance to double logs received from Woodcutting",
+            "media": "assets/media/pets/woodcutting.png",
+            "acquiredBy": "Woodcutting",
+            "skill": 0,
+            "chance": 5
+        },
+        {
+            "name": "Pudding Duckie",
+            "description": "<small>Created by Patreon (Moose)</small><br>5% chance to double the amount of Fish per catch.",
+            "media": "assets/media/pets/fishing.png",
+            "acquiredBy": "Fishing",
+            "skill": 1,
+            "chance": 5
+        },
+        {
+            "name": "Pyro",
+            "description": "+1% Global XP.",
+            "media": "assets/media/pets/firemaking.png",
+            "acquiredBy": "Firemaking",
+            "skill": 2,
+            "chance": 1
+        },
+        {
+            "name": "Cris",
+            "description": "5% Chance to receive 2x Cooked Fish",
+            "media": "assets/media/pets/cooking.svg",
+            "acquiredBy": "Cooking",
+            "skill": 3,
+            "chance": 5
+        },
+        {
+            "name": "Cool Rock",
+            "description": "All mining nodes gain +5 Max HP.<br>Named after CoolRox95",
+            "media": "assets/media/pets/cool_rock.svg",
+            "acquiredBy": "Mining",
+            "skill": 4
+        },
+        {
+            "name": "Puff, the Baby Dragon",
+            "description": "+10% chance to preserve resources when Smithing.",
+            "media": "assets/media/pets/smithing.svg",
+            "acquiredBy": "Smithing",
+            "skill": 5,
+            "chance": 10
+        },
+        {
+            "name": "Snek",
+            "description": "Gain 50% Extra Gold from Thieving",
+            "media": "assets/media/pets/thieving.png",
+            "acquiredBy": "Thieving",
+            "skill": 10
+        },
+        {
+            "name": "Larry, the Lonely Lizard",
+            "description": "+5 Harvest Quantity",
+            "media": "assets/media/pets/farming.png",
+            "acquiredBy": "Farming",
+            "skill": 11
+        },
+        {
+            "name": "Quill",
+            "description": "Reduced Fletching interval by 0.2s",
+            "media": "assets/media/pets/fletching.svg",
+            "acquiredBy": "Fletching",
+            "skill": 13
+        },
+        {
+            "name": "Caaarrrlll",
+            "description": "Reduced Crafting interval by 0.2s",
+            "media": "assets/media/pets/crafting.png",
+            "acquiredBy": "Crafting",
+            "skill": 14
+        },
+        {
+            "name": "Gunter",
+            "description": "+10% chance to preserve Rune Essence when crafting Runes.",
+            "media": "assets/media/pets/runecrafting.svg",
+            "acquiredBy": "Runecrafting",
+            "skill": 15,
+            "chance": 10
+        },
+        {
+            "name": "Gronk",
+            "description": "2% Chance to brew double Potions",
+            "media": "assets/media/pets/herblore.png",
+            "acquiredBy": "Herblore",
+            "skill": 19,
+            "chance": 2
+        },
+        {
+            "name": "Bruce",
+            "description": "Gain +3 Hidden Attack Level",
+            "media": "assets/media/pets/attack.svg",
+            "acquiredBy": "Attack",
+            "skill": 6
+        },
+        {
+            "name": "Lil Ron",
+            "description": "Gain +3 Hidden Strength Level",
+            "media": "assets/media/pets/strength.svg",
+            "acquiredBy": "Strength",
+            "skill": 7
+        },
+        {
+            "name": "Leonardo",
+            "description": "Gain +1% Damage Reduction",
+            "media": "assets/media/pets/defence.svg",
+            "acquiredBy": "Defence",
+            "skill": 8
+        },
+        {
+            "name": "Finn, the Cat",
+            "description": "Gain +10 Maximum HP",
+            "media": "assets/media/pets/hitpoints.png",
+            "acquiredBy": "Hitpoints",
+            "skill": 9
+        },
+        {
+            "name": "Marahute",
+            "description": "+5% Chance to preserve Ammo",
+            "media": "assets/media/pets/ranged.png",
+            "acquiredBy": "Ranged",
+            "skill": 12
+        },
+        {
+            "name": "Salem",
+            "description": "+5% Chance to preserve all Runes when casting Magic",
+            "media": "assets/media/pets/magic.svg",
+            "acquiredBy": "Magic",
+            "skill": 16
+        },
+        {
+            "name": "Monk-ey",
+            "description": "+5% Chance to ignore Prayer Point cost.",
+            "media": "assets/media/pets/prayer.png",
+            "acquiredBy": "Prayer",
+            "skill": 17
+        },
+        {
+            "name": "Asura",
+            "description": "<small>Created by Patreon ( [ ] )</small><br>+20% Extra Slayer Coins from Slayer Tasks",
+            "media": "assets/media/pets/slayer.png",
+            "acquiredBy": "Slayer Task",
+            "skill": 18
+        },
+        {
+            "name": "Golden Golbin",
+            "description": "+1% chance to double loot acquired through combat.",
+            "media": "assets/media/pets/golden_golbin.svg",
+            "acquiredBy": "Combat",
+            "killCount": 42069,
+            "skill": -1
+        },
+        {
+            "name": "Ty",
+            "description": "+3% Global Mastery XP",
+            "media": "assets/media/pets/ty.svg",
+            "acquiredBy": "Mastery",
+            "skill": 0
+        },
+        {
+            "name": "Peri",
+            "description": "+5% Evasion Ratings",
+            "media": "assets/media/pets/peri.svg",
+            "acquiredBy": "Perilous Peaks",
+            "skill": -1
+        },
+        {
+            "name": "Otto",
+            "description": "0.1s Attack Speed Reduction",
+            "media": "assets/media/pets/octopus.svg",
+            "acquiredBy": "Dark Waters",
+            "skill": -1
+        },
+        {
+            "name": "Ripper the Reindeer",
+            "description": "Christmas Event 2020 Pet",
+            "media": "assets/media/pets/ripper.svg",
+            "acquiredBy": "Christmas Event 2020",
+            "skill": -1,
+            "ignoreCompletion": true
+        }
+    ],
+    "skills": {
+        "0": {
+            "name": "Woodcutting",
+            "media": "assets/media/skills/woodcutting/woodcutting.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "1": {
+            "name": "Fishing",
+            "media": "assets/media/skills/fishing/fishing.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "2": {
+            "name": "Firemaking",
+            "media": "assets/media/skills/firemaking/firemaking.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "3": {
+            "name": "Cooking",
+            "media": "assets/media/skills/cooking/cooking.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "4": {
+            "name": "Mining",
+            "media": "assets/media/skills/mining/mining.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "5": {
+            "name": "Smithing",
+            "media": "assets/media/skills/smithing/smithing.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "6": {
+            "name": "Attack",
+            "media": "assets/media/skills/attack/attack.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "7": {
+            "name": "Strength",
+            "media": "assets/media/skills/strength/strength.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "8": {
+            "name": "Defence",
+            "media": "assets/media/skills/defence/defence.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "9": {
+            "name": "Hitpoints",
+            "media": "assets/media/skills/hitpoints/hitpoints.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "10": {
+            "name": "Thieving",
+            "media": "assets/media/skills/thieving/thieving.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "11": {
+            "name": "Farming",
+            "media": "assets/media/skills/farming/farming.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "12": {
+            "name": "Ranged",
+            "media": "assets/media/skills/ranged/ranged.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "13": {
+            "name": "Fletching",
+            "media": "assets/media/skills/fletching/fletching.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "14": {
+            "name": "Crafting",
+            "media": "assets/media/skills/crafting/crafting.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "15": {
+            "name": "Runecrafting",
+            "media": "assets/media/skills/runecrafting/runecrafting.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "16": {
+            "name": "Magic",
+            "media": "assets/media/skills/magic/magic.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "17": {
+            "name": "Prayer",
+            "media": "assets/media/skills/prayer/prayer.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "18": {
+            "name": "Slayer",
+            "media": "assets/media/skills/slayer/slayer.svg",
+            "hasMastery": false,
+            "maxLevel": 99
+        },
+        "19": {
+            "name": "Herblore",
+            "media": "assets/media/skills/herblore/herblore.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        }
+    },
+    "combatAreas": [
+        {
+            "areaName": "Farmlands",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/farmlands.svg",
+            "monsters": [
+                111,
+                37,
+                38,
+                67,
+                68,
+                69
+            ],
+            "difficulty": [
+                0,
+                2
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Dragon Valley",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/dragon_valley.svg",
+            "monsters": [
+                63,
+                64,
+                65,
+                66
+            ],
+            "difficulty": [
+                3,
+                4
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Wet Forest",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/wet_forest.svg",
+            "monsters": [
+                82,
+                14,
+                12,
+                13
+            ],
+            "difficulty": [
+                1,
+                2
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Wizard Tower",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/wizard_tower.svg",
+            "monsters": [
+                70,
+                79,
+                78
+            ],
+            "difficulty": [
+                2,
+                4
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Castle of Kings",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/castle_of_kings.svg",
+            "monsters": [
+                71,
+                0,
+                72,
+                73,
+                74
+            ],
+            "difficulty": [
+                1,
+                3
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Bandit Hideout",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/bandit_hideout.svg",
+            "monsters": [
+                75,
+                76
+            ],
+            "difficulty": [
+                1,
+                2
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Giant Dungeon",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/monsters/hill_giant.svg",
+            "monsters": [
+                1,
+                2
+            ],
+            "difficulty": [
+                1,
+                2
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Sandy Shores",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/sandy_shores.svg",
+            "monsters": [
+                5,
+                4,
+                3,
+                6
+            ],
+            "difficulty": [
+                0,
+                2
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Icy Hills",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/icy_hills.svg",
+            "monsters": [
+                8,
+                7,
+                54
+            ],
+            "difficulty": [
+                1,
+                3
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Golbin Village",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/goblin_village.svg",
+            "monsters": [
+                35,
+                36
+            ],
+            "difficulty": [
+                0
+            ],
+            "slayerItem": 0
+        },
+        {
+            "areaName": "Graveyard",
+            "type": "combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/death.svg",
+            "monsters": [
+                81,
+                59,
+                60,
+                62
+            ],
+            "difficulty": [
+                0,
+                2
+            ],
+            "slayerItem": 0
+        }
+    ],
+    "slayerAreas": [
+        {
+            "areaName": "Penumbra",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/penumbra.svg",
+            "monsters": [
+                9,
+                10,
+                11,
+                15,
+                16,
+                17
+            ],
+            "difficulty": [
+                1,
+                3
+            ],
+            "slayerLevel": 1,
+            "slayerItem": 0,
+            "dungeonCompleted": -1
+        },
+        {
+            "areaName": "Strange Cave",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/strange_cave.svg",
+            "monsters": [
+                20,
+                18,
+                19,
+                21
+            ],
+            "difficulty": [
+                2,
+                3
+            ],
+            "slayerLevel": 10,
+            "dungeonCompleted": -1,
+            "slayerItem": 494
+        },
+        {
+            "areaName": "High Lands",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/high_lands.svg",
+            "monsters": [
+                22,
+                23
+            ],
+            "difficulty": [
+                4
+            ],
+            "slayerLevel": 60,
+            "dungeonCompleted": -1,
+            "slayerItem": 502
+        },
+        {
+            "areaName": "Holy Isles",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/holy_isles.svg",
+            "monsters": [
+                24,
+                25,
+                26,
+                27,
+                137,
+                138
+            ],
+            "difficulty": [
+                2,
+                3
+            ],
+            "slayerLevel": 30,
+            "slayerItem": 0,
+            "dungeonCompleted": -1
+        },
+        {
+            "areaName": "Forest of Goo",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/forest_of_goo.svg",
+            "monsters": [
+                28,
+                29,
+                30,
+                31
+            ],
+            "difficulty": [
+                1,
+                3
+            ],
+            "slayerLevel": 1,
+            "slayerItem": 0,
+            "dungeonCompleted": -1
+        },
+        {
+            "areaName": "Desolate Plains",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/desolate_plains.svg",
+            "monsters": [
+                32,
+                33,
+                34,
+                110
+            ],
+            "difficulty": [
+                4,
+                5
+            ],
+            "slayerLevel": 70,
+            "slayerItem": 0,
+            "dungeonCompleted": -1
+        },
+        {
+            "areaName": "Runic Ruins",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/runic_ruins.svg",
+            "monsters": [
+                116,
+                117,
+                118,
+                119,
+                120
+            ],
+            "difficulty": [
+                3
+            ],
+            "slayerLevel": 45,
+            "slayerItem": 0,
+            "dungeonCompleted": -1,
+            "areaEffect": true,
+            "areaEffectDescription": "-30% Magic Evasion if your Attack Style is not Magic.",
+            "areaEffectValue": 30
+        },
+        {
+            "areaName": "Arid Plains",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/arid_plains.svg",
+            "monsters": [
+                121,
+                122,
+                123,
+                124,
+                125,
+                126
+            ],
+            "difficulty": [
+                3,
+                4
+            ],
+            "slayerLevel": 50,
+            "dungeonCompleted": -1,
+            "slayerItem": 904,
+            "areaEffect": true,
+            "areaEffectDescription": "-30% Food Efficiency.",
+            "areaEffectValue": 30
+        },
+        {
+            "areaName": "Shrouded Badlands",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/shrouded_badlands.svg",
+            "monsters": [
+                127,
+                128,
+                129,
+                130
+            ],
+            "difficulty": [
+                5
+            ],
+            "slayerLevel": 80,
+            "dungeonCompleted": -1,
+            "slayerItem": 905,
+            "areaEffect": true,
+            "areaEffectDescription": "-30% Accuracy Rating.",
+            "areaEffectValue": 30
+        },
+        {
+            "areaName": "Perilous Peaks",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/perilous_peaks.svg",
+            "monsters": [
+                133,
+                132,
+                131
+            ],
+            "difficulty": [
+                5
+            ],
+            "slayerLevel": 85,
+            "dungeonCompleted": -1,
+            "slayerItem": 906,
+            "areaEffect": true,
+            "areaEffectDescription": "-30% Evasion Ratings.",
+            "areaEffectValue": 30
+        },
+        {
+            "areaName": "Dark Waters",
+            "type": "slayer",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/skills/combat/dark_waters.svg",
+            "monsters": [
+                134,
+                135,
+                136
+            ],
+            "difficulty": [
+                5
+            ],
+            "slayerLevel": 90,
+            "slayerItem": 0,
+            "dungeonCompleted": 15,
+            "areaEffect": true,
+            "areaEffectDescription": "Permanent 30% Slow applied.",
+            "areaEffectValue": 30
         }
     ]
 }

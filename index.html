@@ -47,7 +47,7 @@
             height: 1.5rem;
             margin-right: 0.3rem;
         }
-        .table .item-source img {
+        #tableItems .item-source img {
             margin-left: 1.5rem;
         }
         .table th {
@@ -116,16 +116,32 @@
                                 <th scope="col">Source</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr style="display:none"><td class="d-none d-sm-table-cell-none d-md-table-cell"></td><td></td><td></td></tr>
-                        </tbody>
+                        <tbody></tbody>
                     </table>
                 </div>
                 <div class="tab-pane fade" id="tabPets" role="tabpanel" aria-labelledby="pets-tab">
-                    This will have stuff eventually.
+                    <table class="table mb-0 table-sm" style="border-top:none;" id="tablePets">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="d-none d-sm-table-cell-none d-md-table-cell">ID</th>
+                                <th scope="col">Pet Name</th>
+                                <th scope="col">Acquired From</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
                 </div>
                 <div class="tab-pane fade" id="tabMonsters" role="tabpanel" aria-labelledby="monsters-tab">
-                    This will have stuff eventually.
+                    <table class="table mb-0 table-sm" style="border-top:none;" id="tableMonsters">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="d-none d-sm-table-cell-none d-md-table-cell">ID</th>
+                                <th scope="col">Monster Name</th>
+                                <th scope="col">Zone</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
                 </div>
             </div>
         </div>

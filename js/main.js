@@ -1,6 +1,6 @@
 $(document).ready(function() {
     // On Load Code
-    CDNPrefix = 'https://cdn.melvor.net/core/v018/';
+    var CDNPrefix = 'https://cdn.melvor.net/core/v018/';
     $('#gameDataVersion').text(melvorData['dataSource']['gameVersion']);
     $('#gameDataGenerationDate').text(melvorData['dataSource']['generationDate']);
     // Functions
@@ -13,6 +13,25 @@ $(document).ready(function() {
         });
         return missingIDs;
     }
+    function getMissingMonsterIDs(monsterStats) {
+        var missingIDs = Object.keys(melvorData['monsters']);
+        monsterStats.forEach(function(monster) {
+            if (monster.stats[2] > 0) {
+                missingIDs = missingIDs.filter(id => id != monster['monsterID']);
+            }
+        });
+        return missingIDs;
+    }
+    function getMissingPetIDs(petUnlocked) {
+        var missingIDs = [];
+        petUnlocked.forEach(function(unlocked, index) {
+            if (!unlocked) {
+                missingIDs.push(index);
+            }
+        });
+        return missingIDs;
+    }
+
     function itemLink(itemID, brackets = false, image = false) {
         itemName = melvorData['items'][itemID]['name'];
         articleName = itemName.replace('#', '');
@@ -22,6 +41,11 @@ $(document).ready(function() {
         monsterName = melvorData['monsters'][monsterID]['name'];
         articleName = monsterName.replace('#', '');
         return (image?'<img src="' + CDNPrefix + melvorData['monsters'][monsterID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + monsterName + (brackets?']':'') + '</a>';
+    }
+    function petLink(petID, brackets = false, image = false) {
+        petName = melvorData['pets'][petID]['name'];
+        articleName = petName.replace('#', '');
+        return (image?'<img src="' + CDNPrefix + melvorData['pets'][petID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + petName + (brackets?']':'') + '</a>';
     }
     function targetLink(targetID, brackets = false, image = false) {
         targetName = melvorData['thievingTargets'][targetID]['name'];
@@ -45,10 +69,25 @@ $(document).ready(function() {
         articleName = spellName.replace('#', '');
         return (image?'<img src="' + CDNPrefix + melvorData['altMagic'][spellID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + spellName + (brackets?']':'') + '</a>';
     }
+    function skillLink(skillID, brackets = false, image = false) {
+        skillName = melvorData['skills'][skillID]['name'];
+        articleName = skillName.replace('#', '');
+        return (image?'<img src="' + CDNPrefix + melvorData['skills'][skillID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + skillName + (brackets?']':'') + '</a>';
+    }
+    function combatAreaLink(combatAreaID, brackets = false, image = false) {
+        combatAreaName = melvorData['combatAreas'][combatAreaID]['areaName'];
+        articleName = combatAreaName.replace('#', '');
+        // This may be a bug, but the Dungeon asset data has the CDN prefix already specified
+        return (image?'<img src="' + melvorData['combatAreas'][combatAreaID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + combatAreaName + (brackets?']':'') + '</a>';
+    }
+    function slayerAreaLink(slayerAreaID, brackets = false, image = false) {
+        slayerAreaName = melvorData['slayerAreas'][slayerAreaID]['areaName'];
+        articleName = slayerAreaName.replace('#', '');
+        // This may be a bug, but the Dungeon asset data has the CDN prefix already specified
+        return (image?'<img src="' + melvorData['slayerAreas'][slayerAreaID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + slayerAreaName + (brackets?']':'') + '</a>';
+    }
 
-
-
-    function generateSourceString(itemID) {
+    function generateItemSourceString(itemID) {
         sourceStr = ''
         // Add Skill Sources
         var skillMap = {
@@ -203,14 +242,50 @@ $(document).ready(function() {
             sourceStr += melvorData['items'][itemID]['name'].replace('Mastery Token (', '').replace(')', '') + ' (Level 1)';
         }
         if (sourceStr == '') {
-            sourceStr = 'Unknown Source - Will Be Added Soon!'
+            sourceStr = 'Unknown Source - Click the Item Link!'
         }
         return sourceStr;
     }
+    function generateMonsterZoneString(monsterID) {
+        sourceStr = ''
+        // Add Non-Slayer Non-Dungeon Combat Sources
+        zoneStrs = []
+        if (melvorData['monsters'][monsterID].hasOwnProperty('combatSources')) {
+            melvorData['monsters'][monsterID]['combatSources'].forEach(function(source) {
+                zoneStrs.push(combatAreaLink(source, false, true) + ' (Combat)')
+            });
+        }
+        if (melvorData['monsters'][monsterID].hasOwnProperty('slayerSources')) {
+            melvorData['monsters'][monsterID]['slayerSources'].forEach(function(source) {
+                zoneStrs.push(slayerAreaLink(source, false, true) + ' (Slayer)')
+            });
+        }
+        if (melvorData['monsters'][monsterID].hasOwnProperty('dungeonSources')) {
+            melvorData['monsters'][monsterID]['dungeonSources'].forEach(function(source) {
+                zoneStrs.push(dungeonLink(source, false, true) + ' (Dungeon)')
+            });
+        }
+        sourceStr += zoneStrs.join('<br/>');
+        if (sourceStr == '') {
+            sourceStr = 'Unknown Location - Click the Monster Link!'
+        }
+        return sourceStr;
+    }
+    function generatePetAcquisitionString(petID) {
+        if (melvorData['pets'][petID]['skill'] == -1) {
+            // It's not a regular skill
+            return 'Hint: ' + melvorData['pets'][petID]['acquiredBy'] + ' (Click the Pet Link!)';
+        } else {
+            // It's a regular skill
+            return skillLink(melvorData['pets'][petID]['skill'], false, true);
+        }
+    }
+    
 
     // Events
     $('#logo').on('click', () => {
         $('#saveImport').val('');
+        resetMissingTables();
         processSave();
     });
     $('#saveImport').on('blur', () => {
@@ -243,7 +318,8 @@ $(document).ready(function() {
         }).hide();
     }
     function resetMissingTables() {
-        $('#tableItems tbody').html('<tr style="display:none"><td class="d-none d-sm-table-cell-none d-md-table-cell"></td><td></td><td></td></tr>');
+        $('#filter').val('');
+        $('#missingWrapper table tbody').html('');
     }
     function loadSaveData() {
         // Quit if blank save
@@ -290,11 +366,19 @@ $(document).ready(function() {
             $('#missingWrapper').addClass('d-none');
             resetMissingTables();
         } else {
-            missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
+            var missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
+            var missingMonsterIDs = getMissingMonsterIDs(saveJSON['monsterStats']);
+            var missingPetIDs = getMissingPetIDs(saveJSON['petUnlocked']);
             // Clear all entries
             resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
-                $('#tableItems tbody tr:last').after('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
+                $('#tableItems > tbody:last-child').append('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateItemSourceString(itemID) + '</td></tr>');
+            });
+            missingMonsterIDs.forEach(function(monsterID) {
+                $('#tableMonsters > tbody:last-child').append('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + monsterID + '</td><td>' + monsterLink(monsterID, false, true) + '</td><td class="item-source">' + generateMonsterZoneString(monsterID) + '</td></tr>');
+            });
+            missingPetIDs.forEach(function(petID) {
+                $('#tablePets > tbody:last-child').append('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + petID + '</td><td>' + petLink(petID, false, true) + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
             });
             // Show tables
             $('#missingWrapper').removeClass('d-none');
