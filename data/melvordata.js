@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.18.2",
-        "generationDate": "2021-01-11T21:08:21.143Z"
+        "generationDate": "2021-01-11T22:10:58.986Z"
     },
     "items": [
         {
@@ -46867,7 +46867,7 @@ var melvorData = {
             "description": "+3% Global Mastery XP",
             "media": "assets/media/pets/ty.svg",
             "acquiredBy": "Mastery",
-            "skill": 0
+            "skill": -1
         },
         {
             "name": "Peri",

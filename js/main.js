@@ -372,13 +372,31 @@ $(document).ready(function() {
             // Clear all entries
             resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
-                $('#tableItems > tbody:last-child').append('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateItemSourceString(itemID) + '</td></tr>');
+                var rowClass = ' class=""';
+                var rowNote = '';
+                if (melvorData['items'][itemID]['ignoreCompletion'] == true) {
+                    rowClass = ' class="table-warning"';
+                    rowNote = ' (Not Required)';
+                }
+                $('#tableItems > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + itemID + '</td><td>' + itemLink(itemID, false, true) + rowNote + '</td><td class="item-source">' + generateItemSourceString(itemID) + '</td></tr>');
             });
             missingMonsterIDs.forEach(function(monsterID) {
-                $('#tableMonsters > tbody:last-child').append('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + monsterID + '</td><td>' + monsterLink(monsterID, false, true) + '</td><td class="item-source">' + generateMonsterZoneString(monsterID) + '</td></tr>');
+                var rowClass = ' class=""';
+                var rowNote = '';
+                if (melvorData['monsters'][monsterID]['ignoreCompletion'] == true) {
+                    rowClass = ' class="table-warning"';
+                    rowNote = ' (Not Required)';
+                }
+                $('#tableMonsters > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + monsterID + '</td><td>' + monsterLink(monsterID, false, true) + rowNote + '</td><td class="item-source">' + generateMonsterZoneString(monsterID) + '</td></tr>');
             });
             missingPetIDs.forEach(function(petID) {
-                $('#tablePets > tbody:last-child').append('<tr><td class="d-none d-sm-table-cell-none d-md-table-cell">' + petID + '</td><td>' + petLink(petID, false, true) + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
+                var rowClass = ' class=""';
+                var rowNote = '';
+                if (melvorData['pets'][petID]['ignoreCompletion'] == true) {
+                    rowClass = ' class="table-warning"';
+                    rowNote = ' (Not Required)';
+                }
+                $('#tablePets > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + petID + '</td><td>' + petLink(petID, false, true) + rowNote + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
             });
             // Show tables
             $('#missingWrapper').removeClass('d-none');
