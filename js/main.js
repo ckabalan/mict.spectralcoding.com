@@ -210,16 +210,19 @@ $(document).ready(function() {
 
     // Events
     $('#saveImport').on('blur', () => {
-        if ($('#saveImport').val()) {
-            // https://stackoverflow.com/a/41106346/606974
-            saveJSON = JSON.parse(pako.ungzip(Uint8Array.from(atob($('#saveImport').val()), c => c.charCodeAt(0)), { to: 'string' }));
-            //saveData = JSON.stringify(saveJSON, null, 2);
-            // Convert Nulls to prevent errors
-            saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
+        var saveJSON = loadSaveData();
+        if (!saveJSON) {
+            // Hide and and reset tables
+            $('#missingWrapper').addClass('d-none');
+            resetMissingTables();
+        } else {
             missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
+            // Clear all entries
+            resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
                 $('#tableItems tbody tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
             });
+            // Show tables
             $('#missingWrapper').removeClass('d-none');
         }
     });
@@ -248,5 +251,46 @@ $(document).ready(function() {
         dataset.filter(function(index, item) {
             return $(item).find('td').text().toLowerCase().indexOf(selection) === -1;
         }).hide();
+    }
+    function resetMissingTables() {
+        $('#tableItems tbody').val('<tr style="display:none"></tr>');
+    }
+    function loadSaveData() {
+        // Quit if blank save
+        if (!$('#saveImport').val()) {
+            $('#saveLoadAlert').text('');
+            $('#saveLoadAlert').addClass('d-none');
+            return false;
+        }
+        // Quit if corrupt save (unable to un-base64 and un-gzip).
+        try {
+            // https://stackoverflow.com/a/41106346/606974
+            saveJSON = JSON.parse(pako.ungzip(Uint8Array.from(atob($('#saveImport').val()), c => c.charCodeAt(0)), { to: 'string' }));
+        }
+        catch(err) {
+            $('#saveLoadAlert').html('<span style="font-weight:bold">Save data corrupt!</span><br/>Did you accidentally add any text to the save data? Steps for retreiving sava data are found by clicking the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/></svg> icon above.');
+            $('#saveLoadAlert').removeClass('d-none');
+            return false;
+        }
+        // Quit if it's not a Melvor Idle save
+        if (!saveJSON.hasOwnProperty('accountGameVersion')) {
+            $('#saveLoadAlert').html('<span style="font-weight:bold">Not a Melvor Idle Save!</span><br/>The save data was decoded but does not appear to contain Melvor Idle save data. Steps for retreiving sava data are found by clicking the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/><path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/></svg> icon above.');
+            $('#saveLoadAlert').removeClass('d-none');
+            return false;
+        }
+        // Quit if it's an older game version
+        if (saveJSON['accountGameVersion'] < 121) {
+            // Not sure what 121 signifies, but I assume this is the right
+            // variable to use for game compatibility checking.
+            $('#saveLoadAlert').html('<span style="font-weight:bold">Save From Old Game Version!</span><br/>The save data appears to be from an older version of Melvor Idle. Please try refreshing or restarting your Melvor Idle app or browser window and generate a new save data export.');
+            $('#saveLoadAlert').removeClass('d-none');
+            return false;
+        }
+        // Save is valid, so hide any alerts
+        $('#saveLoadAlert').text('');
+        $('#saveLoadAlert').addClass('d-none');
+        // Convert Nulls to prevent errors
+        saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
+        return saveJSON;
     }
 });
