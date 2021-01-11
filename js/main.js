@@ -243,7 +243,7 @@ $(document).ready(function() {
         }).hide();
     }
     function resetMissingTables() {
-        $('#tableItems tbody').val('<tr style="display:none"></tr>');
+        $('#tableItems tbody').val('<tr style="display:none"><td></td><td></td><td></td></tr>');
     }
     function loadSaveData() {
         // Quit if blank save
