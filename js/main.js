@@ -209,22 +209,12 @@ $(document).ready(function() {
     }
 
     // Events
+    $('#logo').on('click', () => {
+        $('#saveImport').val('');
+        processSave();
+    });
     $('#saveImport').on('blur', () => {
-        var saveJSON = loadSaveData();
-        if (!saveJSON) {
-            // Hide and and reset tables
-            $('#missingWrapper').addClass('d-none');
-            resetMissingTables();
-        } else {
-            missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
-            // Clear all entries
-            resetMissingTables();
-            missingItemIDs.forEach(function(itemID) {
-                $('#tableItems tbody tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
-            });
-            // Show tables
-            $('#missingWrapper').removeClass('d-none');
-        }
+        processSave();
     });
     $('#filter').on('input', function(){
         // https://stackoverflow.com/a/41554434/606974
@@ -292,5 +282,22 @@ $(document).ready(function() {
         // Convert Nulls to prevent errors
         saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
         return saveJSON;
+    }
+    function processSave() {
+        var saveJSON = loadSaveData();
+        if (!saveJSON) {
+            // Hide and and reset tables
+            $('#missingWrapper').addClass('d-none');
+            resetMissingTables();
+        } else {
+            missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
+            // Clear all entries
+            resetMissingTables();
+            missingItemIDs.forEach(function(itemID) {
+                $('#tableItems tbody tr:last').after('<tr><td>' + itemID + '</td><td>' + itemLink(itemID, false, true) + '</td><td class="item-source">' + generateSourceString(itemID) + '</td></tr>');
+            });
+            // Show tables
+            $('#missingWrapper').removeClass('d-none');
+        }
     }
 });
