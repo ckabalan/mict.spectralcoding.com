@@ -18,7 +18,18 @@ $(document).ready(function() {
         }
         addSourcesToItems(exp);
         addZonesToMonsters(exp);
+        fixPets(exp);
         return exp;
+    }
+    function fixPets(exp) {
+        exp['pets'].forEach(function(pet, petID) {
+            // Ty incorrectly associated with Woodcutting. Remove the association.
+            if (exp['pets'][petID]['name'] == 'Ty') {
+                if (exp['pets'][petID]['skill'] === 0) {
+                    exp['pets'][petID]['skill'] = -1;
+                }
+            }
+        });
     }
     function addZonesToMonsters(exp) {
         exp['combatAreas'].forEach(function(combatArea, combatAreaID) {
