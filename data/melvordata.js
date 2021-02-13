@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.18.2",
-        "generationDate": "2021-01-11T22:10:58.986Z"
+        "generationDate": "2021-02-13T04:50:49.108Z"
     },
     "items": [
         {
