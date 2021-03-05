@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
-        "gameVersion": "Alpha v0.18.2",
-        "generationDate": "2021-02-13T04:50:49.108Z"
+        "gameVersion": "Alpha v0.19",
+        "generationDate": "2021-03-05T23:48:55.493Z"
     },
     "items": [
         {
@@ -7387,6 +7387,7 @@ var melvorData = {
             "category": "Farming",
             "type": "Miscellaneous",
             "name": "Compost",
+            "description": "Used in Farming. Each use of Compost on a Farming Plot increased the crop survival chance by +10%. Can only be applied before the crop is planted.",
             "sellsFor": 250,
             "buysFor": 500,
             "media": "assets/media/bank/compost.svg",
@@ -10519,7 +10520,7 @@ var melvorData = {
             "type": "Amulet",
             "tier": "special",
             "name": "Amulet of Fishing",
-            "description": "20% decreased Fishing interval.",
+            "description": "-15% Fishing interval.",
             "equipmentSlot": 6,
             "sellsFor": 100000,
             "media": "assets/media/shop/amulet_of_fishing.svg",
@@ -10533,6 +10534,14 @@ var melvorData = {
             "attackSpeed": 0,
             "damageReduction": 0,
             "fishingSpeedBonus": 20,
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        1,
+                        15
+                    ]
+                ]
+            },
             "chestSources": [
                 {
                     "chest": 120,
@@ -11312,7 +11321,6 @@ var melvorData = {
             "rangedDefenceBonus": 0,
             "rangedStrengthBonus": 7,
             "fletchingLevel": 1,
-            "fletchingXP": 18,
             "rangedLevelRequired": 1,
             "fletchingID": 2,
             "fletchReq": [
@@ -11326,6 +11334,7 @@ var melvorData = {
                 }
             ],
             "fletchQty": 15,
+            "fletchingXP": 18,
             "ammoType": 0,
             "fletchingCategory": 0,
             "monsterSources": [
@@ -11371,7 +11380,6 @@ var melvorData = {
             "rangedDefenceBonus": 0,
             "rangedStrengthBonus": 10,
             "fletchingLevel": 15,
-            "fletchingXP": 35,
             "rangedLevelRequired": 1,
             "fletchingID": 3,
             "fletchReq": [
@@ -11385,6 +11393,7 @@ var melvorData = {
                 }
             ],
             "fletchQty": 15,
+            "fletchingXP": 35,
             "ammoType": 0,
             "fletchingCategory": 0,
             "monsterSources": [
@@ -12055,6 +12064,7 @@ var melvorData = {
             "category": "Fletching",
             "type": "Arrows",
             "name": "Feathers",
+            "description": "Used to create Arrows in Fletching.",
             "sellsFor": 2,
             "buysFor": 8,
             "media": "assets/media/bank/feathers.svg",
@@ -12355,6 +12365,7 @@ var melvorData = {
             "category": "Fletching",
             "type": "Unstrung Bows",
             "name": "Bowstring",
+            "description": "Used to string Bows in Fletching.",
             "buysFor": 24,
             "sellsFor": 7,
             "media": "assets/media/bank/bowstring.svg",
@@ -12369,6 +12380,7 @@ var melvorData = {
             "category": "Crafting",
             "type": "Leather",
             "name": "Leather",
+            "description": "Used to create Leather gear in Crafting.",
             "buysFor": 100,
             "sellsFor": 50,
             "media": "assets/media/bank/leather.svg",
@@ -12395,6 +12407,7 @@ var melvorData = {
             "category": "Crafting",
             "type": "Dragonhide",
             "name": "Green Dragonhide",
+            "description": "Used to create Green Dragonhide gear in Crafting.",
             "buysFor": 100,
             "buysForLeather": 1,
             "sellsFor": 200,
@@ -12414,6 +12427,7 @@ var melvorData = {
             "category": "Crafting",
             "type": "Dragonhide",
             "name": "Blue Dragonhide",
+            "description": "Used to create Blue Dragonhide gear in Crafting.",
             "buysForLeather": 1,
             "buysFor": 250,
             "sellsFor": 300,
@@ -12433,6 +12447,7 @@ var melvorData = {
             "category": "Crafting",
             "type": "Dragonhide",
             "name": "Red Dragonhide",
+            "description": "Used to create Red Dragonhide gear in Crafting.",
             "buysForLeather": 2,
             "buysFor": 350,
             "sellsFor": 400,
@@ -12452,6 +12467,7 @@ var melvorData = {
             "category": "Crafting",
             "type": "Dragonhide",
             "name": "Black Dragonhide",
+            "description": "Used to create Black Dragonhide gear in Crafting.",
             "sellsFor": 850,
             "media": "assets/media/bank/dragonhide_black.svg",
             "monsterSources": [
@@ -13566,6 +13582,9 @@ var melvorData = {
             "craftQty": 1,
             "craftingLevel": 10,
             "craftingXP": 24,
+            "modifiers": {
+                "increasedGPFromMonsters": 15
+            },
             "monsterSources": [
                 {
                     "monster": 9,
@@ -13619,7 +13638,7 @@ var melvorData = {
             "category": "Combat",
             "type": "Ring",
             "name": "Gold Ruby Ring",
-            "description": "Passive: Increases HP Regeneration by 10%",
+            "description": "Passive: +10% Hitpoint Regeneration",
             "isPassiveItem": true,
             "equipmentSlot": 7,
             "sellsFor": 467,
@@ -13652,7 +13671,10 @@ var melvorData = {
             "craftQty": 1,
             "craftingLevel": 25,
             "craftingXP": 60,
-            "hpRegenBonus": 10
+            "hpRegenBonus": 10,
+            "modifiers": {
+                "increasedHitpointRegeneration": 10
+            }
         },
         {
             "category": "Combat",
@@ -13691,6 +13713,38 @@ var melvorData = {
             "craftQty": 1,
             "craftingLevel": 50,
             "craftingXP": 130,
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        6,
+                        7
+                    ],
+                    [
+                        7,
+                        7
+                    ],
+                    [
+                        8,
+                        7
+                    ],
+                    [
+                        9,
+                        7
+                    ],
+                    [
+                        12,
+                        7
+                    ],
+                    [
+                        16,
+                        7
+                    ],
+                    [
+                        17,
+                        7
+                    ]
+                ]
+            },
             "monsterSources": [
                 {
                     "monster": 9,
@@ -14151,7 +14205,8 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 0,
-            "gloveID": 0
+            "gloveID": 0,
+            "buysFor": 50000
         },
         {
             "category": "Misc",
@@ -14172,7 +14227,8 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 0,
-            "gloveID": 1
+            "gloveID": 1,
+            "buysFor": 75000
         },
         {
             "category": "Misc",
@@ -14193,7 +14249,8 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 0,
-            "gloveID": 2
+            "gloveID": 2,
+            "buysFor": 100000
         },
         {
             "category": "Misc",
@@ -14214,7 +14271,8 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 0,
-            "gloveID": 3
+            "gloveID": 3,
+            "buysFor": 100000
         },
         {
             "category": "Misc",
@@ -14235,7 +14293,8 @@ var melvorData = {
             "damageReduction": 0,
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 0,
-            "gloveID": 4
+            "gloveID": 4,
+            "buysFor": 500000
         },
         {
             "category": "Combat",
@@ -15357,6 +15416,9 @@ var melvorData = {
             "magicAttackBonus": -10,
             "magicDefenceBonus": 4,
             "ammoPreservation": 5,
+            "modifiers": {
+                "increasedAmmoPreservation": 5
+            },
             "chestSources": [
                 {
                     "chest": 363,
@@ -15392,6 +15454,9 @@ var melvorData = {
             "magicAttackBonus": -10,
             "magicDefenceBonus": 4,
             "ammoPreservation": 5,
+            "modifiers": {
+                "increasedAmmoPreservation": 5
+            },
             "chestSources": [
                 {
                     "chest": 363,
@@ -18285,10 +18350,16 @@ var melvorData = {
             "magicDefenceBonus": 8,
             "magicDamageBonus": 2,
             "magicLevelRequired": 70,
-            "increasedMinAirSpellDmg": 5,
-            "increasedMinWaterSpellDmg": 5,
-            "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5,
+            "increasedMinAirSpellDmg": 0.5,
+            "increasedMinWaterSpellDmg": 0.5,
+            "increasedMinEarthSpellDmg": 0.5,
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5,
+                "increasedMinWaterSpellDmg": 0.5,
+                "increasedMinEarthSpellDmg": 0.5,
+                "increasedMinFireSpellDmg": 0.5
+            },
             "chestSources": [
                 {
                     "chest": 461,
@@ -18323,10 +18394,16 @@ var melvorData = {
             "magicDefenceBonus": 28,
             "magicDamageBonus": 3,
             "magicLevelRequired": 70,
-            "increasedMinAirSpellDmg": 5,
-            "increasedMinWaterSpellDmg": 5,
-            "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5,
+            "increasedMinAirSpellDmg": 0.5,
+            "increasedMinWaterSpellDmg": 0.5,
+            "increasedMinEarthSpellDmg": 0.5,
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5,
+                "increasedMinWaterSpellDmg": 0.5,
+                "increasedMinEarthSpellDmg": 0.5,
+                "increasedMinFireSpellDmg": 0.5
+            },
             "chestSources": [
                 {
                     "chest": 461,
@@ -18361,10 +18438,16 @@ var melvorData = {
             "magicDefenceBonus": 20,
             "magicDamageBonus": 3,
             "magicLevelRequired": 70,
-            "increasedMinAirSpellDmg": 5,
-            "increasedMinWaterSpellDmg": 5,
-            "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5,
+            "increasedMinAirSpellDmg": 0.5,
+            "increasedMinWaterSpellDmg": 0.5,
+            "increasedMinEarthSpellDmg": 0.5,
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5,
+                "increasedMinWaterSpellDmg": 0.5,
+                "increasedMinEarthSpellDmg": 0.5,
+                "increasedMinFireSpellDmg": 0.5
+            },
             "chestSources": [
                 {
                     "chest": 461,
@@ -18399,10 +18482,16 @@ var melvorData = {
             "magicDefenceBonus": 7,
             "magicDamageBonus": 1,
             "magicLevelRequired": 70,
-            "increasedMinAirSpellDmg": 5,
-            "increasedMinWaterSpellDmg": 5,
-            "increasedEarthFireSpellDmg": 5,
-            "increasedMinFireSpellDmg": 5,
+            "increasedMinAirSpellDmg": 0.5,
+            "increasedMinWaterSpellDmg": 0.5,
+            "increasedMinEarthSpellDmg": 0.5,
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5,
+                "increasedMinWaterSpellDmg": 0.5,
+                "increasedMinEarthSpellDmg": 0.5,
+                "increasedMinFireSpellDmg": 0.5
+            },
             "chestSources": [
                 {
                     "chest": 461,
@@ -19822,14 +19911,22 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
-            "rangedStrengthBonus": 0
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "decreasedSkillInterval": [
+                    [
+                        14,
+                        500
+                    ]
+                ]
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "Skillcape",
             "name": "Defence Skillcape",
-            "description": "+10 All Defences",
+            "description": "+40 All Defences",
             "canUpgrade": false,
             "equipmentSlot": 10,
             "buysFor": 1000000,
@@ -19841,11 +19938,11 @@ var melvorData = {
                 0
             ],
             "strengthBonus": 0,
-            "defenceBonus": 19,
+            "defenceBonus": 49,
             "damageReduction": 0,
             "rangedAttackBonus": 0,
-            "rangedDefenceBonus": 19,
-            "magicDefenceBonus": 19,
+            "rangedDefenceBonus": 49,
+            "magicDefenceBonus": 49,
             "rangedStrengthBonus": 0
         },
         {
@@ -19853,7 +19950,7 @@ var melvorData = {
             "type": "Armour",
             "tier": "Skillcape",
             "name": "Farming Skillcape",
-            "description": "+20% Crop Harvest Quantity. Adding Compost is free.",
+            "description": "+20% Increased Farming Yield. Adding Compost is free.",
             "canUpgrade": false,
             "equipmentSlot": 10,
             "buysFor": 1000000,
@@ -19871,7 +19968,10 @@ var melvorData = {
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
             "rangedStrengthBonus": 0,
-            "harvestBonus": 20
+            "harvestBonus": 20,
+            "modifiers": {
+                "increasedFarmingYield": 20
+            }
         },
         {
             "category": "Combat",
@@ -19895,7 +19995,10 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
-            "rangedStrengthBonus": 0
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "increasedGlobalSkillXP": 5
+            }
         },
         {
             "category": "Combat",
@@ -19967,7 +20070,10 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
-            "rangedStrengthBonus": 0
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "increasedHPRegenFlat": 10
+            }
         },
         {
             "category": "Combat",
@@ -20040,14 +20146,17 @@ var melvorData = {
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
             "rangedStrengthBonus": 0,
-            "ammoPreservation": 50
+            "ammoPreservation": 50,
+            "modifiers": {
+                "increasedAmmoPreservation": 50
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "Skillcape",
             "name": "Runecrafting Skillcape",
-            "description": "35% Chance to preserve Runecrafting resources",
+            "description": "+35% Chance to preserve Runecrafting resources",
             "canUpgrade": false,
             "equipmentSlot": 10,
             "buysFor": 1000000,
@@ -20064,7 +20173,15 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
-            "rangedStrengthBonus": 0
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        15,
+                        35
+                    ]
+                ]
+            }
         },
         {
             "category": "Combat",
@@ -20136,14 +20253,22 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
-            "rangedStrengthBonus": 0
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "decreasedSkillInterval": [
+                    [
+                        10,
+                        500
+                    ]
+                ]
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "Skillcape",
             "name": "Woodcutting Skillcape",
-            "description": "50% Decreased Woodcutting Interval",
+            "description": "-15% Woodcutting Interval",
             "canUpgrade": false,
             "equipmentSlot": 10,
             "buysFor": 1000000,
@@ -20160,7 +20285,15 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
-            "rangedStrengthBonus": 0
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        0,
+                        15
+                    ]
+                ]
+            }
         },
         {
             "category": "Dungeons",
@@ -20760,10 +20893,9 @@ var melvorData = {
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Helmet (Basic)",
-            "description": "Passive: 10% Slayer Area Effect Negation.",
+            "description": "Passive: +5% Flat Slayer Area Effect Negation.",
             "equipmentSlot": 0,
             "isPassiveItem": true,
-            "canUpgrade": true,
             "sellsFor": 156,
             "media": "assets/media/bank/armour_slayer_helmet_basic.svg",
             "attackBonus": [
@@ -20785,19 +20917,22 @@ var melvorData = {
                 1,
                 20
             ],
-            "slayerAreaEffectNegationPercent": 10,
+            "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 486
+            "trimmedItemID": 486,
+            "modifiers": {
+                "increasedSlayerXP": 5,
+                "increasedSlayerAreaEffectNegationFlat": 5
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Platebody (Basic)",
-            "description": "Passive: 10% Slayer Area Effect Negation.",
+            "description": "Passive: +5% Flat Slayer Area Effect Negation.",
             "equipmentSlot": 1,
             "isPassiveItem": true,
-            "canUpgrade": true,
             "sellsFor": 213,
             "media": "assets/media/bank/armour_slayer_platebody_basic.svg",
             "attackBonus": [
@@ -20820,18 +20955,22 @@ var melvorData = {
                 20
             ],
             "slayerAreaEffectNegationPercent": 10,
+            "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 487
+            "trimmedItemID": 487,
+            "modifiers": {
+                "increasedSlayerXP": 5,
+                "increasedSlayerAreaEffectNegationFlat": 5
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Helmet (Strong)",
-            "description": "Passive: 20% Slayer Area Effect Negation.",
+            "description": "Passive: +10% Flat Slayer Area Effect Negation.",
             "equipmentSlot": 0,
             "isPassiveItem": true,
-            "canUpgrade": true,
             "sellsFor": 1300,
             "media": "assets/media/bank/armour_slayer_helmet_strong.svg",
             "attackBonus": [
@@ -20855,6 +20994,7 @@ var melvorData = {
                 30
             ],
             "slayerAreaEffectNegationPercent": 20,
+            "canUpgrade": true,
             "canMultiUpgrade": true,
             "trimmedItemID": 488,
             "itemsRequired": [
@@ -20866,17 +21006,20 @@ var melvorData = {
                     953,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 15,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Platebody (Strong)",
-            "description": "Passive: 20% Slayer Area Effect Negation.",
+            "description": "Passive: +10% Flat Slayer Area Effect Negation.",
             "equipmentSlot": 1,
             "isPassiveItem": true,
-            "canUpgrade": true,
             "sellsFor": 1850,
             "media": "assets/media/bank/armour_slayer_platebody_strong.svg",
             "attackBonus": [
@@ -20900,6 +21043,7 @@ var melvorData = {
                 30
             ],
             "slayerAreaEffectNegationPercent": 20,
+            "canUpgrade": true,
             "canMultiUpgrade": true,
             "trimmedItemID": 489,
             "itemsRequired": [
@@ -20911,17 +21055,20 @@ var melvorData = {
                     953,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 15,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Helmet (Elite)",
-            "description": "Passive: 30% Slayer Area Effect Negation.",
+            "description": "Passive: +15% Flat Slayer Area Effect Negation.",
             "equipmentSlot": 0,
             "isPassiveItem": true,
-            "canUpgrade": true,
             "sellsFor": 4622,
             "media": "assets/media/bank/armour_slayer_helmet_elite.svg",
             "attackBonus": [
@@ -20946,6 +21093,7 @@ var melvorData = {
                 40
             ],
             "slayerAreaEffectNegationPercent": 30,
+            "canUpgrade": true,
             "canMultiUpgrade": true,
             "trimmedItemID": 942,
             "itemsRequired": [
@@ -20957,17 +21105,20 @@ var melvorData = {
                     954,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 30,
+                "increasedSlayerAreaEffectNegationFlat": 15
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Platebody (Elite)",
-            "description": "Passive: 30% Slayer Area Effect Negation.",
+            "description": "Passive: +15% Flat Slayer Area Effect Negation.",
             "equipmentSlot": 1,
             "isPassiveItem": true,
-            "canUpgrade": true,
             "sellsFor": 5700,
             "media": "assets/media/bank/armour_slayer_platebody_elite.svg",
             "attackBonus": [
@@ -20992,6 +21143,7 @@ var melvorData = {
                 40
             ],
             "slayerAreaEffectNegationPercent": 30,
+            "canUpgrade": true,
             "canMultiUpgrade": true,
             "trimmedItemID": 943,
             "itemsRequired": [
@@ -21003,7 +21155,11 @@ var melvorData = {
                     954,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 30,
+                "increasedSlayerAreaEffectNegationFlat": 15
+            }
         },
         {
             "category": "Combat",
@@ -21457,6 +21613,9 @@ var melvorData = {
             "rangedDefenceBonus": 9,
             "rangedStrengthBonus": 0,
             "ammoPreservation": 20,
+            "modifiers": {
+                "increasedAmmoPreservation": 20
+            },
             "monsterSources": [
                 {
                     "monster": 27,
@@ -21576,7 +21735,7 @@ var melvorData = {
             "type": "Armour",
             "tier": "Skillcape",
             "name": "Slayer Skillcape",
-            "description": "Bypass equipment requirements for Slayer Areas. 60% Area Effect Negation. +5% Damage Dealt against Slayer Task Enemies.",
+            "description": "Bypass equipment requirements for Slayer Areas. +25% Flat Area Effect Negation. +5% Damage Dealt against Slayer Task Enemies.",
             "canUpgrade": false,
             "hasStats": true,
             "equipmentSlot": 10,
@@ -21595,7 +21754,11 @@ var melvorData = {
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": 9,
             "rangedStrengthBonus": 0,
-            "slayerAreaEffectNegationPercent": 60
+            "slayerAreaEffectNegationPercent": 60,
+            "modifiers": {
+                "increasedDamageToSlayerTasks": 5,
+                "increasedSlayerAreaEffectNegationFlat": 25
+            }
         },
         {
             "category": "Misc",
@@ -21709,7 +21872,7 @@ var melvorData = {
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Hat (Basic)",
-            "description": "Passive: 10% Slayer Area Effect Negation.",
+            "description": "Passive: +5% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "equipmentSlot": 0,
@@ -21735,14 +21898,18 @@ var melvorData = {
             "slayerAreaEffectNegationPercent": 10,
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 509
+            "trimmedItemID": 509,
+            "modifiers": {
+                "increasedSlayerXP": 5,
+                "increasedSlayerAreaEffectNegationFlat": 5
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Robes (Basic)",
-            "description": "Passive: 10% Slayer Area Effect Negation.",
+            "description": "Passive: +5% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "equipmentSlot": 1,
@@ -21768,14 +21935,18 @@ var melvorData = {
             "slayerAreaEffectNegationPercent": 10,
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 510
+            "trimmedItemID": 510,
+            "modifiers": {
+                "increasedSlayerXP": 5,
+                "increasedSlayerAreaEffectNegationFlat": 5
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Hat (Strong)",
-            "description": "Passive: 20% Slayer Area Effect Negation.",
+            "description": "Passive: +10% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "equipmentSlot": 0,
@@ -21812,14 +21983,18 @@ var melvorData = {
                     953,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 15,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Robes (Strong)",
-            "description": "Passive: 20% Slayer Area Effect Negation.",
+            "description": "Passive: +10% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "equipmentSlot": 1,
@@ -21856,14 +22031,18 @@ var melvorData = {
                     953,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 15,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Hat (Elite)",
-            "description": "Passive: 30% Slayer Area Effect Negation.",
+            "description": "Passive: +15% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "equipmentSlot": 0,
@@ -21901,14 +22080,18 @@ var melvorData = {
                     954,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 30,
+                "increasedSlayerAreaEffectNegationFlat": 15
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Robes (Elite)",
-            "description": "Passive: 30% Slayer Area Effect Negation.",
+            "description": "Passive: +15% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "equipmentSlot": 1,
@@ -21946,7 +22129,11 @@ var melvorData = {
                     954,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 30,
+                "increasedSlayerAreaEffectNegationFlat": 15
+            }
         },
         {
             "category": "Combat",
@@ -21955,7 +22142,7 @@ var melvorData = {
             "name": "Slayer Cowl (Basic)",
             "equipmentSlot": 0,
             "isPassiveItem": true,
-            "description": "Passive: 10% Slayer Area Effect Negation.",
+            "description": "Passive: +5% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "sellsFor": 200,
@@ -21981,7 +22168,11 @@ var melvorData = {
             "slayerAreaEffectNegationPercent": 10,
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 515
+            "trimmedItemID": 515,
+            "modifiers": {
+                "increasedSlayerXP": 5,
+                "increasedSlayerAreaEffectNegationFlat": 5
+            }
         },
         {
             "category": "Combat",
@@ -21990,7 +22181,7 @@ var melvorData = {
             "name": "Slayer Leather Body (Basic)",
             "equipmentSlot": 1,
             "isPassiveItem": true,
-            "description": "Passive: 10% Slayer Area Effect Negation.",
+            "description": "Passive: +5% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "sellsFor": 400,
@@ -22016,7 +22207,11 @@ var melvorData = {
             "slayerAreaEffectNegationPercent": 10,
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 516
+            "trimmedItemID": 516,
+            "modifiers": {
+                "increasedSlayerXP": 5,
+                "increasedSlayerAreaEffectNegationFlat": 5
+            }
         },
         {
             "category": "Combat",
@@ -22025,7 +22220,7 @@ var melvorData = {
             "name": "Slayer Cowl (Strong)",
             "equipmentSlot": 0,
             "isPassiveItem": true,
-            "description": "Passive: 20% Slayer Area Effect Negation.",
+            "description": "Passive: +10% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "sellsFor": 1200,
@@ -22062,7 +22257,11 @@ var melvorData = {
                     953,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 15,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            }
         },
         {
             "category": "Combat",
@@ -22071,7 +22270,7 @@ var melvorData = {
             "name": "Slayer Leather Body (Strong)",
             "equipmentSlot": 1,
             "isPassiveItem": true,
-            "description": "Passive: 20% Slayer Area Effect Negation.",
+            "description": "Passive: +10% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "sellsFor": 1400,
@@ -22108,7 +22307,11 @@ var melvorData = {
                     953,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 15,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            }
         },
         {
             "category": "Combat",
@@ -22117,7 +22320,7 @@ var melvorData = {
             "name": "Slayer Cowl (Elite)",
             "equipmentSlot": 0,
             "isPassiveItem": true,
-            "description": "Passive: 30% Slayer Area Effect Negation.",
+            "description": "Passive: +15% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "sellsFor": 31200,
@@ -22155,7 +22358,11 @@ var melvorData = {
                     954,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 30,
+                "increasedSlayerAreaEffectNegationFlat": 15
+            }
         },
         {
             "category": "Combat",
@@ -22164,7 +22371,7 @@ var melvorData = {
             "name": "Slayer Leather Body (Elite)",
             "equipmentSlot": 1,
             "isPassiveItem": true,
-            "description": "Passive: 30% Slayer Area Effect Negation.",
+            "description": "Passive: +15% Flat Slayer Area Effect Negation.",
             "canEquip": true,
             "hasStats": true,
             "sellsFor": 41400,
@@ -22202,7 +22409,11 @@ var melvorData = {
                     954,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedSlayerXP": 30,
+                "increasedSlayerAreaEffectNegationFlat": 15
+            }
         },
         {
             "category": "Herblore",
@@ -22899,7 +23110,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion I",
-            "description": "5% Increased Melee Accuracy Rating",
+            "description": "10% Increased Melee Accuracy Rating",
             "sellsFor": 2,
             "media": "assets/media/bank/potion_attack_i.svg",
             "masteryID": [
@@ -22921,7 +23132,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 5,
             "potionBonusID": 0,
-            "potionCharges": 5,
+            "potionCharges": 10,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 0,
@@ -22933,7 +23144,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion II",
-            "description": "10% Increased Melee Accuracy Rating",
+            "description": "15% Increased Melee Accuracy Rating",
             "sellsFor": 3,
             "media": "assets/media/bank/potion_attack_ii.svg",
             "masteryID": [
@@ -22955,7 +23166,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 10,
             "potionBonusID": 0,
-            "potionCharges": 5,
+            "potionCharges": 10,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 1,
@@ -22973,7 +23184,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion III",
-            "description": "15% Increased Melee Accuracy Rating",
+            "description": "20% Increased Melee Accuracy Rating",
             "sellsFor": 4,
             "media": "assets/media/bank/potion_attack_iii.svg",
             "masteryID": [
@@ -22995,7 +23206,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 15,
             "potionBonusID": 0,
-            "potionCharges": 5,
+            "potionCharges": 10,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 2,
@@ -23013,7 +23224,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion IV",
-            "description": "25% Increased Melee Accuracy Rating",
+            "description": "30% Increased Melee Accuracy Rating",
             "sellsFor": 5,
             "media": "assets/media/bank/potion_attack_iv.svg",
             "masteryID": [
@@ -23035,7 +23246,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 25,
             "potionBonusID": 0,
-            "potionCharges": 10,
+            "potionCharges": 20,
             "itemsRequired": [
                 [
                     537,
@@ -23219,7 +23430,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion I",
-            "description": "5% Increased Melee Evasion Rating",
+            "description": "10% Increased Melee Evasion Rating",
             "sellsFor": 5,
             "media": "assets/media/bank/potion_defence_i.svg",
             "masteryID": [
@@ -23239,9 +23450,9 @@ var melvorData = {
             ],
             "isPotion": true,
             "potionSkill": 19,
-            "potionBonus": 5,
+            "potionBonus": 10,
             "potionBonusID": 1,
-            "potionCharges": 5,
+            "potionCharges": 10,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 0,
@@ -23253,7 +23464,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion II",
-            "description": "10% Increased Melee Evasion Rating",
+            "description": "15% Increased Melee Evasion Rating",
             "sellsFor": 10,
             "media": "assets/media/bank/potion_defence_ii.svg",
             "masteryID": [
@@ -23273,9 +23484,9 @@ var melvorData = {
             ],
             "isPotion": true,
             "potionSkill": 19,
-            "potionBonus": 10,
+            "potionBonus": 15,
             "potionBonusID": 1,
-            "potionCharges": 5,
+            "potionCharges": 10,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 1,
@@ -23293,7 +23504,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion III",
-            "description": "15% Increased Melee Evasion Rating",
+            "description": "20% Increased Melee Evasion Rating",
             "sellsFor": 15,
             "media": "assets/media/bank/potion_defence_iii.svg",
             "masteryID": [
@@ -23313,9 +23524,9 @@ var melvorData = {
             ],
             "isPotion": true,
             "potionSkill": 19,
-            "potionBonus": 15,
+            "potionBonus": 20,
             "potionBonusID": 1,
-            "potionCharges": 5,
+            "potionCharges": 10,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 2,
@@ -23333,7 +23544,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion IV",
-            "description": "25% Increased Melee Evasion Rating",
+            "description": "30% Increased Melee Evasion Rating",
             "sellsFor": 20,
             "media": "assets/media/bank/potion_defence_iv.svg",
             "masteryID": [
@@ -23353,9 +23564,9 @@ var melvorData = {
             ],
             "isPotion": true,
             "potionSkill": 19,
-            "potionBonus": 25,
+            "potionBonus": 30,
             "potionBonusID": 1,
-            "potionCharges": 10,
+            "potionCharges": 20,
             "itemsRequired": [
                 [
                     545,
@@ -24147,7 +24358,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "fishing",
             "name": "Fishermans Potion I",
-            "description": "3% less chance to catch Junk.",
+            "description": "+3% chance to catch 2x Fish.",
             "sellsFor": 60,
             "media": "assets/media/bank/potion_fishing_i.svg",
             "masteryID": [
@@ -24181,7 +24392,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "fishing",
             "name": "Fishermans Potion II",
-            "description": "5% less chance to catch Junk.",
+            "description": "+5% chance to catch 2x Fish.",
             "sellsFor": 75,
             "media": "assets/media/bank/potion_fishing_ii.svg",
             "masteryID": [
@@ -24221,7 +24432,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "fishing",
             "name": "Fishermans Potion III",
-            "description": "8% less chance to catch Junk.",
+            "description": "+8% chance to catch 2x Fish.",
             "sellsFor": 90,
             "media": "assets/media/bank/potion_fishing_iii.svg",
             "masteryID": [
@@ -24261,7 +24472,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "fishing",
             "name": "Fishermans Potion IV",
-            "description": "12% less chance to catch Junk.",
+            "description": "+12% chance to catch 2x Fish.",
             "sellsFor": 122,
             "media": "assets/media/bank/potion_fishing_iv.svg",
             "masteryID": [
@@ -24299,7 +24510,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "firemaking",
             "name": "Controlled Heat Potion I",
-            "description": "Automatically relight Bonfires for free<br>Does not work Offline",
+            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
             "sellsFor": 38,
             "media": "assets/media/bank/potion_firemaking_i.svg",
             "masteryID": [
@@ -24333,7 +24544,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "firemaking",
             "name": "Controlled Heat Potion II",
-            "description": "Automatically relight Bonfires for free<br>Does not work Offline",
+            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
             "sellsFor": 48,
             "media": "assets/media/bank/potion_firemaking_ii.svg",
             "masteryID": [
@@ -24373,7 +24584,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "firemaking",
             "name": "Controlled Heat Potion III",
-            "description": "Automatically relight Bonfires for free<br>Does not work Offline",
+            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
             "sellsFor": 58,
             "media": "assets/media/bank/potion_firemaking_iii.svg",
             "masteryID": [
@@ -24413,7 +24624,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "firemaking",
             "name": "Controlled Heat Potion IV",
-            "description": "Automatically relight Bonfires for free<br>Does not work Offline",
+            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
             "sellsFor": 68,
             "media": "assets/media/bank/potion_firemaking_iv.svg",
             "masteryID": [
@@ -24485,7 +24696,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion II",
-            "description": "+20% chance of 2x food",
+            "description": "+20% chance of 2x cooked food",
             "sellsFor": 64,
             "media": "assets/media/bank/potion_cooking_ii.svg",
             "masteryID": [
@@ -24525,7 +24736,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion III",
-            "description": "+30% chance of 2x food",
+            "description": "+30% chance of 2x cooked food",
             "sellsFor": 78,
             "media": "assets/media/bank/potion_cooking_iii.svg",
             "masteryID": [
@@ -24565,7 +24776,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion IV",
-            "description": "+50% chance of 2x food",
+            "description": "+50% chance of 2x cooked food",
             "sellsFor": 94,
             "media": "assets/media/bank/potion_cooking_iv.svg",
             "masteryID": [
@@ -25547,7 +25758,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion I",
-            "description": "5% chance to gain a random Elemental Rune per Runecraft",
+            "description": "5% chance to gain 2 of a random Elemental Rune per Runecraft",
             "sellsFor": 140,
             "media": "assets/media/bank/potion_runecrafting_i.svg",
             "masteryID": [
@@ -25581,7 +25792,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion II",
-            "description": "10% chance to gain a random Elemental Rune per Runecraft",
+            "description": "10% chance to gain 4 of a random Elemental Rune per Runecraft",
             "sellsFor": 155,
             "media": "assets/media/bank/potion_runecrafting_ii.svg",
             "masteryID": [
@@ -25621,7 +25832,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion III",
-            "description": "25% chance to gain a random Elemental Rune per Runecraft",
+            "description": "25% chance to gain 6 of a random Elemental Rune per Runecraft",
             "sellsFor": 170,
             "media": "assets/media/bank/potion_runecrafting_iii.svg",
             "masteryID": [
@@ -25661,7 +25872,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion IV",
-            "description": "50% chance to gain a random Elemental Rune per Runecraft",
+            "description": "50% chance to gain 8 of a random Elemental Rune per Runecraft",
             "sellsFor": 200,
             "media": "assets/media/bank/potion_runecrafting_iv.svg",
             "masteryID": [
@@ -26600,7 +26811,11 @@ var melvorData = {
             "magicAttackBonus": -6,
             "rangedDefenceBonus": 9,
             "magicDefenceBonus": -1,
-            "chanceToDoubleLoot": 10
+            "chanceToDoubleLoot": 10,
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 10,
+                "increasedChanceToDoubleLootThieving": 10
+            }
         },
         {
             "category": "Mastery",
@@ -26944,7 +27159,7 @@ var melvorData = {
             ],
             "isPotion": true,
             "potionSkill": 17,
-            "potionBonus": 25,
+            "potionBonus": 35,
             "potionBonusID": 10,
             "potionCharges": 30,
             "itemsRequired": [
@@ -27161,7 +27376,7 @@ var melvorData = {
             "category": "Combat",
             "type": "Ring",
             "name": "Aorpheat&apos;s Signet Ring",
-            "description": "Created by Patreon (Aorpheat)<br>Passive: When equipped - All GP drops are doubled, +5% chance to obtain double loot from slain monsters or Thieving, +10% chance to gain double resources from any skill.",
+            "description": "Created by Patreon (Aorpheat)<br>Passive: When equipped - +100% GP granted from all sources except Alt. Magic and Item Selling, +5% chance to obtain double loot from slain monsters or Thieving, +10% chance to gain double resources from any skill.",
             "isPassiveItem": true,
             "equipmentSlot": 7,
             "sellsFor": 2800000,
@@ -27193,7 +27408,15 @@ var melvorData = {
             "trimmedGPCost": 1000000,
             "chanceToDoubleLoot": 5,
             "gpMultiplier": 2,
-            "chanceToDoubleResources": 10
+            "chanceToDoubleResources": 10,
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 5,
+                "increasedChanceToDoubleLootThieving": 5,
+                "increasedChanceToDoubleItemsGlobal": 10,
+                "increasedGPFromAgility": 100,
+                "increasedGPFromMonsters": 100,
+                "increasedGPFromThieving": 100
+            }
         },
         {
             "category": "Fishing",
@@ -27527,7 +27750,63 @@ var melvorData = {
             "magicDefenceBonus": 0,
             "magicDamageBonus": 0,
             "fishingCatchWeight": 1,
-            "bonusSkillXP": 8
+            "bonusSkillXP": 8,
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        0,
+                        8
+                    ],
+                    [
+                        1,
+                        8
+                    ],
+                    [
+                        2,
+                        8
+                    ],
+                    [
+                        3,
+                        8
+                    ],
+                    [
+                        4,
+                        8
+                    ],
+                    [
+                        5,
+                        8
+                    ],
+                    [
+                        11,
+                        8
+                    ],
+                    [
+                        10,
+                        8
+                    ],
+                    [
+                        13,
+                        8
+                    ],
+                    [
+                        14,
+                        8
+                    ],
+                    [
+                        15,
+                        8
+                    ],
+                    [
+                        19,
+                        8
+                    ],
+                    [
+                        20,
+                        8
+                    ]
+                ]
+            }
         },
         {
             "category": "Cooking",
@@ -28535,6 +28814,9 @@ var melvorData = {
             "fletchingCategory": 5,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 123,
@@ -28593,6 +28875,9 @@ var melvorData = {
             "fletchingCategory": 5,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 123,
@@ -28651,6 +28936,9 @@ var melvorData = {
             "fletchingCategory": 5,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 123,
@@ -28709,6 +28997,9 @@ var melvorData = {
             "fletchingCategory": 5,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 123,
@@ -28767,6 +29058,9 @@ var melvorData = {
             "fletchingCategory": 5,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 123,
@@ -28825,6 +29119,9 @@ var melvorData = {
             "fletchingCategory": 5,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 123,
@@ -28882,7 +29179,10 @@ var melvorData = {
             "ammoTypeRequired": 2,
             "fletchingCategory": 5,
             "isAmmo": true,
-            "ammoPreservation": 15
+            "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            }
         },
         {
             "category": "Combat",
@@ -28912,6 +29212,9 @@ var melvorData = {
             "ammoTypeRequired": 2,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 110,
@@ -28983,6 +29286,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -29036,6 +29342,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -29089,6 +29398,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -29142,6 +29454,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -29195,6 +29510,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -29248,6 +29566,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -29300,7 +29621,10 @@ var melvorData = {
             "ammoType": 3,
             "ammoTypeRequired": 3,
             "isAmmo": true,
-            "ammoPreservation": 15
+            "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            }
         },
         {
             "category": "Combat",
@@ -29330,6 +29654,9 @@ var melvorData = {
             "ammoTypeRequired": 3,
             "isAmmo": true,
             "ammoPreservation": 15,
+            "modifiers": {
+                "increasedAmmoPreservation": 15
+            },
             "monsterSources": [
                 {
                     "monster": 110,
@@ -29552,10 +29879,16 @@ var melvorData = {
             "magicDamageBonus": 24,
             "damageReduction": 8,
             "canUpgrade": false,
-            "increasedMinAirSpellDmg": 10,
-            "increasedMinWaterSpellDmg": 10,
-            "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10,
+            "increasedMinAirSpellDmg": 1,
+            "increasedMinWaterSpellDmg": 1,
+            "increasedMinEarthSpellDmg": 1,
+            "increasedMinFireSpellDmg": 1,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1,
+                "increasedMinWaterSpellDmg": 1,
+                "increasedMinEarthSpellDmg": 1,
+                "increasedMinFireSpellDmg": 1
+            },
             "chestSources": [
                 {
                     "chest": 789,
@@ -29593,10 +29926,16 @@ var melvorData = {
             "magicDamageBonus": 10,
             "damageReduction": 8,
             "canUpgrade": false,
-            "increasedMinAirSpellDmg": 10,
-            "increasedMinWaterSpellDmg": 10,
-            "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10,
+            "increasedMinAirSpellDmg": 1,
+            "increasedMinWaterSpellDmg": 1,
+            "increasedMinEarthSpellDmg": 1,
+            "increasedMinFireSpellDmg": 1,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1,
+                "increasedMinWaterSpellDmg": 1,
+                "increasedMinEarthSpellDmg": 1,
+                "increasedMinFireSpellDmg": 1
+            },
             "chestSources": [
                 {
                     "chest": 789,
@@ -29634,10 +29973,16 @@ var melvorData = {
             "magicDamageBonus": 24,
             "damageReduction": 8,
             "canUpgrade": false,
-            "increasedMinAirSpellDmg": 10,
-            "increasedMinWaterSpellDmg": 10,
-            "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10,
+            "increasedMinAirSpellDmg": 1,
+            "increasedMinWaterSpellDmg": 1,
+            "increasedMinEarthSpellDmg": 1,
+            "increasedMinFireSpellDmg": 1,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1,
+                "increasedMinWaterSpellDmg": 1,
+                "increasedMinEarthSpellDmg": 1,
+                "increasedMinFireSpellDmg": 1
+            },
             "chestSources": [
                 {
                     "chest": 789,
@@ -29675,10 +30020,16 @@ var melvorData = {
             "magicDamageBonus": 4,
             "damageReduction": 8,
             "canUpgrade": false,
-            "increasedMinAirSpellDmg": 10,
-            "increasedMinWaterSpellDmg": 10,
-            "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10,
+            "increasedMinAirSpellDmg": 1,
+            "increasedMinWaterSpellDmg": 1,
+            "increasedMinEarthSpellDmg": 1,
+            "increasedMinFireSpellDmg": 1,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1,
+                "increasedMinWaterSpellDmg": 1,
+                "increasedMinEarthSpellDmg": 1,
+                "increasedMinFireSpellDmg": 1
+            },
             "chestSources": [
                 {
                     "chest": 789,
@@ -29716,10 +30067,16 @@ var melvorData = {
             "magicDamageBonus": 4,
             "damageReduction": 8,
             "canUpgrade": false,
-            "increasedMinAirSpellDmg": 10,
-            "increasedMinWaterSpellDmg": 10,
-            "increasedMinEarthSpellDmg": 10,
-            "increasedMinFireSpellDmg": 10,
+            "increasedMinAirSpellDmg": 1,
+            "increasedMinWaterSpellDmg": 1,
+            "increasedMinEarthSpellDmg": 1,
+            "increasedMinFireSpellDmg": 1,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1,
+                "increasedMinWaterSpellDmg": 1,
+                "increasedMinEarthSpellDmg": 1,
+                "increasedMinFireSpellDmg": 1
+            },
             "chestSources": [
                 {
                     "chest": 789,
@@ -32353,7 +32710,7 @@ var melvorData = {
             "category": "Combat",
             "type": "Amulet",
             "name": "Guardian Amulet",
-            "description": "Passive: +5% Damage Reduction, but 20% Increased Attack Speed Interval. Both are doubled if you are below 50% HP.",
+            "description": "Passive: +5% Damage Reduction, but 10% Increased Attack Speed Interval. Both are doubled if you are below 50% HP.",
             "isPassiveItem": true,
             "equipmentSlot": 6,
             "sellsFor": 420000,
@@ -32365,8 +32722,12 @@ var melvorData = {
             ],
             "strengthBonus": 0,
             "defenceBonus": 0,
-            "damageReduction": 5,
+            "damageReduction": 0,
             "rangedDefenceBonus": 0,
+            "modifiers": {
+                "increasedDamageReduction": 5,
+                "increasedPlayerAttackSpeedPercent": 10
+            },
             "chestSources": [
                 {
                     "chest": 774,
@@ -32827,7 +33188,7 @@ var melvorData = {
             "description": "Inherits all Skillcape perks.",
             "canUpgrade": false,
             "equipmentSlot": 10,
-            "buysFor": 20000000,
+            "buysFor": 21000000,
             "sellsFor": 10000000,
             "media": "assets/media/bank/skillcape_max.svg",
             "attackBonus": [
@@ -32836,14 +33197,44 @@ var melvorData = {
                 10
             ],
             "strengthBonus": 10,
-            "defenceBonus": 19,
+            "defenceBonus": 49,
             "damageReduction": 0,
             "rangedAttackBonus": 0,
-            "rangedDefenceBonus": 19,
-            "magicDefenceBonus": 19,
+            "rangedDefenceBonus": 49,
+            "magicDefenceBonus": 49,
             "rangedStrengthBonus": 0,
             "ammoPreservation": 50,
-            "slayerAreaEffectNegationPercent": 60
+            "slayerAreaEffectNegationPercent": 60,
+            "modifiers": {
+                "increasedHPRegenFlat": 10,
+                "increasedDamageToSlayerTasks": 5,
+                "increasedAmmoPreservation": 50,
+                "increasedSlayerAreaEffectNegationFlat": 25,
+                "decreasedSkillIntervalPercent": [
+                    [
+                        0,
+                        15
+                    ]
+                ],
+                "decreasedSkillInterval": [
+                    [
+                        10,
+                        500
+                    ],
+                    [
+                        14,
+                        500
+                    ]
+                ],
+                "increasedGlobalSkillXP": 5,
+                "increasedFarmingYield": 20,
+                "increasedSkillPreservationChance": [
+                    [
+                        15,
+                        35
+                    ]
+                ]
+            }
         },
         {
             "category": "Combat",
@@ -33136,7 +33527,10 @@ var melvorData = {
             "magicDefenceBonus": 20,
             "magicAttackBonus": 20,
             "magicDamageBonus": 5,
-            "slayerCost": 400000
+            "slayerCost": 400000,
+            "modifiers": {
+                "increasedRunePreservation": 20
+            }
         },
         {
             "category": "Combat",
@@ -33580,7 +33974,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 32,
-            "increasedMinAirSpellDmg": 5
+            "increasedMinAirSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33619,7 +34016,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 33,
-            "increasedMinAirSpellDmg": 5
+            "increasedMinAirSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33658,7 +34058,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 34,
-            "increasedMinAirSpellDmg": 5
+            "increasedMinAirSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33697,7 +34100,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 35,
-            "increasedMinAirSpellDmg": 5
+            "increasedMinAirSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33736,7 +34142,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 36,
-            "increasedWaterAirSpellDmg": 5
+            "increasedMinWaterSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33775,7 +34184,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 37,
-            "increasedMinWaterSpellDmg": 5
+            "increasedMinWaterSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33814,7 +34226,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 38,
-            "increasedMinWaterSpellDmg": 5
+            "increasedMinWaterSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33853,7 +34268,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 39,
-            "increasedMinWaterSpellDmg": 5
+            "increasedMinWaterSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33892,7 +34310,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 40,
-            "increasedMinEarthSpellDmg": 5
+            "increasedMinEarthSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33931,7 +34352,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 41,
-            "increasedMinEarthSpellDmg": 5
+            "increasedMinEarthSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -33970,7 +34394,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 42,
-            "increasedMinEarthSpellDmg": 5
+            "increasedMinEarthSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -34009,7 +34436,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 43,
-            "increasedMinEarthSpellDmg": 5
+            "increasedMinEarthSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -34048,7 +34478,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 44,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -34087,7 +34520,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 45,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -34126,7 +34562,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 46,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -34165,7 +34604,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 47,
-            "increasedMinFireSpellDmg": 5
+            "increasedMinFireSpellDmg": 0.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 0.5
+            }
         },
         {
             "category": "Combat",
@@ -34205,7 +34647,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 48,
-            "increasedMinAirSpellDmg": 15
+            "increasedMinAirSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34249,7 +34694,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 49,
-            "increasedMinAirSpellDmg": 15
+            "increasedMinAirSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34293,7 +34741,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 50,
-            "increasedMinAirSpellDmg": 15
+            "increasedMinAirSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34333,7 +34784,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 51,
-            "increasedMinAirSpellDmg": 15
+            "increasedMinAirSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34373,7 +34827,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 52,
-            "increasedMinWaterSpellDmg": 15
+            "increasedMinWaterSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34417,7 +34874,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 53,
-            "increasedMinWaterSpellDmg": 15
+            "increasedMinWaterSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34461,7 +34921,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 54,
-            "increasedMinWaterSpellDmg": 15
+            "increasedMinWaterSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34505,7 +34968,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 55,
-            "increasedMinWaterSpellDmg": 15
+            "increasedMinWaterSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34533,7 +34999,7 @@ var melvorData = {
             "magicAttackBonus": 3,
             "magicDefenceBonus": 3,
             "magicDamageBonus": 0,
-            "magicLevelRequired": 39,
+            "magicLevelRequired": 43,
             "runecraftingCategory": 5,
             "runecraftingLevel": 43,
             "runecraftingXP": 68,
@@ -34549,7 +35015,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 56,
-            "increasedMinEarthSpellDmg": 15
+            "increasedMinEarthSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34593,7 +35062,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 57,
-            "increasedMinEarthSpellDmg": 15
+            "increasedMinEarthSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34637,7 +35109,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 58,
-            "increasedMinEarthSpellDmg": 15
+            "increasedMinEarthSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34681,7 +35156,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 59,
-            "increasedMinEarthSpellDmg": 15
+            "increasedMinEarthSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34725,7 +35203,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 60,
-            "increasedMinFireSpellDmg": 15
+            "increasedMinFireSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34769,7 +35250,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 61,
-            "increasedMinFireSpellDmg": 15
+            "increasedMinFireSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34813,7 +35297,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 62,
-            "increasedMinFireSpellDmg": 15
+            "increasedMinFireSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34857,7 +35344,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 63,
-            "increasedMinFireSpellDmg": 15
+            "increasedMinFireSpellDmg": 1.5,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 1.5
+            }
         },
         {
             "category": "Combat",
@@ -34901,7 +35391,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 64,
-            "increasedMinAirSpellDmg": 20
+            "increasedMinAirSpellDmg": 2,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -34945,7 +35438,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 65,
-            "increasedMinAirSpellDmg": 20
+            "increasedMinAirSpellDmg": 2,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -34989,7 +35485,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 66,
-            "increasedMinAirSpellDmg": 20
+            "increasedMinAirSpellDmg": 2,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35033,7 +35532,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 67,
-            "increasedMinAirSpellDmg": 20
+            "increasedMinAirSpellDmg": 2,
+            "modifiers": {
+                "increasedMinAirSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35077,7 +35579,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 68,
-            "increasedMinWaterSpellDmg": 20
+            "increasedMinWaterSpellDmg": 2,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35121,7 +35626,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 69,
-            "increasedMinWaterSpellDmg": 20
+            "increasedMinWaterSpellDmg": 2,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35165,7 +35673,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 70,
-            "increasedMinWaterSpellDmg": 20
+            "increasedMinWaterSpellDmg": 2,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35209,7 +35720,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 71,
-            "increasedMinWaterSpellDmg": 20
+            "increasedMinWaterSpellDmg": 2,
+            "modifiers": {
+                "increasedMinWaterSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35253,7 +35767,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 72,
-            "increasedMinEarthSpellDmg": 20
+            "increasedMinEarthSpellDmg": 2,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35297,7 +35814,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 73,
-            "increasedMinEarthSpellDmg": 20
+            "increasedMinEarthSpellDmg": 2,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35341,7 +35861,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 74,
-            "increasedMinEarthSpellDmg": 20
+            "increasedMinEarthSpellDmg": 2,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35385,7 +35908,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 75,
-            "increasedMinEarthSpellDmg": 20
+            "increasedMinEarthSpellDmg": 2,
+            "modifiers": {
+                "increasedMinEarthSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35429,7 +35955,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 76,
-            "increasedMinFireSpellDmg": 20
+            "increasedMinFireSpellDmg": 2,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35473,7 +36002,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 77,
-            "increasedMinFireSpellDmg": 20
+            "increasedMinFireSpellDmg": 2,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35517,7 +36049,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 78,
-            "increasedMinFireSpellDmg": 20
+            "increasedMinFireSpellDmg": 2,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35561,7 +36096,10 @@ var melvorData = {
             ],
             "runecraftQty": 1,
             "runecraftingID": 79,
-            "increasedMinFireSpellDmg": 20
+            "increasedMinFireSpellDmg": 2,
+            "modifiers": {
+                "increasedMinFireSpellDmg": 2
+            }
         },
         {
             "category": "Combat",
@@ -35850,7 +36388,10 @@ var melvorData = {
             "magicAttackBonus": -10,
             "rangedDefenceBonus": 63,
             "magicDefenceBonus": -3,
-            "increasedMaxHitpoints": 3
+            "increasedMaxHitpoints": 3,
+            "modifiers": {
+                "increasedMaxHitpoints": 3
+            }
         },
         {
             "category": "Patreon",
@@ -36325,7 +36866,10 @@ var melvorData = {
             "magicDefenceBonus": 0,
             "magicDamageBonus": 0,
             "fishingCatchWeight": 1,
-            "bonusMasteryXP": 0.07
+            "bonusMasteryXP": 0.07,
+            "modifiers": {
+                "increasedGlobalMasteryXP": 7
+            }
         },
         {
             "category": "Combat",
@@ -36344,15 +36888,45 @@ var melvorData = {
                 10
             ],
             "strengthBonus": 10,
-            "defenceBonus": 19,
+            "defenceBonus": 49,
             "damageReduction": 5,
             "rangedAttackBonus": 0,
-            "rangedDefenceBonus": 19,
-            "magicDefenceBonus": 19,
+            "rangedDefenceBonus": 49,
+            "magicDefenceBonus": 49,
             "rangedStrengthBonus": 0,
             "ammoPreservation": 50,
             "ignoreCompletion": true,
-            "slayerAreaEffectNegationPercent": 60
+            "slayerAreaEffectNegationPercent": 60,
+            "modifiers": {
+                "increasedHPRegenFlat": 10,
+                "increasedDamageToSlayerTasks": 5,
+                "increasedAmmoPreservation": 50,
+                "increasedSlayerAreaEffectNegationFlat": 10,
+                "decreasedSkillIntervalPercent": [
+                    [
+                        0,
+                        15
+                    ]
+                ],
+                "decreasedSkillInterval": [
+                    [
+                        10,
+                        500
+                    ],
+                    [
+                        14,
+                        500
+                    ]
+                ],
+                "increasedGlobalSkillXP": 5,
+                "increasedSkillPreservationChance": [
+                    [
+                        15,
+                        35
+                    ]
+                ],
+                "increasedFarmingYield": 20
+            }
         },
         {
             "category": "Combat",
@@ -36631,7 +37205,7 @@ var melvorData = {
         {
             "category": "Misc",
             "type": "Armour",
-            "name": "Thief Gloves",
+            "name": "Gloves of Silence",
             "canUpgrade": false,
             "description": "Passive: Grants +150 GP upon killing an Enemy in Combat, or successfully pickpocketing an NPC in Thieving. +5% Thieving Success Rate.",
             "isPassiveItem": true,
@@ -36650,6 +37224,10 @@ var melvorData = {
             "rangedDefenceBonus": 0,
             "increasedGP": 150,
             "increasedSuccessRate": 5,
+            "modifiers": {
+                "increasedGPFromMonstersFlat": 150,
+                "increasedGPFromThievingFlat": 150
+            },
             "monsterSources": [
                 {
                     "monster": 117,
@@ -36683,7 +37261,10 @@ var melvorData = {
             "magicDefenceBonus": 0,
             "magicDamageBonus": 3,
             "rangedAttackBonus": -3,
-            "increasedHPRegen": 6,
+            "increasedHPRegen": 0.6,
+            "modifiers": {
+                "increasedHPRegenFlat": 0.6
+            },
             "monsterSources": [
                 {
                     "monster": 118,
@@ -36790,6 +37371,9 @@ var melvorData = {
             "rangedDefenceBonus": 0,
             "magicDefenceBonus": 0,
             "decreasedAttackSpeed": 100,
+            "modifiers": {
+                "decreasedPlayerAttackSpeed": 100
+            },
             "monsterSources": [
                 {
                     "monster": 121,
@@ -36983,6 +37567,9 @@ var melvorData = {
             "defenceBonus": 0,
             "lifesteal": 10,
             "decreasedAttackSpeed": 100,
+            "modifiers": {
+                "decreasedPlayerAttackSpeed": 100
+            },
             "monsterSources": [
                 {
                     "monster": 128,
@@ -37098,7 +37685,7 @@ var melvorData = {
             "type": "Armour",
             "tier": "misc",
             "name": "Wasteful Ring",
-            "description": "Passive: Auto Eat threshold increased by +5%. Food Efficiency reduced by -25%.",
+            "description": "Passive: +5% Auto Eat Threshold. -25% Auto Eat Food Efficiency.",
             "isPassiveItem": true,
             "equipmentSlot": 7,
             "sellsFor": 19850,
@@ -37114,6 +37701,10 @@ var melvorData = {
             "damageReduction": 0,
             "increasedAutoEat": 5,
             "decreasedAutoEatEfficiency": 25,
+            "modifiers": {
+                "increasedAutoEatThreshold": 5,
+                "decreasedAutoEatEfficiency": 25
+            },
             "monsterSources": [
                 {
                     "monster": 133,
@@ -37399,6 +37990,9 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "rangedDefenceBonus": 0,
             "prayerCostReduction": 1,
+            "modifiers": {
+                "increasedFlatPrayerCostReduction": 1
+            },
             "monsterSources": [
                 {
                     "monster": 138,
@@ -37416,6 +38010,7 @@ var melvorData = {
             "type": "Weapon",
             "tier": "misc",
             "name": "Almighty Lute",
+            "description": "+250% GP granted from slain Monsters.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 6969,
@@ -37428,6 +38023,9 @@ var melvorData = {
             "strengthBonus": 126,
             "defenceBonus": 0,
             "attackSpeed": 3600,
+            "modifiers": {
+                "increasedGPFromMonsters": 400
+            },
             "monsterSources": [
                 {
                     "monster": 139,
@@ -37541,7 +38139,7 @@ var melvorData = {
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Helmet (Master)",
-            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. 40% Slayer Area Effect Negation.",
+            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "equipmentSlot": 0,
             "canUpgrade": false,
@@ -37579,14 +38177,20 @@ var melvorData = {
                     955,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 3,
+                "increasedChanceToDoubleLootThieving": 3,
+                "increasedSlayerXP": 40,
+                "increasedSlayerAreaEffectNegationFlat": 20
+            }
         },
         {
             "category": "Combat",
             "type": "Armour",
             "tier": "slayer",
             "name": "Slayer Platebody (Master)",
-            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. 40% Slayer Area Effect Negation.",
+            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "equipmentSlot": 1,
             "canUpgrade": false,
@@ -37624,7 +38228,13 @@ var melvorData = {
                     955,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 3,
+                "increasedChanceToDoubleLootThieving": 3,
+                "increasedSlayerXP": 40,
+                "increasedSlayerAreaEffectNegationFlat": 20
+            }
         },
         {
             "category": "Combat",
@@ -37632,7 +38242,7 @@ var melvorData = {
             "tier": "slayer",
             "name": "Slayer Cowl (Master)",
             "equipmentSlot": 0,
-            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. 40% Slayer Area Effect Negation.",
+            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "canEquip": true,
             "hasStats": true,
@@ -37670,7 +38280,13 @@ var melvorData = {
                     955,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 3,
+                "increasedChanceToDoubleLootThieving": 3,
+                "increasedSlayerXP": 40,
+                "increasedSlayerAreaEffectNegationFlat": 20
+            }
         },
         {
             "category": "Combat",
@@ -37678,7 +38294,7 @@ var melvorData = {
             "tier": "slayer",
             "name": "Slayer Leather Body (Master)",
             "equipmentSlot": 1,
-            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. 40% Slayer Area Effect Negation.",
+            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "canEquip": true,
             "hasStats": true,
@@ -37716,14 +38332,20 @@ var melvorData = {
                     955,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 3,
+                "increasedChanceToDoubleLootThieving": 3,
+                "increasedSlayerXP": 40,
+                "increasedSlayerAreaEffectNegationFlat": 20
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Hat (Master)",
-            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. 40% Slayer Area Effect Negation.",
+            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "canEquip": true,
             "hasStats": true,
@@ -37760,14 +38382,20 @@ var melvorData = {
                     955,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 3,
+                "increasedChanceToDoubleLootThieving": 3,
+                "increasedSlayerXP": 40,
+                "increasedSlayerAreaEffectNegationFlat": 20
+            }
         },
         {
             "category": "Combat",
             "type": "Slayer Armour",
             "tier": "slayer",
             "name": "Slayer Wizard Robes (Master)",
-            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. 40% Slayer Area Effect Negation.",
+            "description": "Passive: +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "canEquip": true,
             "hasStats": true,
@@ -37803,7 +38431,13 @@ var melvorData = {
                     955,
                     1
                 ]
-            ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 3,
+                "increasedChanceToDoubleLootThieving": 3,
+                "increasedSlayerXP": 40,
+                "increasedSlayerAreaEffectNegationFlat": 20
+            }
         },
         {
             "category": "Party",
@@ -37831,14 +38465,17 @@ var melvorData = {
             "magicAttackBonus": 1,
             "magicDamageBonus": 1,
             "slayerBonusXP": 1,
-            "slayerCost": 10000000
+            "slayerCost": 10000000,
+            "modifiers": {
+                "increasedSlayerXP": 1
+            }
         },
         {
             "category": "Combat",
             "type": "Ring",
             "tier": "misc",
             "name": "Hunter&apos;s Ring",
-            "description": "Passive: +10% Slayer XP. +10% Extra Slayer Coins from Slayer Tasks. -10% Slayer Area Effect negation.",
+            "description": "Passive: +10% Slayer XP. +10% Extra Slayer Coins from Slayer Tasks. +10% Flat Slayer Area Effect Negation.",
             "isPassiveItem": true,
             "canEquip": true,
             "equipmentSlot": 7,
@@ -37855,8 +38492,11 @@ var melvorData = {
             "magicDefenceBonus": 0,
             "magicDamageBonus": 0,
             "rangedAttackBonus": 0,
-            "slayerBonusXP": 10,
-            "slayerAreaEffectNegationFlat": 10,
+            "modifiers": {
+                "increasedSlayerCoins": 10,
+                "increasedSlayerXP": 10,
+                "increasedSlayerAreaEffectNegationFlat": 10
+            },
             "monsterSources": [
                 {
                     "monster": 132,
@@ -38103,6 +38743,220 @@ var melvorData = {
             "defenceBonus": 0,
             "damageReduction": 1,
             "ignoreCompletion": true
+        },
+        {
+            "category": "Party",
+            "type": "Party",
+            "name": "Yellow Party Hat",
+            "description": "+1 Bragging Rights",
+            "isPassiveItem": true,
+            "canUpgrade": false,
+            "canEquip": true,
+            "equipmentSlot": 0,
+            "sellsFor": 69,
+            "media": "assets/media/bank/party_hat_yellow.svg",
+            "attackBonus": [
+                1,
+                1,
+                1
+            ],
+            "strengthBonus": 1,
+            "defenceBonus": 1,
+            "damageReduction": 1,
+            "rangedAttackBonus": 1,
+            "rangedDefenceBonus": 1,
+            "magicDefenceBonus": 1,
+            "rangedStrengthBonus": 1,
+            "magicAttackBonus": 1,
+            "magicDamageBonus": 1,
+            "ignoreCompletion": true
+        },
+        {
+            "category": "Mastery",
+            "type": "Token",
+            "name": "Mastery Token (Agility)",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "isToken": true,
+            "sellsFor": 1500,
+            "media": "assets/media/bank/mastery_token_agility.svg",
+            "skill": 20
+        },
+        {
+            "category": "Combat",
+            "type": "Armour",
+            "tier": "Skillcape",
+            "name": "Agility Skillcape",
+            "description": "+20% Global Agility Obstacle cost reduction.",
+            "canUpgrade": false,
+            "hasStats": true,
+            "equipmentSlot": 10,
+            "buysFor": 1000000,
+            "sellsFor": 250000,
+            "media": "assets/media/bank/skillcape_agility.svg",
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 9,
+            "damageReduction": 0,
+            "rangedAttackBonus": 0,
+            "rangedDefenceBonus": 9,
+            "magicDefenceBonus": 9,
+            "rangedStrengthBonus": 0
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "agility",
+            "name": "Performance Enhancing Potion I",
+            "description": "+2% Decreased Agility Interval",
+            "sellsFor": 225,
+            "media": "assets/media/bank/potion_agility_i.svg",
+            "masteryID": [
+                19,
+                24
+            ],
+            "herbloreMasteryID": 24,
+            "herbloreReq": [
+                {
+                    "id": 524,
+                    "qty": 2
+                },
+                {
+                    "id": 657,
+                    "qty": 1
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 20,
+            "potionBonus": 2,
+            "potionBonusID": 0,
+            "potionCharges": 10,
+            "potionPage": 26,
+            "canUpgrade": true,
+            "potionTier": 0,
+            "trimmedItemID": 967,
+            "herbloreLevel": 62
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "agility",
+            "name": "Performance Enhancing Potion II",
+            "description": "+4% Decreased Agility Interval",
+            "sellsFor": 240,
+            "media": "assets/media/bank/potion_agility_ii.svg",
+            "masteryID": [
+                19,
+                24
+            ],
+            "herbloreMasteryID": 24,
+            "herbloreReq": [
+                {
+                    "id": 524,
+                    "qty": 2
+                },
+                {
+                    "id": 657,
+                    "qty": 1
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 20,
+            "potionBonus": 4,
+            "potionBonusID": 0,
+            "potionCharges": 20,
+            "potionPage": 26,
+            "canUpgrade": true,
+            "potionTier": 1,
+            "trimmedItemID": 968,
+            "itemsRequired": [
+                [
+                    966,
+                    3
+                ]
+            ],
+            "herbloreLevel": 62
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "agility",
+            "name": "Performance Enhancing Potion III",
+            "description": "+6% Decreased Agility Interval",
+            "sellsFor": 250,
+            "media": "assets/media/bank/potion_agility_iii.svg",
+            "masteryID": [
+                19,
+                24
+            ],
+            "herbloreMasteryID": 24,
+            "herbloreReq": [
+                {
+                    "id": 524,
+                    "qty": 2
+                },
+                {
+                    "id": 657,
+                    "qty": 1
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 20,
+            "potionBonus": 6,
+            "potionBonusID": 0,
+            "potionCharges": 30,
+            "potionPage": 26,
+            "canUpgrade": true,
+            "potionTier": 2,
+            "trimmedItemID": 969,
+            "itemsRequired": [
+                [
+                    967,
+                    3
+                ]
+            ],
+            "herbloreLevel": 62
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "agility",
+            "name": "Performance Enhancing Potion IV",
+            "description": "+8% Decreased Agility Interval",
+            "sellsFor": 265,
+            "media": "assets/media/bank/potion_agility_iv.svg",
+            "masteryID": [
+                19,
+                24
+            ],
+            "herbloreMasteryID": 24,
+            "herbloreReq": [
+                {
+                    "id": 524,
+                    "qty": 2
+                },
+                {
+                    "id": 657,
+                    "qty": 1
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 20,
+            "potionBonus": 8,
+            "potionBonusID": 0,
+            "potionCharges": 50,
+            "itemsRequired": [
+                [
+                    968,
+                    3
+                ]
+            ],
+            "potionPage": 26,
+            "potionTier": 3,
+            "herbloreLevel": 62
         }
     ],
     "monsters": [
@@ -45173,8 +46027,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                150000,
-                225000
+                100000,
+                150000
             ],
             "lootTable": [
                 [
@@ -45825,7 +46679,8 @@ var melvorData = {
             "rewards": [
                 346
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 25
         },
         {
             "name": "Undead Graveyard",
@@ -45853,7 +46708,8 @@ var melvorData = {
             "rewards": [
                 382
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 26
         },
         {
             "name": "Spider Forest",
@@ -45881,7 +46737,8 @@ var melvorData = {
             "rewards": [
                 363
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 29
         },
         {
             "name": "Frozen Cove",
@@ -45909,7 +46766,8 @@ var melvorData = {
             "rewards": [
                 381
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 32
         },
         {
             "name": "Deep Sea Ship",
@@ -45939,7 +46797,8 @@ var melvorData = {
             "rewards": [
                 360
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 31
         },
         {
             "name": "Volcanic Cave",
@@ -45968,7 +46827,8 @@ var melvorData = {
                 362,
                 361
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 34
         },
         {
             "name": "Bandit Base",
@@ -45990,7 +46850,8 @@ var melvorData = {
             "rewards": [
                 442
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 27
         },
         {
             "name": "Hall of Wizards",
@@ -46014,7 +46875,8 @@ var melvorData = {
             "rewards": [
                 461
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 28
         },
         {
             "name": "Air God Dungeon",
@@ -46051,7 +46913,8 @@ var melvorData = {
                 788
             ],
             "slayerItem": 0,
-            "requiresCompletion": 5
+            "requiresCompletion": 5,
+            "petID": 36
         },
         {
             "name": "Water God Dungeon",
@@ -46088,7 +46951,8 @@ var melvorData = {
                 789
             ],
             "slayerItem": 0,
-            "requiresCompletion": 8
+            "requiresCompletion": 8,
+            "petID": 37
         },
         {
             "name": "Earth God Dungeon",
@@ -46125,7 +46989,8 @@ var melvorData = {
                 790
             ],
             "slayerItem": 0,
-            "requiresCompletion": 9
+            "requiresCompletion": 9,
+            "petID": 38
         },
         {
             "name": "Fire God Dungeon",
@@ -46162,7 +47027,8 @@ var melvorData = {
                 791
             ],
             "slayerItem": 0,
-            "requiresCompletion": 10
+            "requiresCompletion": 10,
+            "petID": 39
         },
         {
             "name": "Dragons Den",
@@ -46186,7 +47052,8 @@ var melvorData = {
             "rewards": [
                 813
             ],
-            "slayerItem": 0
+            "slayerItem": 0,
+            "petID": 33
         },
         {
             "name": "Miolite Caves",
@@ -46208,7 +47075,8 @@ var melvorData = {
             "rewardCount": 1,
             "rewards": [
                 939
-            ]
+            ],
+            "petID": 30
         },
         {
             "name": "Infernal Stronghold",
@@ -46243,7 +47111,8 @@ var melvorData = {
                 941
             ],
             "requiresCompletion": 5,
-            "requiresCompletionCount": 100
+            "requiresCompletionCount": 100,
+            "petID": 35
         },
         {
             "name": "Into the Mist",
@@ -46282,7 +47151,8 @@ var melvorData = {
             "rewards": [
                 952
             ],
-            "requiresCompletion": 11
+            "requiresCompletion": 11,
+            "petID": 40
         }
     ],
     "altMagic": [
@@ -46613,7 +47483,7 @@ var melvorData = {
             "runesRequiredAlt": [
                 {
                     "id": 821,
-                    "qty": 1
+                    "qty": 2
                 },
                 {
                     "id": 826,
@@ -46710,186 +47580,671 @@ var melvorData = {
         {
             "name": "Beavis",
             "description": "+5% chance to double logs received from Woodcutting",
-            "media": "assets/media/pets/woodcutting.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/woodcutting.png",
             "acquiredBy": "Woodcutting",
             "skill": 0,
-            "chance": 5
+            "chance": 5,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        0,
+                        5
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Pudding Duckie",
             "description": "<small>Created by Patreon (Moose)</small><br>5% chance to double the amount of Fish per catch.",
-            "media": "assets/media/pets/fishing.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fishing.png",
             "acquiredBy": "Fishing",
             "skill": 1,
-            "chance": 5
+            "chance": 5,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        1,
+                        5
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Pyro",
-            "description": "+1% Global XP.",
-            "media": "assets/media/pets/firemaking.png",
+            "description": "+1% Global Skill XP.",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/firemaking.png",
             "acquiredBy": "Firemaking",
             "skill": 2,
-            "chance": 1
+            "chance": 1,
+            "modifiers": {
+                "increasedGlobalSkillXP": 1
+            },
+            "activeInRaid": false
         },
         {
             "name": "Cris",
             "description": "5% Chance to receive 2x Cooked Fish",
-            "media": "assets/media/pets/cooking.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/cooking.svg",
             "acquiredBy": "Cooking",
             "skill": 3,
-            "chance": 5
+            "chance": 5,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        3,
+                        5
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Cool Rock",
             "description": "All mining nodes gain +5 Max HP.<br>Named after CoolRox95",
-            "media": "assets/media/pets/cool_rock.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/cool_rock.svg",
             "acquiredBy": "Mining",
-            "skill": 4
+            "skill": 4,
+            "modifiers": {
+                "increasedMiningNodeHP": 5
+            },
+            "activeInRaid": false
         },
         {
             "name": "Puff, the Baby Dragon",
             "description": "+10% chance to preserve resources when Smithing.",
-            "media": "assets/media/pets/smithing.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/smithing.svg",
             "acquiredBy": "Smithing",
             "skill": 5,
-            "chance": 10
+            "chance": 10,
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        5,
+                        10
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Snek",
             "description": "Gain 50% Extra Gold from Thieving",
-            "media": "assets/media/pets/thieving.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/thieving.png",
             "acquiredBy": "Thieving",
-            "skill": 10
+            "skill": 10,
+            "modifiers": {
+                "increasedGPFromThieving": 50
+            },
+            "activeInRaid": false
         },
         {
             "name": "Larry, the Lonely Lizard",
-            "description": "+5 Harvest Quantity",
-            "media": "assets/media/pets/farming.png",
+            "description": "+15 Harvest Quantity",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/farming.png",
             "acquiredBy": "Farming",
-            "skill": 11
+            "skill": 11,
+            "activeInRaid": false
         },
         {
             "name": "Quill",
             "description": "Reduced Fletching interval by 0.2s",
-            "media": "assets/media/pets/fletching.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fletching.svg",
             "acquiredBy": "Fletching",
-            "skill": 13
+            "skill": 13,
+            "modifiers": {
+                "decreasedSkillInterval": [
+                    [
+                        13,
+                        200
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Caaarrrlll",
             "description": "Reduced Crafting interval by 0.2s",
-            "media": "assets/media/pets/crafting.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/crafting.png",
             "acquiredBy": "Crafting",
-            "skill": 14
+            "skill": 14,
+            "modifiers": {
+                "decreasedSkillInterval": [
+                    [
+                        14,
+                        200
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Gunter",
             "description": "+10% chance to preserve Rune Essence when crafting Runes.",
-            "media": "assets/media/pets/runecrafting.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/runecrafting.svg",
             "acquiredBy": "Runecrafting",
             "skill": 15,
-            "chance": 10
+            "chance": 10,
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        15,
+                        10
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Gronk",
             "description": "2% Chance to brew double Potions",
-            "media": "assets/media/pets/herblore.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/herblore.png",
             "acquiredBy": "Herblore",
             "skill": 19,
-            "chance": 2
+            "chance": 2,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        19,
+                        2
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Bruce",
             "description": "Gain +3 Hidden Attack Level",
-            "media": "assets/media/pets/attack.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/attack.svg",
             "acquiredBy": "Attack",
-            "skill": 6
+            "skill": 6,
+            "modifiers": {
+                "increasedHiddenSkillLevel": [
+                    [
+                        6,
+                        3
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Lil Ron",
             "description": "Gain +3 Hidden Strength Level",
-            "media": "assets/media/pets/strength.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/strength.svg",
             "acquiredBy": "Strength",
-            "skill": 7
+            "skill": 7,
+            "modifiers": {
+                "increasedHiddenSkillLevel": [
+                    [
+                        7,
+                        3
+                    ]
+                ]
+            },
+            "activeInRaid": false
         },
         {
             "name": "Leonardo",
             "description": "Gain +1% Damage Reduction",
-            "media": "assets/media/pets/defence.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/defence.svg",
             "acquiredBy": "Defence",
-            "skill": 8
+            "skill": 8,
+            "modifiers": {
+                "increasedDamageReduction": 1
+            },
+            "activeInRaid": false
         },
         {
             "name": "Finn, the Cat",
             "description": "Gain +10 Maximum HP",
-            "media": "assets/media/pets/hitpoints.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/hitpoints.png",
             "acquiredBy": "Hitpoints",
-            "skill": 9
+            "skill": 9,
+            "modifiers": {
+                "increasedMaxHitpoints": 1
+            },
+            "activeInRaid": false
         },
         {
             "name": "Marahute",
             "description": "+5% Chance to preserve Ammo",
-            "media": "assets/media/pets/ranged.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/ranged.png",
             "acquiredBy": "Ranged",
-            "skill": 12
+            "skill": 12,
+            "modifiers": {
+                "increasedAmmoPreservation": 5
+            },
+            "activeInRaid": false
         },
         {
             "name": "Salem",
             "description": "+5% Chance to preserve all Runes when casting Magic",
-            "media": "assets/media/pets/magic.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/magic.svg",
             "acquiredBy": "Magic",
-            "skill": 16
+            "skill": 16,
+            "modifiers": {
+                "increasedRunePreservation": 5
+            },
+            "activeInRaid": false
         },
         {
             "name": "Monk-ey",
             "description": "+5% Chance to ignore Prayer Point cost.",
-            "media": "assets/media/pets/prayer.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/prayer.png",
             "acquiredBy": "Prayer",
-            "skill": 17
+            "skill": 17,
+            "modifiers": {
+                "increasedChanceToPreservePrayerPoints": 5
+            },
+            "activeInRaid": false
         },
         {
             "name": "Asura",
             "description": "<small>Created by Patreon ( [ ] )</small><br>+20% Extra Slayer Coins from Slayer Tasks",
-            "media": "assets/media/pets/slayer.png",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/slayer.png",
             "acquiredBy": "Slayer Task",
-            "skill": 18
+            "skill": 18,
+            "modifiers": {
+                "increasedSlayerCoins": 20
+            },
+            "activeInRaid": false
         },
         {
             "name": "Golden Golbin",
             "description": "+1% chance to double loot acquired through combat.",
-            "media": "assets/media/pets/golden_golbin.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/golden_golbin.svg",
             "acquiredBy": "Combat",
             "killCount": 42069,
-            "skill": -1
+            "skill": -1,
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 1
+            },
+            "activeInRaid": false
         },
         {
             "name": "Ty",
             "description": "+3% Global Mastery XP",
-            "media": "assets/media/pets/ty.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/ty.svg",
             "acquiredBy": "Mastery",
-            "skill": -1
+            "skill": -1,
+            "modifiers": {
+                "increasedGlobalMasteryXP": 3
+            },
+            "activeInRaid": false
         },
         {
             "name": "Peri",
             "description": "+5% Evasion Ratings",
-            "media": "assets/media/pets/peri.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/peri.svg",
             "acquiredBy": "Perilous Peaks",
-            "skill": -1
+            "skill": -1,
+            "modifiers": {
+                "increasedMeleeEvasion": 5,
+                "increasedRangedEvasion": 5,
+                "increasedMagicEvasion": 5
+            },
+            "activeInRaid": false
         },
         {
             "name": "Otto",
             "description": "0.1s Attack Speed Reduction",
-            "media": "assets/media/pets/octopus.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/octopus.svg",
             "acquiredBy": "Dark Waters",
-            "skill": -1
+            "skill": -1,
+            "modifiers": {
+                "decreasedPlayerAttackSpeed": 100
+            },
+            "activeInRaid": false
         },
         {
             "name": "Ripper the Reindeer",
             "description": "Christmas Event 2020 Pet",
-            "media": "assets/media/pets/ripper.svg",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/ripper.svg",
             "acquiredBy": "Christmas Event 2020",
             "skill": -1,
-            "ignoreCompletion": true
+            "ignoreCompletion": true,
+            "activeInRaid": false
+        },
+        {
+            "name": "Chick",
+            "description": "Chicken Coop Boss Pet<br>+1% Global Accuracy",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/chicken_coop.svg",
+            "acquiredBy": "Chicken Coop",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        0,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedGlobalAccuracy": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Zarrah",
+            "description": "Undead Graveyard Boss Pet<br>+1% GP From Monsters",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/undead_graveyard.svg",
+            "acquiredBy": "Undead Graveyard",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        1,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedGPFromMonsters": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Chio",
+            "description": "Bandit Base Boss Pet<br>+2% Ranged Strength Bonus",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/bandit_base.svg",
+            "acquiredBy": "Bandit Base",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        6,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedRangedStrengthBonus": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Bouncing Bob",
+            "description": "Hall of Wizards Boss Pet<br>+2% Magic Damage Bonus",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/hall_of_wizards.svg",
+            "acquiredBy": "Hall of Wizards",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        7,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedMagicDamageBonus": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Rosey",
+            "description": "Spider Forest Boss Pet<br>+1% Chance To Double Loot in Combat",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/spider_forest.svg",
+            "acquiredBy": "Spider Forest",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        2,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedChanceToDoubleLootCombat": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Jelly Jim",
+            "description": "Miolite Caves Boss Pet<br>+2% Rune Preservation",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/miolite_caves.svg",
+            "acquiredBy": "Miolite Caves",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        13,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedRunePreservation": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Ayyden",
+            "description": "Deep Sea Ship Boss Pet<br>+2% Slayer Coins",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/deep_sea_ship.svg",
+            "acquiredBy": "Deep Sea Ship",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        4,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedSlayerCoins": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Arctic Yeti",
+            "description": "Frozen Cove Boss Pet<br>Named after Winner of 2020 Fan Art Competition<br>+2% Ammo Preservation",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/frozen_cove.svg",
+            "acquiredBy": "Frozen Cove",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        3,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedAmmoPreservation": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Harley",
+            "description": "Dragons Den Boss Pet<br>+1% Damage To Combat Area Monsters",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/dragons_den.svg",
+            "acquiredBy": "Dragons Den",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        12,
+                        350
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedDamageToCombatAreaMonsters": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Mac",
+            "description": "Volcanic Cave Boss Pet<br>+1% Damage To Slayer Area Monsters",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/volcanic_cave.svg",
+            "acquiredBy": "Volcanic Cave",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        5,
+                        200
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedDamageToSlayerAreaMonsters": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Singe",
+            "description": "Infernal Stronghold Boss Pet<br>+1% Damage To Dungeon Monsters",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/infernal_stronghold.svg",
+            "acquiredBy": "Infernal Stronghold",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        14,
+                        200
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedDamageToDungeonMonsters": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Aquarias",
+            "description": "Air God Dungeon Boss Pet<br>+1% Chance to Double Items Globally",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/air_god_dungeon.svg",
+            "acquiredBy": "Air God Dungeon",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        8,
+                        150
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedChanceToDoubleItemsGlobal": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Norman",
+            "description": "Water God Dungeon Boss Pet<br>+3% Chance To Preserve Prayer Points",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/water_god_dungeon.svg",
+            "acquiredBy": "Water God Dungeon",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        9,
+                        150
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedChanceToPreservePrayerPoints": 3
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Erran",
+            "description": "Earth God Dungeon Boss Pet<br>+1% Damage Reduction",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/earth_god_dungeon.svg",
+            "acquiredBy": "Earth God Dungeon",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        10,
+                        150
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedDamageReduction": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Ren",
+            "description": "Fire God Dungeon Boss Pet<br>+2% Max Hit",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fire_god_dungeon.svg",
+            "acquiredBy": "Fire God Dungeon",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        11,
+                        150
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedMaxHitPercent": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Pablo",
+            "description": "Into the Mist Boss Pet<br>+2% Damage To All Monsters",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/into_the_mist.svg",
+            "acquiredBy": "Into the Mist",
+            "skill": -1,
+            "obtained": {
+                "dungeonCompletion": [
+                    [
+                        15,
+                        5
+                    ]
+                ]
+            },
+            "modifiers": {
+                "increasedDamageToAllMonsters": 2
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Sam",
+            "description": "Agility<br>+15% GP From Agility",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/sloth.svg",
+            "acquiredBy": "Agility",
+            "skill": 20,
+            "modifiers": {
+                "increasedGPFromAgility": 15
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Jerry the Giraffe",
+            "description": "Start the Golbin Raid with an Adamant Scimitar",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/giraffe.svg",
+            "acquiredBy": "Golbin Raid Shop",
+            "skill": -1,
+            "modifiers": {
+                "golbinRaidStartingWeapon": 436
+            },
+            "ignoreCompletion": true,
+            "activeInRaid": true
+        },
+        {
+            "name": "Preston the Platypus",
+            "description": "+1000 to starting Elemental Rune count.",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/platypus.svg",
+            "acquiredBy": "Golbin Raid Shop",
+            "skill": -1,
+            "modifiers": {
+                "golbinRaidIncreasedStartingRuneCount": 1000
+            },
+            "ignoreCompletion": true,
+            "activeInRaid": true
         }
     ],
     "skills": {
@@ -47010,6 +48365,12 @@ var melvorData = {
         "19": {
             "name": "Herblore",
             "media": "assets/media/skills/herblore/herblore.svg",
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "20": {
+            "name": "Agility",
+            "media": "assets/media/skills/agility/agility.svg",
             "hasMastery": true,
             "maxLevel": 99
         }
@@ -47314,8 +48675,8 @@ var melvorData = {
             "slayerItem": 0,
             "dungeonCompleted": -1,
             "areaEffect": true,
-            "areaEffectDescription": "-30% Magic Evasion if your Attack Style is not Magic.",
-            "areaEffectValue": 30
+            "areaEffectDescription": "-40% Magic Evasion if your Attack Style is not Magic.",
+            "areaEffectValue": 40
         },
         {
             "areaName": "Arid Plains",
@@ -47337,8 +48698,8 @@ var melvorData = {
             "dungeonCompleted": -1,
             "slayerItem": 904,
             "areaEffect": true,
-            "areaEffectDescription": "-30% Food Efficiency.",
-            "areaEffectValue": 30
+            "areaEffectDescription": "-40% Food Efficiency.",
+            "areaEffectValue": 40
         },
         {
             "areaName": "Shrouded Badlands",
@@ -47357,8 +48718,8 @@ var melvorData = {
             "dungeonCompleted": -1,
             "slayerItem": 905,
             "areaEffect": true,
-            "areaEffectDescription": "-30% Accuracy Rating.",
-            "areaEffectValue": 30
+            "areaEffectDescription": "-40% Accuracy Rating.",
+            "areaEffectValue": 40
         },
         {
             "areaName": "Perilous Peaks",
@@ -47376,8 +48737,8 @@ var melvorData = {
             "dungeonCompleted": -1,
             "slayerItem": 906,
             "areaEffect": true,
-            "areaEffectDescription": "-30% Evasion Ratings.",
-            "areaEffectValue": 30
+            "areaEffectDescription": "-40% Evasion Ratings.",
+            "areaEffectValue": 40
         },
         {
             "areaName": "Dark Waters",
@@ -47395,8 +48756,8 @@ var melvorData = {
             "slayerItem": 0,
             "dungeonCompleted": 15,
             "areaEffect": true,
-            "areaEffectDescription": "Permanent 30% Slow applied.",
-            "areaEffectValue": 30
+            "areaEffectDescription": "Permanent 40% Slow applied.",
+            "areaEffectValue": 40
         }
     ]
 }
