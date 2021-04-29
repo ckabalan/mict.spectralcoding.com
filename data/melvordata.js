@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
-        "gameVersion": "Alpha v0.19",
-        "generationDate": "2021-03-05T23:48:55.493Z"
+        "gameVersion": "Alpha v0.19.2",
+        "generationDate": "2021-04-29T16:37:46.094Z"
     },
     "items": [
         {
@@ -13743,7 +13743,8 @@ var melvorData = {
                         17,
                         7
                     ]
-                ]
+                ],
+                "decreasedAltMagicSkillXP": 7
             },
             "monsterSources": [
                 {
@@ -20072,7 +20073,7 @@ var melvorData = {
             "magicDefenceBonus": 9,
             "rangedStrengthBonus": 0,
             "modifiers": {
-                "increasedHPRegenFlat": 10
+                "increasedHPRegenFlat": 1
             }
         },
         {
@@ -20921,7 +20922,12 @@ var melvorData = {
             "canMultiUpgrade": true,
             "trimmedItemID": 486,
             "modifiers": {
-                "increasedSlayerXP": 5,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 5
             }
         },
@@ -20959,7 +20965,12 @@ var melvorData = {
             "canMultiUpgrade": true,
             "trimmedItemID": 487,
             "modifiers": {
-                "increasedSlayerXP": 5,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 5
             }
         },
@@ -21008,7 +21019,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 15,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        15
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             }
         },
@@ -21057,7 +21073,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 15,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        15
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             }
         },
@@ -21107,7 +21128,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 30,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        30
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 15
             }
         },
@@ -21157,7 +21183,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 30,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 15
             }
         },
@@ -21900,7 +21931,12 @@ var melvorData = {
             "canMultiUpgrade": true,
             "trimmedItemID": 509,
             "modifiers": {
-                "increasedSlayerXP": 5,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 5
             }
         },
@@ -21937,7 +21973,12 @@ var melvorData = {
             "canMultiUpgrade": true,
             "trimmedItemID": 510,
             "modifiers": {
-                "increasedSlayerXP": 5,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 5
             }
         },
@@ -21985,7 +22026,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 15,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        15
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             }
         },
@@ -22033,7 +22079,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 15,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        15
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             }
         },
@@ -22082,7 +22133,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 30,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        30
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 15
             }
         },
@@ -22131,7 +22187,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 30,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        30
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 15
             }
         },
@@ -22170,7 +22231,12 @@ var melvorData = {
             "canMultiUpgrade": true,
             "trimmedItemID": 515,
             "modifiers": {
-                "increasedSlayerXP": 5,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 5
             }
         },
@@ -22209,7 +22275,12 @@ var melvorData = {
             "canMultiUpgrade": true,
             "trimmedItemID": 516,
             "modifiers": {
-                "increasedSlayerXP": 5,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        5
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 5
             }
         },
@@ -22259,7 +22330,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 15,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        15
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             }
         },
@@ -22309,7 +22385,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 15,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        15
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             }
         },
@@ -22360,7 +22441,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 30,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        30
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 15
             }
         },
@@ -22411,7 +22497,12 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedSlayerXP": 30,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        30
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 15
             }
         },
@@ -23110,7 +23201,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion I",
-            "description": "10% Increased Melee Accuracy Rating",
+            "description": "+8% Increased Melee Accuracy Rating",
             "sellsFor": 2,
             "media": "assets/media/bank/potion_attack_i.svg",
             "masteryID": [
@@ -23137,6 +23228,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 536,
+            "modifiers": {
+                "increasedMeleeAccuracyBonus": 8
+            },
             "herbloreLevel": 5
         },
         {
@@ -23144,7 +23238,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion II",
-            "description": "15% Increased Melee Accuracy Rating",
+            "description": "+12% Increased Melee Accuracy Rating",
             "sellsFor": 3,
             "media": "assets/media/bank/potion_attack_ii.svg",
             "masteryID": [
@@ -23177,6 +23271,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMeleeAccuracyBonus": 12
+            },
             "herbloreLevel": 5
         },
         {
@@ -23184,7 +23281,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion III",
-            "description": "20% Increased Melee Accuracy Rating",
+            "description": "+15% Increased Melee Accuracy Rating",
             "sellsFor": 4,
             "media": "assets/media/bank/potion_attack_iii.svg",
             "masteryID": [
@@ -23217,6 +23314,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMeleeAccuracyBonus": 15
+            },
             "herbloreLevel": 5
         },
         {
@@ -23224,7 +23324,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "attack",
             "name": "Melee Accuracy Potion IV",
-            "description": "30% Increased Melee Accuracy Rating",
+            "description": "+25% Increased Melee Accuracy Rating",
             "sellsFor": 5,
             "media": "assets/media/bank/potion_attack_iv.svg",
             "masteryID": [
@@ -23255,6 +23355,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedMeleeAccuracyBonus": 25
+            },
             "herbloreLevel": 5
         },
         {
@@ -23262,7 +23365,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "strength",
             "name": "Melee Strength Potion I",
-            "description": "2% Increased Melee Strength",
+            "description": "+1% Increased Melee Strength",
             "sellsFor": 130,
             "media": "assets/media/bank/potion_strength_i.svg",
             "masteryID": [
@@ -23293,6 +23396,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 540,
+            "modifiers": {
+                "increasedMeleeStrengthBonus": 1
+            },
             "herbloreLevel": 60
         },
         {
@@ -23300,7 +23406,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "strength",
             "name": "Melee Strength Potion II",
-            "description": "4% Increased Melee Strength",
+            "description": "+3% Increased Melee Strength",
             "sellsFor": 190,
             "media": "assets/media/bank/potion_strength_ii.svg",
             "masteryID": [
@@ -23337,6 +23443,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMeleeStrengthBonus": 3
+            },
             "herbloreLevel": 60
         },
         {
@@ -23344,7 +23453,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "strength",
             "name": "Melee Strength Potion III",
-            "description": "6% Increased Melee Strength",
+            "description": "+6% Increased Melee Strength",
             "sellsFor": 260,
             "media": "assets/media/bank/potion_strength_iii.svg",
             "masteryID": [
@@ -23381,6 +23490,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMeleeStrengthBonus": 6
+            },
             "herbloreLevel": 60
         },
         {
@@ -23388,7 +23500,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "strength",
             "name": "Melee Strength Potion IV",
-            "description": "12% Increased Melee Strength",
+            "description": "+10% Increased Melee Strength",
             "sellsFor": 320,
             "media": "assets/media/bank/potion_strength_iv.svg",
             "masteryID": [
@@ -23423,6 +23535,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedMeleeStrengthBonus": 10
+            },
             "herbloreLevel": 60
         },
         {
@@ -23430,7 +23545,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion I",
-            "description": "10% Increased Melee Evasion Rating",
+            "description": "+8% Increased Melee Evasion Rating",
             "sellsFor": 5,
             "media": "assets/media/bank/potion_defence_i.svg",
             "masteryID": [
@@ -23457,6 +23572,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 544,
+            "modifiers": {
+                "increasedMeleeEvasion": 8
+            },
             "herbloreLevel": 10
         },
         {
@@ -23464,7 +23582,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion II",
-            "description": "15% Increased Melee Evasion Rating",
+            "description": "+12% Increased Melee Evasion Rating",
             "sellsFor": 10,
             "media": "assets/media/bank/potion_defence_ii.svg",
             "masteryID": [
@@ -23497,6 +23615,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMeleeEvasion": 12
+            },
             "herbloreLevel": 10
         },
         {
@@ -23504,7 +23625,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion III",
-            "description": "20% Increased Melee Evasion Rating",
+            "description": "+15% Increased Melee Evasion Rating",
             "sellsFor": 15,
             "media": "assets/media/bank/potion_defence_iii.svg",
             "masteryID": [
@@ -23537,6 +23658,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMeleeEvasion": 15
+            },
             "herbloreLevel": 10
         },
         {
@@ -23544,7 +23668,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "defence",
             "name": "Melee Evasion Potion IV",
-            "description": "30% Increased Melee Evasion Rating",
+            "description": "+25% Increased Melee Evasion Rating",
             "sellsFor": 20,
             "media": "assets/media/bank/potion_defence_iv.svg",
             "masteryID": [
@@ -23575,6 +23699,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedMeleeEvasion": 25
+            },
             "herbloreLevel": 10
         },
         {
@@ -23582,7 +23709,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "ranged",
             "name": "Ranged Assistance Potion I",
-            "description": "5% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+4% Increased Ranged Accuracy & Evasion Rating",
             "sellsFor": 6,
             "media": "assets/media/bank/potion_ranged_i.svg",
             "masteryID": [
@@ -23609,6 +23736,10 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 548,
+            "modifiers": {
+                "increasedRangedAccuracyBonus": 4,
+                "increasedRangedEvasion": 4
+            },
             "herbloreLevel": 15
         },
         {
@@ -23616,7 +23747,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "ranged",
             "name": "Ranged Assistance Potion II",
-            "description": "10% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+8% Increased Ranged Accuracy & Evasion Rating",
             "sellsFor": 12,
             "media": "assets/media/bank/potion_ranged_ii.svg",
             "masteryID": [
@@ -23649,6 +23780,10 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedRangedAccuracyBonus": 8,
+                "increasedRangedEvasion": 8
+            },
             "herbloreLevel": 15
         },
         {
@@ -23656,7 +23791,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "ranged",
             "name": "Ranged Assistance Potion III",
-            "description": "15% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+12% Increased Ranged Accuracy & Evasion Rating",
             "sellsFor": 18,
             "media": "assets/media/bank/potion_ranged_iii.svg",
             "masteryID": [
@@ -23689,6 +23824,10 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedRangedAccuracyBonus": 12,
+                "increasedRangedEvasion": 12
+            },
             "herbloreLevel": 15
         },
         {
@@ -23696,7 +23835,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "ranged",
             "name": "Ranged Assistance Potion IV",
-            "description": "25% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+20% Increased Ranged Accuracy & Evasion Rating",
             "sellsFor": 29,
             "media": "assets/media/bank/potion_ranged_iv.svg",
             "masteryID": [
@@ -23727,6 +23866,10 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedRangedAccuracyBonus": 20,
+                "increasedRangedEvasion": 20
+            },
             "herbloreLevel": 15
         },
         {
@@ -23734,7 +23877,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Assistance Potion I",
-            "description": "5% Increased Magic Accuracy & Evasion Rating",
+            "description": "+4% Increased Magic Accuracy & Evasion Rating",
             "sellsFor": 30,
             "media": "assets/media/bank/potion_magic_i.svg",
             "masteryID": [
@@ -23761,6 +23904,10 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 552,
+            "modifiers": {
+                "increasedMagicAccuracyBonus": 4,
+                "increasedMagicEvasion": 4
+            },
             "herbloreLevel": 25
         },
         {
@@ -23768,7 +23915,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Assistance Potion II",
-            "description": "10% Increased Magic Accuracy & Evasion Rating",
+            "description": "+8% Increased Magic Accuracy & Evasion Rating",
             "sellsFor": 40,
             "media": "assets/media/bank/potion_magic_ii.svg",
             "masteryID": [
@@ -23801,6 +23948,10 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMagicAccuracyBonus": 8,
+                "increasedMagicEvasion": 8
+            },
             "herbloreLevel": 25
         },
         {
@@ -23808,7 +23959,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Assistance Potion III",
-            "description": "15% Increased Magic Accuracy & Evasion Rating",
+            "description": "+12% Increased Magic Accuracy & Evasion Rating",
             "sellsFor": 50,
             "media": "assets/media/bank/potion_magic_iii.svg",
             "masteryID": [
@@ -23841,6 +23992,10 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMagicAccuracyBonus": 12,
+                "increasedMagicEvasion": 12
+            },
             "herbloreLevel": 25
         },
         {
@@ -23848,7 +24003,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Assistance Potion IV",
-            "description": "25% Increased Magic Accuracy & Evasion Rating",
+            "description": "+20% Increased Magic Accuracy & Evasion Rating",
             "sellsFor": 60,
             "media": "assets/media/bank/potion_magic_iv.svg",
             "masteryID": [
@@ -23879,6 +24034,10 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedMagicAccuracyBonus": 20,
+                "increasedMagicEvasion": 20
+            },
             "herbloreLevel": 25
         },
         {
@@ -23913,6 +24072,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 556,
+            "modifiers": {
+                "increasedHitpointRegeneration": 3
+            },
             "herbloreLevel": 35
         },
         {
@@ -23953,6 +24115,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedHitpointRegeneration": 5
+            },
             "herbloreLevel": 35
         },
         {
@@ -23993,6 +24158,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedHitpointRegeneration": 8
+            },
             "herbloreLevel": 35
         },
         {
@@ -24031,6 +24199,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedHitpointRegeneration": 12
+            },
             "herbloreLevel": 35
         },
         {
@@ -24038,7 +24209,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "damageReduction",
             "name": "Damage Reduction Potion I",
-            "description": "2% Increased Damage Reduction",
+            "description": "+2% Damage Reduction",
             "sellsFor": 850,
             "media": "assets/media/bank/potion_damage_reduction_i.svg",
             "masteryID": [
@@ -24069,6 +24240,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 560,
+            "modifiers": {
+                "increasedDamageReduction": 2
+            },
             "herbloreLevel": 90
         },
         {
@@ -24076,7 +24250,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "damageReduction",
             "name": "Damage Reduction Potion II",
-            "description": "4% Increased Damage Reduction",
+            "description": "+4% Damage Reduction",
             "sellsFor": 950,
             "media": "assets/media/bank/potion_damage_reduction_ii.svg",
             "masteryID": [
@@ -24113,6 +24287,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedDamageReduction": 4
+            },
             "herbloreLevel": 90
         },
         {
@@ -24120,7 +24297,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "damageReduction",
             "name": "Damage Reduction Potion III",
-            "description": "6% Increased Damage Reduction",
+            "description": "+6% Damage Reduction",
             "sellsFor": 1150,
             "media": "assets/media/bank/potion_damage_reduction_iii.svg",
             "masteryID": [
@@ -24157,6 +24334,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedDamageReduction": 6
+            },
             "herbloreLevel": 90
         },
         {
@@ -24164,7 +24344,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "damageReduction",
             "name": "Damage Reduction Potion IV",
-            "description": "10% Increased Damage Reduction",
+            "description": "+10% Damage Reduction",
             "sellsFor": 1500,
             "media": "assets/media/bank/potion_damage_reduction_iv.svg",
             "masteryID": [
@@ -24199,6 +24379,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedDamageReduction": 10
+            },
             "herbloreLevel": 90
         },
         {
@@ -24233,6 +24416,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 564,
+            "modifiers": {
+                "increasedBirdNestDropRate": 5
+            },
             "herbloreLevel": 1
         },
         {
@@ -24273,6 +24459,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedBirdNestDropRate": 10
+            },
             "herbloreLevel": 1
         },
         {
@@ -24313,6 +24502,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedBirdNestDropRate": 15
+            },
             "herbloreLevel": 1
         },
         {
@@ -24351,6 +24543,9 @@ var melvorData = {
             ],
             "potionPage": 0,
             "potionTier": 3,
+            "modifiers": {
+                "increasedBirdNestDropRate": 30
+            },
             "herbloreLevel": 1
         },
         {
@@ -24385,6 +24580,14 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 568,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        1,
+                        3
+                    ]
+                ]
+            },
             "herbloreLevel": 40
         },
         {
@@ -24425,6 +24628,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        1,
+                        5
+                    ]
+                ]
+            },
             "herbloreLevel": 40
         },
         {
@@ -24465,6 +24676,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        1,
+                        8
+                    ]
+                ]
+            },
             "herbloreLevel": 40
         },
         {
@@ -24503,6 +24722,14 @@ var melvorData = {
             ],
             "potionPage": 7,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        1,
+                        12
+                    ]
+                ]
+            },
             "herbloreLevel": 40
         },
         {
@@ -24537,6 +24764,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 572,
+            "modifiers": {
+                "freeBonfires": 1
+            },
             "herbloreLevel": 20
         },
         {
@@ -24577,6 +24807,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "freeBonfires": 1
+            },
             "herbloreLevel": 20
         },
         {
@@ -24617,6 +24850,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "freeBonfires": 1
+            },
             "herbloreLevel": 20
         },
         {
@@ -24655,6 +24891,9 @@ var melvorData = {
             ],
             "potionPage": 8,
             "potionTier": 3,
+            "modifiers": {
+                "freeBonfires": 1
+            },
             "herbloreLevel": 20
         },
         {
@@ -24662,7 +24901,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion I",
-            "description": "+10% chance of 2x cooked food",
+            "description": "+10% chance of producing 2x Cooked Food in Cooking",
             "sellsFor": 58,
             "media": "assets/media/bank/potion_cooking_i.svg",
             "masteryID": [
@@ -24689,6 +24928,14 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 576,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        3,
+                        10
+                    ]
+                ]
+            },
             "herbloreLevel": 32
         },
         {
@@ -24696,7 +24943,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion II",
-            "description": "+20% chance of 2x cooked food",
+            "description": "+20% chance of producing 2x Cooked Food in Cooking",
             "sellsFor": 64,
             "media": "assets/media/bank/potion_cooking_ii.svg",
             "masteryID": [
@@ -24729,6 +24976,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        3,
+                        20
+                    ]
+                ]
+            },
             "herbloreLevel": 32
         },
         {
@@ -24736,7 +24991,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion III",
-            "description": "+30% chance of 2x cooked food",
+            "description": "+30% chance of producing 2x Cooked Food in Cooking",
             "sellsFor": 78,
             "media": "assets/media/bank/potion_cooking_iii.svg",
             "masteryID": [
@@ -24769,6 +25024,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        3,
+                        30
+                    ]
+                ]
+            },
             "herbloreLevel": 32
         },
         {
@@ -24776,7 +25039,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "cooking",
             "name": "Generous Cook Potion IV",
-            "description": "+50% chance of 2x cooked food",
+            "description": "+50% chance of producing 2x Cooked Food in Cooking",
             "sellsFor": 94,
             "media": "assets/media/bank/potion_cooking_iv.svg",
             "masteryID": [
@@ -24807,6 +25070,14 @@ var melvorData = {
             ],
             "potionPage": 9,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        3,
+                        50
+                    ]
+                ]
+            },
             "herbloreLevel": 32
         },
         {
@@ -24814,7 +25085,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "mining",
             "name": "Perfect Swing Potion I",
-            "description": "10% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+10% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
             "sellsFor": 102,
             "media": "assets/media/bank/potion_mining_i.svg",
             "masteryID": [
@@ -24845,6 +25116,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 580,
+            "modifiers": {
+                "increasedChanceNoDamageMining": 10
+            },
             "herbloreLevel": 53
         },
         {
@@ -24852,7 +25126,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "mining",
             "name": "Perfect Swing Potion II",
-            "description": "20% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+20% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
             "sellsFor": 113,
             "media": "assets/media/bank/potion_mining_ii.svg",
             "masteryID": [
@@ -24889,6 +25163,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceNoDamageMining": 20
+            },
             "herbloreLevel": 53
         },
         {
@@ -24896,7 +25173,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "mining",
             "name": "Perfect Swing Potion III",
-            "description": "40% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+40% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
             "sellsFor": 136,
             "media": "assets/media/bank/potion_mining_iii.svg",
             "masteryID": [
@@ -24933,6 +25210,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceNoDamageMining": 40
+            },
             "herbloreLevel": 53
         },
         {
@@ -24940,7 +25220,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "mining",
             "name": "Perfect Swing Potion IV",
-            "description": "80% to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+80% to do zero damage to Ores and Rune Essence<br>Does not work Offline",
             "sellsFor": 150,
             "media": "assets/media/bank/potion_mining_iv.svg",
             "masteryID": [
@@ -24975,6 +25255,9 @@ var melvorData = {
             ],
             "potionPage": 10,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceNoDamageMining": 80
+            },
             "herbloreLevel": 53
         },
         {
@@ -25009,6 +25292,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 584,
+            "modifiers": {
+                "increasedSeeingGoldChance": 10
+            },
             "herbloreLevel": 36
         },
         {
@@ -25049,6 +25335,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedSeeingGoldChance": 20
+            },
             "herbloreLevel": 36
         },
         {
@@ -25089,6 +25378,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedSeeingGoldChance": 40
+            },
             "herbloreLevel": 36
         },
         {
@@ -25127,6 +25419,9 @@ var melvorData = {
             ],
             "potionPage": 11,
             "potionTier": 3,
+            "modifiers": {
+                "increasedSeeingGoldChance": 75
+            },
             "herbloreLevel": 36
         },
         {
@@ -25161,6 +25456,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 588,
+            "modifiers": {
+                "increasedChanceToDoubleLootThieving": 5
+            },
             "herbloreLevel": 45
         },
         {
@@ -25201,6 +25499,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleLootThieving": 10
+            },
             "herbloreLevel": 45
         },
         {
@@ -25241,6 +25542,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleLootThieving": 15
+            },
             "herbloreLevel": 45
         },
         {
@@ -25279,6 +25583,9 @@ var melvorData = {
             ],
             "potionPage": 14,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceToDoubleLootThieving": 25
+            },
             "herbloreLevel": 45
         },
         {
@@ -25317,6 +25624,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 592,
+            "modifiers": {
+                "increasedChanceDoubleHarvest": 5
+            },
             "herbloreLevel": 74
         },
         {
@@ -25361,6 +25671,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceDoubleHarvest": 10
+            },
             "herbloreLevel": 74
         },
         {
@@ -25405,6 +25718,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceDoubleHarvest": 15
+            },
             "herbloreLevel": 74
         },
         {
@@ -25447,6 +25763,9 @@ var melvorData = {
             ],
             "potionPage": 15,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceDoubleHarvest": 25
+            },
             "herbloreLevel": 74
         },
         {
@@ -25481,6 +25800,14 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 596,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        13,
+                        5
+                    ]
+                ]
+            },
             "herbloreLevel": 42
         },
         {
@@ -25521,6 +25848,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        13,
+                        10
+                    ]
+                ]
+            },
             "herbloreLevel": 42
         },
         {
@@ -25561,6 +25896,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        13,
+                        10
+                    ]
+                ]
+            },
             "herbloreLevel": 42
         },
         {
@@ -25599,6 +25942,14 @@ var melvorData = {
             ],
             "potionPage": 16,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        13,
+                        25
+                    ]
+                ]
+            },
             "herbloreLevel": 42
         },
         {
@@ -25606,7 +25957,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "crafting",
             "name": "Crafting Potion I",
-            "description": "5% chance for Double Crafting XP",
+            "description": "+5% chance to Double Items in Crafting.",
             "sellsFor": 1,
             "media": "assets/media/bank/potion_crafting_i.svg",
             "masteryID": [
@@ -25633,6 +25984,14 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 600,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        14,
+                        5
+                    ]
+                ]
+            },
             "herbloreLevel": 49
         },
         {
@@ -25640,49 +25999,9 @@ var melvorData = {
             "type": "Potion",
             "tier": "crafting",
             "name": "Crafting Potion II",
-            "description": "8% chance for Double Crafting XP",
+            "description": "+10% chance to Double Items in Crafting.",
             "sellsFor": 1,
             "media": "assets/media/bank/potion_crafting_ii.svg",
-            "masteryID": [
-                19,
-                16
-            ],
-            "herbloreMasteryID": 16,
-            "herbloreReq": [
-                {
-                    "id": 522,
-                    "qty": 1
-                },
-                {
-                    "id": 292,
-                    "qty": 3
-                }
-            ],
-            "isPotion": true,
-            "potionSkill": 14,
-            "potionBonus": 8,
-            "potionBonusID": 0,
-            "potionCharges": 10,
-            "potionPage": 17,
-            "canUpgrade": true,
-            "potionTier": 1,
-            "trimmedItemID": 601,
-            "itemsRequired": [
-                [
-                    599,
-                    3
-                ]
-            ],
-            "herbloreLevel": 49
-        },
-        {
-            "category": "Herblore",
-            "type": "Potion",
-            "tier": "crafting",
-            "name": "Crafting Potion III",
-            "description": "10% chance for Double Crafting XP",
-            "sellsFor": 1,
-            "media": "assets/media/bank/potion_crafting_iii.svg",
             "masteryID": [
                 19,
                 16
@@ -25705,24 +26024,32 @@ var melvorData = {
             "potionCharges": 10,
             "potionPage": 17,
             "canUpgrade": true,
-            "potionTier": 2,
-            "trimmedItemID": 602,
+            "potionTier": 1,
+            "trimmedItemID": 601,
             "itemsRequired": [
                 [
-                    600,
+                    599,
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        14,
+                        10
+                    ]
+                ]
+            },
             "herbloreLevel": 49
         },
         {
             "category": "Herblore",
             "type": "Potion",
             "tier": "crafting",
-            "name": "Crafting Potion IV",
-            "description": "15% chance for Double Crafting XP",
+            "name": "Crafting Potion III",
+            "description": "+15% chance to Double Items in Crafting.",
             "sellsFor": 1,
-            "media": "assets/media/bank/potion_crafting_iv.svg",
+            "media": "assets/media/bank/potion_crafting_iii.svg",
             "masteryID": [
                 19,
                 16
@@ -25742,6 +26069,54 @@ var melvorData = {
             "potionSkill": 14,
             "potionBonus": 15,
             "potionBonusID": 0,
+            "potionCharges": 10,
+            "potionPage": 17,
+            "canUpgrade": true,
+            "potionTier": 2,
+            "trimmedItemID": 602,
+            "itemsRequired": [
+                [
+                    600,
+                    3
+                ]
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        14,
+                        15
+                    ]
+                ]
+            },
+            "herbloreLevel": 49
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "crafting",
+            "name": "Crafting Potion IV",
+            "description": "+25% chance to Double Items in Crafting.",
+            "sellsFor": 1,
+            "media": "assets/media/bank/potion_crafting_iv.svg",
+            "masteryID": [
+                19,
+                16
+            ],
+            "herbloreMasteryID": 16,
+            "herbloreReq": [
+                {
+                    "id": 522,
+                    "qty": 1
+                },
+                {
+                    "id": 292,
+                    "qty": 3
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 14,
+            "potionBonus": 25,
+            "potionBonusID": 0,
             "potionCharges": 15,
             "itemsRequired": [
                 [
@@ -25751,6 +26126,14 @@ var melvorData = {
             ],
             "potionPage": 17,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        14,
+                        25
+                    ]
+                ]
+            },
             "herbloreLevel": 49
         },
         {
@@ -25758,7 +26141,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion I",
-            "description": "5% chance to gain 2 of a random Elemental Rune per Runecraft",
+            "description": "+5% chance to gain 2 of a random Elemental Rune per Runecraft",
             "sellsFor": 140,
             "media": "assets/media/bank/potion_runecrafting_i.svg",
             "masteryID": [
@@ -25785,6 +26168,10 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 604,
+            "modifiers": {
+                "increasedChanceForElementalRune": 5,
+                "increasedElementalRuneGain": 2
+            },
             "herbloreLevel": 63
         },
         {
@@ -25792,7 +26179,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion II",
-            "description": "10% chance to gain 4 of a random Elemental Rune per Runecraft",
+            "description": "+10% chance to gain 4 of a random Elemental Rune per Runecraft",
             "sellsFor": 155,
             "media": "assets/media/bank/potion_runecrafting_ii.svg",
             "masteryID": [
@@ -25825,6 +26212,10 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceForElementalRune": 10,
+                "increasedElementalRuneGain": 4
+            },
             "herbloreLevel": 63
         },
         {
@@ -25832,7 +26223,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion III",
-            "description": "25% chance to gain 6 of a random Elemental Rune per Runecraft",
+            "description": "+25% chance to gain 6 of a random Elemental Rune per Runecraft",
             "sellsFor": 170,
             "media": "assets/media/bank/potion_runecrafting_iii.svg",
             "masteryID": [
@@ -25865,6 +26256,10 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceForElementalRune": 25,
+                "increasedElementalRuneGain": 6
+            },
             "herbloreLevel": 63
         },
         {
@@ -25872,7 +26267,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "runecrafting",
             "name": "Elemental Potion IV",
-            "description": "50% chance to gain 8 of a random Elemental Rune per Runecraft",
+            "description": "+50% chance to gain 8 of a random Elemental Rune per Runecraft",
             "sellsFor": 200,
             "media": "assets/media/bank/potion_runecrafting_iv.svg",
             "masteryID": [
@@ -25903,6 +26298,10 @@ var melvorData = {
             ],
             "potionPage": 18,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceForElementalRune": 50,
+                "increasedElementalRuneGain": 8
+            },
             "herbloreLevel": 63
         },
         {
@@ -25910,7 +26309,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "herblore",
             "name": "Herblore Potion I",
-            "description": "1% chance to gain a second potion of a random tier",
+            "description": "+1% chance to gain a second potion of a random tier",
             "sellsFor": 450,
             "media": "assets/media/bank/potion_herblore_i.svg",
             "masteryID": [
@@ -25933,6 +26332,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 608,
+            "modifiers": {
+                "increasedChanceRandomPotionHerblore": 1
+            },
             "herbloreLevel": 71
         },
         {
@@ -25940,7 +26342,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "herblore",
             "name": "Herblore Potion II",
-            "description": "2% chance to gain a second potion of a random tier",
+            "description": "+2% chance to gain a second potion of a random tier",
             "sellsFor": 480,
             "media": "assets/media/bank/potion_herblore_ii.svg",
             "masteryID": [
@@ -25969,6 +26371,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceRandomPotionHerblore": 2
+            },
             "herbloreLevel": 71
         },
         {
@@ -25976,7 +26381,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "herblore",
             "name": "Herblore Potion III",
-            "description": "3% chance to gain a second potion of a random tier",
+            "description": "+3% chance to gain a second potion of a random tier",
             "sellsFor": 500,
             "media": "assets/media/bank/potion_herblore_iii.svg",
             "masteryID": [
@@ -26005,6 +26410,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceRandomPotionHerblore": 3
+            },
             "herbloreLevel": 71
         },
         {
@@ -26012,7 +26420,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "herblore",
             "name": "Herblore Potion IV",
-            "description": "6% chance to gain a second potion of a random tier",
+            "description": "+6% chance to gain a second potion of a random tier",
             "sellsFor": 530,
             "media": "assets/media/bank/potion_herblore_iv.svg",
             "masteryID": [
@@ -26039,6 +26447,9 @@ var melvorData = {
             ],
             "potionPage": 19,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceRandomPotionHerblore": 6
+            },
             "herbloreLevel": 71
         },
         {
@@ -26073,6 +26484,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 612,
+            "modifiers": {
+                "increasedRangedStrengthBonus": 5
+            },
             "herbloreLevel": 45
         },
         {
@@ -26113,6 +26527,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedRangedStrengthBonus": 10
+            },
             "herbloreLevel": 45
         },
         {
@@ -26153,6 +26570,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedRangedStrengthBonus": 15
+            },
             "herbloreLevel": 45
         },
         {
@@ -26191,6 +26611,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedRangedStrengthBonus": 25
+            },
             "herbloreLevel": 45
         },
         {
@@ -26198,7 +26621,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Damage Potion I",
-            "description": "2% Increased Magic Damage",
+            "description": "+1% Increased Magic Damage",
             "sellsFor": 140,
             "media": "assets/media/bank/potion_magic_i.svg",
             "masteryID": [
@@ -26229,6 +26652,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 616,
+            "modifiers": {
+                "increasedMagicDamageBonus": 1
+            },
             "herbloreLevel": 65
         },
         {
@@ -26236,7 +26662,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Damage Potion II",
-            "description": "5% Increased Magic Damage",
+            "description": "+5% Increased Magic Damage",
             "sellsFor": 180,
             "media": "assets/media/bank/potion_magic_ii.svg",
             "masteryID": [
@@ -26273,6 +26699,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMagicDamageBonus": 5
+            },
             "herbloreLevel": 65
         },
         {
@@ -26280,7 +26709,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Damage Potion III",
-            "description": "9% Increased Magic Damage",
+            "description": "+10% Increased Magic Damage",
             "sellsFor": 210,
             "media": "assets/media/bank/potion_magic_iii.svg",
             "masteryID": [
@@ -26317,6 +26746,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedMagicDamageBonus": 10
+            },
             "herbloreLevel": 65
         },
         {
@@ -26324,7 +26756,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "magic",
             "name": "Magic Damage Potion IV",
-            "description": "16% Increased Magic Damage",
+            "description": "+15% Increased Magic Damage",
             "sellsFor": 235,
             "media": "assets/media/bank/potion_magic_iv.svg",
             "masteryID": [
@@ -26359,6 +26791,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedMagicDamageBonus": 15
+            },
             "herbloreLevel": 65
         },
         {
@@ -26814,7 +27249,12 @@ var melvorData = {
             "chanceToDoubleLoot": 10,
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 10,
-                "increasedChanceToDoubleLootThieving": 10
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        10
+                    ]
+                ]
             }
         },
         {
@@ -26884,6 +27324,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 634,
+            "modifiers": {
+                "increasedAttackRolls": 1
+            },
             "herbloreLevel": 85
         },
         {
@@ -26924,6 +27367,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedAttackRolls": 1
+            },
             "herbloreLevel": 85
         },
         {
@@ -26964,6 +27410,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedAttackRolls": 1
+            },
             "herbloreLevel": 85
         },
         {
@@ -27002,6 +27451,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedAttackRolls": 1
+            },
             "herbloreLevel": 85
         },
         {
@@ -27009,7 +27461,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "divine",
             "name": "Divine Potion I",
-            "description": "10% Chance to not consume Prayer Points",
+            "description": "+10% Chance to not consume Prayer Points",
             "sellsFor": 87,
             "media": "assets/media/bank/potion_prayer_i.svg",
             "masteryID": [
@@ -27040,6 +27492,9 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 638,
+            "modifiers": {
+                "increasedChanceToPreservePrayerPoints": 10
+            },
             "herbloreLevel": 57
         },
         {
@@ -27047,7 +27502,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "divine",
             "name": "Divine Potion II",
-            "description": "15% Chance to not consume Prayer Points",
+            "description": "+15% Chance to not consume Prayer Points",
             "sellsFor": 89,
             "media": "assets/media/bank/potion_prayer_ii.svg",
             "masteryID": [
@@ -27084,6 +27539,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToPreservePrayerPoints": 15
+            },
             "herbloreLevel": 57
         },
         {
@@ -27091,7 +27549,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "divine",
             "name": "Divine Potion III",
-            "description": "20% Chance to not consume Prayer Points",
+            "description": "+20% Chance to not consume Prayer Points",
             "sellsFor": 93,
             "media": "assets/media/bank/potion_prayer_iii.svg",
             "masteryID": [
@@ -27128,6 +27586,9 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "increasedChanceToPreservePrayerPoints": 20
+            },
             "herbloreLevel": 57
         },
         {
@@ -27135,7 +27596,7 @@ var melvorData = {
             "type": "Potion",
             "tier": "divine",
             "name": "Divine Potion IV",
-            "description": "35% Chance to not consume Prayer Points",
+            "description": "+35% Chance to not consume Prayer Points",
             "sellsFor": 99,
             "media": "assets/media/bank/potion_prayer_iv.svg",
             "masteryID": [
@@ -27170,6 +27631,9 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {
+                "increasedChanceToPreservePrayerPoints": 35
+            },
             "herbloreLevel": 57
         },
         {
@@ -27204,6 +27668,7 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 642,
+            "modifiers": {},
             "herbloreLevel": 50
         },
         {
@@ -27244,6 +27709,7 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {},
             "monsterSources": [
                 {
                     "monster": 127,
@@ -27294,6 +27760,7 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {},
             "monsterSources": [
                 {
                     "monster": 127,
@@ -27342,6 +27809,7 @@ var melvorData = {
             ],
             "potionPage": 13,
             "potionTier": 3,
+            "modifiers": {},
             "monsterSources": [
                 {
                     "monster": 127,
@@ -27410,8 +27878,13 @@ var melvorData = {
             "gpMultiplier": 2,
             "chanceToDoubleResources": 10,
             "modifiers": {
-                "increasedChanceToDoubleLootCombat": 5,
-                "increasedChanceToDoubleLootThieving": 5,
+                "decreasedChanceToDoubleLootCombat": 5,
+                "decreasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        5
+                    ]
+                ],
                 "increasedChanceToDoubleItemsGlobal": 10,
                 "increasedGPFromAgility": 100,
                 "increasedGPFromMonsters": 100,
@@ -27685,7 +28158,14 @@ var melvorData = {
             "magicDefenceBonus": 0,
             "magicDamageBonus": 0,
             "fishingCatchWeight": 10,
-            "fishingBonusXP": 15
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        1,
+                        15
+                    ]
+                ]
+            }
         },
         {
             "category": "Fishing",
@@ -27805,7 +28285,8 @@ var melvorData = {
                         20,
                         8
                     ]
-                ]
+                ],
+                "increasedAltMagicSkillXP": 8
             }
         },
         {
@@ -27986,7 +28467,7 @@ var melvorData = {
                 ]
             ],
             "media": "assets/media/bank/weird_gloop.svg",
-            "harvestBonus": 0.1
+            "harvestBonus": 10
         },
         {
             "category": "Combat",
@@ -38024,7 +38505,7 @@ var melvorData = {
             "defenceBonus": 0,
             "attackSpeed": 3600,
             "modifiers": {
-                "increasedGPFromMonsters": 400
+                "increasedGPFromMonsters": 250
             },
             "monsterSources": [
                 {
@@ -38180,8 +38661,18 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 3,
-                "increasedChanceToDoubleLootThieving": 3,
-                "increasedSlayerXP": 40,
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        3
+                    ]
+                ],
+                "increasedSkillXP": [
+                    [
+                        18,
+                        40
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 20
             }
         },
@@ -38231,8 +38722,18 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 3,
-                "increasedChanceToDoubleLootThieving": 3,
-                "increasedSlayerXP": 40,
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        3
+                    ]
+                ],
+                "increasedSkillXP": [
+                    [
+                        18,
+                        40
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 20
             }
         },
@@ -38283,8 +38784,18 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 3,
-                "increasedChanceToDoubleLootThieving": 3,
-                "increasedSlayerXP": 40,
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        3
+                    ]
+                ],
+                "increasedSkillXP": [
+                    [
+                        18,
+                        40
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 20
             }
         },
@@ -38335,8 +38846,18 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 3,
-                "increasedChanceToDoubleLootThieving": 3,
-                "increasedSlayerXP": 40,
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        3
+                    ]
+                ],
+                "increasedSkillXP": [
+                    [
+                        18,
+                        40
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 20
             }
         },
@@ -38385,8 +38906,18 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 3,
-                "increasedChanceToDoubleLootThieving": 3,
-                "increasedSlayerXP": 40,
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        3
+                    ]
+                ],
+                "increasedSkillXP": [
+                    [
+                        18,
+                        40
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 20
             }
         },
@@ -38434,8 +38965,18 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToDoubleLootCombat": 3,
-                "increasedChanceToDoubleLootThieving": 3,
-                "increasedSlayerXP": 40,
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        10,
+                        3
+                    ]
+                ],
+                "increasedSkillXP": [
+                    [
+                        18,
+                        40
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 20
             }
         },
@@ -38467,7 +39008,12 @@ var melvorData = {
             "slayerBonusXP": 1,
             "slayerCost": 10000000,
             "modifiers": {
-                "increasedSlayerXP": 1
+                "increasedSkillXP": [
+                    [
+                        18,
+                        1
+                    ]
+                ]
             }
         },
         {
@@ -38494,7 +39040,12 @@ var melvorData = {
             "rangedAttackBonus": 0,
             "modifiers": {
                 "increasedSlayerCoins": 10,
-                "increasedSlayerXP": 10,
+                "increasedSkillXP": [
+                    [
+                        18,
+                        10
+                    ]
+                ],
                 "increasedSlayerAreaEffectNegationFlat": 10
             },
             "monsterSources": [
@@ -38838,6 +39389,14 @@ var melvorData = {
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 967,
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        20,
+                        2
+                    ]
+                ]
+            },
             "herbloreLevel": 62
         },
         {
@@ -38878,6 +39437,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        20,
+                        4
+                    ]
+                ]
+            },
             "herbloreLevel": 62
         },
         {
@@ -38918,6 +39485,14 @@ var melvorData = {
                     3
                 ]
             ],
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        20,
+                        6
+                    ]
+                ]
+            },
             "herbloreLevel": 62
         },
         {
@@ -38956,7 +39531,24 @@ var melvorData = {
             ],
             "potionPage": 26,
             "potionTier": 3,
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        20,
+                        8
+                    ]
+                ]
+            },
             "herbloreLevel": 62
+        },
+        {
+            "category": "Events",
+            "type": "Easter",
+            "name": "Easter Egg",
+            "description": "Happy Easter as well btw",
+            "sellsFor": 69,
+            "media": "assets/media/bank/easter_egg.svg",
+            "ignoreCompletion": true
         }
     ],
     "monsters": [
@@ -43024,55 +43616,46 @@ var melvorData = {
                 [
                     390,
                     250,
-                    15,
-                    10
+                    15
                 ],
                 [
                     395,
                     100,
-                    15,
-                    10
+                    15
                 ],
                 [
                     396,
                     30,
-                    15,
-                    10
+                    15
                 ],
                 [
                     403,
                     20,
-                    1,
-                    10
+                    1
                 ],
                 [
                     815,
                     15,
-                    1,
                     1
                 ],
                 [
                     404,
                     15,
-                    1,
-                    10
+                    1
                 ],
                 [
                     405,
                     10,
-                    1,
-                    10
+                    1
                 ],
                 [
                     406,
                     5,
-                    1,
-                    10
+                    1
                 ],
                 [
                     888,
                     5,
-                    1,
                     1
                 ]
             ],
@@ -47721,7 +48304,7 @@ var melvorData = {
         },
         {
             "name": "Gunter",
-            "description": "+10% chance to preserve Rune Essence when crafting Runes.",
+            "description": "+10% chance to Preserve Resources in Runecrafting.",
             "media": "https://cdn.melvor.net/core/v018/assets/media/pets/runecrafting.svg",
             "acquiredBy": "Runecrafting",
             "skill": 15,
