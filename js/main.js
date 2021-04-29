@@ -5,19 +5,20 @@ $(document).ready(function() {
     $('#gameDataGenerationDate').text(melvorData['dataSource']['generationDate']);
     // Functions
     function getMissingItemIDs(itemStats) {
-        var missingIDs = Object.keys(melvorData['items']);
+        var missingIDs = []
         itemStats.forEach(function(item) {
-            if (item.stats[0] > 0) {
-                missingIDs = missingIDs.filter(id => id != item['itemID']);
+            if (item.stats[0] == 0) {
+                missingIDs.push(item['itemID'].toString())
             }
         });
         return missingIDs;
     }
     function getMissingMonsterIDs(monsterStats) {
         var missingIDs = Object.keys(melvorData['monsters']);
+        var missingIDs = []
         monsterStats.forEach(function(monster) {
-            if (monster.stats[2] > 0) {
-                missingIDs = missingIDs.filter(id => id != monster['monsterID']);
+            if (monster.stats[2] == 0) {
+                missingIDs.push(monster['monsterID'].toString())
             }
         });
         return missingIDs;
@@ -374,6 +375,9 @@ $(document).ready(function() {
             missingItemIDs.forEach(function(itemID) {
                 var rowClass = ' class=""';
                 var rowNote = '';
+                if (!(itemID in melvorData['items'])) {
+                    return;
+                }
                 if (melvorData['items'][itemID]['ignoreCompletion'] == true) {
                     rowClass = ' class="table-warning"';
                     rowNote = ' (Not Required)';
