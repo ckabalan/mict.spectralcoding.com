@@ -1,6 +1,23 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Experimenting with gathering performance data... -->
+    <script
+        src="https://www.datadoghq-browser-agent.com/datadog-rum.js"
+        type="text/javascript">
+    </script>
+    <script>
+        window.DD_RUM && window.DD_RUM.init({
+            applicationId: 'e0241892-f52f-45ac-ba70-968a5ce85c18',
+            clientToken: 'pub3f35ab72822f10b096d45a821e3e2510',
+            site: 'datadoghq.com',
+            service:'melvor-idle-completionist-tool',
+            // Specify a version number to identify the deployed version of your application in Datadog 
+            // version: '1.0.0',
+            sampleRate: 100,
+            trackInteractions: true
+        });
+    </script>
     <!-- Sorry, I know, privacy concerns. I just really want to know what my page views are... -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9J2M2C18Q"></script>
