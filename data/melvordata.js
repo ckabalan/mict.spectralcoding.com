@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
-        "gameVersion": "Alpha v0.19.2",
-        "generationDate": "2021-04-30T06:47:47.905Z"
+        "gameVersion": "Alpha v0.20",
+        "generationDate": "2021-06-11T05:26:39.855Z"
     },
     "items": [
         {
@@ -298,7 +298,7 @@ var melvorData = {
             "category": "Woodcutting",
             "type": "Logs",
             "name": "Magic Logs",
-            "sellsFor": 300,
+            "sellsFor": 400,
             "media": "assets/media/bank/logs_magic.svg?2",
             "masteryID": [
                 2,
@@ -439,6 +439,7 @@ var melvorData = {
             "category": "Fishing",
             "type": "Raw Fish",
             "name": "Raw Herring",
+            "description": "One of two species of Herring.",
             "sellsFor": 8,
             "media": "assets/media/bank/herring.svg",
             "masteryID": [
@@ -814,16 +815,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "chestSources": [
-                {
-                    "chest": 120,
-                    "chance": [
-                        1,
-                        5
-                    ],
-                    "qty": 1
-                }
             ]
         },
         {
@@ -935,16 +926,6 @@ var melvorData = {
                         48
                     ],
                     "maxQty": 1
-                }
-            ],
-            "chestSources": [
-                {
-                    "chest": 120,
-                    "chance": [
-                        1,
-                        10
-                    ],
-                    "qty": 1
                 }
             ]
         },
@@ -1073,16 +1054,6 @@ var melvorData = {
                         15
                     ],
                     "maxQty": 1
-                }
-            ],
-            "chestSources": [
-                {
-                    "chest": 120,
-                    "chance": [
-                        1,
-                        10
-                    ],
-                    "qty": 1
                 }
             ]
         },
@@ -1227,10 +1198,10 @@ var melvorData = {
                 {
                     "chest": 120,
                     "chance": [
-                        2,
-                        25
+                        1,
+                        15
                     ],
-                    "qty": 1
+                    "qty": 8
                 }
             ]
         },
@@ -1286,9 +1257,9 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        20
+                        18
                     ],
-                    "qty": 1
+                    "qty": 5
                 }
             ]
         },
@@ -1320,9 +1291,9 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        20
+                        18
                     ],
-                    "qty": 1
+                    "qty": 5
                 }
             ]
         },
@@ -1558,6 +1529,7 @@ var melvorData = {
             "miningXP": 7,
             "miningRespawnInterval": 3000,
             "maxMiningRespawnInterval": 6000,
+            "smithingBar": 55,
             "thievingSources": [
                 {
                     "target": 6,
@@ -1585,6 +1557,7 @@ var melvorData = {
             "miningXP": 7,
             "miningRespawnInterval": 3000,
             "maxMiningRespawnInterval": 6000,
+            "smithingBar": 55,
             "thievingSources": [
                 {
                     "target": 6,
@@ -1612,6 +1585,7 @@ var melvorData = {
             "miningXP": 14,
             "miningRespawnInterval": 5000,
             "maxMiningRespawnInterval": 10000,
+            "smithingBar": 56,
             "monsterSources": [
                 {
                     "monster": 4,
@@ -1712,6 +1686,7 @@ var melvorData = {
             "miningXP": 25,
             "miningRespawnInterval": 8000,
             "maxMiningRespawnInterval": 16000,
+            "smithingBar": 133,
             "monsterSources": [
                 {
                     "monster": 12,
@@ -1775,6 +1750,7 @@ var melvorData = {
             "miningXP": 28,
             "miningRespawnInterval": 10000,
             "maxMiningRespawnInterval": 20000,
+            "smithingBar": 58,
             "thievingSources": [
                 {
                     "target": 6,
@@ -1812,6 +1788,7 @@ var melvorData = {
             "miningXP": 65,
             "miningRespawnInterval": 12000,
             "maxMiningRespawnInterval": 24000,
+            "smithingBar": 59,
             "monsterSources": [
                 {
                     "monster": 11,
@@ -1883,6 +1860,7 @@ var melvorData = {
             "miningXP": 71,
             "miningRespawnInterval": 15000,
             "maxMiningRespawnInterval": 30000,
+            "smithingBar": 60,
             "monsterSources": [
                 {
                     "monster": 11,
@@ -1954,6 +1932,7 @@ var melvorData = {
             "miningXP": 86,
             "miningRespawnInterval": 30000,
             "maxMiningRespawnInterval": 60000,
+            "smithingBar": 61,
             "monsterSources": [
                 {
                     "monster": 11,
@@ -2001,6 +1980,7 @@ var melvorData = {
             "miningXP": 101,
             "miningRespawnInterval": 120000,
             "maxMiningRespawnInterval": 240000,
+            "smithingBar": 62,
             "chestSources": [
                 {
                     "chest": 774,
@@ -2044,16 +2024,6 @@ var melvorData = {
                         33
                     ],
                     "maxQty": 3
-                }
-            ],
-            "chestSources": [
-                {
-                    "chest": 120,
-                    "chance": [
-                        1,
-                        5
-                    ],
-                    "qty": 1
                 }
             ],
             "altMagicSources": [
@@ -2163,9 +2133,9 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        20
+                        18
                     ],
-                    "qty": 1
+                    "qty": 15
                 }
             ],
             "altMagicSources": [
@@ -2341,9 +2311,9 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        20
+                        18
                     ],
-                    "qty": 1
+                    "qty": 10
                 },
                 {
                     "chest": 360,
@@ -2415,10 +2385,10 @@ var melvorData = {
                 {
                     "chest": 120,
                     "chance": [
-                        1,
-                        25
+                        2,
+                        45
                     ],
-                    "qty": 1
+                    "qty": 8
                 },
                 {
                     "chest": 360,
@@ -2483,9 +2453,9 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        50
+                        45
                     ],
-                    "qty": 1
+                    "qty": 5
                 },
                 {
                     "chest": 360,
@@ -2562,9 +2532,9 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        100
+                        90
                     ],
-                    "qty": 1
+                    "qty": 3
                 },
                 {
                     "chest": 360,
@@ -3786,16 +3756,6 @@ var melvorData = {
                         1336
                     ],
                     "maxQty": 1
-                }
-            ],
-            "chestSources": [
-                {
-                    "chest": 120,
-                    "chance": [
-                        1,
-                        25
-                    ],
-                    "qty": 1
                 }
             ]
         },
@@ -5498,20 +5458,40 @@ var melvorData = {
             "canOpen": true,
             "dropTable": [
                 [
-                    21,
-                    20
+                    648,
+                    7
                 ],
                 [
-                    24,
-                    10
+                    649,
+                    7
                 ],
                 [
-                    26,
-                    10
+                    650,
+                    7
+                ],
+                [
+                    651,
+                    7
+                ],
+                [
+                    652,
+                    7
+                ],
+                [
+                    653,
+                    7
+                ],
+                [
+                    654,
+                    7
+                ],
+                [
+                    655,
+                    7
                 ],
                 [
                     29,
-                    8
+                    6
                 ],
                 [
                     31,
@@ -5520,10 +5500,6 @@ var melvorData = {
                 [
                     32,
                     5
-                ],
-                [
-                    55,
-                    20
                 ],
                 [
                     57,
@@ -5546,10 +5522,6 @@ var melvorData = {
                     1
                 ],
                 [
-                    87,
-                    4
-                ],
-                [
                     245,
                     1
                 ]
@@ -5563,11 +5535,14 @@ var melvorData = {
                 1,
                 1,
                 1,
-                1,
-                1,
-                1,
-                1,
-                1,
+                8,
+                5,
+                5,
+                15,
+                10,
+                8,
+                5,
+                3,
                 1
             ],
             "fishingCatchWeight": 250,
@@ -9986,7 +9961,7 @@ var melvorData = {
                 ],
                 [
                     58,
-                    500
+                    250
                 ]
             ],
             "trimmedGPCost": 60000,
@@ -10547,7 +10522,7 @@ var melvorData = {
                     "chest": 120,
                     "chance": [
                         1,
-                        100
+                        90
                     ],
                     "qty": 1
                 }
@@ -10559,6 +10534,7 @@ var melvorData = {
             "tier": "combat",
             "name": "Amulet of Strength",
             "canUpgrade": true,
+            "canMultiUpgrade": true,
             "equipmentSlot": 6,
             "sellsFor": 1000,
             "media": "assets/media/bank/amulet_of_strength.svg",
@@ -10726,6 +10702,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "normal",
             "name": "Normal Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 5,
@@ -10779,6 +10756,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "oak",
             "name": "Oak Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 10,
@@ -10832,6 +10810,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "willow",
             "name": "Willow Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 15,
@@ -10875,6 +10854,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "maple",
             "name": "Maple Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 40,
@@ -10918,6 +10898,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "yew",
             "name": "Yew Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 85,
@@ -10961,6 +10942,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "magic",
             "name": "Magic Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 315,
@@ -11004,6 +10986,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "normal",
             "name": "Normal Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 5,
@@ -11047,6 +11030,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "oak",
             "name": "Oak Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 10,
@@ -11090,6 +11074,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "willow",
             "name": "Willow Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 15,
@@ -11133,6 +11118,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "maple",
             "name": "Maple Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 40,
@@ -11186,6 +11172,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "yew",
             "name": "Yew Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 85,
@@ -11239,6 +11226,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "magic",
             "name": "Magic Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 315,
@@ -12419,7 +12407,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 5
+                    "maxQty": 10
                 }
             ]
         },
@@ -12439,7 +12427,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 5
+                    "maxQty": 10
                 }
             ]
         },
@@ -12459,7 +12447,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 5
+                    "maxQty": 10
                 }
             ]
         },
@@ -12477,7 +12465,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 5
+                    "maxQty": 10
                 }
             ]
         },
@@ -15764,13 +15752,14 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 27,
             "attackSpeed": 0,
-            "damageReduction": 2,
+            "damageReduction": 3,
             "defenceLevelRequired": 40,
             "rangedLevelRequired": 40,
             "rangedAttackBonus": 13,
             "magicAttackBonus": -6,
             "rangedDefenceBonus": 27,
             "magicDefenceBonus": -1,
+            "rangedStrengthBonus": 2,
             "chestSources": [
                 {
                     "chest": 381,
@@ -15800,13 +15789,14 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 10,
             "attackSpeed": 0,
-            "damageReduction": 2,
+            "damageReduction": 3,
             "defenceLevelRequired": 40,
             "rangedLevelRequired": 40,
             "rangedAttackBonus": 6,
             "magicAttackBonus": -3,
             "rangedDefenceBonus": 0,
             "magicDefenceBonus": 0,
+            "rangedStrengthBonus": 2,
             "chestSources": [
                 {
                     "chest": 381,
@@ -15836,13 +15826,14 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 47,
             "attackSpeed": 0,
-            "damageReduction": 2,
+            "damageReduction": 3,
             "defenceLevelRequired": 40,
             "rangedLevelRequired": 40,
             "rangedAttackBonus": 12,
             "magicAttackBonus": -21,
             "rangedDefenceBonus": 34,
             "magicDefenceBonus": -4,
+            "rangedStrengthBonus": 2,
             "chestSources": [
                 {
                     "chest": 381,
@@ -15872,13 +15863,14 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 78,
             "attackSpeed": 0,
-            "damageReduction": 2,
+            "damageReduction": 3,
             "defenceLevelRequired": 40,
             "rangedLevelRequired": 40,
             "rangedAttackBonus": 22,
             "magicAttackBonus": -10,
             "rangedDefenceBonus": 72,
             "magicDefenceBonus": -6,
+            "rangedStrengthBonus": 2,
             "chestSources": [
                 {
                     "chest": 381,
@@ -15907,8 +15899,9 @@ var melvorData = {
             ],
             "strengthBonus": 0,
             "defenceBonus": 42,
+            "rangedStrengthBonus": 2,
             "attackSpeed": 0,
-            "damageReduction": 2,
+            "damageReduction": 3,
             "defenceLevelRequired": 40,
             "rangedLevelRequired": 40,
             "rangedAttackBonus": 12,
@@ -15982,6 +15975,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "ice",
             "name": "Ice Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 315,
@@ -16001,7 +15995,7 @@ var melvorData = {
             "rangedLevelRequired": 40,
             "ammoTypeRequired": 0,
             "hasSpecialAttack": true,
-            "specialAttackID": 4,
+            "specialAttackID": 33,
             "chestSources": [
                 {
                     "chest": 381,
@@ -16018,6 +16012,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "ice",
             "name": "Ice Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 315,
@@ -16311,6 +16306,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "redwood",
             "name": "Redwood Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 20,
@@ -16376,6 +16372,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "redwood",
             "name": "Redwood Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 20,
@@ -19583,6 +19580,22 @@ var melvorData = {
                         1
                     ],
                     "maxQty": 1
+                },
+                {
+                    "monster": 150,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "monster": 151,
+                    "chance": [
+                        1,
+                        1
+                    ],
+                    "maxQty": 1
                 }
             ],
             "altMagicSources": [
@@ -19594,7 +19607,7 @@ var melvorData = {
             "type": "Bones",
             "name": "Dragon Bones",
             "isBones": true,
-            "sellsFor": 30,
+            "sellsFor": 200,
             "media": "assets/media/bank/dragon_bones.svg",
             "prayerPoints": 5,
             "monsterSources": [
@@ -19669,7 +19682,7 @@ var melvorData = {
             "type": "Bones",
             "name": "Magic Bones",
             "isBones": true,
-            "sellsFor": 50,
+            "sellsFor": 300,
             "media": "assets/media/bank/magic_bones.svg",
             "prayerPoints": 10,
             "monsterSources": [
@@ -19811,6 +19824,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "ancient",
             "name": "Ancient Longbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 150000,
@@ -19979,7 +19993,7 @@ var melvorData = {
             "type": "Armour",
             "tier": "Skillcape",
             "name": "Firemaking Skillcape",
-            "description": "+5% Global Skilling XP Bonus. 100% for coal per log burnt.",
+            "description": "+5% Global Skill XP Bonus. 100% for coal per log burnt.",
             "canUpgrade": false,
             "equipmentSlot": 10,
             "buysFor": 1000000,
@@ -21186,7 +21200,7 @@ var melvorData = {
                 "increasedSkillXP": [
                     [
                         18,
-                        5
+                        15
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 15
@@ -21428,7 +21442,7 @@ var melvorData = {
             "category": "Herblore",
             "type": "Ingredient",
             "name": "Eyeball",
-            "sellsFor": 20,
+            "sellsFor": 60,
             "media": "assets/media/bank/eyeball.svg",
             "monsterSources": [
                 {
@@ -21437,7 +21451,7 @@ var melvorData = {
                         5,
                         6
                     ],
-                    "maxQty": 2
+                    "maxQty": 3
                 },
                 {
                     "monster": 19,
@@ -21445,7 +21459,7 @@ var melvorData = {
                         5,
                         6
                     ],
-                    "maxQty": 6
+                    "maxQty": 8
                 },
                 {
                     "monster": 20,
@@ -21453,7 +21467,7 @@ var melvorData = {
                         5,
                         6
                     ],
-                    "maxQty": 4
+                    "maxQty": 5
                 },
                 {
                     "monster": 21,
@@ -21461,7 +21475,23 @@ var melvorData = {
                         5,
                         6
                     ],
-                    "maxQty": 10
+                    "maxQty": 12
+                },
+                {
+                    "monster": 150,
+                    "chance": [
+                        5,
+                        6
+                    ],
+                    "maxQty": 16
+                },
+                {
+                    "monster": 151,
+                    "chance": [
+                        5,
+                        6
+                    ],
+                    "maxQty": 24
                 }
             ]
         },
@@ -23141,6 +23171,14 @@ var melvorData = {
                         1127
                     ],
                     "maxQty": 3
+                },
+                {
+                    "monster": 150,
+                    "chance": [
+                        1,
+                        6
+                    ],
+                    "maxQty": 3
                 }
             ],
             "chestSources": [
@@ -23181,6 +23219,14 @@ var melvorData = {
                     "chance": [
                         90,
                         1127
+                    ],
+                    "maxQty": 3
+                },
+                {
+                    "monster": 151,
+                    "chance": [
+                        1,
+                        6
                     ],
                     "maxQty": 3
                 }
@@ -26910,7 +26956,7 @@ var melvorData = {
             "sellsFor": 52000,
             "media": "assets/media/bank/weapon_sunset_rapier.svg",
             "attackBonus": [
-                65,
+                72,
                 55,
                 65
             ],
@@ -27896,35 +27942,85 @@ var melvorData = {
             "type": "Junk",
             "name": "Old Boot",
             "sellsFor": 8,
-            "media": "assets/media/bank/old_boot.svg"
+            "media": "assets/media/bank/old_boot.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
             "type": "Junk",
             "name": "Old Hat",
             "sellsFor": 8,
-            "media": "assets/media/bank/old_hat.svg"
+            "media": "assets/media/bank/old_hat.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
             "type": "Junk",
             "name": "Seaweed",
             "sellsFor": 8,
-            "media": "assets/media/bank/seaweed.svg"
+            "media": "assets/media/bank/seaweed.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
             "type": "Junk",
             "name": "Rusty Key",
             "sellsFor": 8,
-            "media": "assets/media/bank/rusty_key.svg"
+            "media": "assets/media/bank/rusty_key.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
             "type": "Junk",
             "name": "Shell",
             "sellsFor": 8,
-            "media": "assets/media/bank/shell.svg"
+            "media": "assets/media/bank/shell.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -27934,21 +28030,51 @@ var melvorData = {
             "media": "assets/media/bank/rope.svg",
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 291
+            "trimmedItemID": 291,
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
             "type": "Junk",
             "name": "Glass Bottle",
             "sellsFor": 8,
-            "media": "assets/media/bank/glass_bottle.svg"
+            "media": "assets/media/bank/glass_bottle.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
             "type": "Junk",
             "name": "Rubber Ducky",
             "sellsFor": 69,
-            "media": "assets/media/bank/rubber_ducky.svg"
+            "media": "assets/media/bank/rubber_ducky.svg",
+            "chestSources": [
+                {
+                    "chest": 120,
+                    "chance": [
+                        7,
+                        90
+                    ],
+                    "qty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -28137,7 +28263,7 @@ var melvorData = {
             "category": "Fishing",
             "type": "Special",
             "name": "Pirates Lost Ring",
-            "description": "+15% Fishing XP when equipped.",
+            "description": "+15% Fishing Skill XP when equipped.",
             "equipmentSlot": 7,
             "hasStats": true,
             "canEquip": true,
@@ -28283,6 +28409,10 @@ var melvorData = {
                     ],
                     [
                         20,
+                        8
+                    ],
+                    [
+                        21,
                         8
                     ]
                 ],
@@ -28623,7 +28753,7 @@ var melvorData = {
                 ]
             ],
             "canEat": true,
-            "healsFor": 0.1,
+            "healsFor": 10,
             "ignoreCompletion": true
         },
         {
@@ -28886,6 +29016,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "bronze",
             "name": "Bronze Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 30,
@@ -28933,6 +29064,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "iron",
             "name": "Iron Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 60,
@@ -28980,6 +29112,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "steel",
             "name": "Steel Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 140,
@@ -29027,6 +29160,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "mithril",
             "name": "Mithril Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 510,
@@ -29074,6 +29208,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "adamant",
             "name": "Adamant Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 750,
@@ -29121,6 +29256,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "rune",
             "name": "Rune Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 950,
@@ -29168,6 +29304,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "dragon",
             "name": "Dragon Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 2150,
@@ -29217,6 +29354,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "ancient",
             "name": "Ancient Crossbow",
+            "description": "Requires Bolts as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": false,
             "sellsFor": 500000,
@@ -33133,7 +33271,7 @@ var melvorData = {
             "category": "Combat",
             "type": "Amulet",
             "name": "Warlock Amulet",
-            "description": "Passive: Magic spells heal you for 20% damage dealt",
+            "description": "Passive: Magic spells heal you for 10% damage dealt",
             "isPassiveItem": true,
             "equipmentSlot": 6,
             "sellsFor": 420000,
@@ -33147,7 +33285,7 @@ var melvorData = {
             "defenceBonus": 0,
             "damageReduction": 0,
             "rangedDefenceBonus": 0,
-            "spellHeal": 20,
+            "spellHeal": 10,
             "chestSources": [
                 {
                     "chest": 773,
@@ -33228,15 +33366,15 @@ var melvorData = {
             "sellsFor": 420000,
             "media": "assets/media/bank/fighter_ring.svg",
             "attackBonus": [
-                12,
-                12,
-                12
+                18,
+                18,
+                18
             ],
-            "strengthBonus": 12,
+            "strengthBonus": 18,
             "defenceBonus": 0,
             "damageReduction": 0,
-            "magicAttackBonus": 12,
-            "rangedAttackBonus": 12,
+            "magicAttackBonus": 18,
+            "rangedAttackBonus": 18,
             "chestSources": [
                 {
                     "chest": 775,
@@ -33288,8 +33426,8 @@ var melvorData = {
             "media": "assets/media/bank/aeris_godsword.svg",
             "attackBonus": [
                 -4,
-                125,
-                125
+                145,
+                145
             ],
             "strengthBonus": 245,
             "defenceBonus": 25,
@@ -33319,8 +33457,8 @@ var melvorData = {
             "media": "assets/media/bank/glacia_godsword.svg",
             "attackBonus": [
                 -4,
-                125,
-                125
+                145,
+                145
             ],
             "strengthBonus": 245,
             "defenceBonus": 25,
@@ -33350,8 +33488,8 @@ var melvorData = {
             "media": "assets/media/bank/terran_godsword.svg",
             "attackBonus": [
                 -4,
-                125,
-                125
+                145,
+                145
             ],
             "strengthBonus": 290,
             "defenceBonus": 25,
@@ -33381,8 +33519,8 @@ var melvorData = {
             "media": "assets/media/bank/ragnar_godsword.svg",
             "attackBonus": [
                 -4,
-                125,
-                125
+                145,
+                145
             ],
             "strengthBonus": 340,
             "defenceBonus": 25,
@@ -33518,7 +33656,7 @@ var melvorData = {
             "tier": "misc",
             "name": "Confetti Crossbow",
             "equipmentSlot": 4,
-            "description": "Created by Patreon (deathbyconfetti)<br>Grants GP on-hit based on your current total GP | Capped at 250% of damage dealt when you have 50M GP.",
+            "description": "Created by Patreon (deathbyconfetti)<br>Grants GP on-hit based on your current total GP | Capped at 250% of damage dealt when you have 50M GP. Requires Bolts as Ammunition.",
             "isTwoHanded": false,
             "sellsFor": 5,
             "media": "assets/media/bank/weapon_crossbow_confetti.svg",
@@ -33538,7 +33676,7 @@ var melvorData = {
             "ammoTypeRequired": 1,
             "gpMultiplierCap": 2.5,
             "gpMultiplierMin": 0.1,
-            "slayerCost": 400000
+            "slayerCost": 250000
         },
         {
             "category": "Combat",
@@ -33546,7 +33684,7 @@ var melvorData = {
             "tier": "misc",
             "name": "Slayer&apos;s Crossbow",
             "equipmentSlot": 4,
-            "description": "Created by Patreon (Elliott)<br>Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters",
+            "description": "Created by Patreon (Elliott)<br>Gain 33% Ranged Strength Bonus against Slayer Area or Slayer Task Monsters. Requires Bolts as Ammunition.",
             "isTwoHanded": false,
             "sellsFor": 75000,
             "media": "assets/media/bank/weapon_crossbow_slayer.svg",
@@ -33669,7 +33807,7 @@ var melvorData = {
             "description": "Inherits all Skillcape perks.",
             "canUpgrade": false,
             "equipmentSlot": 10,
-            "buysFor": 21000000,
+            "buysFor": 22000000,
             "sellsFor": 10000000,
             "media": "assets/media/bank/skillcape_max.svg",
             "attackBonus": [
@@ -33713,8 +33851,14 @@ var melvorData = {
                     [
                         15,
                         35
+                    ],
+                    [
+                        21,
+                        20
                     ]
-                ]
+                ],
+                "increasedSummoningChargePreservation": 10,
+                "increasedSummoningCreationCharges": 10
             }
         },
         {
@@ -33722,7 +33866,7 @@ var melvorData = {
             "type": "Weapon",
             "tier": "Misc",
             "name": "Bob&apos;s Rake",
-            "description": "Created by Patreon (Berlyn)<br>While equipped, you have a 20% chance to preserve Compost or Weird Gloop applied to Farming Plots when harvesting",
+            "description": "Created by Patreon (Berlyn)<br>While equipped, you have a 50% chance to preserve Compost or Weird Gloop applied to Farming Plots when harvesting",
             "canUpgrade": false,
             "equipmentSlot": 4,
             "isTwoHanded": true,
@@ -33865,9 +34009,9 @@ var melvorData = {
             "strengthBonus": 0,
             "defenceBonus": 5,
             "attackSpeed": 3000,
-            "magicAttackBonus": 28,
+            "magicAttackBonus": 45,
             "magicDefenceBonus": 28,
-            "magicDamageBonus": 0,
+            "magicDamageBonus": 30,
             "magicLevelRequired": 85,
             "increasedWaterSpellDamage": 40,
             "hasSpecialAttack": true,
@@ -34213,7 +34357,7 @@ var melvorData = {
             "type": "Rune",
             "name": "Mist Rune",
             "description": "Combination Rune: Air & Water",
-            "sellsFor": 1,
+            "sellsFor": 8,
             "media": "assets/media/bank/rune_mist.svg",
             "masteryID": [
                 15,
@@ -34248,7 +34392,7 @@ var melvorData = {
             "type": "Rune",
             "name": "Dust Rune",
             "description": "Combination Rune: Air & Earth",
-            "sellsFor": 1,
+            "sellsFor": 9,
             "media": "assets/media/bank/rune_dust.svg",
             "masteryID": [
                 15,
@@ -34283,7 +34427,7 @@ var melvorData = {
             "type": "Rune",
             "name": "Mud Rune",
             "description": "Combination Rune: Water & Earth",
-            "sellsFor": 1,
+            "sellsFor": 10,
             "media": "assets/media/bank/rune_mud.svg",
             "masteryID": [
                 15,
@@ -34318,7 +34462,7 @@ var melvorData = {
             "type": "Rune",
             "name": "Smoke Rune",
             "description": "Combination Rune: Air & Fire",
-            "sellsFor": 1,
+            "sellsFor": 11,
             "media": "assets/media/bank/rune_smoke.svg",
             "masteryID": [
                 15,
@@ -34353,7 +34497,7 @@ var melvorData = {
             "type": "Rune",
             "name": "Steam Rune",
             "description": "Combination Rune: Water & Fire",
-            "sellsFor": 1,
+            "sellsFor": 12,
             "media": "assets/media/bank/rune_steam.svg",
             "masteryID": [
                 15,
@@ -34388,7 +34532,7 @@ var melvorData = {
             "type": "Rune",
             "name": "Lava Rune",
             "description": "Combination Rune: Earth & Fire",
-            "sellsFor": 1,
+            "sellsFor": 13,
             "media": "assets/media/bank/rune_lava.svg",
             "masteryID": [
                 15,
@@ -36899,6 +37043,7 @@ var melvorData = {
             "name": "Jewel of Rhaelyx",
             "description": "Combine this with the Circlet of Rhaelyx",
             "canUpgrade": true,
+            "canMultiUpgrade": true,
             "sellsFor": 750000,
             "media": "assets/media/bank/gem_of_rhaelyx.png",
             "attackBonus": [
@@ -37056,7 +37201,7 @@ var melvorData = {
             "defenceBonus": 0,
             "attackSpeed": 0,
             "damageReduction": 0,
-            "dropRate": 0.015,
+            "dropRate": 0.025,
             "trimmedItemID": 886,
             "itemsRequired": [
                 [
@@ -37382,7 +37527,7 @@ var melvorData = {
                 "increasedHPRegenFlat": 10,
                 "increasedDamageToSlayerTasks": 5,
                 "increasedAmmoPreservation": 50,
-                "increasedSlayerAreaEffectNegationFlat": 10,
+                "increasedSlayerAreaEffectNegationFlat": 25,
                 "decreasedSkillIntervalPercent": [
                     [
                         0,
@@ -37404,9 +37549,15 @@ var melvorData = {
                     [
                         15,
                         35
+                    ],
+                    [
+                        21,
+                        20
                     ]
                 ],
-                "increasedFarmingYield": 20
+                "increasedFarmingYield": 20,
+                "increasedSummoningChargePreservation": 10,
+                "increasedSummoningCreationCharges": 10
             }
         },
         {
@@ -37933,6 +38084,7 @@ var melvorData = {
             "type": "Ranged Weapon",
             "tier": "misc",
             "name": "Desert Shortbow",
+            "description": "Requires Arrows as Ammunition.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 3240,
@@ -38073,16 +38225,16 @@ var melvorData = {
             "sellsFor": 20000,
             "media": "assets/media/bank/tormented_ring.svg",
             "attackBonus": [
-                30,
-                30,
-                30
+                40,
+                40,
+                40
             ],
-            "rangedAttackBonus": 30,
-            "magicAttackBonus": 30,
+            "rangedAttackBonus": 40,
+            "magicAttackBonus": 40,
             "strengthBonus": 0,
-            "defenceBonus": -30,
-            "rangedDefenceBonus": -30,
-            "magicDefenceBonus": -30,
+            "defenceBonus": -40,
+            "rangedDefenceBonus": -40,
+            "magicDefenceBonus": -40,
             "monsterSources": [
                 {
                     "monster": 129,
@@ -38491,7 +38643,7 @@ var melvorData = {
             "type": "Weapon",
             "tier": "misc",
             "name": "Almighty Lute",
-            "description": "+250% GP granted from slain Monsters.",
+            "description": "+200% GP granted from slain Monsters.",
             "equipmentSlot": 4,
             "isTwoHanded": true,
             "sellsFor": 6969,
@@ -38505,7 +38657,7 @@ var melvorData = {
             "defenceBonus": 0,
             "attackSpeed": 3600,
             "modifiers": {
-                "increasedGPFromMonsters": 250
+                "increasedGPFromMonsters": 200
             },
             "monsterSources": [
                 {
@@ -39549,6 +39701,3600 @@ var melvorData = {
             "sellsFor": 69,
             "media": "assets/media/bank/easter_egg.svg",
             "ignoreCompletion": true
+        },
+        {
+            "category": "Summoning",
+            "type": "Shard",
+            "name": "Summoning Shard (Red)",
+            "description": "Use to create Familiars in Summoning",
+            "buysFor": 200,
+            "sellsFor": 50,
+            "media": "assets/media/bank/summoning_shard_red.png"
+        },
+        {
+            "category": "Summoning",
+            "type": "Shard",
+            "name": "Summoning Shard (Green)",
+            "description": "Use to create Familiars in Summoning",
+            "buysFor": 200,
+            "sellsFor": 50,
+            "media": "assets/media/bank/summoning_shard_green.png"
+        },
+        {
+            "category": "Summoning",
+            "type": "Shard",
+            "name": "Summoning Shard (Blue)",
+            "description": "Use to create Familiars in Summoning",
+            "buysFor": 400,
+            "sellsFor": 100,
+            "media": "assets/media/bank/summoning_shard_blue.png"
+        },
+        {
+            "category": "Summoning",
+            "type": "Shard",
+            "name": "Summoning Shard (Silver)",
+            "description": "Use to create Familiars in Summoning",
+            "buysFor": 400,
+            "sellsFor": 100,
+            "media": "assets/media/bank/summoning_shard_silver.png"
+        },
+        {
+            "category": "Summoning",
+            "type": "Shard",
+            "name": "Summoning Shard (Gold)",
+            "description": "Use to create Familiars in Summoning",
+            "buysFor": 600,
+            "sellsFor": 150,
+            "media": "assets/media/bank/summoning_shard_gold.png"
+        },
+        {
+            "category": "Summoning",
+            "type": "Shard",
+            "name": "Summoning Shard (Black)",
+            "description": "Use to create Familiars in Summoning",
+            "buysFor": 600,
+            "sellsFor": 150,
+            "media": "assets/media/bank/summoning_shard_black.png"
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 1 Summon",
+            "name": "Golbin Thief",
+            "description": "+30 GP Gained on successful Enemy Hit.",
+            "summoningDescription": "Small and cunning these creatures have developed an art of robbing adventurers when they least suspect it. Gold is all they really want no matter what it takes to get it.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_golbin_thief.svg",
+            "masteryID": [
+                21,
+                0
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 0,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 63,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 71,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 79,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 134,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 87,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 95,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 103,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 111,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 1,
+            "summoningXP": 1,
+            "summoningTier": 1,
+            "summoningSkills": [
+                6,
+                7,
+                8
+            ],
+            "summoningMaxHit": 21,
+            "modifiers": {
+                "increasedGPOnEnemyHit": 30
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 1 Summon",
+            "name": "Occultist",
+            "description": "+10% Evasion Ratings. -10% Enemy Evasion Ratings.",
+            "summoningDescription": "A witch who was lost to the darker arts now plays with its victims without mercy. Their manipulation and evil magic knows no bounds leading to debilitating curses left on their victims.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_occultist.svg",
+            "masteryID": [
+                21,
+                1
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 1,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 495,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 5,
+            "summoningXP": 1,
+            "summoningTier": 1,
+            "summoningSkills": [
+                16
+            ],
+            "summoningMaxHit": 40,
+            "modifiers": {
+                "increasedMeleeEvasion": 10,
+                "increasedRangedEvasion": 10,
+                "increasedMagicEvasion": 10,
+                "decreasedEnemyMeleeEvasion": 10,
+                "decreasedEnemyRangedEvasion": 10,
+                "decreasedEnemyMagicEvasion": 10
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 1 Summon",
+            "name": "Wolf",
+            "description": "+2% Lifesteal",
+            "summoningDescription": "The Wolf Familiar: These intelligent creatures hunt in packs surviving off their skills in hunting for prey. Once their prey is chosen it is only a matter of time before they fall victim to them.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_wolf.svg",
+            "masteryID": [
+                21,
+                2
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 2,
+            "summoningTier": 1,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 21,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 22,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 23,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 673,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 24,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 25,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 26,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 27,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 671,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 672,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 28,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 674,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 29,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 30,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 31,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 6
+                    },
+                    {
+                        "id": 32,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 15,
+            "summoningXP": 1,
+            "summoningSkills": [
+                6,
+                12
+            ],
+            "summoningMaxHit": 59,
+            "modifiers": {
+                "increasedLifesteal": 2
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 1 Summon",
+            "name": "Ent",
+            "description": "+10% Chance to gain +1 additional resource in Woodcutting. Cannot be doubled.",
+            "summoningDescription": "Wise and controlling these creatures are often the guardians of their forest land. Though protective they will sometimes allow people to also benefit from the forest.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_ent.svg",
+            "masteryID": [
+                21,
+                3
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 3,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 0,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 1,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 2,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 3,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 4,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 5,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 6,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 7,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 8,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 1,
+            "summoningXP": 1,
+            "summoningTier": 1,
+            "summoningSkills": [
+                0
+            ],
+            "modifiers": {
+                "increasedChanceAdditionalSkillResource": [
+                    [
+                        0,
+                        10
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 1 Summon",
+            "name": "Mole",
+            "description": "+3% Chance to gain +1 additional resource in Mining. Cannot be doubled.",
+            "summoningDescription": "A small underground tunnel digger these creatures are experts of the underground. What lies below could be extremely valuable so having them around is of great benefit.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_mole.svg",
+            "masteryID": [
+                21,
+                4
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 4,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 45,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 46,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 47,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 48,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 49,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 50,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 51,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 52,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 53,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 54,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 5,
+            "summoningXP": 1,
+            "summoningTier": 1,
+            "summoningSkills": [
+                4
+            ],
+            "modifiers": {
+                "increasedChanceAdditionalSkillResource": [
+                    [
+                        4,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 1 Summon",
+            "name": "Octopus",
+            "description": "+3% Chance to gain +1 additional resource in Fishing. Cannot be doubled.",
+            "summoningDescription": "Highly intelligent these creatures roam the sea beds hunting for their next meal. Their knowledge of hunting fish would prove useful to your fishing adventures.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_octopus.svg",
+            "masteryID": [
+                21,
+                5
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 5,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 9,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 10,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 656,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 11,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 664,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 12,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 657,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 13,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 14,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 666,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 15,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 662,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 663,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 16,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 665,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 17,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 18,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 19,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 6
+                    },
+                    {
+                        "id": 20,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 15,
+            "summoningXP": 1,
+            "summoningTier": 1,
+            "summoningSkills": [
+                1
+            ],
+            "modifiers": {
+                "increasedChanceAdditionalSkillResource": [
+                    [
+                        1,
+                        3
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 2 Summon",
+            "name": "Minotaur",
+            "description": "+5% Melee Strength Bonus. +5% Melee Accuracy Bonus.",
+            "summoningDescription": "The Minotaur Familiar: Powerful and intimidating these creatures swing their axe with terrifying force. Overwhelminging their opponents with their melee abilities is their specialty.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_minotaur.svg",
+            "masteryID": [
+                21,
+                6
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 6,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 65,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 73,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 81,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 136,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 89,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 97,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 105,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 113,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 25,
+            "summoningXP": 1,
+            "summoningTier": 2,
+            "summoningSkills": [
+                7
+            ],
+            "summoningMaxHit": 78,
+            "modifiers": {
+                "increasedMeleeStrengthBonus": 5,
+                "increasedMeleeAccuracyBonus": 5
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 2 Summon",
+            "name": "Centaur",
+            "description": "+5% Ranged Strength Bonus. +5% Ranged Accuracy Bonus.",
+            "summoningDescription": "Being trained from a young age their speed and deadly precision lead them to be masters in battle with a bow. Their ranged prowess will greatly benefit your own marksman skills.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_centaur.svg",
+            "masteryID": [
+                21,
+                7
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 7,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 250,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 256,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 251,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 257,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 252,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 258,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 253,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 259,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 254,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 260,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 255,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 261,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 385,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 387,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 35,
+            "summoningXP": 1,
+            "summoningTier": 2,
+            "summoningSkills": [
+                12
+            ],
+            "summoningMaxHit": 97,
+            "modifiers": {
+                "increasedRangedStrengthBonus": 5,
+                "increasedRangedAccuracyBonus": 5
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 2 Summon",
+            "name": "Witch",
+            "description": "+5% Magic Damage Bonus. +5% Magic Accuracy Bonus.",
+            "summoningDescription": "Dedicating their life to the study of the magic arts there are no limits as to what they can do with it. Skilled in the art of combat magic they will help you with your magic prowess while in combat.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_witch.svg",
+            "masteryID": [
+                21,
+                8
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 8,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 389,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 390,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 391,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 392,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 393,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 820,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 394,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 395,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 821,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 822,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 396,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 397,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 823,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 8
+                    },
+                    {
+                        "id": 973,
+                        "qty": 6
+                    },
+                    {
+                        "id": 398,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 45,
+            "summoningXP": 1,
+            "summoningTier": 2,
+            "summoningSkills": [
+                16
+            ],
+            "summoningMaxHit": 116,
+            "modifiers": {
+                "increasedMagicDamageBonus": 5,
+                "increasedMagicAccuracyBonus": 5
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 2 Summon",
+            "name": "Pig",
+            "description": "+10% Chance to Preserve Resources in Cooking",
+            "summoningDescription": "Is there anything you need more in a simple life besides eating and sleeping. These creatures are not picky eaters and therefore could help sustain some cooking.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_pig.svg",
+            "masteryID": [
+                21,
+                9
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 9,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 21,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 22,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 23,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 673,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 24,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 25,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 26,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 27,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 671,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 672,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 28,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 674,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 29,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 30,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 31,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 32,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 25,
+            "summoningXP": 1,
+            "summoningTier": 2,
+            "summoningSkills": [
+                3
+            ],
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        3,
+                        10
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 2 Summon",
+            "name": "Crow",
+            "description": "Create +2 Additional Runes of the same type in Runecrafting.",
+            "summoningDescription": "Often found in a large group these creatures are drawn to places where magic is the most potent. Where ever they go it would be best to follow if you want to pursue better runecrafting.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_crow.svg",
+            "masteryID": [
+                21,
+                10
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 10,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 824,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 825,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 826,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 827,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 828,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": 829,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 35,
+            "summoningXP": 1,
+            "summoningTier": 2,
+            "summoningSkills": [
+                15
+            ],
+            "modifiers": {
+                "increasedAdditionalRunecraftCountRunes": 2
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 2 Summon",
+            "name": "Leprechaun",
+            "description": "+50 GP From Thieving",
+            "summoningDescription": "These magical creatures seem to randomly appear every now and then after the rain bringing gold. Understanding and learning about these creatures could lead to even more gold.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_leprechaun.svg",
+            "masteryID": [
+                21,
+                11
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 11,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 8
+                    },
+                    {
+                        "id": 974,
+                        "qty": 6
+                    },
+                    {
+                        "id": -4,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 45,
+            "summoningXP": 1,
+            "summoningTier": 2,
+            "summoningSkills": [
+                10
+            ],
+            "modifiers": {
+                "increasedGPFromThievingFlat": 50
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Cyclops",
+            "description": "+10% Slayer Coins",
+            "summoningDescription": "Sometimes being the smartest isn't needed when a simple swing of a large club is enough. Brute force would indeed benefit you in order to deal with the dangers that slayer presents.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_cyclops.svg",
+            "masteryID": [
+                21,
+                12
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 12,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": -5,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 55,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                18
+            ],
+            "summoningMaxHit": 135,
+            "modifiers": {
+                "increasedSlayerCoins": 10
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Yak",
+            "description": "+1% Damage Reduction",
+            "summoningDescription": "Sturdy and enduring these creatures are often used as beast of burdens by fellow adventurers. The endurance of these creatures could prove useful against powerful foes.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_yak.svg",
+            "masteryID": [
+                21,
+                13
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 13,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 121,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 122,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 123,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 142,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 124,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 125,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 126,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 127,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 65,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                8
+            ],
+            "summoningMaxHit": 154,
+            "modifiers": {
+                "increasedDamageReduction": 1
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Unicorn",
+            "description": "+50% Hitpoint Regeneration",
+            "summoningDescription": "Resilient and majestic these magical creatures roam the land in search for safety from things that would hunt them. This has lead to a boost in their inherent ability to survive which you can learn from.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_unicorn.svg",
+            "masteryID": [
+                21,
+                14
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 14,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 500,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 80,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                17
+            ],
+            "summoningMaxHit": 173,
+            "modifiers": {
+                "increasedHitpointRegeneration": 50
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Dragon",
+            "description": "10% chance to apply a burn on hit",
+            "summoningDescription": "Fiery and often chaotic these creatures are able to produce fire from within making them feared across the lands. Adding their might to your own nothing will stand in your way.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_dragon.svg",
+            "masteryID": [
+                21,
+                15
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 15,
+            "summoningReq": [
+                [
+                    {
+                        "id": 971,
+                        "qty": 10
+                    },
+                    {
+                        "id": 973,
+                        "qty": 8
+                    },
+                    {
+                        "id": 975,
+                        "qty": 6
+                    },
+                    {
+                        "id": 440,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 90,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                9
+            ],
+            "summoningMaxHit": 192,
+            "modifiers": {
+                "increasedChanceToApplyBurn": 10
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Monkey",
+            "description": "+10% Chance to Double Items in Crafting",
+            "summoningDescription": "The cheeky monkey has always been a hassle around adventurers often stealing jewellery. Loving jewellery these creatures know where to look and may also help in your crafting.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_monkey.svg",
+            "masteryID": [
+                21,
+                16
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 16,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 315,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 320,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 316,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 321,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 317,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 322,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 318,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 323,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 319,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 324,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 325,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 330,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 326,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 331,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 327,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 332,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 328,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 333,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 329,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 334,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 55,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                14
+            ],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        14,
+                        10
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Salamander",
+            "description": "+5% Chance to Preserve Resources in Smithing",
+            "summoningDescription": "The salamander loves to dwell in places of high heat and will find any stable sources it can. The heat from these sources may prove useful in your smithing goals.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_salamander.svg",
+            "masteryID": [
+                21,
+                17
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 17,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 55,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 56,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 133,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 58,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 59,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 60,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 61,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 62,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 65,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                5
+            ],
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        5,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Bear",
+            "description": "+5% Chance to Preserve Resources in Herblore",
+            "summoningDescription": "Intelligent and resourceful the bear is the master of the region it lives in. Their understanding of the land means they are able to locate different herbs throughout which may prove useful to you.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_bear.svg",
+            "masteryID": [
+                21,
+                18
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 18,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 519,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 520,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 521,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 522,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 523,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 524,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 525,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 526,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 80,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                19
+            ],
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        19,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Familiar",
+            "tier": "Tier 3 Summon",
+            "name": "Devil",
+            "description": "-5% Firemaking Interval",
+            "summoningDescription": "Tricky and dangerous these dark creatures shouldn't be messed unless you know what you're up against. Often times they will offer things but be warned some may come at a hidden cost.",
+            "equipmentSlot": 12,
+            "sellsFor": 0,
+            "media": "assets/media/bank/summoning_tablet_devil.svg",
+            "masteryID": [
+                21,
+                19
+            ],
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "summoningID": 19,
+            "summoningReq": [
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 128,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 129,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 130,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 131,
+                        "qty": 1
+                    }
+                ],
+                [
+                    {
+                        "id": 972,
+                        "qty": 10
+                    },
+                    {
+                        "id": 974,
+                        "qty": 8
+                    },
+                    {
+                        "id": 976,
+                        "qty": 6
+                    },
+                    {
+                        "id": 132,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "summoningQty": 25,
+            "summoningLevel": 90,
+            "summoningXP": 1,
+            "summoningTier": 3,
+            "summoningSkills": [
+                2
+            ],
+            "modifiers": {
+                "decreasedSkillIntervalPercent": [
+                    [
+                        2,
+                        5
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Mastery",
+            "type": "Token",
+            "name": "Mastery Token (Summoning)",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "isToken": true,
+            "sellsFor": 1500,
+            "media": "assets/media/bank/mastery_token_summoning.svg",
+            "skill": 21
+        },
+        {
+            "category": "Combat",
+            "type": "Armour",
+            "tier": "Skillcape",
+            "name": "Summoning Skillcape",
+            "description": "+10% Chance to preserve Summoning Charges. +20% Chance to Preserve Resources in Summoning. +10 Base Quantity for Summoning Tablet Creation.",
+            "canUpgrade": false,
+            "hasStats": true,
+            "equipmentSlot": 10,
+            "buysFor": 1000000,
+            "sellsFor": 250000,
+            "media": "assets/media/bank/skillcape_summoning.svg",
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 9,
+            "damageReduction": 0,
+            "rangedAttackBonus": 0,
+            "rangedDefenceBonus": 9,
+            "magicDefenceBonus": 9,
+            "rangedStrengthBonus": 0,
+            "modifiers": {
+                "increasedSkillPreservationChance": [
+                    [
+                        21,
+                        20
+                    ]
+                ],
+                "increasedSummoningChargePreservation": 10,
+                "increasedSummoningCreationCharges": 10
+            }
+        },
+        {
+            "category": "Woodcutting",
+            "type": "Secret",
+            "name": "Abnormal Log",
+            "description": "This is 1000x better than a Normal Log.",
+            "sellsFor": 999,
+            "media": "assets/media/bank/abnormal_log.svg",
+            "ignoreCompletion": true
+        },
+        {
+            "category": "Fishing",
+            "type": "Fish",
+            "name": "Red Herring",
+            "equipmentSlot": 5,
+            "sellsFor": 999,
+            "media": "assets/media/bank/red_herring.svg",
+            "ignoreCompletion": true
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "summoning",
+            "name": "Necromancer Potion I",
+            "description": "+1 Base Summoning Tablets created.",
+            "sellsFor": 225,
+            "media": "assets/media/bank/potion_summoning_i.svg",
+            "masteryID": [
+                19,
+                25
+            ],
+            "herbloreMasteryID": 25,
+            "herbloreReq": [
+                {
+                    "id": 523,
+                    "qty": 2
+                },
+                {
+                    "id": 506,
+                    "qty": 1
+                },
+                {
+                    "id": 278,
+                    "qty": 20
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 21,
+            "potionBonus": 1,
+            "potionBonusID": 0,
+            "potionCharges": 15,
+            "potionPage": 28,
+            "canUpgrade": true,
+            "potionTier": 0,
+            "trimmedItemID": 1002,
+            "modifiers": {
+                "increasedSummoningCreationCharges": 1
+            },
+            "herbloreLevel": 55
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "summoning",
+            "name": "Necromancer Potion II",
+            "description": "+2 Base Summoning Tablets created.",
+            "sellsFor": 240,
+            "media": "assets/media/bank/potion_summoning_ii.svg",
+            "masteryID": [
+                19,
+                25
+            ],
+            "herbloreMasteryID": 25,
+            "herbloreReq": [
+                {
+                    "id": 523,
+                    "qty": 2
+                },
+                {
+                    "id": 506,
+                    "qty": 1
+                },
+                {
+                    "id": 278,
+                    "qty": 20
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 21,
+            "potionBonus": 2,
+            "potionBonusID": 0,
+            "potionCharges": 30,
+            "potionPage": 28,
+            "canUpgrade": true,
+            "potionTier": 1,
+            "trimmedItemID": 1003,
+            "itemsRequired": [
+                [
+                    1001,
+                    3
+                ]
+            ],
+            "modifiers": {
+                "increasedSummoningCreationCharges": 2
+            },
+            "herbloreLevel": 55
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "summoning",
+            "name": "Necromancer Potion III",
+            "description": "+3 Base Summoning Tablets created.",
+            "sellsFor": 250,
+            "media": "assets/media/bank/potion_summoning_iii.svg",
+            "masteryID": [
+                19,
+                25
+            ],
+            "herbloreMasteryID": 25,
+            "herbloreReq": [
+                {
+                    "id": 523,
+                    "qty": 2
+                },
+                {
+                    "id": 506,
+                    "qty": 1
+                },
+                {
+                    "id": 278,
+                    "qty": 20
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 21,
+            "potionBonus": 3,
+            "potionBonusID": 0,
+            "potionCharges": 45,
+            "potionPage": 28,
+            "canUpgrade": true,
+            "potionTier": 2,
+            "trimmedItemID": 1004,
+            "itemsRequired": [
+                [
+                    1002,
+                    3
+                ]
+            ],
+            "modifiers": {
+                "increasedSummoningCreationCharges": 3
+            },
+            "herbloreLevel": 55
+        },
+        {
+            "category": "Herblore",
+            "type": "Potion",
+            "tier": "summoning",
+            "name": "Necromancer Potion IV",
+            "description": "+5 Base Summoning Tablets created.",
+            "sellsFor": 265,
+            "media": "assets/media/bank/potion_summoning_iv.svg",
+            "masteryID": [
+                19,
+                25
+            ],
+            "herbloreMasteryID": 25,
+            "herbloreReq": [
+                {
+                    "id": 523,
+                    "qty": 2
+                },
+                {
+                    "id": 506,
+                    "qty": 1
+                },
+                {
+                    "id": 278,
+                    "qty": 20
+                }
+            ],
+            "isPotion": true,
+            "potionSkill": 21,
+            "potionBonus": 5,
+            "potionBonusID": 0,
+            "potionCharges": 60,
+            "itemsRequired": [
+                [
+                    1003,
+                    3
+                ]
+            ],
+            "potionPage": 28,
+            "potionTier": 3,
+            "modifiers": {
+                "increasedSummoningCreationCharges": 5
+            },
+            "herbloreLevel": 55
+        },
+        {
+            "category": "Summoning",
+            "type": "Equipment",
+            "name": "Necromancer Hat",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation. +2% Summoning Skill XP",
+            "isPassiveItem": true,
+            "canEquip": true,
+            "equipmentSlot": 0,
+            "sellsFor": 150000,
+            "media": "assets/media/bank/necromancer_wizard_hat.svg",
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "magicAttackBonus": 0,
+            "magicDefenceBonus": 0,
+            "magicDamageBonus": 0,
+            "modifiers": {
+                "increasedSummoningCreationCharges": 2,
+                "increasedSkillXP": [
+                    [
+                        21,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Equipment",
+            "name": "Necromancer Robes",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation. +2% Summoning Skill XP",
+            "isPassiveItem": true,
+            "canEquip": true,
+            "equipmentSlot": 1,
+            "sellsFor": 2500000,
+            "media": "assets/media/bank/necromancer_wizard_robes.svg",
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "magicAttackBonus": 0,
+            "magicDefenceBonus": 0,
+            "magicDamageBonus": 0,
+            "modifiers": {
+                "increasedSummoningCreationCharges": 2,
+                "increasedSkillXP": [
+                    [
+                        21,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Equipment",
+            "name": "Necromancer Bottoms",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation. +2% Summoning Skill XP",
+            "isPassiveItem": true,
+            "canEquip": true,
+            "equipmentSlot": 2,
+            "sellsFor": 1000000,
+            "media": "assets/media/bank/necromancer_wizard_bottoms.svg",
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "magicAttackBonus": 0,
+            "magicDefenceBonus": 0,
+            "magicDamageBonus": 0,
+            "modifiers": {
+                "increasedSummoningCreationCharges": 2,
+                "increasedSkillXP": [
+                    [
+                        21,
+                        2
+                    ]
+                ]
+            }
+        },
+        {
+            "category": "Summoning",
+            "type": "Equipment",
+            "name": "Necromancer Boots",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation. +2% Summoning Skill XP",
+            "isPassiveItem": true,
+            "canEquip": true,
+            "equipmentSlot": 3,
+            "sellsFor": 250000,
+            "media": "assets/media/bank/necromancer_wizard_boots.svg",
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "magicAttackBonus": 0,
+            "magicDefenceBonus": 0,
+            "magicDamageBonus": 0,
+            "modifiers": {
+                "increasedSummoningCreationCharges": 2,
+                "increasedSkillXP": [
+                    [
+                        21,
+                        2
+                    ]
+                ]
+            }
         }
     ],
     "monsters": [
@@ -40749,7 +44495,7 @@ var melvorData = {
                 [
                     495,
                     5,
-                    2
+                    3
                 ],
                 [
                     529,
@@ -40789,7 +44535,7 @@ var melvorData = {
                 [
                     495,
                     5,
-                    6
+                    8
                 ],
                 [
                     531,
@@ -40829,7 +44575,7 @@ var melvorData = {
                 [
                     495,
                     5,
-                    4
+                    5
                 ],
                 [
                     530,
@@ -40869,7 +44615,7 @@ var melvorData = {
                 [
                     495,
                     5,
-                    10
+                    12
                 ],
                 [
                     532,
@@ -42608,7 +46354,7 @@ var melvorData = {
                 [
                     293,
                     1,
-                    5
+                    10
                 ]
             ],
             "bones": 440,
@@ -42645,7 +46391,7 @@ var melvorData = {
                 [
                     294,
                     1,
-                    5
+                    10
                 ]
             ],
             "bones": 440,
@@ -42682,7 +46428,7 @@ var melvorData = {
                 [
                     295,
                     1,
-                    5
+                    10
                 ]
             ],
             "bones": 440,
@@ -42719,7 +46465,7 @@ var melvorData = {
                 [
                     296,
                     1,
-                    5
+                    10
                 ]
             ],
             "lootQty": [
@@ -44119,7 +47865,7 @@ var melvorData = {
             "attackBonus": 0,
             "attackBonusRanged": 0,
             "attackBonusMagic": 0,
-            "strengthBonus": 35,
+            "strengthBonus": 18,
             "strengthBonusRanged": 0,
             "defenceBonus": 0,
             "defenceBonusRanged": 30,
@@ -44221,14 +47967,14 @@ var melvorData = {
             "name": "Murtia",
             "hitpoints": 550,
             "attackLevel": 420,
-            "strengthLevel": 525,
+            "strengthLevel": 430,
             "defenceLevel": 420,
             "rangedLevel": 300,
             "magicLevel": 300,
             "attackBonus": 0,
             "attackBonusRanged": 0,
             "attackBonusMagic": 0,
-            "strengthBonus": 22,
+            "strengthBonus": 0,
             "strengthBonusRanged": 0,
             "defenceBonus": 0,
             "defenceBonusRanged": 50,
@@ -45085,8 +48831,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 8.1,
             "dropCoins": [
-                0,
-                1
+                30,
+                120
             ],
             "lootTable": [
                 [
@@ -45150,8 +48896,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                40,
+                160
             ],
             "lootTable": [
                 [
@@ -45220,8 +48966,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 13.7,
             "dropCoins": [
-                0,
-                1
+                45,
+                190
             ],
             "lootTable": [
                 [
@@ -45265,8 +49011,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 16.3,
             "dropCoins": [
-                0,
-                1
+                55,
+                220
             ],
             "lootTable": [
                 [
@@ -45310,8 +49056,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 24,
             "dropCoins": [
-                0,
-                1
+                85,
+                340
             ],
             "lootTable": [
                 [
@@ -45355,8 +49101,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                25,
+                110
             ],
             "lootTable": [
                 [
@@ -45410,8 +49156,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                40,
+                160
             ],
             "lootTable": [
                 [
@@ -45465,8 +49211,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                45,
+                180
             ],
             "lootTable": [
                 [
@@ -45530,8 +49276,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                60,
+                250
             ],
             "lootTable": [
                 [
@@ -45590,8 +49336,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                80,
+                320
             ],
             "lootTable": [
                 [
@@ -45650,8 +49396,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                95,
+                380
             ],
             "lootTable": [
                 [
@@ -45699,8 +49445,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                150,
+                550
             ],
             "lootTable": [
                 [
@@ -45758,8 +49504,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                155,
+                620
             ],
             "lootTable": [
                 [
@@ -45812,8 +49558,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 45,
             "dropCoins": [
-                0,
-                1
+                69,
+                690
             ],
             "lootTable": [
                 [
@@ -45871,8 +49617,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                170,
+                700
             ],
             "lootTable": [
                 [
@@ -45935,8 +49681,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                190,
+                800
             ],
             "lootTable": [
                 [
@@ -45985,8 +49731,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                69,
+                420
             ],
             "lootTable": [
                 [
@@ -46035,8 +49781,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 47.7,
             "dropCoins": [
-                0,
-                1
+                220,
+                880
             ],
             "lootTable": [
                 [
@@ -46090,8 +49836,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                280,
+                1100
             ],
             "lootTable": [
                 [
@@ -46135,8 +49881,8 @@ var melvorData = {
             "attackType": 1,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                290,
+                1300
             ],
             "lootTable": [
                 [
@@ -46180,8 +49926,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 1,
             "dropCoins": [
-                0,
-                1
+                310,
+                1500
             ],
             "lootTable": [
                 [
@@ -46225,8 +49971,8 @@ var melvorData = {
             "attackType": 0,
             "setMaxHit": null,
             "dropCoins": [
-                0,
-                1
+                70,
+                300
             ],
             "lootTable": [
                 [
@@ -46280,8 +50026,8 @@ var melvorData = {
             "attackType": 2,
             "setMaxHit": 21.3,
             "dropCoins": [
-                0,
-                1
+                75,
+                300
             ],
             "lootTable": [
                 [
@@ -46791,6 +50537,89 @@ var melvorData = {
             ],
             "dungeonSources": [
                 15
+            ]
+        },
+        {
+            "id": 150,
+            "name": "Superior Eyed Monster",
+            "hitpoints": 180,
+            "attackLevel": 80,
+            "strengthLevel": 90,
+            "defenceLevel": 90,
+            "rangedLevel": 60,
+            "magicLevel": 160,
+            "attackBonusMagic": 10,
+            "attackBonus": 40,
+            "strengthBonus": 40,
+            "defenceBonus": 40,
+            "defenceBonusRanged": 0,
+            "defenceBonusMagic": 100,
+            "damageBonusMagic": 0,
+            "attackSpeed": 3000,
+            "attackType": 2,
+            "setMaxHit": 22,
+            "dropCoins": [
+                120,
+                240
+            ],
+            "lootTable": [
+                [
+                    495,
+                    5,
+                    16
+                ],
+                [
+                    533,
+                    1,
+                    3
+                ]
+            ],
+            "media": "assets/media/monsters/superior_eye_monster.svg",
+            "bones": 439,
+            "canSlayer": true,
+            "slayerXP": 90,
+            "slayerSources": [
+                1
+            ]
+        },
+        {
+            "id": 151,
+            "name": "Eye of Fear",
+            "hitpoints": 330,
+            "attackLevel": 260,
+            "strengthLevel": 260,
+            "defenceLevel": 260,
+            "rangedLevel": 160,
+            "magicLevel": 160,
+            "attackBonus": 80,
+            "strengthBonus": 40,
+            "defenceBonus": 80,
+            "defenceBonusRanged": 0,
+            "defenceBonusMagic": 0,
+            "attackSpeed": 3000,
+            "attackType": 0,
+            "dropCoins": [
+                200,
+                600
+            ],
+            "lootTable": [
+                [
+                    495,
+                    5,
+                    24
+                ],
+                [
+                    534,
+                    1,
+                    3
+                ]
+            ],
+            "media": "assets/media/monsters/eye_of_fear.svg",
+            "bones": 439,
+            "canSlayer": true,
+            "slayerXP": 165,
+            "slayerSources": [
+                1
             ]
         }
     ],
@@ -48828,6 +52657,28 @@ var melvorData = {
             },
             "ignoreCompletion": true,
             "activeInRaid": true
+        },
+        {
+            "name": "Tim the Wolf",
+            "description": "Summoning<br>-1 Shard Cost when creating Familiars in Summoning.",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/summoning.svg",
+            "acquiredBy": "Summoning",
+            "skill": 21,
+            "modifiers": {
+                "decreasedSummoningShardCost": 1
+            },
+            "activeInRaid": false
+        },
+        {
+            "name": "Mark",
+            "description": "Achieve Max Level in all Summoning Marks<br>+10% Chance to preserve Summoning Charges.",
+            "media": "https://cdn.melvor.net/core/v018/assets/media/pets/mark.svg",
+            "acquiredBy": "Achieve Max Level in all Summoning Marks",
+            "skill": -1,
+            "modifiers": {
+                "increasedSummoningChargePreservation": 10
+            },
+            "activeInRaid": false
         }
     ],
     "skills": {
@@ -48835,36 +52686,42 @@ var melvorData = {
             "name": "Woodcutting",
             "media": "assets/media/skills/woodcutting/woodcutting.svg",
             "hasMastery": true,
+            "masteryTokenID": 481,
             "maxLevel": 99
         },
         "1": {
             "name": "Fishing",
             "media": "assets/media/skills/fishing/fishing.svg",
             "hasMastery": true,
+            "masteryTokenID": 475,
             "maxLevel": 99
         },
         "2": {
             "name": "Firemaking",
             "media": "assets/media/skills/firemaking/firemaking.svg",
             "hasMastery": true,
+            "masteryTokenID": 474,
             "maxLevel": 99
         },
         "3": {
             "name": "Cooking",
             "media": "assets/media/skills/cooking/cooking.svg",
             "hasMastery": true,
+            "masteryTokenID": 471,
             "maxLevel": 99
         },
         "4": {
             "name": "Mining",
             "media": "assets/media/skills/mining/mining.svg",
             "hasMastery": true,
+            "masteryTokenID": 477,
             "maxLevel": 99
         },
         "5": {
             "name": "Smithing",
             "media": "assets/media/skills/smithing/smithing.svg",
             "hasMastery": true,
+            "masteryTokenID": 479,
             "maxLevel": 99
         },
         "6": {
@@ -48894,12 +52751,14 @@ var melvorData = {
         "10": {
             "name": "Thieving",
             "media": "assets/media/skills/thieving/thieving.svg",
+            "masteryTokenID": 480,
             "hasMastery": true,
             "maxLevel": 99
         },
         "11": {
             "name": "Farming",
             "media": "assets/media/skills/farming/farming.svg",
+            "masteryTokenID": 473,
             "hasMastery": true,
             "maxLevel": 99
         },
@@ -48912,18 +52771,21 @@ var melvorData = {
         "13": {
             "name": "Fletching",
             "media": "assets/media/skills/fletching/fletching.svg",
+            "masteryTokenID": 476,
             "hasMastery": true,
             "maxLevel": 99
         },
         "14": {
             "name": "Crafting",
             "media": "assets/media/skills/crafting/crafting.svg",
+            "masteryTokenID": 472,
             "hasMastery": true,
             "maxLevel": 99
         },
         "15": {
             "name": "Runecrafting",
             "media": "assets/media/skills/runecrafting/runecrafting.svg",
+            "masteryTokenID": 478,
             "hasMastery": true,
             "maxLevel": 99
         },
@@ -48948,12 +52810,21 @@ var melvorData = {
         "19": {
             "name": "Herblore",
             "media": "assets/media/skills/herblore/herblore.svg",
+            "masteryTokenID": 631,
             "hasMastery": true,
             "maxLevel": 99
         },
         "20": {
             "name": "Agility",
             "media": "assets/media/skills/agility/agility.svg",
+            "masteryTokenID": 964,
+            "hasMastery": true,
+            "maxLevel": 99
+        },
+        "21": {
+            "name": "Summoning",
+            "media": "assets/media/skills/summoning/summoning.svg",
+            "masteryTokenID": 997,
             "hasMastery": true,
             "maxLevel": 99
         }
@@ -49159,11 +53030,13 @@ var melvorData = {
                 20,
                 18,
                 19,
-                21
+                21,
+                150,
+                151
             ],
             "difficulty": [
                 2,
-                3
+                4
             ],
             "slayerLevel": 10,
             "dungeonCompleted": -1,
