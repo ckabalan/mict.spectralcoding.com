@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.20",
-        "generationDate": "2021-06-11T05:26:39.855Z"
+        "generationDate": "2021-07-07T20:43:49.532Z"
     },
     "items": [
         {
@@ -43,6 +43,15 @@ var melvorData = {
             "firemakingID": 1,
             "woodcuttingID": 1,
             "woodcuttingLevel": 10,
+            "cookingLevel": 40,
+            "cookingXP": 40,
+            "cookingCategory": 0,
+            "cookReq": [
+                {
+                    "id": 1009,
+                    "qty": 1
+                }
+            ],
             "farmingLevel": 15,
             "farmingXP": 1167,
             "timeToGrow": 24000,
@@ -1039,10 +1048,13 @@ var melvorData = {
             "cookingLevel": 40,
             "cookingXP": 40,
             "cookingCategory": 0,
-            "cookingID": 5,
             "cookReq": [
                 {
                     "id": 14,
+                    "qty": 1
+                },
+                {
+                    "id": 1009,
                     "qty": 1
                 }
             ],
@@ -42987,10 +42999,22 @@ var melvorData = {
             "category": "Fishing",
             "type": "Fish",
             "name": "Red Herring",
-            "equipmentSlot": 5,
             "sellsFor": 999,
             "media": "assets/media/bank/red_herring.svg",
-            "ignoreCompletion": true
+            "ignoreCompletion": true,
+            "equipmentSlot": 5,
+            "attackBonus": [
+                0,
+                0,
+                0
+            ],
+            "strengthBonus": 0,
+            "defenceBonus": 0,
+            "damageReduction": 0,
+            "rangedAttackBonus": 0,
+            "rangedDefenceBonus": 0,
+            "magicDefenceBonus": 0,
+            "rangedStrengthBonus": 0
         },
         {
             "category": "Herblore",
@@ -43295,6 +43319,14 @@ var melvorData = {
                     ]
                 ]
             }
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "name": "Lemon Lobster",
+            "sellsFor": 1,
+            "media": "assets/april/images/lemon.jpg",
+            "ignoreCompletion": true
         }
     ],
     "monsters": [
