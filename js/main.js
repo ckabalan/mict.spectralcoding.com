@@ -89,7 +89,7 @@ $(document).ready(function() {
     }
 
     function generateItemSourceString(itemID) {
-        sourceStr = ''
+        skillLines = []
         // Add Skill Sources
         var skillMap = {
             'Crafting': 'craftReq',
@@ -101,51 +101,52 @@ $(document).ready(function() {
             'Mining': '',
             'Fishing': '',
             'Cooking': 'cookReq',
-            'Farming': 'farmReq'
+            'Farming': 'farmReq',
+            'Summoning': 'summoningReq'
         }
         Object.keys(skillMap).forEach(function(propKey) {
             var propLevelKey = propKey.toLowerCase() + 'Level';
             var propReqKey = skillMap[propKey];
             if (melvorData['items'][itemID].hasOwnProperty(propLevelKey)) {
-                if (sourceStr != '') { sourceStr += '<br/>'; }
-                sourceStr += propKey + ' (Level ' + melvorData['items'][itemID][propLevelKey] + ')';
-                if (propReqKey != '') {
-                    sourceStr += ':<br />';
-                    skillStrs = []
+                reqStr = propKey + ' (Level ' + melvorData['items'][itemID][propLevelKey] + ')';
+                if (propReqKey == '') {
+                    skillLines.push(reqStr)
+                } else {
                     melvorData['items'][itemID][propReqKey].forEach(function(skillSource) {
-                        skillStrs.push(itemLink(skillSource['id'], false, true) + ' x ' + skillSource['qty'].toLocaleString())
+                        if (!Array.isArray(skillSource)) {
+                            skillSource = [ skillSource ]
+                        }
+                        skillLines.push(reqStr + ':');
+                        skillSource.forEach(function(innerSkillSource) {
+                            if (innerSkillSource['id'] >= 0) {
+                                skillLines.push(itemLink(innerSkillSource['id'], false, true) + ' x ' + innerSkillSource['qty'].toLocaleString())
+                            }
+                        })
                     });
-                    sourceStr += skillStrs.join('<br/>')
                 }
             }
         });
         // Add Fishing Junk / Special Sources
         if (melvorData['items'][itemID]['category'] == 'Fishing') {
             if (melvorData['items'][itemID]['type'] == 'Junk' || melvorData['items'][itemID]['type'] == 'Special') {
-                if (sourceStr != '') { sourceStr += '<br/>'; }
-                sourceStr += 'Fishing ' + melvorData['items'][itemID]['type'] + ' (Level 1)';
+                skillLines.push('Fishing ' + melvorData['items'][itemID]['type'] + ' (Level 1)');
             }
         }
         // Add non-fishing items that can be caught via fishing
         if (melvorData['items'][itemID].hasOwnProperty('fishingCatchWeight') && melvorData['items'][itemID]['category'] != 'Fishing') {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Fishing Special (Level 1)';
+            skillLines.push('Fishing Special (Level 1)');
         }
         // Add Upgrade Sources
         if (melvorData['items'][itemID].hasOwnProperty('itemsRequired')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Upgrade:<br />';
-            itemStrs = []
+            skillLines.push('Upgrade:');
             melvorData['items'][itemID]['itemsRequired'].forEach(function(reqs) {
-                itemStrs.push(itemLink(reqs[0], false, true) + ' x ' + reqs[1].toLocaleString())
+                skillLines.push(itemLink(reqs[0], false, true) + ' x ' + reqs[1].toLocaleString())
             });
-            sourceStr += itemStrs.join('<br/>')
         }
         // TODO: Should probably refactor Combat/Thieving/Chests since they're super similar
         // Add Combat Sources
         if (melvorData['items'][itemID].hasOwnProperty('monsterSources')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Monsters:<br />';
+            skillLines.push('Monsters:');
             monsterStrs = []
             melvorData['items'][itemID]['monsterSources'].forEach(function(monsterSource) {
                 var pctChance = (monsterSource['chance'][0]/monsterSource['chance'][1]*100).toFixed(2)
@@ -160,24 +161,22 @@ $(document).ready(function() {
             monsterStrs = monsterStrs.map(function(monsterStr) {
                 return monsterStr.substring(5);
             });
-            sourceStr += monsterStrs.join('<br/>')
+            skillLines.push.apply(skillLines, monsterStrs);
         }
         // Add Thieving Sources
         if (melvorData['items'][itemID].hasOwnProperty('thievingSources')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
             // This section is OK for now because CURRENTLY you can't get an item from
             // two Thieving sources. If this changes will have to change this section.
             var targetSource = melvorData['items'][itemID]['thievingSources'][0];
-            sourceStr += 'Thieving (Level ' + melvorData['thievingTargets'][targetSource['target']]['level'] + '):<br />';
+            skillLines.push('Thieving (Level ' + melvorData['thievingTargets'][targetSource['target']]['level'] + '):');
             var pctChance = (targetSource['chance'][0]/targetSource['chance'][1]*100).toFixed(2)
             // Format string as "<Drop Chance><Icon> (<Drop Fraction> - <Drop Percent>)"
             // The first <Drop Chance> will be used to sort but then trimmed from final display.
-            sourceStr += targetLink(targetSource['target'], false, true) + ' (' + targetSource['chance'][0] + '/' + targetSource['chance'][1] + ' - ' + pctChance + '%)'
+            skillLines.push(targetLink(targetSource['target'], false, true) + ' (' + targetSource['chance'][0] + '/' + targetSource['chance'][1] + ' - ' + pctChance + '%)');
         }
         // Add Chest Sources
         if (melvorData['items'][itemID].hasOwnProperty('chestSources')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Chests:<br />';
+            skillLines.push('Chests:');
             chestStrs = []
             melvorData['items'][itemID]['chestSources'].forEach(function(chestSource) {
                 var pctChance = (chestSource['chance'][0]/chestSource['chance'][1]*100).toFixed(2)
@@ -192,60 +191,49 @@ $(document).ready(function() {
             chestStrs = chestStrs.map(function(chestStr) {
                 return chestStr.substring(5);
             });
-            sourceStr += chestStrs.join('<br/>')
+            skillLines.push.apply(skillLines, chestStrs)
         }
         // Add Shop Sources
         if (melvorData['items'][itemID].hasOwnProperty('buysFor') || melvorData['items'][itemID].hasOwnProperty('slayerCost') || melvorData['items'][itemID].hasOwnProperty('buysForItems') || melvorData['items'][itemID].hasOwnProperty('gloveID')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Shop:<br />';
+            skillLines.push('Shop:');
             shopStrs = []
             if (melvorData['items'][itemID].hasOwnProperty('buysFor') && melvorData['items'][itemID]['buysFor'] > 0) {
-                shopStrs.push(goldCoinsLink(false, true) + ' x ' + melvorData['items'][itemID]['buysFor'].toLocaleString())
+                skillLines.push(goldCoinsLink(false, true) + ' x ' + melvorData['items'][itemID]['buysFor'].toLocaleString())
             }
             if (melvorData['items'][itemID].hasOwnProperty('slayerCost')) {
-                shopStrs.push(slayerCoinsLink(false, true) + ' x ' + melvorData['items'][itemID]['slayerCost'].toLocaleString())
+                skillLines.push(slayerCoinsLink(false, true) + ' x ' + melvorData['items'][itemID]['slayerCost'].toLocaleString())
             }
             if (melvorData['items'][itemID].hasOwnProperty('buysForItems')) {
                 melvorData['items'][itemID]['buysForItems'].forEach(function(material) {
-                    shopStrs.push(itemLink(material[0], false, true) + ' x ' + material[1].toLocaleString())
+                    skillLines.push(itemLink(material[0], false, true) + ' x ' + material[1].toLocaleString())
                 });
             }
             if (melvorData['items'][itemID].hasOwnProperty('gloveID')) {
-                shopStrs.push(goldCoinsLink(false, true) + ' x ' + melvorData['glovesCost'][melvorData['items'][itemID]['gloveID']].toLocaleString())
+                skillLines.push(goldCoinsLink(false, true) + ' x ' + melvorData['glovesCost'][melvorData['items'][itemID]['gloveID']].toLocaleString())
             }
-
-
-            sourceStr += shopStrs.join('<br/>')
         }
         // Add Dungeon Sources - https://github.com/MelvorIdle/Melvor-Wiki-Bot/blob/master/sources/main.js#L1300
         if (melvorData['items'][itemID].hasOwnProperty('dungeonSources')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Dungeons:<br />';
-            dungeonStrs = []
+            skillLines.push('Dungeons:<br />');
             melvorData['items'][itemID]['dungeonSources'].forEach(function(dungeonID) {
-                dungeonStrs.push(dungeonLink(dungeonID, false, true))
+                skillLines.push(dungeonLink(dungeonID, false, true))
             });
-            sourceStr += dungeonStrs.join('<br/>')
         }
         // Add Alt Magic Sources
         if (melvorData['items'][itemID].hasOwnProperty('altMagicSources')) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += 'Alt Magic:<br />';
-            magicStrs = []
+            skillLines.push('Alt Magic:');
             melvorData['items'][itemID]['altMagicSources'].forEach(function(spellID) {
-                magicStrs.push(spellLink(spellID, false, true))
+                skillLines.push(spellLink(spellID, false, true))
             });
-            sourceStr += magicStrs.join('<br/>')
         }
         // Add Token Sources
         if (melvorData['items'][itemID].hasOwnProperty('isToken') && melvorData['items'][itemID]['isToken'] == true) {
-            if (sourceStr != '') { sourceStr += '<br/>'; }
-            sourceStr += melvorData['items'][itemID]['name'].replace('Mastery Token (', '').replace(')', '') + ' (Level 1)';
+            skillLines.push(melvorData['items'][itemID]['name'].replace('Mastery Token (', '').replace(')', '') + ' (Level 1)');
         }
-        if (sourceStr == '') {
-            sourceStr = 'Unknown Source - Click the Item Link!'
+        if (skillLines.length == 0) {
+            skillLines.push('Unknown Source - Click the Item Link!')
         }
-        return sourceStr;
+        return skillLines.join('<br/>');
     }
     function generateMonsterZoneString(monsterID) {
         sourceStr = ''
