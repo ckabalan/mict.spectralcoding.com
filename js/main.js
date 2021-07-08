@@ -112,10 +112,14 @@ $(document).ready(function() {
                 if (propReqKey == '') {
                     skillLines.push(reqStr)
                 } else {
+                    // Normalize items which have a single crafting source
+                    // "someReq": [ { "id": 524, "qty": 2 }, { "id": 657, "qty": 1 } ]
+                    // to...
+                    // "someReq": [ [ { "id": 524, "qty": 2 }, { "id": 657, "qty": 1 } ] ]
+                    if (!Array.isArray(melvorData['items'][itemID][propReqKey][0])) {
+                        melvorData['items'][itemID][propReqKey] = [ melvorData['items'][itemID][propReqKey] ]
+                    };
                     melvorData['items'][itemID][propReqKey].forEach(function(skillSource) {
-                        if (!Array.isArray(skillSource)) {
-                            skillSource = [ skillSource ]
-                        }
                         skillLines.push(reqStr + ':');
                         skillSource.forEach(function(innerSkillSource) {
                             if (innerSkillSource['id'] >= 0) {
