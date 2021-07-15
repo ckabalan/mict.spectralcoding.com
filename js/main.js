@@ -33,6 +33,33 @@ $(document).ready(function() {
         return missingIDs;
     }
 
+    // Grab mastery XP
+    function getMasteryIDs(MASTERY)
+    {
+        var missingIDs = [];
+        var masterySkills = [0, 1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 20, 21];
+
+        for(let i = 0; i < masterySkills.length; i++)
+        {
+            missingIDs.push(MASTERY[masterySkills[i]]['pool'])
+            //console.log(MASTERY[masterySkills[i]]["pool"])
+        }        
+        return missingIDs;
+    }
+
+    // Grab Skills
+    var i = 0;
+    function getSkillIDs(skillStats) {
+        var missingIDs = []
+        skillStats.forEach(function(skillLevel) {
+            //missingIDs.push(skillLevel.toString())
+            missingIDs.push(i);
+            i++;
+        });
+        return missingIDs;
+    }
+
+    //#region Links
     function itemLink(itemID, brackets = false, image = false) {
         itemName = melvorData['items'][itemID]['name'];
         articleName = itemName.replace('#', '');
@@ -87,7 +114,12 @@ $(document).ready(function() {
         // This may be a bug, but the Dungeon asset data has the CDN prefix already specified
         return (image?'<img src="' + melvorData['slayerAreas'][slayerAreaID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + slayerAreaName + (brackets?']':'') + '</a>';
     }
+    function masteryLink(skillID, brackets = false, image = false) {
 
+    }
+    //#endregion
+
+    //#region generateStrings
     function generateItemSourceString(itemID) {
         skillLines = []
         // Add Skill Sources
@@ -273,9 +305,12 @@ $(document).ready(function() {
             return skillLink(melvorData['pets'][petID]['skill'], false, true);
         }
     }
-    
+    function generateMasteryExperienceString(masteryID) {
 
-    // Events
+    }
+    //#endregion
+
+    //#region Events
     $('#logo').on('click', () => {
         $('#saveImport').val('');
         resetMissingTables();
@@ -300,6 +335,9 @@ $(document).ready(function() {
             }, 1000);
         }
     });
+    //#endregion
+
+    //#region filterAndSave
     function runFilter(selection) {
         $('#missingWrapper table').show();
         var dataset = $('#missingWrapper table tbody').find('tr');
@@ -355,6 +393,9 @@ $(document).ready(function() {
         saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
         return saveJSON;
     }
+    //#endregion
+
+
     function processSave(saveData) {
         var saveJSON = loadSaveData(saveData);
         if (!saveJSON) {
@@ -365,6 +406,8 @@ $(document).ready(function() {
             var missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
             var missingMonsterIDs = getMissingMonsterIDs(saveJSON['monsterStats']);
             var missingPetIDs = getMissingPetIDs(saveJSON['petUnlocked']);
+            var missingMasteryIDs = getMasteryIDs(saveJSON['MASTERY']);
+            var missingSkillIDs = getSkillIDs(saveJSON['skillLevel']);
             // Clear all entries
             resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
@@ -397,6 +440,30 @@ $(document).ready(function() {
                 }
                 $('#tablePets > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + petID + '</td><td>' + petLink(petID, false, true) + rowNote + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
             });
+            /*missingMasteryIDs.forEach(function(masteryID) {
+                var rowClass = ' class=""';
+                var rowNote = '';
+                if (melvorData['MASTERY'][masteryID]['ignoreCompletion'] == false) {
+                    rowClass = ' class="table-warning"';
+                    rowNote = ' (Not Required)';
+                }
+                $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + masteryID + '</td><td>' + petLink(1, false, true) + rowNote + '</td><td class="item-source">' + '</td></tr>');
+            });*/
+
+            missingSkillIDs.forEach(function(skillID) {
+                var masterySkills = [0, 1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 20, 21];
+
+                if(masterySkills.includes(skillID))
+                {
+                    var rowClass = ' class=""';
+                    var rowNote = '';
+                    $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + skillID + '</td><td>' + skillLink(skillID, false, true) + rowNote 
+                    + '</td><td class="item-source">' + missingMasteryIDs[skillID] + '</td></tr>');
+                }
+                
+            });
+
+
             // Show tables
             $('#missingWrapper').removeClass('d-none');
         }
