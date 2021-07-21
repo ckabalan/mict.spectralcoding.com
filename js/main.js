@@ -33,7 +33,7 @@ $(document).ready(function() {
         return missingIDs;
     }
 
-    // Grab mastery XP
+    // Grab mastery pool XP
     function getMasteryIDs(MASTERY)
     {
         var missingIDs = [];
@@ -47,16 +47,68 @@ $(document).ready(function() {
         return missingIDs;
     }
 
-    // Grab Skills
-    var i = 0;
-    function getSkillIDs(skillStats) {
-        var missingIDs = []
-        skillStats.forEach(function(skillLevel) {
-            //missingIDs.push(skillLevel.toString())
-            missingIDs.push(i);
-            i++;
+    // Grab Skills with mastery
+    function getMasterySkillXPs(MASTERY) {
+        var missingIDs = [];
+
+        // Get the xp arrays
+        for(let i = 0; i < 22; i++)
+        {
+            if(MASTERY[i] !== undefined)
+            {
+                //console.log(MASTERY[i])
+                missingIDs.push(MASTERY[i]['xp']);
+            }            
+        }
+
+        // Find  and print percent progress of each xp
+        missingIDs.forEach(function(xp) {
+
+            for(let i = 0; i < xp.length; i++)
+            {
+                var progress = (xp[i] / 13034431) * 100;
+                //console.log(xp[i] + ' / 13034431 = ' + progress + '%');
+            }
+
+            //console.log(xp);
         });
+
         return missingIDs;
+
+    }
+
+    // Loop through melvor data, get array of mastery items
+    function getMasteryItems() {
+
+        //console.log(melvorData['items'].length);
+
+        // Create 2D array to represent masteryItems using ID, masteryId 1, and masteryID 2
+        var masteryItems = [];
+
+        melvorData['items'].forEach(function(item, index){
+            //console.log(item);
+
+            if(item.hasOwnProperty('masteryID')) {
+
+                // Create array of item data
+                var masteryitem = [];
+                masteryitem.push(index);
+                masteryitem.push(item['masteryID'][0]);
+                masteryitem.push(item['masteryID'][1]);
+
+                // Add to masteryItems 2D array
+                masteryItems.push(masteryitem);
+            }
+
+        });
+
+        // Print 2D array to make sure it worked
+        masteryItems.forEach(function (masteryItem) {
+            //console.log(masteryItem);
+        });
+
+        return masteryItems;
+
     }
 
     //#region Links
@@ -114,8 +166,27 @@ $(document).ready(function() {
         // This may be a bug, but the Dungeon asset data has the CDN prefix already specified
         return (image?'<img src="' + melvorData['slayerAreas'][slayerAreaID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + slayerAreaName + (brackets?']':'') + '</a>';
     }
-    function masteryLink(skillID, brackets = false, image = false) {
-
+    function woodcuttingMasteryLink(woodCutID, brackets = false, image = false) {
+        treeName = ['normal', 'oak', 'willow', 'teak', 'maple', 'mahogany', 'yew', 'magic', 'redwood'];
+        treeNameProper = treeName[woodCutID].charAt(0).toUpperCase() + treeName[woodCutID].slice(1) + ' Tree';
+        return (image?'<img src="' + CDNPrefix + 'assets/media/skills/woodcutting/' + treeName[woodCutID] + '_tree.svg' + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + 'Woodcutting' + '" target="_new">' + (brackets?'[':'') + treeNameProper + (brackets?']':'') + '</a>';
+    }
+    function agilityMasteryLink(obstacleID, brackets = false, image = false) {
+        obstacleName = [
+            '1CN', '1RS', '1RC',
+            '2RJ', '2MB', '2BB',
+            '3BS', '3PC', '3PB', '3PJ', '3SS',
+            '4CS', '4MC', '4MD', '4CC', '4GJ',
+            '5RC', '5CC', '5CB', '5MC', '5TC',
+            '6TH', '6TB', '6RW', '6LS', '6RD',
+            '7ST', '7HT', '7BT', '7WT', '7FT',
+            '8PC', '8RB', '8SJ', '8TH', '8ALJ',
+            '9LJ', '9WJ', '9IJ', '9CM', '9FLC',
+            '10W', '10LWD', '10BM', '10DF', '10OR',
+            '6FT', '8RT'
+        ];
+        return (image?'<img src="' + 'https://melvoridle.com/assets/media/skills/agility/' + obstacleName[obstacleID] + '.svg' + '" />':'') + 
+        '<a href="https://wiki.melvoridle.com/index.php?title=' + 'agility' + '" target="_new">' + (brackets?'[':'') + obstacleName[obstacleID] + (brackets?']':'') + '</a>';
     }
     //#endregion
 
@@ -305,8 +376,67 @@ $(document).ready(function() {
             return skillLink(melvorData['pets'][petID]['skill'], false, true);
         }
     }
-    function generateMasteryExperienceString(masteryID) {
+    function generateMasteryExperienceString(xpGroup, isItem, masteryItems, masterySkillIndex) {        
 
+        sourceStr = '';
+        xpStrs = [];
+        //console.log(xpGroup);
+
+        var itemID = 0;
+        if(isItem) {
+            for(let i = 0; i < xpGroup.length; i++)
+            {
+                masteryItems.forEach(function (masteryItem) {
+                    //console.log(masteryItem);
+
+                    if(masteryItem[1] == masterySkillIndex) {
+                        if(masteryItem[2] == i)
+                        {
+                            //console.log(masteryItem);
+                            itemID = masteryItem[0];
+                        }                        
+                    }
+                });
+    
+                // Generate string
+                var progress = (xpGroup[i] / 13034431) * 100;
+                xpStr = xpGroup[i] + ' / 13034431 = ' + progress + '%';
+                xpStr = itemLink(itemID, false, true) + xpStr;
+                xpStrs.push(xpStr);
+            }
+        }
+        else {
+            for(let i = 0; i < xpGroup.length; i++)
+            {
+                linkStr = '';
+
+                // Woodcutting
+                if(masterySkillIndex == 0) {
+                    //linkStr = itemLink(50, false, true);
+                    linkStr = woodcuttingMasteryLink(i, false, true);
+                }
+
+                // Theiving
+                if(masterySkillIndex == 10) {
+                    linkStr = targetLink(i, false, true);
+                }
+
+                // Agility
+                if(masterySkillIndex == 20) {
+                    linkStr = agilityMasteryLink(i, false, true);
+                }
+
+
+
+                // Generate string
+                var progress = (xpGroup[i] / 13034431) * 100;
+                xpStr = xpGroup[i] + ' / 13034431 = ' + progress + '%';
+                xpStr = linkStr + xpStr;
+                xpStrs.push(xpStr);
+            }
+        }
+        sourceStr += xpStrs.join('<br/>');
+        return sourceStr;
     }
     //#endregion
 
@@ -406,8 +536,8 @@ $(document).ready(function() {
             var missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
             var missingMonsterIDs = getMissingMonsterIDs(saveJSON['monsterStats']);
             var missingPetIDs = getMissingPetIDs(saveJSON['petUnlocked']);
-            var missingMasteryIDs = getMasteryIDs(saveJSON['MASTERY']);
-            var missingSkillIDs = getSkillIDs(saveJSON['skillLevel']);
+            var masterySkillXPs = getMasterySkillXPs(saveJSON['MASTERY']);
+            var masteryItems = getMasteryItems();
             // Clear all entries
             resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
@@ -420,7 +550,8 @@ $(document).ready(function() {
                     rowClass = ' class="table-warning"';
                     rowNote = ' (Not Required)';
                 }
-                $('#tableItems > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + itemID + '</td><td>' + itemLink(itemID, false, true) + rowNote + '</td><td class="item-source">' + generateItemSourceString(itemID) + '</td></tr>');
+                $('#tableItems > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + 
+                itemID + '</td><td>' + itemLink(itemID, false, true) + rowNote + '</td><td class="item-source">' + generateItemSourceString(itemID) + '</td></tr>');
             });
             missingMonsterIDs.forEach(function(monsterID) {
                 var rowClass = ' class=""';
@@ -429,7 +560,8 @@ $(document).ready(function() {
                     rowClass = ' class="table-warning"';
                     rowNote = ' (Not Required)';
                 }
-                $('#tableMonsters > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + monsterID + '</td><td>' + monsterLink(monsterID, false, true) + rowNote + '</td><td class="item-source">' + generateMonsterZoneString(monsterID) + '</td></tr>');
+                $('#tableMonsters > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + 
+                monsterID + '</td><td>' + monsterLink(monsterID, false, true) + rowNote + '</td><td class="item-source">' + generateMonsterZoneString(monsterID) + '</td></tr>');
             });
             missingPetIDs.forEach(function(petID) {
                 var rowClass = ' class=""';
@@ -438,31 +570,35 @@ $(document).ready(function() {
                     rowClass = ' class="table-warning"';
                     rowNote = ' (Not Required)';
                 }
-                $('#tablePets > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + petID + '</td><td>' + petLink(petID, false, true) + rowNote + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
+                $('#tablePets > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + 
+                petID + '</td><td>' + petLink(petID, false, true) + rowNote + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
             });
-            /*missingMasteryIDs.forEach(function(masteryID) {
+
+            var masteryItemSkills = [0, 1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 20, 21];
+            var masteryNonItemSkills = [0, 10, 20];
+
+            masteryItemSkills.forEach(function(skillID, index) {
                 var rowClass = ' class=""';
                 var rowNote = '';
-                if (melvorData['MASTERY'][masteryID]['ignoreCompletion'] == false) {
-                    rowClass = ' class="table-warning"';
-                    rowNote = ' (Not Required)';
-                }
-                $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + masteryID + '</td><td>' + petLink(1, false, true) + rowNote + '</td><td class="item-source">' + '</td></tr>');
-            });*/
 
-            missingSkillIDs.forEach(function(skillID) {
-                var masterySkills = [0, 1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 20, 21];
-
-                if(masterySkills.includes(skillID))
+                // If mastery is not an item
+                if(masteryNonItemSkills.includes(skillID))
                 {
-                    var rowClass = ' class=""';
-                    var rowNote = '';
-                    $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + skillID + '</td><td>' + skillLink(skillID, false, true) + rowNote 
-                    + '</td><td class="item-source">' + missingMasteryIDs[skillID] + '</td></tr>');
+                    $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + 
+                    skillID + '</td><td>' + skillLink(skillID, false, true) + rowNote + 
+                    '</td><td class="item-source">' + generateMasteryExperienceString(masterySkillXPs[index], false, masteryItems, skillID) + '</td></tr>');
                 }
-                
-            });
+                // If mastery is an item
+                else
+                {
+                    $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + 
+                    skillID + '</td><td>' + skillLink(skillID, false, true) + rowNote + 
+                    '</td><td class="item-source">' + generateMasteryExperienceString(masterySkillXPs[index], true, masteryItems, skillID) + '</td></tr>');
+                }
 
+
+
+            });
 
             // Show tables
             $('#missingWrapper').removeClass('d-none');
