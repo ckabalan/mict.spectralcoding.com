@@ -32,7 +32,33 @@ $(document).ready(function() {
         });
         return missingIDs;
     }
+    function getMasterySkillXPs(MASTERY) {
+        var missingIDs = [];
+        for(let i = 0; i < 22; i++) {
+            if(MASTERY[i] !== undefined) {
+                missingIDs.push(MASTERY[i]['xp']);
+            }            
+        }
+        return missingIDs;
+    }
+    // Loop through melvor data, get array of mastery items
+    function getMasteryItems() {
+        var masteryItems = [];
+        melvorData['items'].forEach(function(item, index){
+            if(item.hasOwnProperty('masteryID')) {
+                // Create array of item data
+                var masteryitem = [];
+                masteryitem.push(index);
+                masteryitem.push(item['masteryID'][0]);
+                masteryitem.push(item['masteryID'][1]);
+                // Add to masteryItems 2D array
+                masteryItems.push(masteryitem);
+            }
+        });
+        return masteryItems;
+    }
 
+    //#region Links
     function itemLink(itemID, brackets = false, image = false) {
         itemName = melvorData['items'][itemID]['name'];
         articleName = itemName.replace('#', '');
@@ -87,7 +113,30 @@ $(document).ready(function() {
         // This may be a bug, but the Dungeon asset data has the CDN prefix already specified
         return (image?'<img src="' + melvorData['slayerAreas'][slayerAreaID]['media'] + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + articleName + '" target="_new">' + (brackets?'[':'') + slayerAreaName + (brackets?']':'') + '</a>';
     }
+    function woodcuttingMasteryLink(woodCutID, brackets = false, image = false) {
+        treeName = ['normal', 'oak', 'willow', 'teak', 'maple', 'mahogany', 'yew', 'magic', 'redwood'];
+        treeNameProper = treeName[woodCutID].charAt(0).toUpperCase() + treeName[woodCutID].slice(1) + ' Tree';
+        return (image?'<img src="' + CDNPrefix + 'assets/media/skills/woodcutting/' + treeName[woodCutID] + '_tree.svg' + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + 'Woodcutting' + '" target="_new">' + (brackets?'[':'') + treeNameProper + (brackets?']':'') + '</a>';
+    }
+    function agilityMasteryLink(obstacleID, brackets = false, image = false) {
+        obstacleName = [
+            '1CN', '1RS', '1RC',
+            '2RJ', '2MB', '2BB',
+            '3BS', '3PC', '3PB', '3PJ', '3SS',
+            '4CS', '4MC', '4MD', '4CC', '4GJ',
+            '5RC', '5CC', '5CB', '5MC', '5TC',
+            '6TH', '6TB', '6RW', '6LS', '6RD',
+            '7ST', '7HT', '7BT', '7WT', '7FT',
+            '8PC', '8RB', '8SJ', '8TH', '8ALJ',
+            '9LJ', '9WJ', '9IJ', '9CM', '9FLC',
+            '10W', '10LWD', '10BM', '10DF', '10OR',
+            '6FT', '8RT'
+        ];
+        return (image?'<img src="' + 'https://melvoridle.com/assets/media/skills/agility/' + obstacleName[obstacleID] + '.svg' + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + 'agility' + '" target="_new">' + (brackets?'[':'') + obstacleName[obstacleID] + (brackets?']':'') + '</a>';
+    }
+    //#endregion
 
+    //#region generateStrings
     function generateItemSourceString(itemID) {
         skillLines = []
         // Add Skill Sources
@@ -273,9 +322,52 @@ $(document).ready(function() {
             return skillLink(melvorData['pets'][petID]['skill'], false, true);
         }
     }
-    
+    function generateMasteryExperienceString(xpGroup, isItem, masteryItems, masterySkillIndex) {        
+        sourceStr = '';
+        xpStrs = [];
+        linkStr = '';
+        completeXPs = 0;
+        for(let i = 0; i < xpGroup.length; i++) {
+            if(isItem) {
+                masteryItems.forEach(function (masteryItem) {
+                    if(masteryItem[1] == masterySkillIndex) {
+                        if(masteryItem[2] == i) {
+                            linkStr = itemLink(masteryItem[0], false, true)
+                        }                        
+                    }
+                });
+            }
+            else {
+                if(masterySkillIndex == 0) {
+                    linkStr = woodcuttingMasteryLink(i, false, true);
+                }
+                if(masterySkillIndex == 10) {
+                    linkStr = targetLink(i, false, true);
+                }
+                if(masterySkillIndex == 20) {
+                    linkStr = agilityMasteryLink(i, false, true);
+                }
+            }
+            // Generate string // Check if mastery is complete // max xp = 13034431
+            if(xpGroup[i] < 13034431) {
+                var progress = (xpGroup[i] / 13034431) * 100;
+                xpStr = ' ' + progress.toFixed(2) + '%';
+                xpStr = linkStr + xpStr;
+                xpStrs.push(xpStr);
+            }
+            else {
+                completeXPs++;
+            }
+        }
+        if(completeXPs == xpGroup.length) {
+            xpStrs.push("All done!");
+        }
+        sourceStr += xpStrs.join('<br/>');
+        return sourceStr;
+    }
+    //#endregion
 
-    // Events
+    //#region Events
     $('#logo').on('click', () => {
         $('#saveImport').val('');
         resetMissingTables();
@@ -300,6 +392,9 @@ $(document).ready(function() {
             }, 1000);
         }
     });
+    //#endregion
+
+    //#region filterAndSave
     function runFilter(selection) {
         $('#missingWrapper table').show();
         var dataset = $('#missingWrapper table tbody').find('tr');
@@ -381,6 +476,9 @@ $(document).ready(function() {
         saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
         return saveJSON;
     }
+    //#endregion
+
+
     function processSave(saveData) {
         var saveJSON = loadSaveData(saveData);
         if (!saveJSON) {
@@ -391,6 +489,8 @@ $(document).ready(function() {
             var missingItemIDs = getMissingItemIDs(saveJSON['itemStats']);
             var missingMonsterIDs = getMissingMonsterIDs(saveJSON['monsterStats']);
             var missingPetIDs = getMissingPetIDs(saveJSON['petUnlocked']);
+            var masterySkillXPs = getMasterySkillXPs(saveJSON['MASTERY']);
+            var masteryItems = getMasteryItems();
             // Clear all entries
             resetMissingTables();
             missingItemIDs.forEach(function(itemID) {
@@ -422,6 +522,23 @@ $(document).ready(function() {
                     rowNote = ' (Not Required)';
                 }
                 $('#tablePets > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + petID + '</td><td>' + petLink(petID, false, true) + rowNote + '</td><td class="item-source">' + generatePetAcquisitionString(petID) + '</td></tr>');
+            });
+
+            var masteryItemSkills = [0, 1, 2, 3, 4, 5, 10, 11, 13, 14, 15, 19, 20, 21];
+            var masteryNonItemSkills = [0, 10, 20];
+            masteryItemSkills.forEach(function(skillID, index) {
+                var rowClass = ' class=""';
+                var rowNote = '';
+                // If mastery is not an item
+                if(masteryNonItemSkills.includes(skillID))
+                {
+                    $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + skillID + '</td><td>' + skillLink(skillID, false, true) + rowNote + '</td><td class="item-source">' + generateMasteryExperienceString(masterySkillXPs[index], false, masteryItems, skillID) + '</td></tr>');
+                }
+                // If mastery is an item
+                else
+                {
+                    $('#tableMasteries > tbody:last-child').append('<tr' + rowClass + '><td class="d-none d-sm-table-cell-none d-md-table-cell">' + skillID + '</td><td>' + skillLink(skillID, false, true) + rowNote + '</td><td class="item-source">' + generateMasteryExperienceString(masterySkillXPs[index], true, masteryItems, skillID) + '</td></tr>');
+                }
             });
             // Show tables
             $('#missingWrapper').removeClass('d-none');
