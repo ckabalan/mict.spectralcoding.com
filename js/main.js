@@ -37,7 +37,7 @@ $(document).ready(function() {
         for(let i = 0; i < 22; i++) {
             if(MASTERY[i] !== undefined) {
                 missingIDs.push(MASTERY[i]['xp']);
-            }            
+            }
         }
         return missingIDs;
     }
@@ -58,7 +58,6 @@ $(document).ready(function() {
         return masteryItems;
     }
 
-    //#region Links
     function itemLink(itemID, brackets = false, image = false) {
         itemName = melvorData['items'][itemID]['name'];
         articleName = itemName.replace('#', '');
@@ -134,9 +133,7 @@ $(document).ready(function() {
         ];
         return (image?'<img src="' + 'https://melvoridle.com/assets/media/skills/agility/' + obstacleName[obstacleID] + '.svg' + '" />':'') + '<a href="https://wiki.melvoridle.com/index.php?title=' + 'agility' + '" target="_new">' + (brackets?'[':'') + obstacleName[obstacleID] + (brackets?']':'') + '</a>';
     }
-    //#endregion
 
-    //#region generateStrings
     function generateItemSourceString(itemID) {
         skillLines = []
         // Add Skill Sources
@@ -322,7 +319,7 @@ $(document).ready(function() {
             return skillLink(melvorData['pets'][petID]['skill'], false, true);
         }
     }
-    function generateMasteryExperienceString(xpGroup, isItem, masteryItems, masterySkillIndex) {        
+    function generateMasteryExperienceString(xpGroup, isItem, masteryItems, masterySkillIndex) {
         sourceStr = '';
         xpStrs = [];
         linkStr = '';
@@ -333,7 +330,7 @@ $(document).ready(function() {
                     if(masteryItem[1] == masterySkillIndex) {
                         if(masteryItem[2] == i) {
                             linkStr = itemLink(masteryItem[0], false, true)
-                        }                        
+                        }
                     }
                 });
             }
@@ -365,9 +362,7 @@ $(document).ready(function() {
         sourceStr += xpStrs.join('<br/>');
         return sourceStr;
     }
-    //#endregion
 
-    //#region Events
     $('#logo').on('click', () => {
         $('#saveImport').val('');
         resetMissingTables();
@@ -392,9 +387,7 @@ $(document).ready(function() {
             }, 1000);
         }
     });
-    //#endregion
 
-    //#region filterAndSave
     function runFilter(selection) {
         $('#missingWrapper table').show();
         var dataset = $('#missingWrapper table tbody').find('tr');
@@ -476,7 +469,6 @@ $(document).ready(function() {
         saveJSON['itemStats'] = saveJSON['itemStats'] ?? [];
         return saveJSON;
     }
-    //#endregion
 
 
     function processSave(saveData) {
