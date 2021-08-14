@@ -331,9 +331,24 @@ $(document).ready(function() {
             //console.log("Raw:")
             //console.log(saveJSONRaw)
             saveJSON = {}
+            // This comes from serializeSave
+            // itemStats =
+            //      ns = "nested Vars"
+            //       3 = index of 'itemStats' entry from nestedVars[currentSaveVersion]
+            //       0 = Not sure. Maybe itemStatsData.all?
             saveJSON['itemStats'] = (saveJSONRaw['ns'] && saveJSONRaw['ns'][3] && saveJSONRaw['ns'][3][0]) ?? [];
+            // monsterStats =
+            //       s = "serialize Vars"
+            //      21 = index of 'monsterStats' entry from serialVars[currentSaveVersion]
             saveJSON['monsterStats'] = (saveJSONRaw['s'] && saveJSONRaw['s'][21]) ?? [];
+            // petUnlocked =
+            //       s = "serialize Vars"
+            //      22 = index of 'petUnlocked' entry from serialVars[currentSaveVersion]
             saveJSON['petUnlocked'] = (saveJSONRaw['s'] && saveJSONRaw['s'][22]) ?? [];
+            // accountGameVersion =
+            //      o = "other Vars"
+            //      4 = index of 'gameUpdateNotification' entry from otherVars[currentSaveVersion]
+            // This might actually be a bad entry to use, since it is probably used to popup the first time an old save is loaded on a new game version
             saveJSON['accountGameVersion'] = (saveJSONRaw['o'] && saveJSONRaw['o'][4].replaceAll('"', '')) ?? 'Unknown Game Version';
             //console.log("Fixed:")
             //console.log(saveJSON)
