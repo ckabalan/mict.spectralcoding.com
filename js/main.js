@@ -56,12 +56,15 @@ $(document).ready(function() {
         });
         exp['dungeons'].forEach(function(dungeon, dungeonID) {
             dungeon['monsters'].forEach(function(monsterID) {
-                if (!exp['monsters'][monsterID].hasOwnProperty('dungeonSources')) {
-                    exp['monsters'][monsterID]['dungeonSources'] = []
-                }
-                if (exp['monsters'][monsterID]['dungeonSources'].indexOf(dungeonID) === -1) {
-                    // Add only if it doesn't exist already
-                    exp['monsters'][monsterID]['dungeonSources'].push(dungeonID);
+                // Into The Mist lists the first monsters as -1, probably because they're random.
+                if (monsterID != -1) {
+                    if (!exp['monsters'][monsterID].hasOwnProperty('dungeonSources')) {
+                        exp['monsters'][monsterID]['dungeonSources'] = []
+                    }
+                    if (exp['monsters'][monsterID]['dungeonSources'].indexOf(dungeonID) === -1) {
+                        // Add only if it doesn't exist already
+                        exp['monsters'][monsterID]['dungeonSources'].push(dungeonID);
+                    }
                 }
             });
         });
@@ -84,7 +87,7 @@ $(document).ready(function() {
                 });
             }
             // Bones and Shards
-            if (monster.hasOwnProperty('bones') && monster['bones'] != null) {
+            if (monster.hasOwnProperty('bones') && monster['bones'] != -1 && monster['bones'] != null) {
                 if (!exp['items'][monster['bones']].hasOwnProperty('monsterSources')) {
                     exp['items'][monster['bones']]['monsterSources'] = []
                 }
@@ -95,8 +98,6 @@ $(document).ready(function() {
                     "maxQty": monster['boneQty'] ?? 1
                 });
             }
-
-
         });
         // Add Herblore Level To Item Array
         herbloreItemData.forEach(function(herbloreData) {
