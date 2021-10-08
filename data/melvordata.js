@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
-        "gameVersion": "Alpha v0.21",
-        "generationDate": "2021-08-13T14:55:27.999Z"
+        "gameVersion": "Alpha v0.22.1",
+        "generationDate": "2021-10-08T16:02:17.495Z"
     },
     "items": [
         {
@@ -19,14 +19,153 @@ var melvorData = {
             "firemakingID": 0,
             "woodcuttingID": 0,
             "woodcuttingLevel": 1,
+            "cookingLevel": 99,
+            "cookingXP": 69,
+            "cookingCategory": 1,
+            "cookReq": [
+                {
+                    "id": 1011,
+                    "qty": 1
+                },
+                {
+                    "id": 1013,
+                    "qty": 1
+                },
+                {
+                    "id": 1013,
+                    "qty": 1
+                },
+                {
+                    "id": 1015,
+                    "qty": 1
+                },
+                {
+                    "id": 1015,
+                    "qty": 1
+                },
+                {
+                    "id": 1017,
+                    "qty": 1
+                },
+                {
+                    "id": 1017,
+                    "qty": 1
+                },
+                {
+                    "id": 1018,
+                    "qty": 1
+                },
+                {
+                    "id": 1018,
+                    "qty": 1
+                },
+                {
+                    "id": 1019,
+                    "qty": 1
+                },
+                {
+                    "id": 1019,
+                    "qty": 1
+                },
+                {
+                    "id": 1020,
+                    "qty": 1
+                },
+                {
+                    "id": 1020,
+                    "qty": 1
+                },
+                {
+                    "id": 1021,
+                    "qty": 1
+                },
+                {
+                    "id": 1021,
+                    "qty": 1
+                },
+                {
+                    "id": 1022,
+                    "qty": 1
+                },
+                {
+                    "id": 1022,
+                    "qty": 1
+                },
+                {
+                    "id": 1023,
+                    "qty": 1
+                },
+                {
+                    "id": 1023,
+                    "qty": 1
+                },
+                {
+                    "id": 1024,
+                    "qty": 1
+                },
+                {
+                    "id": 1024,
+                    "qty": 1
+                },
+                {
+                    "id": 1025,
+                    "qty": 1
+                },
+                {
+                    "id": 1025,
+                    "qty": 1
+                },
+                {
+                    "id": 1026,
+                    "qty": 1
+                },
+                {
+                    "id": 1026,
+                    "qty": 1
+                },
+                {
+                    "id": 1027,
+                    "qty": 1
+                },
+                {
+                    "id": 1027,
+                    "qty": 1
+                },
+                {
+                    "id": 1028,
+                    "qty": 1
+                },
+                {
+                    "id": 1028,
+                    "qty": 1
+                },
+                {
+                    "id": 1029,
+                    "qty": 1
+                },
+                {
+                    "id": 1029,
+                    "qty": 1
+                }
+            ],
             "thievingSources": [
                 {
-                    "target": 2,
+                    "target": 1,
                     "chance": [
-                        21,
-                        80
+                        75,
+                        524
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        57,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -56,12 +195,22 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 2,
+                    "target": 1,
                     "chance": [
-                        3,
-                        16
+                        45,
+                        1048
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        37,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -91,12 +240,22 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 2,
+                    "target": 1,
                     "chance": [
-                        9,
-                        80
+                        15,
+                        524
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        21,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -143,12 +302,22 @@ var melvorData = {
             "woodcuttingLevel": 35,
             "thievingSources": [
                 {
-                    "target": 2,
+                    "target": 15,
                     "chance": [
-                        3,
-                        40
+                        27,
+                        176
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        17,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -206,10 +375,36 @@ var melvorData = {
                 {
                     "target": 2,
                     "chance": [
-                        9,
-                        160
+                        15,
+                        46
                     ],
                     "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        3,
+                        28
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        75,
+                        269
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        15,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -232,10 +427,28 @@ var melvorData = {
                 {
                     "target": 2,
                     "chance": [
-                        21,
-                        800
+                        9,
+                        46
                     ],
                     "maxQty": 1
+                },
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        22
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        13,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -294,9 +507,27 @@ var melvorData = {
                     "target": 2,
                     "chance": [
                         3,
-                        160
+                        23
                     ],
                     "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        5,
+                        84
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        12,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -329,9 +560,27 @@ var melvorData = {
                     "target": 2,
                     "chance": [
                         3,
-                        400
+                        46
                     ],
                     "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        39,
+                        538
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        11,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -355,9 +604,19 @@ var melvorData = {
                     "target": 2,
                     "chance": [
                         3,
-                        800
+                        92
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1078,
+                    "chance": [
+                        10,
+                        193
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -376,7 +635,7 @@ var melvorData = {
             "fishingID": 0,
             "fishingLevel": 1,
             "fishingXP": 5,
-            "minFishingInterval": 3000,
+            "minFishingInterval": 4000,
             "maxFishingInterval": 8000,
             "monsterSources": [
                 {
@@ -398,12 +657,22 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 4,
+                    "target": 14,
                     "chance": [
-                        15,
-                        98
+                        75,
+                        166
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        25,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -422,26 +691,36 @@ var melvorData = {
             "fishingID": 1,
             "fishingLevel": 5,
             "fishingXP": 10,
-            "minFishingInterval": 3000,
+            "minFishingInterval": 4000,
             "maxFishingInterval": 8000,
             "monsterSources": [
                 {
                     "monster": 4,
                     "chance": [
-                        1,
-                        4
+                        20,
+                        81
                     ],
                     "maxQty": 3
                 }
             ],
             "thievingSources": [
                 {
-                    "target": 4,
+                    "target": 14,
                     "chance": [
-                        15,
-                        112
+                        39,
+                        332
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        18,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -461,26 +740,36 @@ var melvorData = {
             "fishingID": 2,
             "fishingLevel": 10,
             "fishingXP": 15,
-            "minFishingInterval": 3000,
+            "minFishingInterval": 4000,
             "maxFishingInterval": 8000,
             "monsterSources": [
                 {
                     "monster": 4,
                     "chance": [
-                        1,
-                        4
+                        20,
+                        81
                     ],
                     "maxQty": 3
                 }
             ],
             "thievingSources": [
                 {
-                    "target": 4,
+                    "target": 14,
                     "chance": [
-                        45,
-                        392
+                        21,
+                        332
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        13,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -499,7 +788,7 @@ var melvorData = {
             "fishingID": 3,
             "fishingLevel": 20,
             "fishingXP": 20,
-            "minFishingInterval": 3000,
+            "minFishingInterval": 4000,
             "maxFishingInterval": 10000,
             "monsterSources": [
                 {
@@ -529,12 +818,22 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 4,
+                    "target": 14,
                     "chance": [
-                        75,
-                        784
+                        3,
+                        83
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        10,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -553,7 +852,7 @@ var melvorData = {
             "fishingID": 4,
             "fishingLevel": 35,
             "fishingXP": 40,
-            "minFishingInterval": 3000,
+            "minFishingInterval": 4000,
             "maxFishingInterval": 10000,
             "monsterSources": [
                 {
@@ -577,16 +876,6 @@ var melvorData = {
                     "chance": [
                         5,
                         44
-                    ],
-                    "maxQty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 4,
-                    "chance": [
-                        15,
-                        196
                     ],
                     "maxQty": 1
                 }
@@ -607,7 +896,7 @@ var melvorData = {
             "fishingID": 5,
             "fishingLevel": 40,
             "fishingXP": 50,
-            "minFishingInterval": 3000,
+            "minFishingInterval": 4000,
             "maxFishingInterval": 11000,
             "monsterSources": [
                 {
@@ -634,16 +923,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 4,
-                    "chance": [
-                        3,
-                        49
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -661,14 +940,14 @@ var melvorData = {
             "fishingID": 6,
             "fishingLevel": 50,
             "fishingXP": 80,
-            "minFishingInterval": 4000,
+            "minFishingInterval": 5000,
             "maxFishingInterval": 12000,
             "thievingSources": [
                 {
                     "target": 4,
                     "chance": [
-                        9,
-                        196
+                        20,
+                        127
                     ],
                     "maxQty": 1
                 }
@@ -689,7 +968,7 @@ var melvorData = {
             "fishingID": 7,
             "fishingLevel": 60,
             "fishingXP": 120,
-            "minFishingInterval": 4000,
+            "minFishingInterval": 5000,
             "maxFishingInterval": 12000,
             "monsterSources": [
                 {
@@ -705,8 +984,8 @@ var melvorData = {
                 {
                     "target": 4,
                     "chance": [
-                        15,
-                        392
+                        23,
+                        254
                     ],
                     "maxQty": 1
                 }
@@ -727,14 +1006,14 @@ var melvorData = {
             "fishingID": 8,
             "fishingLevel": 70,
             "fishingXP": 150,
-            "minFishingInterval": 5000,
+            "minFishingInterval": 7000,
             "maxFishingInterval": 15000,
             "thievingSources": [
                 {
                     "target": 4,
                     "chance": [
-                        15,
-                        784
+                        29,
+                        508
                     ],
                     "maxQty": 1
                 }
@@ -755,14 +1034,14 @@ var melvorData = {
             "fishingID": 9,
             "fishingLevel": 75,
             "fishingXP": 300,
-            "minFishingInterval": 5000,
+            "minFishingInterval": 8000,
             "maxFishingInterval": 15000,
             "thievingSources": [
                 {
                     "target": 4,
                     "chance": [
-                        3,
-                        392
+                        23,
+                        508
                     ],
                     "maxQty": 1
                 }
@@ -783,8 +1062,18 @@ var melvorData = {
             "fishingID": 10,
             "fishingLevel": 85,
             "fishingXP": 495,
-            "minFishingInterval": 5000,
-            "maxFishingInterval": 25000
+            "minFishingInterval": 9000,
+            "maxFishingInterval": 25000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        4,
+                        127
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -801,8 +1090,18 @@ var melvorData = {
             "fishingID": 11,
             "fishingLevel": 95,
             "fishingXP": 575,
-            "minFishingInterval": 5000,
-            "maxFishingInterval": 25000
+            "minFishingInterval": 10000,
+            "maxFishingInterval": 25000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        11,
+                        508
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Cooking",
@@ -817,24 +1116,24 @@ var melvorData = {
                 3,
                 0
             ],
-            "media": "assets/media/bank/shrimp_cooked.png",
-            "cookingLevel": 1,
-            "cookingXP": 5,
             "cookingID": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 9,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1030,
+            "cookingXP": 5,
+            "cookingLevel": 1,
+            "cookingInterval": 2000,
+            "media": "assets/media/bank/shrimp_cooked.png",
             "cookReq": [
                 {
                     "id": 9,
                     "qty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 5,
-                    "chance": [
-                        1,
-                        6
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -851,10 +1150,20 @@ var melvorData = {
                 3,
                 1
             ],
-            "media": "assets/media/bank/sardine_cooked.png",
-            "cookingLevel": 5,
-            "cookingXP": 10,
             "cookingID": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 10,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1031,
+            "cookingXP": 10,
+            "cookingLevel": 5,
+            "cookingInterval": 2000,
+            "media": "assets/media/bank/sardine_cooked.png",
             "cookReq": [
                 {
                     "id": 10,
@@ -863,10 +1172,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 5,
+                    "target": 13,
                     "chance": [
-                        7,
-                        48
+                        69,
+                        580
                     ],
                     "maxQty": 1
                 }
@@ -885,10 +1194,20 @@ var melvorData = {
                 3,
                 2
             ],
-            "media": "assets/media/bank/herring_cooked.png",
-            "cookingLevel": 10,
-            "cookingXP": 15,
             "cookingID": 2,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 11,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1032,
+            "cookingXP": 15,
+            "cookingLevel": 10,
+            "cookingInterval": 3000,
+            "media": "assets/media/bank/herring_cooked.png",
             "cookReq": [
                 {
                     "id": 11,
@@ -897,10 +1216,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 5,
+                    "target": 13,
                     "chance": [
-                        1,
-                        8
+                        9,
+                        145
                     ],
                     "maxQty": 1
                 }
@@ -913,12 +1232,25 @@ var melvorData = {
             "name": "Trout",
             "id": 24,
             "isEquipment": false,
-            "sellsFor": 20,
+            "sellsFor": 27,
             "healsFor": 7,
             "masteryID": [
                 3,
                 3
             ],
+            "cookingID": 3,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 12,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1034,
+            "cookingXP": 25,
+            "cookingLevel": 20,
+            "cookingInterval": 4000,
             "media": "assets/media/bank/trout_cooked.png",
             "monsterSources": [
                 {
@@ -930,23 +1262,10 @@ var melvorData = {
                     "maxQty": 30
                 }
             ],
-            "cookingLevel": 20,
-            "cookingXP": 25,
-            "cookingID": 3,
             "cookReq": [
                 {
                     "id": 12,
                     "qty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 5,
-                    "chance": [
-                        5,
-                        48
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -957,12 +1276,25 @@ var melvorData = {
             "name": "Salmon",
             "id": 25,
             "isEquipment": false,
-            "sellsFor": 43,
+            "sellsFor": 58,
             "healsFor": 9,
             "masteryID": [
                 3,
                 4
             ],
+            "cookingID": 4,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 13,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1035,
+            "cookingXP": 30,
+            "cookingLevel": 35,
+            "cookingInterval": 4000,
             "media": "assets/media/bank/salmon_cooked.png",
             "monsterSources": [
                 {
@@ -998,23 +1330,10 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "cookingLevel": 35,
-            "cookingXP": 30,
-            "cookingID": 4,
             "cookReq": [
                 {
                     "id": 13,
                     "qty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 5,
-                    "chance": [
-                        1,
-                        12
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -1025,12 +1344,25 @@ var melvorData = {
             "name": "Lobster",
             "id": 26,
             "isEquipment": false,
-            "sellsFor": 81,
+            "sellsFor": 108,
             "healsFor": 11,
             "masteryID": [
                 3,
                 5
             ],
+            "cookingID": 5,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 14,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1036,
+            "cookingXP": 40,
+            "cookingLevel": 40,
+            "cookingInterval": 5000,
             "media": "assets/media/bank/lobster_cooked.png",
             "monsterSources": [
                 {
@@ -1058,9 +1390,6 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "cookingLevel": 40,
-            "cookingXP": 40,
-            "cookingID": 5,
             "cookReq": [
                 {
                     "id": 14,
@@ -1071,8 +1400,8 @@ var melvorData = {
                 {
                     "target": 5,
                     "chance": [
-                        1,
-                        15
+                        117,
+                        424
                     ],
                     "maxQty": 1
                 }
@@ -1085,30 +1414,30 @@ var melvorData = {
             "name": "Swordfish",
             "id": 27,
             "isEquipment": false,
-            "sellsFor": 100,
+            "sellsFor": 134,
             "healsFor": 13,
             "masteryID": [
                 3,
                 6
             ],
-            "media": "assets/media/bank/swordfish_cooked.png",
-            "cookingLevel": 50,
-            "cookingXP": 50,
             "cookingID": 6,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 15,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1037,
+            "cookingXP": 50,
+            "cookingLevel": 50,
+            "cookingInterval": 5000,
+            "media": "assets/media/bank/swordfish_cooked.png",
             "cookReq": [
                 {
                     "id": 15,
                     "qty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 5,
-                    "chance": [
-                        1,
-                        30
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -1119,12 +1448,25 @@ var melvorData = {
             "name": "Crab",
             "id": 28,
             "isEquipment": false,
-            "sellsFor": 168,
+            "sellsFor": 280,
             "healsFor": 15,
             "masteryID": [
                 3,
                 7
             ],
+            "cookingID": 7,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 16,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1040,
+            "cookingXP": 70,
+            "cookingLevel": 60,
+            "cookingInterval": 7000,
             "media": "assets/media/bank/crab_cooked.png",
             "monsterSources": [
                 {
@@ -1136,23 +1478,10 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "cookingLevel": 60,
-            "cookingXP": 70,
-            "cookingID": 7,
             "cookReq": [
                 {
                     "id": 16,
                     "qty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 5,
-                    "chance": [
-                        1,
-                        48
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -1163,12 +1492,25 @@ var melvorData = {
             "name": "Shark",
             "id": 29,
             "isEquipment": false,
-            "sellsFor": 337,
+            "sellsFor": 674,
             "healsFor": 20,
             "masteryID": [
                 3,
                 8
             ],
+            "cookingID": 8,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 17,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1042,
+            "cookingXP": 80,
+            "cookingLevel": 70,
+            "cookingInterval": 8000,
             "media": "assets/media/bank/shark_cooked.png",
             "monsterSources": [
                 {
@@ -1196,9 +1538,6 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "cookingLevel": 70,
-            "cookingXP": 80,
-            "cookingID": 8,
             "cookReq": [
                 {
                     "id": 17,
@@ -1209,8 +1548,8 @@ var melvorData = {
                 {
                     "target": 5,
                     "chance": [
-                        1,
-                        240
+                        21,
+                        424
                     ],
                     "maxQty": 1
                 }
@@ -1233,16 +1572,26 @@ var melvorData = {
             "name": "Cave Fish",
             "id": 30,
             "isEquipment": false,
-            "sellsFor": 269,
+            "sellsFor": 538,
             "healsFor": 22,
             "masteryID": [
                 3,
                 9
             ],
-            "media": "assets/media/bank/cavefish_cooked.png",
-            "cookingLevel": 75,
-            "cookingXP": 100,
             "cookingID": 9,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 18,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1043,
+            "cookingXP": 100,
+            "cookingLevel": 75,
+            "cookingInterval": 9000,
+            "media": "assets/media/bank/cavefish_cooked.png",
             "cookReq": [
                 {
                     "id": 18,
@@ -1257,16 +1606,26 @@ var melvorData = {
             "name": "Manta Ray",
             "id": 31,
             "isEquipment": false,
-            "sellsFor": 812,
+            "sellsFor": 1624,
             "healsFor": 40,
             "masteryID": [
                 3,
                 10
             ],
-            "media": "assets/media/bank/mantaray_cooked.png",
-            "cookingLevel": 85,
-            "cookingXP": 125,
             "cookingID": 10,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 19,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1044,
+            "cookingXP": 125,
+            "cookingLevel": 85,
+            "cookingInterval": 10000,
+            "media": "assets/media/bank/mantaray_cooked.png",
             "cookReq": [
                 {
                     "id": 19,
@@ -1291,16 +1650,26 @@ var melvorData = {
             "name": "Whale",
             "id": 32,
             "isEquipment": false,
-            "sellsFor": 1024,
+            "sellsFor": 2048,
             "healsFor": 48,
             "masteryID": [
                 3,
                 11
             ],
-            "media": "assets/media/bank/whale_cooked.png",
-            "cookingLevel": 95,
-            "cookingXP": 150,
             "cookingID": 11,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 20,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1045,
+            "cookingXP": 150,
+            "cookingLevel": 95,
+            "cookingInterval": 11000,
+            "media": "assets/media/bank/whale_cooked.png",
             "cookReq": [
                 {
                     "id": 20,
@@ -1324,7 +1693,8 @@ var melvorData = {
             "name": "Burnt Shrimp",
             "id": 33,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/shrimp_burnt.png",
             "cookingLevel": 1,
             "cookingXP": 5,
@@ -1342,7 +1712,8 @@ var melvorData = {
             "name": "Burnt Sardine",
             "id": 34,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/sardine_burnt.png",
             "cookingLevel": 5,
             "cookingXP": 10,
@@ -1360,7 +1731,8 @@ var melvorData = {
             "name": "Burnt Herring",
             "id": 35,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/herring_burnt.png",
             "cookingLevel": 10,
             "cookingXP": 15,
@@ -1378,7 +1750,8 @@ var melvorData = {
             "name": "Burnt Trout",
             "id": 36,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/trout_burnt.png",
             "cookingLevel": 20,
             "cookingXP": 25,
@@ -1396,7 +1769,8 @@ var melvorData = {
             "name": "Burnt Salmon",
             "id": 37,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/salmon_burnt.png",
             "cookingLevel": 35,
             "cookingXP": 30,
@@ -1414,7 +1788,8 @@ var melvorData = {
             "name": "Burnt Lobster",
             "id": 38,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/lobster_burnt.png",
             "cookingLevel": 40,
             "cookingXP": 40,
@@ -1432,7 +1807,8 @@ var melvorData = {
             "name": "Burnt Swordfish",
             "id": 39,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/swordfish_burnt.png",
             "cookingLevel": 50,
             "cookingXP": 50,
@@ -1450,7 +1826,8 @@ var melvorData = {
             "name": "Burnt Crab",
             "id": 40,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/crab_burnt.png",
             "cookingLevel": 60,
             "cookingXP": 70,
@@ -1468,7 +1845,8 @@ var melvorData = {
             "name": "Burnt Shark",
             "id": 41,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/shark_burnt.png",
             "cookingLevel": 70,
             "cookingXP": 80,
@@ -1488,6 +1866,16 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 1,
             "media": "assets/media/bank/cavefish_burnt.png",
+            "monsterSources": [
+                {
+                    "monster": 4,
+                    "chance": [
+                        1,
+                        81
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "cookingLevel": 75,
             "cookingXP": 100,
             "cookingID": 9,
@@ -1504,7 +1892,8 @@ var melvorData = {
             "name": "Burnt Manta Ray",
             "id": 43,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/mantaray_burnt.png",
             "cookingLevel": 85,
             "cookingXP": 125,
@@ -1522,7 +1911,8 @@ var melvorData = {
             "name": "Burnt Whale",
             "id": 44,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/whale_burnt.png",
             "cookingLevel": 95,
             "cookingXP": 150,
@@ -1550,12 +1940,22 @@ var melvorData = {
             "smithingBar": 55,
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 1,
                     "chance": [
-                        21,
-                        124
+                        75,
+                        524
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1079,
+                    "chance": [
+                        110,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1575,12 +1975,22 @@ var melvorData = {
             "smithingBar": 55,
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 1,
                     "chance": [
-                        21,
-                        124
+                        75,
+                        524
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1079,
+                    "chance": [
+                        110,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1602,20 +2012,30 @@ var melvorData = {
                 {
                     "monster": 4,
                     "chance": [
-                        1,
-                        4
+                        20,
+                        81
                     ],
                     "maxQty": 5
                 }
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 1,
                     "chance": [
-                        7,
-                        62
+                        9,
+                        262
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1079,
+                    "chance": [
+                        45,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1636,8 +2056,8 @@ var melvorData = {
                 {
                     "monster": 4,
                     "chance": [
-                        1,
-                        4
+                        20,
+                        81
                     ],
                     "maxQty": 5
                 },
@@ -1652,10 +2072,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 9,
                     "chance": [
-                        1,
-                        10
+                        11,
+                        42
                     ],
                     "maxQty": 1
                 }
@@ -1676,6 +2096,14 @@ var melvorData = {
                         289
                     ],
                     "qty": 3000
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        26,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1721,10 +2149,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 15,
                     "chance": [
                         5,
-                        62
+                        22
                     ],
                     "maxQty": 1
                 }
@@ -1737,6 +2165,14 @@ var melvorData = {
                         261
                     ],
                     "qty": 20
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        26,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1758,8 +2194,16 @@ var melvorData = {
                 {
                     "target": 6,
                     "chance": [
-                        2,
-                        31
+                        117,
+                        295
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        1,
+                        7
                     ],
                     "maxQty": 1
                 }
@@ -1772,6 +2216,14 @@ var melvorData = {
                         87
                     ],
                     "qty": 20
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        20,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1827,8 +2279,16 @@ var melvorData = {
                 {
                     "target": 6,
                     "chance": [
-                        5,
-                        124
+                        12,
+                        59
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        16
                     ],
                     "maxQty": 1
                 }
@@ -1841,6 +2301,14 @@ var melvorData = {
                         289
                     ],
                     "qty": 3000
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        17,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1896,8 +2364,16 @@ var melvorData = {
                 {
                     "target": 6,
                     "chance": [
-                        1,
-                        124
+                        87,
+                        1180
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        93,
+                        1076
                     ],
                     "maxQty": 1
                 }
@@ -1910,6 +2386,14 @@ var melvorData = {
                         289
                     ],
                     "qty": 3000
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        13,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1941,8 +2425,16 @@ var melvorData = {
                 {
                     "target": 6,
                     "chance": [
-                        1,
-                        1240
+                        57,
+                        1180
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        33,
+                        538
                     ],
                     "maxQty": 1
                 }
@@ -1955,6 +2447,14 @@ var melvorData = {
                         289
                     ],
                     "qty": 1000
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        12,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -1972,6 +2472,16 @@ var melvorData = {
             ],
             "miningXP": 101,
             "smithingBar": 62,
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": [
+                        33,
+                        1180
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 774,
@@ -1980,6 +2490,14 @@ var melvorData = {
                         289
                     ],
                     "qty": 1000
+                },
+                {
+                    "chest": 1079,
+                    "chance": [
+                        10,
+                        389
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -2017,6 +2535,26 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 1,
+                    "chance": [
+                        75,
+                        524
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        14,
+                        181
+                    ],
+                    "qty": 200
+                }
+            ],
             "altMagicSources": [
                 1,
                 4,
@@ -2052,6 +2590,26 @@ var melvorData = {
                         11
                     ],
                     "maxQty": 3
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 1,
+                    "chance": [
+                        45,
+                        1048
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        11,
+                        181
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -2119,6 +2677,16 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 1,
+                    "chance": [
+                        15,
+                        524
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 120,
@@ -2127,6 +2695,14 @@ var melvorData = {
                         18
                     ],
                     "qty": 15
+                },
+                {
+                    "chest": 1068,
+                    "chance": [
+                        9,
+                        181
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -2198,12 +2774,30 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 9,
+                    "chance": [
+                        3,
+                        28
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        13,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
-                        100,
-                        1281
+                        50,
+                        641
                     ],
                     "qty": 50
                 },
@@ -2297,6 +2891,16 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 15,
+                    "chance": [
+                        19,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 120,
@@ -2309,8 +2913,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        50,
-                        1281
+                        25,
+                        641
                     ],
                     "qty": 25
                 },
@@ -2321,6 +2925,14 @@ var melvorData = {
                         723
                     ],
                     "qty": 100
+                },
+                {
+                    "chest": 1068,
+                    "chance": [
+                        5,
+                        181
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -2372,6 +2984,24 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 9,
+                    "chance": [
+                        1,
+                        14
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        177,
+                        1076
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 120,
@@ -2384,8 +3014,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        10,
-                        427
+                        15,
+                        641
                     ],
                     "qty": 25
                 },
@@ -2439,6 +3069,16 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 16,
+                    "chance": [
+                        93,
+                        1076
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 120,
@@ -2451,8 +3091,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        20,
-                        1281
+                        10,
+                        641
                     ],
                     "qty": 25
                 },
@@ -2530,8 +3170,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        10,
-                        1281
+                        5,
+                        641
                     ],
                     "qty": 10
                 },
@@ -2620,16 +3260,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        10,
-                        167
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -2694,10 +3324,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 7,
+                    "target": 17,
                     "chance": [
-                        10,
-                        167
+                        25,
+                        143
                     ],
                     "maxQty": 1
                 }
@@ -2772,16 +3402,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        10,
-                        167
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -2844,16 +3464,6 @@ var melvorData = {
                 {
                     "id": 55,
                     "qty": 3
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        10,
-                        167
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -2971,7 +3581,17 @@ var melvorData = {
                 }
             ],
             "trimmedItemID": 166,
-            "canUpgrade": true
+            "canUpgrade": true,
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        25,
+                        143
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -3186,16 +3806,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        65,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -3257,16 +3867,6 @@ var melvorData = {
                     "id": 56,
                     "qty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        65,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -3327,16 +3927,6 @@ var melvorData = {
                 {
                     "id": 56,
                     "qty": 3
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        65,
-                        1336
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -3401,16 +3991,6 @@ var melvorData = {
                     "id": 56,
                     "qty": 3
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        65,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -3473,7 +4053,17 @@ var melvorData = {
                 }
             ],
             "trimmedItemID": 170,
-            "canUpgrade": true
+            "canUpgrade": true,
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        53,
+                        572
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -3760,16 +4350,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        25,
-                        668
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -3842,22 +4422,12 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        25,
-                        668
-                    ],
-                    "maxQty": 1
-                }
-            ],
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
-                        50,
-                        427
+                        75,
+                        641
                     ],
                     "qty": 1
                 }
@@ -3921,16 +4491,6 @@ var melvorData = {
                 {
                     "id": 57,
                     "qty": 3
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        25,
-                        668
-                    ],
-                    "maxQty": 1
                 }
             ]
         },
@@ -3998,10 +4558,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 7,
+                    "target": 17,
                     "chance": [
-                        25,
-                        668
+                        23,
+                        572
                     ],
                     "maxQty": 1
                 }
@@ -4372,16 +4932,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        15,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -4454,22 +5004,12 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        15,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
-            ],
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
-                        100,
-                        1281
+                        50,
+                        641
                     ],
                     "qty": 1
                 },
@@ -4545,10 +5085,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 7,
+                    "target": 17,
                     "chance": [
-                        15,
-                        1336
+                        3,
+                        286
                     ],
                     "maxQty": 1
                 }
@@ -4632,16 +5172,6 @@ var melvorData = {
                     "chance": [
                         450,
                         1127
-                    ],
-                    "maxQty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        15,
-                        1336
                     ],
                     "maxQty": 1
                 }
@@ -4934,6 +5464,16 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        3,
+                        286
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 382,
@@ -5014,16 +5554,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        5,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -5096,22 +5626,12 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        5,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
-            ],
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
-                        10,
-                        183
+                        35,
+                        641
                     ],
                     "qty": 1
                 },
@@ -5189,8 +5709,8 @@ var melvorData = {
                 {
                     "target": 7,
                     "chance": [
-                        5,
-                        1336
+                        343,
+                        2116
                     ],
                     "maxQty": 1
                 }
@@ -5282,8 +5802,8 @@ var melvorData = {
                 {
                     "target": 7,
                     "chance": [
-                        5,
-                        1336
+                        113,
+                        1058
                     ],
                     "maxQty": 1
                 }
@@ -5356,6 +5876,16 @@ var melvorData = {
                     "chance": [
                         1,
                         48
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        369,
+                        2116
                     ],
                     "maxQty": 1
                 }
@@ -5500,6 +6030,16 @@ var melvorData = {
                     "chance": [
                         1,
                         48
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        199,
+                        2116
                     ],
                     "maxQty": 1
                 }
@@ -5744,22 +6284,12 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        1,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
-            ],
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
-                        20,
-                        1281
+                        10,
+                        641
                     ],
                     "qty": 1
                 }
@@ -5839,8 +6369,8 @@ var melvorData = {
                 {
                     "target": 7,
                     "chance": [
-                        1,
-                        1336
+                        129,
+                        2116
                     ],
                     "maxQty": 1
                 }
@@ -6224,6 +6754,16 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        37,
+                        1058
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 362,
@@ -6294,6 +6834,16 @@ var melvorData = {
                     "id": 62,
                     "qty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        83,
+                        2116
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -6361,7 +6911,7 @@ var melvorData = {
                     "chest": 360,
                     "chance": [
                         5,
-                        1281
+                        1282
                     ],
                     "qty": 1
                 }
@@ -6569,7 +7119,17 @@ var melvorData = {
                 }
             ],
             "trimmedItemID": 200,
-            "canUpgrade": true
+            "canUpgrade": true,
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        61,
+                        2116
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -6782,19 +7342,19 @@ var melvorData = {
             "dropTable": [
                 [
                     143,
-                    280
+                    270
                 ],
                 [
                     144,
-                    180
+                    170
                 ],
                 [
                     145,
-                    140
+                    130
                 ],
                 [
                     146,
-                    110
+                    105
                 ],
                 [
                     147,
@@ -6803,6 +7363,10 @@ var melvorData = {
                 [
                     148,
                     50
+                ],
+                [
+                    1062,
+                    35
                 ],
                 [
                     149,
@@ -6838,6 +7402,7 @@ var melvorData = {
                 ]
             ],
             "dropQty": [
+                1,
                 1,
                 1,
                 1,
@@ -6959,16 +7524,6 @@ var melvorData = {
                     "chance": [
                         1,
                         101
-                    ],
-                    "maxQty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 4,
-                    "chance": [
-                        3,
-                        784
                     ],
                     "maxQty": 1
                 }
@@ -7106,7 +7661,17 @@ var melvorData = {
                 }
             ],
             "trimmedItemID": 174,
-            "canUpgrade": true
+            "canUpgrade": true,
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        53,
+                        572
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -7414,6 +7979,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": [
+                        103,
+                        2116
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -7523,10 +8098,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 22,
                     "chance": [
                         1,
-                        1240
+                        22
                     ],
                     "maxQty": 1
                 }
@@ -7535,8 +8110,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        200,
-                        1281
+                        100,
+                        641
                     ],
                     "qty": 30
                 },
@@ -7563,6 +8138,14 @@ var melvorData = {
                         409
                     ],
                     "qty": 300
+                },
+                {
+                    "chest": 1087,
+                    "chance": [
+                        1,
+                        2
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -7599,10 +8182,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 22,
                     "chance": [
-                        1,
-                        1240
+                        3,
+                        88
                     ],
                     "maxQty": 1
                 }
@@ -7611,8 +8194,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        100,
-                        1281
+                        50,
+                        641
                     ],
                     "qty": 25
                 },
@@ -7639,6 +8222,14 @@ var melvorData = {
                         409
                     ],
                     "qty": 300
+                },
+                {
+                    "chest": 1087,
+                    "chance": [
+                        7,
+                        40
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -7683,10 +8274,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 21,
                     "chance": [
-                        1,
-                        1240
+                        27,
+                        1316
                     ],
                     "maxQty": 1
                 }
@@ -7695,8 +8286,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        100,
-                        1281
+                        50,
+                        641
                     ],
                     "qty": 25
                 },
@@ -7723,6 +8314,14 @@ var melvorData = {
                         409
                     ],
                     "qty": 300
+                },
+                {
+                    "chest": 1087,
+                    "chance": [
+                        7,
+                        40
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -7767,10 +8366,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 21,
                     "chance": [
-                        1,
-                        1240
+                        27,
+                        1316
                     ],
                     "maxQty": 1
                 }
@@ -7779,8 +8378,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        20,
-                        427
+                        30,
+                        641
                     ],
                     "qty": 25
                 },
@@ -7807,6 +8406,14 @@ var melvorData = {
                         409
                     ],
                     "qty": 300
+                },
+                {
+                    "chest": 1087,
+                    "chance": [
+                        1,
+                        10
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -7835,10 +8442,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 6,
+                    "target": 21,
                     "chance": [
-                        1,
-                        1240
+                        3,
+                        1316
                     ],
                     "maxQty": 1
                 }
@@ -7847,8 +8454,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        50,
-                        1281
+                        25,
+                        641
                     ],
                     "qty": 20
                 },
@@ -7875,6 +8482,14 @@ var melvorData = {
                         409
                     ],
                     "qty": 300
+                },
+                {
+                    "chest": 1087,
+                    "chance": [
+                        1,
+                        20
+                    ],
+                    "qty": 200
                 }
             ],
             "altMagicSources": [
@@ -7912,12 +8527,30 @@ var melvorData = {
                     "maxQty": 3
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 15,
+                    "chance": [
+                        27,
+                        176
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        2,
+                        11
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
-                        200,
-                        1281
+                        100,
+                        641
                     ],
                     "qty": 50
                 },
@@ -8005,10 +8638,10 @@ var melvorData = {
             ],
             "thievingSources": [
                 {
-                    "target": 7,
+                    "target": 17,
                     "chance": [
-                        35,
-                        1336
+                        3,
+                        143
                     ],
                     "maxQty": 1
                 }
@@ -8071,16 +8704,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        35,
-                        1336
-                    ],
-                    "maxQty": 1
-                }
             ]
         },
         {
@@ -8137,16 +8760,6 @@ var melvorData = {
                     "chance": [
                         1,
                         102
-                    ],
-                    "maxQty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        35,
-                        1336
                     ],
                     "maxQty": 1
                 }
@@ -8208,16 +8821,6 @@ var melvorData = {
                     "chance": [
                         1,
                         102
-                    ],
-                    "maxQty": 1
-                }
-            ],
-            "thievingSources": [
-                {
-                    "target": 7,
-                    "chance": [
-                        35,
-                        1336
                     ],
                     "maxQty": 1
                 }
@@ -8551,8 +9154,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        35,
-                        199
+                        210,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -8561,7 +9164,7 @@ var melvorData = {
                 {
                     "chest": 119,
                     "chance": [
-                        28,
+                        27,
                         101
                     ],
                     "qty": 1
@@ -8620,8 +9223,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        45,
-                        398
+                        135,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -8630,7 +9233,7 @@ var melvorData = {
                 {
                     "chest": 119,
                     "chance": [
-                        18,
+                        17,
                         101
                     ],
                     "qty": 1
@@ -8689,8 +9292,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        35,
-                        398
+                        105,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -8699,7 +9302,7 @@ var melvorData = {
                 {
                     "chest": 119,
                     "chance": [
-                        14,
+                        13,
                         101
                     ],
                     "qty": 1
@@ -8758,8 +9361,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        55,
-                        796
+                        165,
+                        2458
                     ],
                     "maxQty": 1
                 }
@@ -8768,8 +9371,8 @@ var melvorData = {
                 {
                     "chest": 119,
                     "chance": [
-                        11,
-                        101
+                        21,
+                        202
                     ],
                     "qty": 1
                 },
@@ -8819,8 +9422,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        10,
-                        199
+                        60,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -8880,8 +9483,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        25,
-                        796
+                        75,
+                        2458
                     ],
                     "maxQty": 1
                 }
@@ -8941,8 +9544,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        5,
-                        398
+                        15,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -9002,8 +9605,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        9,
-                        796
+                        27,
+                        2458
                     ],
                     "maxQty": 1
                 }
@@ -9026,17 +9629,17 @@ var melvorData = {
             "name": "Potatoes",
             "id": 151,
             "isEquipment": false,
-            "healsFor": 1,
+            "healsFor": 0.3,
             "sellsFor": 1,
             "media": "assets/media/bank/potato.png",
             "monsterSources": [
                 {
                     "monster": 111,
                     "chance": [
-                        4503599627370496,
-                        6004799503160661
+                        1,
+                        1
                     ],
-                    "maxQty": 1
+                    "maxQty": 3
                 }
             ],
             "farmingLevel": 1,
@@ -9047,6 +9650,16 @@ var melvorData = {
                     "id": 143,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        10,
+                        37
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9056,7 +9669,7 @@ var melvorData = {
             "name": "Onions",
             "id": 152,
             "isEquipment": false,
-            "healsFor": 2,
+            "healsFor": 0.6,
             "sellsFor": 2,
             "media": "assets/media/bank/onion.png",
             "farmingLevel": 5,
@@ -9067,6 +9680,16 @@ var melvorData = {
                     "id": 144,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        26,
+                        185
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9076,7 +9699,7 @@ var melvorData = {
             "name": "Cabbage",
             "id": 153,
             "isEquipment": false,
-            "healsFor": 3,
+            "healsFor": 0.9,
             "sellsFor": 5,
             "media": "assets/media/bank/cabbage.png",
             "farmingLevel": 7,
@@ -9087,6 +9710,16 @@ var melvorData = {
                     "id": 145,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        9,
+                        74
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9096,7 +9729,7 @@ var melvorData = {
             "name": "Tomatoes",
             "id": 154,
             "isEquipment": false,
-            "healsFor": 4,
+            "healsFor": 1.3,
             "sellsFor": 1,
             "media": "assets/media/bank/tomato.png",
             "farmingLevel": 12,
@@ -9107,6 +9740,16 @@ var melvorData = {
                     "id": 146,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        1,
+                        10
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9116,7 +9759,7 @@ var melvorData = {
             "name": "Sweetcorn",
             "id": 155,
             "isEquipment": false,
-            "healsFor": 5,
+            "healsFor": 1.6,
             "sellsFor": 8,
             "media": "assets/media/bank/sweetcorn.png",
             "farmingLevel": 20,
@@ -9127,6 +9770,16 @@ var melvorData = {
                     "id": 147,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        3,
+                        37
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9136,7 +9789,7 @@ var melvorData = {
             "name": "Strawberries",
             "id": 156,
             "isEquipment": false,
-            "healsFor": 6,
+            "healsFor": 2,
             "sellsFor": 10,
             "media": "assets/media/bank/strawberry.png",
             "farmingLevel": 31,
@@ -9147,6 +9800,16 @@ var melvorData = {
                     "id": 148,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        5,
+                        74
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9156,7 +9819,7 @@ var melvorData = {
             "name": "Watermelons",
             "id": 157,
             "isEquipment": false,
-            "healsFor": 7,
+            "healsFor": 3.6,
             "sellsFor": 15,
             "media": "assets/media/bank/watermelon.png",
             "farmingLevel": 47,
@@ -9167,6 +9830,16 @@ var melvorData = {
                     "id": 149,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        21,
+                        370
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -9176,7 +9849,7 @@ var melvorData = {
             "name": "Snape Grass",
             "id": 158,
             "isEquipment": false,
-            "healsFor": 8,
+            "healsFor": 4,
             "sellsFor": 23,
             "media": "assets/media/bank/snape_grass.png",
             "farmingLevel": 61,
@@ -9186,6 +9859,16 @@ var melvorData = {
                 {
                     "id": 150,
                     "qty": 3
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        19,
+                        370
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -9221,8 +9904,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        5,
-                        398
+                        15,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -9264,8 +9947,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        10,
-                        199
+                        60,
+                        1229
                     ],
                     "maxQty": 1
                 }
@@ -9317,8 +10000,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        15,
-                        796
+                        45,
+                        2458
                     ],
                     "maxQty": 1
                 }
@@ -9362,8 +10045,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        15,
-                        1592
+                        45,
+                        4916
                     ],
                     "maxQty": 1
                 }
@@ -9423,8 +10106,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        5,
-                        1592
+                        15,
+                        4916
                     ],
                     "maxQty": 1
                 }
@@ -9476,8 +10159,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        1,
-                        1592
+                        3,
+                        4916
                     ],
                     "maxQty": 1
                 }
@@ -14598,7 +15281,8 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "-15% Fishing interval.",
+            "description": "-15% Fishing Interval",
+            "ignoreLangGeneration": true,
             "sellsFor": 100000,
             "media": "assets/media/shop/amulet_of_fishing.svg",
             "modifiers": {
@@ -14900,6 +15584,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        19
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -14973,6 +15667,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        95
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -15036,7 +15740,17 @@ var melvorData = {
             "fletchingLevel": 35,
             "fletchingXP": 30,
             "ammoTypeRequired": 0,
-            "fletchingCategory": 1
+            "fletchingCategory": 1,
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        380
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15288,7 +16002,17 @@ var melvorData = {
             "fletchingLevel": 10,
             "fletchingXP": 10,
             "ammoTypeRequired": 0,
-            "fletchingCategory": 2
+            "fletchingCategory": 2,
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        19
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15351,7 +16075,17 @@ var melvorData = {
             "fletchingLevel": 25,
             "fletchingXP": 25,
             "ammoTypeRequired": 0,
-            "fletchingCategory": 2
+            "fletchingCategory": 2,
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        95
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15414,7 +16148,17 @@ var melvorData = {
             "fletchingLevel": 40,
             "fletchingXP": 40,
             "ammoTypeRequired": 0,
-            "fletchingCategory": 2
+            "fletchingCategory": 2,
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        380
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -15711,6 +16455,26 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        19
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        25,
+                        181
+                    ],
+                    "qty": 200
+                }
             ]
         },
         {
@@ -15778,6 +16542,26 @@ var melvorData = {
                         13
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        19
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1068,
+                    "chance": [
+                        20,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -15864,6 +16648,16 @@ var melvorData = {
                     "maxQty": 15
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        95
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 442,
@@ -15872,6 +16666,14 @@ var melvorData = {
                         571
                     ],
                     "qty": 100
+                },
+                {
+                    "chest": 1068,
+                    "chance": [
+                        18,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -15950,6 +16752,16 @@ var melvorData = {
                     "maxQty": 15
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        3,
+                        380
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 363,
@@ -15966,6 +16778,14 @@ var melvorData = {
                         571
                     ],
                     "qty": 100
+                },
+                {
+                    "chest": 1068,
+                    "chance": [
+                        13,
+                        181
+                    ],
+                    "qty": 200
                 }
             ]
         },
@@ -16042,6 +16862,16 @@ var melvorData = {
                         113
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": [
+                        9,
+                        16
+                    ],
+                    "maxQty": 1
                 }
             ],
             "chestSources": [
@@ -16130,6 +16960,16 @@ var melvorData = {
                     "maxQty": 10
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": [
+                        9,
+                        83
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 363,
@@ -16206,6 +17046,16 @@ var melvorData = {
                         226
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": [
+                        39,
+                        664
+                    ],
+                    "maxQty": 1
                 }
             ],
             "chestSources": [
@@ -16503,9 +17353,9 @@ var melvorData = {
                     "monster": 37,
                     "chance": [
                         1,
-                        1
+                        2
                     ],
-                    "maxQty": 45
+                    "maxQty": 90
                 }
             ],
             "chestSources": [
@@ -16513,9 +17363,9 @@ var melvorData = {
                     "chest": 346,
                     "chance": [
                         1,
-                        1
+                        2
                     ],
-                    "qty": 400
+                    "qty": 1000
                 }
             ]
         },
@@ -16835,9 +17685,9 @@ var melvorData = {
                     "monster": 38,
                     "chance": [
                         1,
-                        1
+                        2
                     ],
-                    "maxQty": 3
+                    "maxQty": 6
                 }
             ]
         },
@@ -16858,7 +17708,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 10
+                    "maxQty": 15
                 }
             ]
         },
@@ -16879,7 +17729,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 10
+                    "maxQty": 20
                 }
             ]
         },
@@ -16900,7 +17750,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 10
+                    "maxQty": 25
                 }
             ]
         },
@@ -16920,7 +17770,7 @@ var melvorData = {
                         1,
                         1
                     ],
-                    "maxQty": 10
+                    "maxQty": 30
                 }
             ]
         },
@@ -16967,6 +17817,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 1,
+            "craftingCategory": 0,
             "craftingXP": 13
         },
         {
@@ -17012,6 +17863,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 7,
+            "craftingCategory": 0,
             "craftingXP": 16,
             "chestSources": [
                 {
@@ -17075,6 +17927,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 9,
+            "craftingCategory": 0,
             "craftingXP": 18,
             "chestSources": [
                 {
@@ -17134,6 +17987,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 11,
+            "craftingCategory": 0,
             "craftingXP": 22,
             "chestSources": [
                 {
@@ -17197,6 +18051,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 14,
+            "craftingCategory": 0,
             "craftingXP": 25
         },
         {
@@ -17246,6 +18101,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 18,
+            "craftingCategory": 0,
             "craftingXP": 27,
             "chestSources": [
                 {
@@ -17313,6 +18169,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 57,
+            "craftingCategory": 1,
             "craftingXP": 50,
             "canUpgrade": true,
             "trimmedItemID": 738,
@@ -17386,6 +18243,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 60,
+            "craftingCategory": 1,
             "craftingXP": 99,
             "canUpgrade": true,
             "trimmedItemID": 739,
@@ -17459,6 +18317,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 63,
+            "craftingCategory": 1,
             "craftingXP": 148,
             "canUpgrade": true,
             "trimmedItemID": 740,
@@ -17528,6 +18387,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 66,
+            "craftingCategory": 1,
             "craftingXP": 56,
             "canUpgrade": true,
             "trimmedItemID": 741,
@@ -17601,6 +18461,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 68,
+            "craftingCategory": 1,
             "craftingXP": 112,
             "canUpgrade": true,
             "trimmedItemID": 742,
@@ -17674,6 +18535,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 71,
+            "craftingCategory": 1,
             "craftingXP": 168,
             "canUpgrade": true,
             "trimmedItemID": 743,
@@ -17743,6 +18605,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 73,
+            "craftingCategory": 1,
             "craftingXP": 62,
             "canUpgrade": true,
             "trimmedItemID": 744,
@@ -17824,6 +18687,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 75,
+            "craftingCategory": 1,
             "craftingXP": 129,
             "canUpgrade": true,
             "trimmedItemID": 745,
@@ -17905,6 +18769,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 77,
+            "craftingCategory": 1,
             "craftingXP": 187,
             "canUpgrade": true,
             "trimmedItemID": 746,
@@ -17982,6 +18847,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 79,
+            "craftingCategory": 1,
             "craftingXP": 86,
             "canUpgrade": true,
             "trimmedItemID": 747,
@@ -18063,6 +18929,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 82,
+            "craftingCategory": 1,
             "craftingXP": 172,
             "canUpgrade": true,
             "trimmedItemID": 748,
@@ -18144,6 +19011,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 84,
+            "craftingCategory": 1,
             "craftingXP": 258,
             "canUpgrade": true,
             "trimmedItemID": 749,
@@ -18211,7 +19079,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 10,
-            "craftingXP": 20
+            "craftingCategory": 2,
+            "craftingXP": 20,
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": [
+                        5,
+                        88
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18250,7 +19129,26 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 20,
-            "craftingXP": 40
+            "craftingCategory": 2,
+            "craftingXP": 40,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        27,
+                        329
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        7,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18289,7 +19187,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 25,
-            "craftingXP": 50
+            "craftingCategory": 2,
+            "craftingXP": 50,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        12,
+                        329
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18328,7 +19237,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 50,
-            "craftingXP": 120
+            "craftingCategory": 2,
+            "craftingXP": 120,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        45,
+                        1316
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18367,6 +19287,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 80,
+            "craftingCategory": 2,
             "craftingXP": 240,
             "monsterSources": [
                 {
@@ -18374,6 +19295,16 @@ var melvorData = {
                     "chance": [
                         1,
                         106
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        88
                     ],
                     "maxQty": 1
                 }
@@ -18393,7 +19324,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Passive: 15% extra gold per kill. Maybe you should keep this item equipped for something else.",
+            "description": "Passive: +15% GP From Monsters and Something else drops instead of Gold Topaz Ring",
             "masteryID": [
                 14,
                 23
@@ -18412,6 +19343,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 10,
+            "craftingCategory": 2,
             "craftingXP": 24,
             "modifiers": {
                 "increasedGPFromMonsters": 15,
@@ -18423,6 +19355,16 @@ var melvorData = {
                     "chance": [
                         5,
                         53
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": [
+                        5,
+                        88
                     ],
                     "maxQty": 1
                 }
@@ -18445,7 +19387,7 @@ var melvorData = {
             "modifiers": {
                 "increasedRolledReflectDamage": 3
             },
-            "description": "Passive: Reflects 0 to 30 damage per attack turn (Reflect dmg cannot activate more than once every 2 seconds. Reflect dmg cannot kill an enemy nor provide XP).",
+            "description": "Passive: +0-30 Reflect Damage (Reflect dmg cannot activate more than once every 2 seconds. Reflect dmg cannot kill an enemy nor provide XP).",
             "sellsFor": 266,
             "media": "assets/media/bank/ring_gold_sapphire.png",
             "masteryID": [
@@ -18464,7 +19406,26 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 20,
-            "craftingXP": 45
+            "craftingCategory": 2,
+            "craftingXP": 45,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        69,
+                        658
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        7,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18499,10 +19460,21 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 25,
+            "craftingCategory": 2,
             "craftingXP": 60,
             "modifiers": {
                 "increasedHitpointRegeneration": 10
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        39,
+                        1316
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18537,6 +19509,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 50,
+            "craftingCategory": 2,
             "craftingXP": 130,
             "modifiers": {
                 "increasedSkillXP": [
@@ -18580,6 +19553,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        9,
+                        329
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -18618,7 +19601,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 80,
-            "craftingXP": 250
+            "craftingCategory": 2,
+            "craftingXP": 250,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        9,
+                        1316
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18665,6 +19659,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 10,
+            "craftingCategory": 3,
             "craftingXP": 22,
             "monsterSources": [
                 {
@@ -18672,6 +19667,16 @@ var melvorData = {
                     "chance": [
                         10,
                         53
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": [
+                        9,
+                        176
                     ],
                     "maxQty": 1
                 }
@@ -18714,7 +19719,26 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 20,
-            "craftingXP": 40
+            "craftingCategory": 3,
+            "craftingXP": 40,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        51,
+                        329
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        9,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18753,6 +19777,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 25,
+            "craftingCategory": 3,
             "craftingXP": 50,
             "monsterSources": [
                 {
@@ -18760,6 +19785,16 @@ var melvorData = {
                     "chance": [
                         10,
                         53
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        3,
+                        94
                     ],
                     "maxQty": 1
                 }
@@ -18802,7 +19837,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 50,
-            "craftingXP": 120
+            "craftingCategory": 3,
+            "craftingXP": 120,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        3,
+                        94
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18841,7 +19887,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 80,
-            "craftingXP": 240
+            "craftingCategory": 3,
+            "craftingXP": 240,
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": [
+                        3,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18880,7 +19937,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 10,
-            "craftingXP": 24
+            "craftingCategory": 3,
+            "craftingXP": 24,
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": [
+                        9,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18919,7 +19987,26 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 20,
-            "craftingXP": 45
+            "craftingCategory": 3,
+            "craftingXP": 45,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        33,
+                        329
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        7,
+                        176
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -18962,7 +20049,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 25,
-            "craftingXP": 60
+            "craftingCategory": 3,
+            "craftingXP": 60,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        3,
+                        94
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -19013,7 +20111,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 50,
-            "craftingXP": 130
+            "craftingCategory": 3,
+            "craftingXP": 130,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        9,
+                        329
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -19068,7 +20177,18 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 80,
-            "craftingXP": 250
+            "craftingCategory": 3,
+            "craftingXP": 250,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": [
+                        9,
+                        1316
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -19084,11 +20204,15 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "canUpgrade": false,
-            "description": "Burn nothing when worn, until depleted.",
+            "description": "+10% chance to successfully Cook an item.",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/gloves_cooking.png",
             "gloveID": 0,
-            "buysFor": 50000
+            "buysFor": 50000,
+            "modifiers": {
+                "increasedChanceSuccessfulCook": 10
+            }
         },
         {
             "category": "Misc",
@@ -19144,7 +20268,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "canUpgrade": false,
-            "description": "+10% Success Rate and +5% Success Rate Cap when worn, until depleted.",
+            "description": "+75 Thieving Stealth when worn, until depleted.",
             "sellsFor": 1,
             "media": "assets/media/bank/gloves_thieving.png",
             "gloveID": 3,
@@ -19418,10 +20542,15 @@ var melvorData = {
                 [
                     278,
                     1
+                ],
+                [
+                    1014,
+                    1
                 ]
             ],
             "dropQty": [
-                400
+                1000,
+                40
             ],
             "monsterSources": [
                 {
@@ -19439,6 +20568,7 @@ var melvorData = {
             "type": "Weapon",
             "tier": "ancient",
             "name": "Ancient Sword",
+            "description": "If you have 100% HP, +20% Damage to All Monsters.",
             "id": 347,
             "isEquipment": true,
             "hasSpecialAttack": true,
@@ -19447,7 +20577,7 @@ var melvorData = {
                     "name": "Life Leech",
                     "id": 4,
                     "description": "<AttPos> attack heals <attacker> for <lifesteal> of the damage dealt.",
-                    "defaultChance": 25,
+                    "defaultChance": 100,
                     "damage": [
                         {
                             "character": "Attacker",
@@ -19463,8 +20593,10 @@ var melvorData = {
                     "cantMiss": false,
                     "attackCount": 1,
                     "attackInterval": -1,
-                    "lifesteal": 25,
+                    "lifesteal": 20,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -19516,12 +20648,15 @@ var melvorData = {
             "attackType": "melee",
             "sellsFor": 150000,
             "media": "assets/media/bank/weapon_sword_ancient.png",
+            "modifiers": {
+                "increasedDamageToAllMonsters": 20
+            },
             "chestSources": [
                 {
                     "chest": 360,
                     "chance": [
                         1,
-                        1281
+                        641
                     ],
                     "qty": 1
                 }
@@ -20385,7 +21520,7 @@ var melvorData = {
                 ],
                 [
                     347,
-                    1
+                    2
                 ]
             ],
             "dropQty": [
@@ -20836,7 +21971,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +5% Ranged Ammo Preservation",
+            "description": "Passive: +5% Ammo Preservation",
             "sellsFor": 1250,
             "media": "assets/media/bank/rangers_hat.png",
             "modifiers": {
@@ -20899,7 +22034,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +5% Ranged Ammo Preservation",
+            "description": "Passive: +5% Ammo Preservation",
             "sellsFor": 1000,
             "media": "assets/media/bank/ranger_boots.png",
             "modifiers": {
@@ -21050,7 +22185,7 @@ var melvorData = {
                     "chest": 360,
                     "chance": [
                         5,
-                        1281
+                        1282
                     ],
                     "qty": 1
                 }
@@ -21151,6 +22286,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -21252,6 +22389,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -21363,6 +22502,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -21464,6 +22605,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -21973,6 +23116,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -22069,6 +23214,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -22568,7 +23715,17 @@ var melvorData = {
             "miningXP": 5,
             "canUpgrade": true,
             "canMultiUpgrade": true,
-            "trimmedItemID": 490
+            "trimmedItemID": 490,
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        225,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Runecrafting",
@@ -22609,6 +23766,16 @@ var melvorData = {
                         449
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        225,
+                        2852
+                    ],
+                    "maxQty": 1
                 }
             ],
             "chestSources": [
@@ -22662,6 +23829,16 @@ var melvorData = {
                     ],
                     "maxQty": 15
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        45,
+                        713
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -22711,6 +23888,16 @@ var melvorData = {
                         449
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        129,
+                        2852
+                    ],
+                    "maxQty": 1
                 }
             ],
             "chestSources": [
@@ -22773,6 +23960,16 @@ var melvorData = {
                     "maxQty": 10
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        24,
+                        713
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 461,
@@ -22833,6 +24030,16 @@ var melvorData = {
                     "maxQty": 10
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        75,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 461,
@@ -22875,6 +24082,16 @@ var melvorData = {
                         27
                     ],
                     "maxQty": 4
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        63,
+                        2852
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -22941,6 +24158,16 @@ var melvorData = {
                         201
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        411,
+                        4100
+                    ],
+                    "maxQty": 1
                 }
             ],
             "chestSources": [
@@ -23019,6 +24246,16 @@ var melvorData = {
                     "maxQty": 10
                 }
             ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        87,
+                        4100
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 461,
@@ -23061,6 +24298,16 @@ var melvorData = {
             "runecraftQty": 1,
             "runecraftingID": 8,
             "runecraftingCategory": 0,
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        3,
+                        205
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "chestSources": [
                 {
                     "chest": 773,
@@ -25375,6 +26622,16 @@ var melvorData = {
                     "id": 56,
                     "qty": 2
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        53,
+                        572
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -26587,6 +27844,16 @@ var melvorData = {
                     "maxQty": 1
                 }
             ],
+            "chestSources": [
+                {
+                    "chest": 1077,
+                    "chance": [
+                        60,
+                        101
+                    ],
+                    "qty": 100
+                }
+            ],
             "altMagicSources": [
                 3
             ]
@@ -26666,6 +27933,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1077,
+                    "chance": [
+                        14,
+                        101
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -26742,6 +28019,16 @@ var melvorData = {
                         1
                     ],
                     "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1077,
+                    "chance": [
+                        10,
+                        101
+                    ],
+                    "qty": 100
                 }
             ]
         },
@@ -26844,6 +28131,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -26971,10 +28260,11 @@ var melvorData = {
                 }
             ],
             "modifiers": {
-                "decreasedFoodBurnChance": 100,
-                "decreasedSecondaryFoodBurnChance": 1
+                "increasedChanceSuccessfulCook": 100,
+                "increasedChancePerfectCookGlobal": 2
             },
-            "description": "Food never burns",
+            "description": "+100% chance to successfully Cook an item. and +2% Global Perfect Cook chance.",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27007,7 +28297,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "Decreased Crafting Interval by 0.5s",
+            "description": "-0.5s Crafting Interval",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27081,7 +28372,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "+20% Increased Farming Yield. Adding Compost is free.",
+            "description": "+20% Farming Yield and Composting crops in Farming is free.",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27119,7 +28411,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "+5% Global Skill XP Bonus. +100% chance for coal per log burnt.",
+            "description": "+5% Global Skill XP and +100% chance to receive coal when burning logs in Firemaking",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27164,7 +28457,8 @@ var melvorData = {
                     ]
                 ]
             },
-            "description": "Doubles the amount of items caught.",
+            "description": "x2 Items received from Fishing",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27205,7 +28499,8 @@ var melvorData = {
                     ]
                 ]
             },
-            "description": "Produce 2x items per action",
+            "description": "x2 Items received from Fletching",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27238,7 +28533,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "+10 HP Regen per interval",
+            "description": "+10 Flat Hitpoints Regen",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27277,7 +28573,8 @@ var melvorData = {
             "modifiers": {
                 "increasedRuneProvision": 1
             },
-            "description": "Double the Rune cost reduction of equipped items.",
+            "description": "Rune providing items provide 2x as many runes",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27313,7 +28610,8 @@ var melvorData = {
             "modifiers": {
                 "increasedBonusCoalMining": 1
             },
-            "description": "Receive 1x Coal per Mining Action",
+            "description": "+1 Coal Ore per Ore Mined. (Item doubling does not apply)",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27346,7 +28644,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "50% Chance to preserve Ranged Ammo per shot",
+            "description": "+50% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27382,7 +28681,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "+35% Chance to preserve Runecrafting resources",
+            "description": "+35% Chance to Preserve Resources in Runecrafting",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27426,7 +28726,8 @@ var melvorData = {
             "modifiers": {
                 "decreasedSmithingCoalCost": 50
             },
-            "description": "Halve Coal Requirements within the Smithing Skill only.",
+            "description": "-50% Coal Costs for Smithing",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27496,7 +28797,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "Reduce Thieving Interval by 0.5s",
+            "description": "-0.5s Thieving Interval,+100% GP From Thieving and +150 Stealth while Thieving",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27507,7 +28809,9 @@ var melvorData = {
                         10,
                         500
                     ]
-                ]
+                ],
+                "increasedGPFromThieving": 100,
+                "increasedThievingStealth": 150
             }
         },
         {
@@ -27538,6 +28842,7 @@ var melvorData = {
                 }
             ],
             "description": "-15% Woodcutting Interval",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -27879,6 +29184,16 @@ var melvorData = {
                     "id": 57,
                     "qty": 2
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        23,
+                        572
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -28173,8 +29488,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        15,
-                        1592
+                        45,
+                        4916
                     ],
                     "maxQty": 1
                 }
@@ -28197,7 +29512,7 @@ var melvorData = {
             "name": "Carrot",
             "id": 470,
             "isEquipment": false,
-            "healsFor": 9,
+            "healsFor": 2.8,
             "sellsFor": 28,
             "media": "assets/media/bank/carrot.png",
             "farmingLevel": 69,
@@ -28208,6 +29523,16 @@ var melvorData = {
                     "id": 469,
                     "qty": 3
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        9,
+                        185
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -28216,11 +29541,15 @@ var melvorData = {
             "name": "Mastery Token (Cooking)",
             "id": 471,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_cooking.png",
-            "skill": 3
+            "skill": 3,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28228,11 +29557,15 @@ var melvorData = {
             "name": "Mastery Token (Crafting)",
             "id": 472,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_crafting.png",
-            "skill": 14
+            "skill": 14,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28240,11 +29573,15 @@ var melvorData = {
             "name": "Mastery Token (Farming)",
             "id": 473,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_farming.png",
-            "skill": 11
+            "skill": 11,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28252,11 +29589,15 @@ var melvorData = {
             "name": "Mastery Token (Firemaking)",
             "id": 474,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_firemaking.png",
-            "skill": 2
+            "skill": 2,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28264,11 +29605,15 @@ var melvorData = {
             "name": "Mastery Token (Fishing)",
             "id": 475,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_fishing.png",
-            "skill": 1
+            "skill": 1,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28276,11 +29621,15 @@ var melvorData = {
             "name": "Mastery Token (Fletching)",
             "id": 476,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_fletching.png",
-            "skill": 13
+            "skill": 13,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28288,11 +29637,15 @@ var melvorData = {
             "name": "Mastery Token (Mining)",
             "id": 477,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_mining.png",
-            "skill": 4
+            "skill": 4,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28300,11 +29653,15 @@ var melvorData = {
             "name": "Mastery Token (Runecrafting)",
             "id": 478,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_runecrafting.png",
-            "skill": 15
+            "skill": 15,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28312,11 +29669,15 @@ var melvorData = {
             "name": "Mastery Token (Smithing)",
             "id": 479,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_smithing.png",
-            "skill": 5
+            "skill": 5,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28324,11 +29685,15 @@ var melvorData = {
             "name": "Mastery Token (Thieving)",
             "id": 480,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_thieving.png",
-            "skill": 10
+            "skill": 10,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Mastery",
@@ -28336,11 +29701,15 @@ var melvorData = {
             "name": "Mastery Token (Woodcutting)",
             "id": 481,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_woodcutting.png",
-            "skill": 0
+            "skill": 0,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Thieving",
@@ -28382,7 +29751,8 @@ var melvorData = {
             "modifiers": {
                 "decreasedPrayerCost": 50
             },
-            "description": "Prayer Point cost reduced by 50%",
+            "description": "-50% Prayer Point Cost for Prayers",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
@@ -28438,7 +29808,7 @@ var melvorData = {
                     "value": -1
                 }
             ],
-            "description": "Passive: +5% Slayer Skill XP. +5% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
             "sellsFor": 156,
             "media": "assets/media/bank/armour_slayer_helmet_basic.png",
             "canUpgrade": true,
@@ -28504,7 +29874,7 @@ var melvorData = {
                     "value": -4
                 }
             ],
-            "description": "Passive: +5% Slayer Skill XP. +5% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
             "sellsFor": 213,
             "media": "assets/media/bank/armour_slayer_platebody_basic.png",
             "canUpgrade": true,
@@ -28586,7 +29956,7 @@ var melvorData = {
                     "value": -1
                 }
             ],
-            "description": "Passive: +15% Slayer Skill XP. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +15% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "sellsFor": 1300,
             "media": "assets/media/bank/armour_slayer_helmet_strong.png",
             "canUpgrade": true,
@@ -28678,7 +30048,7 @@ var melvorData = {
                     "value": -6
                 }
             ],
-            "description": "Passive: +15% Slayer Skill XP. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +15% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "sellsFor": 1850,
             "media": "assets/media/bank/armour_slayer_platebody_strong.png",
             "canUpgrade": true,
@@ -28774,7 +30144,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +30% Slayer Skill XP. +15% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +30% Slayer Skill XP and +15% Flat Slayer Area Effect Negation",
             "sellsFor": 4622,
             "media": "assets/media/bank/armour_slayer_helmet_elite.png",
             "canUpgrade": true,
@@ -28870,7 +30240,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +30% Slayer Skill XP. +15% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +30% Slayer Skill XP and +15% Flat Slayer Area Effect Negation",
             "sellsFor": 5700,
             "media": "assets/media/bank/armour_slayer_platebody_elite.png",
             "canUpgrade": true,
@@ -29074,6 +30444,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -29373,6 +30745,8 @@ var melvorData = {
                     "attackInterval": 300,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -29485,6 +30859,8 @@ var melvorData = {
                     "attackInterval": 300,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -29631,7 +31007,7 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "20% chance to preserve Ranged Ammo.",
+            "description": "+20% Ammo Preservation",
             "canUpgrade": false,
             "sellsFor": 45000,
             "media": "assets/media/bank/cape_arrow_preservation.png",
@@ -29759,6 +31135,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -29850,7 +31228,8 @@ var melvorData = {
                     "value": 9
                 }
             ],
-            "description": "Bypass equipment requirements for Slayer Areas. +25% Flat Area Effect Negation. +5% Damage Dealt against Slayer Task Enemies.",
+            "description": "+5% Damage To Slayer Tasks,+25% Flat Slayer Area Effect Negation and Bypass Slayer Area item requirements",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "hasStats": true,
             "buysFor": 1000000,
@@ -29969,6 +31348,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1077,
+                    "chance": [
+                        17,
+                        101
+                    ],
+                    "qty": 100
+                }
             ]
         },
         {
@@ -29995,7 +31384,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5% Slayer Skill XP. +5% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 250,
             "media": "assets/media/bank/wizard_hat_slayer_basic.png",
@@ -30036,7 +31425,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "Passive: +5% Slayer Skill XP. +5% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 250,
             "media": "assets/media/bank/wizard_robes_slayer_basic.png",
@@ -30091,7 +31480,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "Passive: +15% Slayer Skill XP. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +15% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 1800,
             "media": "assets/media/bank/wizard_hat_slayer_strong.png",
@@ -30156,7 +31545,7 @@ var melvorData = {
                     "value": 10
                 }
             ],
-            "description": "Passive: +15% Slayer Skill XP. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +15% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 1800,
             "media": "assets/media/bank/wizard_robes_slayer_strong.png",
@@ -30225,7 +31614,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +30% Slayer Skill XP. +15% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +30% Slayer Skill XP and +15% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 31800,
             "media": "assets/media/bank/wizard_hat_slayer_elite.png",
@@ -30294,7 +31683,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +30% Slayer Skill XP. +15% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +30% Slayer Skill XP and +15% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 41800,
             "media": "assets/media/bank/wizard_robes_slayer_elite.png",
@@ -30353,7 +31742,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5% Slayer Skill XP. +5% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 200,
             "media": "assets/media/bank/armour_slayer_cowl_basic.png",
@@ -30406,7 +31795,7 @@ var melvorData = {
                     "value": 20
                 }
             ],
-            "description": "Passive: +5% Slayer Skill XP. +5% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 400,
             "media": "assets/media/bank/armour_slayer_leather_basic.png",
@@ -30465,7 +31854,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15% Slayer Skill XP. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +15% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 1200,
             "media": "assets/media/bank/armour_slayer_cowl_strong.png",
@@ -30538,7 +31927,7 @@ var melvorData = {
                     "value": 45
                 }
             ],
-            "description": "Passive: +15% Slayer Skill XP. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +15% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 1400,
             "media": "assets/media/bank/armour_slayer_leather_strong.png",
@@ -30615,7 +32004,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +30% Slayer Skill XP. +15% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +30% Slayer Skill XP and +15% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 31200,
             "media": "assets/media/bank/armour_slayer_cowl_elite.png",
@@ -30696,7 +32085,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +30% Slayer Skill XP. +15% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +30% Slayer Skill XP and +15% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 41400,
             "media": "assets/media/bank/armour_slayer_leather_elite.png",
@@ -30750,6 +32139,16 @@ var melvorData = {
                     "id": 527,
                     "qty": 2
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        81,
+                        293
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -30778,6 +32177,16 @@ var melvorData = {
                 {
                     "id": 528,
                     "qty": 2
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        75,
+                        586
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -30808,6 +32217,16 @@ var melvorData = {
                     "id": 529,
                     "qty": 2
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        105,
+                        1172
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -30836,6 +32255,16 @@ var melvorData = {
                 {
                     "id": 530,
                     "qty": 2
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        83,
+                        1172
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -30866,6 +32295,16 @@ var melvorData = {
                     "id": 531,
                     "qty": 2
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        16,
+                        293
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -30884,6 +32323,16 @@ var melvorData = {
                 {
                     "id": 532,
                     "qty": 2
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        14,
+                        293
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -30904,6 +32353,16 @@ var melvorData = {
                     "id": 533,
                     "qty": 2
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        51,
+                        1172
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -30922,6 +32381,16 @@ var melvorData = {
                 {
                     "id": 534,
                     "qty": 2
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        23,
+                        586
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -31460,7 +32929,8 @@ var melvorData = {
             "name": "Melee Accuracy Potion I",
             "id": 535,
             "isEquipment": false,
-            "description": "+8% Increased Melee Accuracy Rating",
+            "description": "+8% Melee Accuracy Rating",
+            "ignoreLangGeneration": true,
             "sellsFor": 2,
             "media": "assets/media/bank/potion_attack_i.png",
             "masteryID": [
@@ -31488,8 +32958,7 @@ var melvorData = {
             "trimmedItemID": 536,
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 8
-            },
-            "herbloreLevel": 5
+            }
         },
         {
             "category": "Herblore",
@@ -31498,7 +32967,8 @@ var melvorData = {
             "name": "Melee Accuracy Potion II",
             "id": 536,
             "isEquipment": false,
-            "description": "+12% Increased Melee Accuracy Rating",
+            "description": "+12% Melee Accuracy Rating",
+            "ignoreLangGeneration": true,
             "sellsFor": 3,
             "media": "assets/media/bank/potion_attack_ii.png",
             "masteryID": [
@@ -31532,8 +33002,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 12
-            },
-            "herbloreLevel": 5
+            }
         },
         {
             "category": "Herblore",
@@ -31542,7 +33011,8 @@ var melvorData = {
             "name": "Melee Accuracy Potion III",
             "id": 537,
             "isEquipment": false,
-            "description": "+15% Increased Melee Accuracy Rating",
+            "description": "+15% Melee Accuracy Rating",
+            "ignoreLangGeneration": true,
             "sellsFor": 4,
             "media": "assets/media/bank/potion_attack_iii.png",
             "masteryID": [
@@ -31576,8 +33046,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 15
-            },
-            "herbloreLevel": 5
+            }
         },
         {
             "category": "Herblore",
@@ -31586,7 +33055,8 @@ var melvorData = {
             "name": "Melee Accuracy Potion IV",
             "id": 538,
             "isEquipment": false,
-            "description": "+25% Increased Melee Accuracy Rating",
+            "description": "+25% Melee Accuracy Rating",
+            "ignoreLangGeneration": true,
             "sellsFor": 5,
             "media": "assets/media/bank/potion_attack_iv.png",
             "masteryID": [
@@ -31618,8 +33088,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 25
-            },
-            "herbloreLevel": 5
+            }
         },
         {
             "category": "Herblore",
@@ -31628,7 +33097,8 @@ var melvorData = {
             "name": "Melee Strength Potion I",
             "id": 539,
             "isEquipment": false,
-            "description": "+1% Increased Melee Strength",
+            "description": "+1% Melee Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 130,
             "media": "assets/media/bank/potion_strength_i.png",
             "masteryID": [
@@ -31660,8 +33130,7 @@ var melvorData = {
             "trimmedItemID": 540,
             "modifiers": {
                 "increasedMeleeMaxHit": 1
-            },
-            "herbloreLevel": 60
+            }
         },
         {
             "category": "Herblore",
@@ -31670,7 +33139,8 @@ var melvorData = {
             "name": "Melee Strength Potion II",
             "id": 540,
             "isEquipment": false,
-            "description": "+3% Increased Melee Strength",
+            "description": "+3% Melee Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 190,
             "media": "assets/media/bank/potion_strength_ii.png",
             "masteryID": [
@@ -31708,8 +33178,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeMaxHit": 3
-            },
-            "herbloreLevel": 60
+            }
         },
         {
             "category": "Herblore",
@@ -31718,7 +33187,8 @@ var melvorData = {
             "name": "Melee Strength Potion III",
             "id": 541,
             "isEquipment": false,
-            "description": "+6% Increased Melee Strength",
+            "description": "+6% Melee Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 260,
             "media": "assets/media/bank/potion_strength_iii.png",
             "masteryID": [
@@ -31756,8 +33226,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeMaxHit": 6
-            },
-            "herbloreLevel": 60
+            }
         },
         {
             "category": "Herblore",
@@ -31766,7 +33235,8 @@ var melvorData = {
             "name": "Melee Strength Potion IV",
             "id": 542,
             "isEquipment": false,
-            "description": "+10% Increased Melee Strength",
+            "description": "+10% Melee Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 320,
             "media": "assets/media/bank/potion_strength_iv.png",
             "masteryID": [
@@ -31802,8 +33272,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMeleeMaxHit": 10
-            },
-            "herbloreLevel": 60
+            }
         },
         {
             "category": "Herblore",
@@ -31812,7 +33281,8 @@ var melvorData = {
             "name": "Melee Evasion Potion I",
             "id": 543,
             "isEquipment": false,
-            "description": "+8% Increased Melee Evasion Rating",
+            "description": "+8% Melee Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 5,
             "media": "assets/media/bank/potion_defence_i.png",
             "masteryID": [
@@ -31840,8 +33310,7 @@ var melvorData = {
             "trimmedItemID": 544,
             "modifiers": {
                 "increasedMeleeEvasion": 8
-            },
-            "herbloreLevel": 10
+            }
         },
         {
             "category": "Herblore",
@@ -31850,7 +33319,8 @@ var melvorData = {
             "name": "Melee Evasion Potion II",
             "id": 544,
             "isEquipment": false,
-            "description": "+12% Increased Melee Evasion Rating",
+            "description": "+12% Melee Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 10,
             "media": "assets/media/bank/potion_defence_ii.png",
             "masteryID": [
@@ -31884,8 +33354,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeEvasion": 12
-            },
-            "herbloreLevel": 10
+            }
         },
         {
             "category": "Herblore",
@@ -31894,7 +33363,8 @@ var melvorData = {
             "name": "Melee Evasion Potion III",
             "id": 545,
             "isEquipment": false,
-            "description": "+15% Increased Melee Evasion Rating",
+            "description": "+15% Melee Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 15,
             "media": "assets/media/bank/potion_defence_iii.png",
             "masteryID": [
@@ -31928,8 +33398,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeEvasion": 15
-            },
-            "herbloreLevel": 10
+            }
         },
         {
             "category": "Herblore",
@@ -31938,7 +33407,8 @@ var melvorData = {
             "name": "Melee Evasion Potion IV",
             "id": 546,
             "isEquipment": false,
-            "description": "+25% Increased Melee Evasion Rating",
+            "description": "+25% Melee Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 20,
             "media": "assets/media/bank/potion_defence_iv.png",
             "masteryID": [
@@ -31970,8 +33440,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMeleeEvasion": 25
-            },
-            "herbloreLevel": 10
+            }
         },
         {
             "category": "Herblore",
@@ -31980,7 +33449,8 @@ var melvorData = {
             "name": "Ranged Assistance Potion I",
             "id": 547,
             "isEquipment": false,
-            "description": "+4% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+4% Ranged Accuracy Rating and +4% Ranged Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 6,
             "media": "assets/media/bank/potion_ranged_i.png",
             "masteryID": [
@@ -32009,8 +33479,7 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 4,
                 "increasedRangedEvasion": 4
-            },
-            "herbloreLevel": 15
+            }
         },
         {
             "category": "Herblore",
@@ -32019,7 +33488,8 @@ var melvorData = {
             "name": "Ranged Assistance Potion II",
             "id": 548,
             "isEquipment": false,
-            "description": "+8% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+8% Ranged Accuracy Rating and +8% Ranged Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 12,
             "media": "assets/media/bank/potion_ranged_ii.png",
             "masteryID": [
@@ -32054,8 +33524,7 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 8,
                 "increasedRangedEvasion": 8
-            },
-            "herbloreLevel": 15
+            }
         },
         {
             "category": "Herblore",
@@ -32064,7 +33533,8 @@ var melvorData = {
             "name": "Ranged Assistance Potion III",
             "id": 549,
             "isEquipment": false,
-            "description": "+12% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+12% Ranged Accuracy Rating and +12% Ranged Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 18,
             "media": "assets/media/bank/potion_ranged_iii.png",
             "masteryID": [
@@ -32099,8 +33569,7 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 12,
                 "increasedRangedEvasion": 12
-            },
-            "herbloreLevel": 15
+            }
         },
         {
             "category": "Herblore",
@@ -32109,7 +33578,8 @@ var melvorData = {
             "name": "Ranged Assistance Potion IV",
             "id": 550,
             "isEquipment": false,
-            "description": "+20% Increased Ranged Accuracy & Evasion Rating",
+            "description": "+20% Ranged Accuracy Rating and +20% Ranged Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 29,
             "media": "assets/media/bank/potion_ranged_iv.png",
             "masteryID": [
@@ -32142,8 +33612,7 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 20,
                 "increasedRangedEvasion": 20
-            },
-            "herbloreLevel": 15
+            }
         },
         {
             "category": "Herblore",
@@ -32152,7 +33621,8 @@ var melvorData = {
             "name": "Magic Assistance Potion I",
             "id": 551,
             "isEquipment": false,
-            "description": "+4% Increased Magic Accuracy & Evasion Rating",
+            "description": "+4% Magic Accuracy Rating and +4% Magic Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 30,
             "media": "assets/media/bank/potion_magic_i.png",
             "masteryID": [
@@ -32181,8 +33651,7 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 4,
                 "increasedMagicEvasion": 4
-            },
-            "herbloreLevel": 25
+            }
         },
         {
             "category": "Herblore",
@@ -32191,7 +33660,8 @@ var melvorData = {
             "name": "Magic Assistance Potion II",
             "id": 552,
             "isEquipment": false,
-            "description": "+8% Increased Magic Accuracy & Evasion Rating",
+            "description": "+8% Magic Accuracy Rating and +8% Magic Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 40,
             "media": "assets/media/bank/potion_magic_ii.png",
             "masteryID": [
@@ -32226,8 +33696,7 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 8,
                 "increasedMagicEvasion": 8
-            },
-            "herbloreLevel": 25
+            }
         },
         {
             "category": "Herblore",
@@ -32236,7 +33705,8 @@ var melvorData = {
             "name": "Magic Assistance Potion III",
             "id": 553,
             "isEquipment": false,
-            "description": "+12% Increased Magic Accuracy & Evasion Rating",
+            "description": "+12% Magic Accuracy Rating and +12% Magic Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 50,
             "media": "assets/media/bank/potion_magic_iii.png",
             "masteryID": [
@@ -32271,8 +33741,7 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 12,
                 "increasedMagicEvasion": 12
-            },
-            "herbloreLevel": 25
+            }
         },
         {
             "category": "Herblore",
@@ -32281,7 +33750,8 @@ var melvorData = {
             "name": "Magic Assistance Potion IV",
             "id": 554,
             "isEquipment": false,
-            "description": "+20% Increased Magic Accuracy & Evasion Rating",
+            "description": "+20% Magic Accuracy Rating and +20% Magic Evasion",
+            "ignoreLangGeneration": true,
             "sellsFor": 60,
             "media": "assets/media/bank/potion_magic_iv.png",
             "masteryID": [
@@ -32314,8 +33784,7 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 20,
                 "increasedMagicEvasion": 20
-            },
-            "herbloreLevel": 25
+            }
         },
         {
             "category": "Herblore",
@@ -32324,7 +33793,8 @@ var melvorData = {
             "name": "Regeneration Potion I",
             "id": 555,
             "isEquipment": false,
-            "description": "3% Increased Hitpoints Regeneration",
+            "description": "+30% Hitpoint Regeneration",
+            "ignoreLangGeneration": true,
             "sellsFor": 400,
             "media": "assets/media/bank/potion_hitpoints_i.png",
             "masteryID": [
@@ -32345,15 +33815,14 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 3,
             "potionBonusID": 7,
-            "potionCharges": 5,
+            "potionCharges": 15,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 0,
             "trimmedItemID": 556,
             "modifiers": {
-                "increasedHitpointRegeneration": 3
-            },
-            "herbloreLevel": 35
+                "increasedHitpointRegeneration": 30
+            }
         },
         {
             "category": "Herblore",
@@ -32362,7 +33831,8 @@ var melvorData = {
             "name": "Regeneration Potion II",
             "id": 556,
             "isEquipment": false,
-            "description": "5% Increased Hitpoints Regeneration",
+            "description": "+60% Hitpoint Regeneration",
+            "ignoreLangGeneration": true,
             "sellsFor": 490,
             "media": "assets/media/bank/potion_hitpoints_ii.png",
             "masteryID": [
@@ -32383,7 +33853,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 5,
             "potionBonusID": 7,
-            "potionCharges": 8,
+            "potionCharges": 25,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 1,
@@ -32395,9 +33865,8 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedHitpointRegeneration": 5
-            },
-            "herbloreLevel": 35
+                "increasedHitpointRegeneration": 60
+            }
         },
         {
             "category": "Herblore",
@@ -32406,7 +33875,8 @@ var melvorData = {
             "name": "Regeneration Potion III",
             "id": 557,
             "isEquipment": false,
-            "description": "8% Increased Hitpoints Regeneration",
+            "description": "+100% Hitpoint Regeneration",
+            "ignoreLangGeneration": true,
             "sellsFor": 590,
             "media": "assets/media/bank/potion_hitpoints_iii.png",
             "masteryID": [
@@ -32427,7 +33897,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 8,
             "potionBonusID": 7,
-            "potionCharges": 10,
+            "potionCharges": 40,
             "potionPage": 13,
             "canUpgrade": true,
             "potionTier": 2,
@@ -32439,9 +33909,8 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedHitpointRegeneration": 8
-            },
-            "herbloreLevel": 35
+                "increasedHitpointRegeneration": 100
+            }
         },
         {
             "category": "Herblore",
@@ -32450,7 +33919,8 @@ var melvorData = {
             "name": "Regeneration Potion IV",
             "id": 558,
             "isEquipment": false,
-            "description": "12% Increased Hitpoints Regeneration",
+            "description": "+150% Hitpoint Regeneration",
+            "ignoreLangGeneration": true,
             "sellsFor": 640,
             "media": "assets/media/bank/potion_hitpoints_iv.png",
             "masteryID": [
@@ -32471,7 +33941,7 @@ var melvorData = {
             "potionSkill": 19,
             "potionBonus": 12,
             "potionBonusID": 7,
-            "potionCharges": 15,
+            "potionCharges": 60,
             "itemsRequired": [
                 [
                     557,
@@ -32481,9 +33951,8 @@ var melvorData = {
             "potionPage": 13,
             "potionTier": 3,
             "modifiers": {
-                "increasedHitpointRegeneration": 12
-            },
-            "herbloreLevel": 35
+                "increasedHitpointRegeneration": 150
+            }
         },
         {
             "category": "Herblore",
@@ -32493,6 +33962,7 @@ var melvorData = {
             "id": 559,
             "isEquipment": false,
             "description": "+2% Damage Reduction",
+            "ignoreLangGeneration": true,
             "sellsFor": 850,
             "media": "assets/media/bank/potion_damage_reduction_i.png",
             "masteryID": [
@@ -32524,8 +33994,7 @@ var melvorData = {
             "trimmedItemID": 560,
             "modifiers": {
                 "increasedDamageReduction": 2
-            },
-            "herbloreLevel": 90
+            }
         },
         {
             "category": "Herblore",
@@ -32535,6 +34004,7 @@ var melvorData = {
             "id": 560,
             "isEquipment": false,
             "description": "+4% Damage Reduction",
+            "ignoreLangGeneration": true,
             "sellsFor": 950,
             "media": "assets/media/bank/potion_damage_reduction_ii.png",
             "masteryID": [
@@ -32572,8 +34042,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedDamageReduction": 4
-            },
-            "herbloreLevel": 90
+            }
         },
         {
             "category": "Herblore",
@@ -32583,6 +34052,7 @@ var melvorData = {
             "id": 561,
             "isEquipment": false,
             "description": "+6% Damage Reduction",
+            "ignoreLangGeneration": true,
             "sellsFor": 1150,
             "media": "assets/media/bank/potion_damage_reduction_iii.png",
             "masteryID": [
@@ -32620,8 +34090,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedDamageReduction": 6
-            },
-            "herbloreLevel": 90
+            }
         },
         {
             "category": "Herblore",
@@ -32631,6 +34100,7 @@ var melvorData = {
             "id": 562,
             "isEquipment": false,
             "description": "+10% Damage Reduction",
+            "ignoreLangGeneration": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/potion_damage_reduction_iv.png",
             "masteryID": [
@@ -32666,8 +34136,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedDamageReduction": 10
-            },
-            "herbloreLevel": 90
+            }
         },
         {
             "category": "Herblore",
@@ -32676,7 +34145,8 @@ var melvorData = {
             "name": "Bird Nest Potion I",
             "id": 563,
             "isEquipment": false,
-            "description": "5% Bird Nest drop rate",
+            "description": "+5% Chance for Bird Nests to drop in Woodcutting",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/potion_woodcutting_i.png",
             "masteryID": [
@@ -32704,8 +34174,7 @@ var melvorData = {
             "trimmedItemID": 564,
             "modifiers": {
                 "increasedBirdNestDropRate": 5
-            },
-            "herbloreLevel": 1
+            }
         },
         {
             "category": "Herblore",
@@ -32714,7 +34183,8 @@ var melvorData = {
             "name": "Bird Nest Potion II",
             "id": 564,
             "isEquipment": false,
-            "description": "10% Bird Nest drop rate",
+            "description": "+10% Chance for Bird Nests to drop in Woodcutting",
+            "ignoreLangGeneration": true,
             "sellsFor": 2,
             "media": "assets/media/bank/potion_woodcutting_ii.png",
             "masteryID": [
@@ -32748,8 +34218,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedBirdNestDropRate": 10
-            },
-            "herbloreLevel": 1
+            }
         },
         {
             "category": "Herblore",
@@ -32758,7 +34227,8 @@ var melvorData = {
             "name": "Bird Nest Potion III",
             "id": 565,
             "isEquipment": false,
-            "description": "15% Bird Nest drop rate",
+            "description": "+15% Chance for Bird Nests to drop in Woodcutting",
+            "ignoreLangGeneration": true,
             "sellsFor": 3,
             "media": "assets/media/bank/potion_woodcutting_iii.png",
             "masteryID": [
@@ -32792,8 +34262,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedBirdNestDropRate": 15
-            },
-            "herbloreLevel": 1
+            }
         },
         {
             "category": "Herblore",
@@ -32802,7 +34271,8 @@ var melvorData = {
             "name": "Bird Nest Potion IV",
             "id": 566,
             "isEquipment": false,
-            "description": "30% Bird Nest drop rate",
+            "description": "+30% Chance for Bird Nests to drop in Woodcutting",
+            "ignoreLangGeneration": true,
             "sellsFor": 4,
             "media": "assets/media/bank/potion_woodcutting_iv.png",
             "masteryID": [
@@ -32834,8 +34304,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedBirdNestDropRate": 30
-            },
-            "herbloreLevel": 1
+            }
         },
         {
             "category": "Herblore",
@@ -32844,7 +34313,8 @@ var melvorData = {
             "name": "Fishermans Potion I",
             "id": 567,
             "isEquipment": false,
-            "description": "+3% chance to catch 2x Fish.",
+            "description": "+3% Chance to Double Items in Fishing",
+            "ignoreLangGeneration": true,
             "sellsFor": 60,
             "media": "assets/media/bank/potion_fishing_i.png",
             "masteryID": [
@@ -32877,8 +34347,7 @@ var melvorData = {
                         3
                     ]
                 ]
-            },
-            "herbloreLevel": 40
+            }
         },
         {
             "category": "Herblore",
@@ -32887,7 +34356,8 @@ var melvorData = {
             "name": "Fishermans Potion II",
             "id": 568,
             "isEquipment": false,
-            "description": "+5% chance to catch 2x Fish.",
+            "description": "+5% Chance to Double Items in Fishing",
+            "ignoreLangGeneration": true,
             "sellsFor": 75,
             "media": "assets/media/bank/potion_fishing_ii.png",
             "masteryID": [
@@ -32926,8 +34396,7 @@ var melvorData = {
                         5
                     ]
                 ]
-            },
-            "herbloreLevel": 40
+            }
         },
         {
             "category": "Herblore",
@@ -32936,7 +34405,8 @@ var melvorData = {
             "name": "Fishermans Potion III",
             "id": 569,
             "isEquipment": false,
-            "description": "+8% chance to catch 2x Fish.",
+            "description": "+8% Chance to Double Items in Fishing",
+            "ignoreLangGeneration": true,
             "sellsFor": 90,
             "media": "assets/media/bank/potion_fishing_iii.png",
             "masteryID": [
@@ -32975,8 +34445,7 @@ var melvorData = {
                         8
                     ]
                 ]
-            },
-            "herbloreLevel": 40
+            }
         },
         {
             "category": "Herblore",
@@ -32985,7 +34454,8 @@ var melvorData = {
             "name": "Fishermans Potion IV",
             "id": 570,
             "isEquipment": false,
-            "description": "+12% chance to catch 2x Fish.",
+            "description": "+12% Chance to Double Items in Fishing",
+            "ignoreLangGeneration": true,
             "sellsFor": 122,
             "media": "assets/media/bank/potion_fishing_iv.png",
             "masteryID": [
@@ -33022,8 +34492,7 @@ var melvorData = {
                         12
                     ]
                 ]
-            },
-            "herbloreLevel": 40
+            }
         },
         {
             "category": "Herblore",
@@ -33032,7 +34501,7 @@ var melvorData = {
             "name": "Controlled Heat Potion I",
             "id": 571,
             "isEquipment": false,
-            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
+            "description": "Relighting Bonfires in Firemaking uses no Logs.<br>Does not work Offline.",
             "sellsFor": 38,
             "media": "assets/media/bank/potion_firemaking_i.png",
             "masteryID": [
@@ -33060,8 +34529,7 @@ var melvorData = {
             "trimmedItemID": 572,
             "modifiers": {
                 "freeBonfires": 1
-            },
-            "herbloreLevel": 20
+            }
         },
         {
             "category": "Herblore",
@@ -33070,7 +34538,7 @@ var melvorData = {
             "name": "Controlled Heat Potion II",
             "id": 572,
             "isEquipment": false,
-            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
+            "description": "Relighting Bonfires in Firemaking uses no Logs.<br>Does not work Offline.",
             "sellsFor": 48,
             "media": "assets/media/bank/potion_firemaking_ii.png",
             "masteryID": [
@@ -33104,8 +34572,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "freeBonfires": 1
-            },
-            "herbloreLevel": 20
+            }
         },
         {
             "category": "Herblore",
@@ -33114,7 +34581,7 @@ var melvorData = {
             "name": "Controlled Heat Potion III",
             "id": 573,
             "isEquipment": false,
-            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
+            "description": "Relighting Bonfires in Firemaking uses no Logs.<br>Does not work Offline.",
             "sellsFor": 58,
             "media": "assets/media/bank/potion_firemaking_iii.png",
             "masteryID": [
@@ -33148,8 +34615,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "freeBonfires": 1
-            },
-            "herbloreLevel": 20
+            }
         },
         {
             "category": "Herblore",
@@ -33158,7 +34624,7 @@ var melvorData = {
             "name": "Controlled Heat Potion IV",
             "id": 574,
             "isEquipment": false,
-            "description": "Automatically relight Bonfires for free using the currently selected Logs.<br>Does not work Offline",
+            "description": "Relighting Bonfires in Firemaking uses no Logs.<br>Does not work Offline.",
             "sellsFor": 68,
             "media": "assets/media/bank/potion_firemaking_iv.png",
             "masteryID": [
@@ -33190,8 +34656,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "freeBonfires": 1
-            },
-            "herbloreLevel": 20
+            }
         },
         {
             "category": "Herblore",
@@ -33200,7 +34665,8 @@ var melvorData = {
             "name": "Generous Cook Potion I",
             "id": 575,
             "isEquipment": false,
-            "description": "+10% chance of producing 2x Cooked Food in Cooking",
+            "description": "+10% Chance to Double Items in Cooking",
+            "ignoreLangGeneration": true,
             "sellsFor": 58,
             "media": "assets/media/bank/potion_cooking_i.png",
             "masteryID": [
@@ -33233,8 +34699,7 @@ var melvorData = {
                         10
                     ]
                 ]
-            },
-            "herbloreLevel": 32
+            }
         },
         {
             "category": "Herblore",
@@ -33243,7 +34708,8 @@ var melvorData = {
             "name": "Generous Cook Potion II",
             "id": 576,
             "isEquipment": false,
-            "description": "+20% chance of producing 2x Cooked Food in Cooking",
+            "description": "+20% Chance to Double Items in Cooking",
+            "ignoreLangGeneration": true,
             "sellsFor": 64,
             "media": "assets/media/bank/potion_cooking_ii.png",
             "masteryID": [
@@ -33282,8 +34748,7 @@ var melvorData = {
                         20
                     ]
                 ]
-            },
-            "herbloreLevel": 32
+            }
         },
         {
             "category": "Herblore",
@@ -33292,7 +34757,8 @@ var melvorData = {
             "name": "Generous Cook Potion III",
             "id": 577,
             "isEquipment": false,
-            "description": "+30% chance of producing 2x Cooked Food in Cooking",
+            "description": "+30% Chance to Double Items in Cooking",
+            "ignoreLangGeneration": true,
             "sellsFor": 78,
             "media": "assets/media/bank/potion_cooking_iii.png",
             "masteryID": [
@@ -33331,8 +34797,7 @@ var melvorData = {
                         30
                     ]
                 ]
-            },
-            "herbloreLevel": 32
+            }
         },
         {
             "category": "Herblore",
@@ -33341,7 +34806,8 @@ var melvorData = {
             "name": "Generous Cook Potion IV",
             "id": 578,
             "isEquipment": false,
-            "description": "+50% chance of producing 2x Cooked Food in Cooking",
+            "description": "+50% Chance to Double Items in Cooking",
+            "ignoreLangGeneration": true,
             "sellsFor": 94,
             "media": "assets/media/bank/potion_cooking_iv.png",
             "masteryID": [
@@ -33378,8 +34844,7 @@ var melvorData = {
                         50
                     ]
                 ]
-            },
-            "herbloreLevel": 32
+            }
         },
         {
             "category": "Herblore",
@@ -33388,7 +34853,7 @@ var melvorData = {
             "name": "Perfect Swing Potion I",
             "id": 579,
             "isEquipment": false,
-            "description": "+10% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+10% Chance to deal no Damage to a Mining Node<br>Does not work Offline.",
             "sellsFor": 102,
             "media": "assets/media/bank/potion_mining_i.png",
             "masteryID": [
@@ -33420,8 +34885,7 @@ var melvorData = {
             "trimmedItemID": 580,
             "modifiers": {
                 "increasedChanceNoDamageMining": 10
-            },
-            "herbloreLevel": 53
+            }
         },
         {
             "category": "Herblore",
@@ -33430,7 +34894,7 @@ var melvorData = {
             "name": "Perfect Swing Potion II",
             "id": 580,
             "isEquipment": false,
-            "description": "+20% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+20% Chance to deal no Damage to a Mining Node<br>Does not work Offline.",
             "sellsFor": 113,
             "media": "assets/media/bank/potion_mining_ii.png",
             "masteryID": [
@@ -33468,8 +34932,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceNoDamageMining": 20
-            },
-            "herbloreLevel": 53
+            }
         },
         {
             "category": "Herblore",
@@ -33478,7 +34941,7 @@ var melvorData = {
             "name": "Perfect Swing Potion III",
             "id": 581,
             "isEquipment": false,
-            "description": "+40% chance to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+40% Chance to deal no Damage to a Mining Node<br>Does not work Offline.",
             "sellsFor": 136,
             "media": "assets/media/bank/potion_mining_iii.png",
             "masteryID": [
@@ -33516,8 +34979,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceNoDamageMining": 40
-            },
-            "herbloreLevel": 53
+            }
         },
         {
             "category": "Herblore",
@@ -33526,7 +34988,7 @@ var melvorData = {
             "name": "Perfect Swing Potion IV",
             "id": 582,
             "isEquipment": false,
-            "description": "+80% to do zero damage to Ores and Rune Essence<br>Does not work Offline",
+            "description": "+80% Chance to deal no Damage to a Mining Node<br>Does not work Offline.",
             "sellsFor": 150,
             "media": "assets/media/bank/potion_mining_iv.png",
             "masteryID": [
@@ -33562,8 +35024,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceNoDamageMining": 80
-            },
-            "herbloreLevel": 53
+            }
         },
         {
             "category": "Herblore",
@@ -33572,7 +35033,8 @@ var melvorData = {
             "name": "Seeing Gold Potion I",
             "id": 583,
             "isEquipment": false,
-            "description": "10% chance for Silver Ore to also produce a Gold Bar when smithed",
+            "description": "+10% Chance to receive a Gold Bar when Smithing Silver Bars",
+            "ignoreLangGeneration": true,
             "sellsFor": 40,
             "media": "assets/media/bank/potion_smithing_i.png",
             "masteryID": [
@@ -33600,8 +35062,7 @@ var melvorData = {
             "trimmedItemID": 584,
             "modifiers": {
                 "increasedSeeingGoldChance": 10
-            },
-            "herbloreLevel": 36
+            }
         },
         {
             "category": "Herblore",
@@ -33610,7 +35071,8 @@ var melvorData = {
             "name": "Seeing Gold Potion II",
             "id": 584,
             "isEquipment": false,
-            "description": "20% chance for Silver Ore to also produce a Gold Bar when smithed",
+            "description": "+20% Chance to receive a Gold Bar when Smithing Silver Bars",
+            "ignoreLangGeneration": true,
             "sellsFor": 53,
             "media": "assets/media/bank/potion_smithing_ii.png",
             "masteryID": [
@@ -33644,8 +35106,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSeeingGoldChance": 20
-            },
-            "herbloreLevel": 36
+            }
         },
         {
             "category": "Herblore",
@@ -33654,7 +35115,8 @@ var melvorData = {
             "name": "Seeing Gold Potion III",
             "id": 585,
             "isEquipment": false,
-            "description": "40% chance for Silver Ore to also produce a Gold Bar when smithed",
+            "description": "+40% Chance to receive a Gold Bar when Smithing Silver Bars",
+            "ignoreLangGeneration": true,
             "sellsFor": 63,
             "media": "assets/media/bank/potion_smithing_iii.png",
             "masteryID": [
@@ -33688,8 +35150,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSeeingGoldChance": 40
-            },
-            "herbloreLevel": 36
+            }
         },
         {
             "category": "Herblore",
@@ -33698,7 +35159,8 @@ var melvorData = {
             "name": "Seeing Gold Potion IV",
             "id": 586,
             "isEquipment": false,
-            "description": "75% chance for Silver Ore to also produce a Gold Bar when smithed",
+            "description": "+75% Chance to receive a Gold Bar when Smithing Silver Bars",
+            "ignoreLangGeneration": true,
             "sellsFor": 73,
             "media": "assets/media/bank/potion_smithing_iv.png",
             "masteryID": [
@@ -33730,8 +35192,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedSeeingGoldChance": 75
-            },
-            "herbloreLevel": 36
+            }
         },
         {
             "category": "Herblore",
@@ -33740,7 +35201,8 @@ var melvorData = {
             "name": "Gentle Hands Potion I",
             "id": 587,
             "isEquipment": false,
-            "description": "5% chance for double Thieving rewards",
+            "description": "+15 Stealth while Thieving",
+            "ignoreLangGeneration": true,
             "sellsFor": 57,
             "media": "assets/media/bank/potion_thieving_i.png",
             "masteryID": [
@@ -33767,14 +35229,8 @@ var melvorData = {
             "potionTier": 0,
             "trimmedItemID": 588,
             "modifiers": {
-                "increasedChanceToDoubleItemsSkill": [
-                    [
-                        10,
-                        5
-                    ]
-                ]
-            },
-            "herbloreLevel": 45
+                "increasedThievingStealth": 15
+            }
         },
         {
             "category": "Herblore",
@@ -33783,7 +35239,8 @@ var melvorData = {
             "name": "Gentle Hands Potion II",
             "id": 588,
             "isEquipment": false,
-            "description": "10% chance for double Thieving rewards",
+            "description": "+30 Stealth while Thieving",
+            "ignoreLangGeneration": true,
             "sellsFor": 73,
             "media": "assets/media/bank/potion_thieving_ii.png",
             "masteryID": [
@@ -33816,14 +35273,8 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedChanceToDoubleItemsSkill": [
-                    [
-                        10,
-                        10
-                    ]
-                ]
-            },
-            "herbloreLevel": 45
+                "increasedThievingStealth": 30
+            }
         },
         {
             "category": "Herblore",
@@ -33832,7 +35283,8 @@ var melvorData = {
             "name": "Gentle Hands Potion III",
             "id": 589,
             "isEquipment": false,
-            "description": "15% chance for double Thieving rewards",
+            "description": "+50 Stealth while Thieving",
+            "ignoreLangGeneration": true,
             "sellsFor": 84,
             "media": "assets/media/bank/potion_thieving_iii.png",
             "masteryID": [
@@ -33865,14 +35317,8 @@ var melvorData = {
                 ]
             ],
             "modifiers": {
-                "increasedChanceToDoubleItemsSkill": [
-                    [
-                        10,
-                        15
-                    ]
-                ]
-            },
-            "herbloreLevel": 45
+                "increasedThievingStealth": 50
+            }
         },
         {
             "category": "Herblore",
@@ -33881,7 +35327,8 @@ var melvorData = {
             "name": "Gentle Hands Potion IV",
             "id": 590,
             "isEquipment": false,
-            "description": "25% chance for double Thieving rewards",
+            "description": "+75 Stealth while Thieving",
+            "ignoreLangGeneration": true,
             "sellsFor": 92,
             "media": "assets/media/bank/potion_thieving_iv.png",
             "masteryID": [
@@ -33912,14 +35359,8 @@ var melvorData = {
             "potionPage": 14,
             "potionTier": 3,
             "modifiers": {
-                "increasedChanceToDoubleItemsSkill": [
-                    [
-                        10,
-                        25
-                    ]
-                ]
-            },
-            "herbloreLevel": 45
+                "increasedThievingStealth": 75
+            }
         },
         {
             "category": "Herblore",
@@ -33928,7 +35369,8 @@ var melvorData = {
             "name": "Generous Harvest Potion I",
             "id": 591,
             "isEquipment": false,
-            "description": "+5% chance for double harvest.",
+            "description": "+5% Chance to Double Farming Yield",
+            "ignoreLangGeneration": true,
             "sellsFor": 312,
             "media": "assets/media/bank/potion_farming_i.png",
             "masteryID": [
@@ -33960,8 +35402,7 @@ var melvorData = {
             "trimmedItemID": 592,
             "modifiers": {
                 "increasedChanceDoubleHarvest": 5
-            },
-            "herbloreLevel": 74
+            }
         },
         {
             "category": "Herblore",
@@ -33970,7 +35411,8 @@ var melvorData = {
             "name": "Generous Harvest Potion II",
             "id": 592,
             "isEquipment": false,
-            "description": "+10% chance for double harvest.",
+            "description": "+10% Chance to Double Farming Yield",
+            "ignoreLangGeneration": true,
             "sellsFor": 330,
             "media": "assets/media/bank/potion_farming_ii.png",
             "masteryID": [
@@ -34008,8 +35450,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceDoubleHarvest": 10
-            },
-            "herbloreLevel": 74
+            }
         },
         {
             "category": "Herblore",
@@ -34018,7 +35459,8 @@ var melvorData = {
             "name": "Generous Harvest Potion III",
             "id": 593,
             "isEquipment": false,
-            "description": "+15% chance for double harvest.",
+            "description": "+15% Chance to Double Farming Yield",
+            "ignoreLangGeneration": true,
             "sellsFor": 345,
             "media": "assets/media/bank/potion_farming_iii.png",
             "masteryID": [
@@ -34056,8 +35498,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceDoubleHarvest": 15
-            },
-            "herbloreLevel": 74
+            }
         },
         {
             "category": "Herblore",
@@ -34066,7 +35507,8 @@ var melvorData = {
             "name": "Generous Harvest Potion IV",
             "id": 594,
             "isEquipment": false,
-            "description": "+25% chance for double harvest.",
+            "description": "+25% Chance to Double Farming Yield",
+            "ignoreLangGeneration": true,
             "sellsFor": 390,
             "media": "assets/media/bank/potion_farming_iv.png",
             "masteryID": [
@@ -34102,8 +35544,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceDoubleHarvest": 25
-            },
-            "herbloreLevel": 74
+            }
         },
         {
             "category": "Herblore",
@@ -34112,7 +35553,8 @@ var melvorData = {
             "name": "Skilled Fletching Potion I",
             "id": 595,
             "isEquipment": false,
-            "description": "5% chance to receive 2x items per Fletch",
+            "description": "+5% Chance to Double Items in Fletching",
+            "ignoreLangGeneration": true,
             "sellsFor": 67,
             "media": "assets/media/bank/potion_fletching_i.png",
             "masteryID": [
@@ -34145,8 +35587,7 @@ var melvorData = {
                         5
                     ]
                 ]
-            },
-            "herbloreLevel": 42
+            }
         },
         {
             "category": "Herblore",
@@ -34155,7 +35596,8 @@ var melvorData = {
             "name": "Skilled Fletching Potion II",
             "id": 596,
             "isEquipment": false,
-            "description": "10% chance to receive 2x items per Fletch",
+            "description": "+10% Chance to Double Items in Fletching",
+            "ignoreLangGeneration": true,
             "sellsFor": 78,
             "media": "assets/media/bank/potion_fletching_ii.png",
             "masteryID": [
@@ -34194,8 +35636,7 @@ var melvorData = {
                         10
                     ]
                 ]
-            },
-            "herbloreLevel": 42
+            }
         },
         {
             "category": "Herblore",
@@ -34204,7 +35645,8 @@ var melvorData = {
             "name": "Skilled Fletching Potion III",
             "id": 597,
             "isEquipment": false,
-            "description": "15% chance to receive 2x items per Fletch",
+            "description": "+15% Chance to Double Items in Fletching",
+            "ignoreLangGeneration": true,
             "sellsFor": 90,
             "media": "assets/media/bank/potion_fletching_iii.png",
             "masteryID": [
@@ -34243,8 +35685,7 @@ var melvorData = {
                         15
                     ]
                 ]
-            },
-            "herbloreLevel": 42
+            }
         },
         {
             "category": "Herblore",
@@ -34253,7 +35694,8 @@ var melvorData = {
             "name": "Skilled Fletching Potion IV",
             "id": 598,
             "isEquipment": false,
-            "description": "25% chance to receive 2x items per Fletch",
+            "description": "+25% Chance to Double Items in Fletching",
+            "ignoreLangGeneration": true,
             "sellsFor": 100,
             "media": "assets/media/bank/potion_fletching_iv.png",
             "masteryID": [
@@ -34290,8 +35732,7 @@ var melvorData = {
                         25
                     ]
                 ]
-            },
-            "herbloreLevel": 42
+            }
         },
         {
             "category": "Herblore",
@@ -34300,7 +35741,8 @@ var melvorData = {
             "name": "Crafting Potion I",
             "id": 599,
             "isEquipment": false,
-            "description": "+5% chance to Double Items in Crafting.",
+            "description": "+5% Chance to Double Items in Crafting",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/potion_crafting_i.png",
             "masteryID": [
@@ -34333,8 +35775,7 @@ var melvorData = {
                         5
                     ]
                 ]
-            },
-            "herbloreLevel": 49
+            }
         },
         {
             "category": "Herblore",
@@ -34343,7 +35784,8 @@ var melvorData = {
             "name": "Crafting Potion II",
             "id": 600,
             "isEquipment": false,
-            "description": "+10% chance to Double Items in Crafting.",
+            "description": "+10% Chance to Double Items in Crafting",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/potion_crafting_ii.png",
             "masteryID": [
@@ -34382,8 +35824,7 @@ var melvorData = {
                         10
                     ]
                 ]
-            },
-            "herbloreLevel": 49
+            }
         },
         {
             "category": "Herblore",
@@ -34392,7 +35833,8 @@ var melvorData = {
             "name": "Crafting Potion III",
             "id": 601,
             "isEquipment": false,
-            "description": "+15% chance to Double Items in Crafting.",
+            "description": "+15% Chance to Double Items in Crafting",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/potion_crafting_iii.png",
             "masteryID": [
@@ -34431,8 +35873,7 @@ var melvorData = {
                         15
                     ]
                 ]
-            },
-            "herbloreLevel": 49
+            }
         },
         {
             "category": "Herblore",
@@ -34441,7 +35882,8 @@ var melvorData = {
             "name": "Crafting Potion IV",
             "id": 602,
             "isEquipment": false,
-            "description": "+25% chance to Double Items in Crafting.",
+            "description": "+25% Chance to Double Items in Crafting",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/potion_crafting_iv.png",
             "masteryID": [
@@ -34478,8 +35920,7 @@ var melvorData = {
                         25
                     ]
                 ]
-            },
-            "herbloreLevel": 49
+            }
         },
         {
             "category": "Herblore",
@@ -34517,8 +35958,7 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 5,
                 "increasedElementalRuneGain": 2
-            },
-            "herbloreLevel": 63
+            }
         },
         {
             "category": "Herblore",
@@ -34562,8 +36002,7 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 10,
                 "increasedElementalRuneGain": 4
-            },
-            "herbloreLevel": 63
+            }
         },
         {
             "category": "Herblore",
@@ -34607,8 +36046,7 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 25,
                 "increasedElementalRuneGain": 6
-            },
-            "herbloreLevel": 63
+            }
         },
         {
             "category": "Herblore",
@@ -34650,8 +36088,7 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 50,
                 "increasedElementalRuneGain": 8
-            },
-            "herbloreLevel": 63
+            }
         },
         {
             "category": "Herblore",
@@ -34660,7 +36097,8 @@ var melvorData = {
             "name": "Herblore Potion I",
             "id": 607,
             "isEquipment": false,
-            "description": "+1% chance to gain a second potion of a random tier",
+            "description": "+1% Chance to receive a Random Tier of the same Potion in Herblore",
+            "ignoreLangGeneration": true,
             "sellsFor": 450,
             "media": "assets/media/bank/potion_herblore_i.png",
             "masteryID": [
@@ -34684,8 +36122,7 @@ var melvorData = {
             "trimmedItemID": 608,
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 1
-            },
-            "herbloreLevel": 71
+            }
         },
         {
             "category": "Herblore",
@@ -34694,7 +36131,8 @@ var melvorData = {
             "name": "Herblore Potion II",
             "id": 608,
             "isEquipment": false,
-            "description": "+2% chance to gain a second potion of a random tier",
+            "description": "+2% Chance to receive a Random Tier of the same Potion in Herblore",
+            "ignoreLangGeneration": true,
             "sellsFor": 480,
             "media": "assets/media/bank/potion_herblore_ii.png",
             "masteryID": [
@@ -34724,8 +36162,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 2
-            },
-            "herbloreLevel": 71
+            }
         },
         {
             "category": "Herblore",
@@ -34734,7 +36171,8 @@ var melvorData = {
             "name": "Herblore Potion III",
             "id": 609,
             "isEquipment": false,
-            "description": "+3% chance to gain a second potion of a random tier",
+            "description": "+3% Chance to receive a Random Tier of the same Potion in Herblore",
+            "ignoreLangGeneration": true,
             "sellsFor": 500,
             "media": "assets/media/bank/potion_herblore_iii.png",
             "masteryID": [
@@ -34764,8 +36202,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 3
-            },
-            "herbloreLevel": 71
+            }
         },
         {
             "category": "Herblore",
@@ -34774,7 +36211,8 @@ var melvorData = {
             "name": "Herblore Potion IV",
             "id": 610,
             "isEquipment": false,
-            "description": "+6% chance to gain a second potion of a random tier",
+            "description": "+6% Chance to receive a Random Tier of the same Potion in Herblore",
+            "ignoreLangGeneration": true,
             "sellsFor": 530,
             "media": "assets/media/bank/potion_herblore_iv.png",
             "masteryID": [
@@ -34802,8 +36240,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 6
-            },
-            "herbloreLevel": 71
+            }
         },
         {
             "category": "Herblore",
@@ -34812,7 +36249,8 @@ var melvorData = {
             "name": "Ranged Strength Potion I",
             "id": 611,
             "isEquipment": false,
-            "description": "5% Increased Ranged Strength",
+            "description": "+5% Ranged Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 120,
             "media": "assets/media/bank/potion_ranged_i.png",
             "masteryID": [
@@ -34840,8 +36278,7 @@ var melvorData = {
             "trimmedItemID": 612,
             "modifiers": {
                 "increasedRangedMaxHit": 5
-            },
-            "herbloreLevel": 45
+            }
         },
         {
             "category": "Herblore",
@@ -34850,7 +36287,8 @@ var melvorData = {
             "name": "Ranged Strength Potion II",
             "id": 612,
             "isEquipment": false,
-            "description": "10% Increased Ranged Strength",
+            "description": "+10% Ranged Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 135,
             "media": "assets/media/bank/potion_ranged_ii.png",
             "masteryID": [
@@ -34884,8 +36322,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedRangedMaxHit": 10
-            },
-            "herbloreLevel": 45
+            }
         },
         {
             "category": "Herblore",
@@ -34894,7 +36331,8 @@ var melvorData = {
             "name": "Ranged Strength Potion III",
             "id": 613,
             "isEquipment": false,
-            "description": "15% Increased Ranged Strength",
+            "description": "+15% Ranged Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 147,
             "media": "assets/media/bank/potion_ranged_iii.png",
             "masteryID": [
@@ -34928,8 +36366,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedRangedMaxHit": 15
-            },
-            "herbloreLevel": 45
+            }
         },
         {
             "category": "Herblore",
@@ -34938,7 +36375,8 @@ var melvorData = {
             "name": "Ranged Strength Potion IV",
             "id": 614,
             "isEquipment": false,
-            "description": "25% Increased Ranged Strength",
+            "description": "+25% Ranged Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 158,
             "media": "assets/media/bank/potion_ranged_iv.png",
             "masteryID": [
@@ -34970,8 +36408,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedRangedMaxHit": 25
-            },
-            "herbloreLevel": 45
+            }
         },
         {
             "category": "Herblore",
@@ -34980,7 +36417,8 @@ var melvorData = {
             "name": "Magic Damage Potion I",
             "id": 615,
             "isEquipment": false,
-            "description": "+1% Increased Magic Damage",
+            "description": "+1% Magic Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 140,
             "media": "assets/media/bank/potion_magic_i.png",
             "masteryID": [
@@ -35012,8 +36450,7 @@ var melvorData = {
             "trimmedItemID": 616,
             "modifiers": {
                 "increasedMagicMaxHit": 1
-            },
-            "herbloreLevel": 65
+            }
         },
         {
             "category": "Herblore",
@@ -35022,7 +36459,8 @@ var melvorData = {
             "name": "Magic Damage Potion II",
             "id": 616,
             "isEquipment": false,
-            "description": "+5% Increased Magic Damage",
+            "description": "+5% Magic Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 180,
             "media": "assets/media/bank/potion_magic_ii.png",
             "masteryID": [
@@ -35060,8 +36498,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMagicMaxHit": 5
-            },
-            "herbloreLevel": 65
+            }
         },
         {
             "category": "Herblore",
@@ -35070,7 +36507,8 @@ var melvorData = {
             "name": "Magic Damage Potion III",
             "id": 617,
             "isEquipment": false,
-            "description": "+10% Increased Magic Damage",
+            "description": "+10% Magic Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 210,
             "media": "assets/media/bank/potion_magic_iii.png",
             "masteryID": [
@@ -35108,8 +36546,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMagicMaxHit": 10
-            },
-            "herbloreLevel": 65
+            }
         },
         {
             "category": "Herblore",
@@ -35118,7 +36555,8 @@ var melvorData = {
             "name": "Magic Damage Potion IV",
             "id": 618,
             "isEquipment": false,
-            "description": "+15% Increased Magic Damage",
+            "description": "+15% Magic Maximum Hit",
+            "ignoreLangGeneration": true,
             "sellsFor": 235,
             "media": "assets/media/bank/potion_magic_iv.png",
             "masteryID": [
@@ -35154,8 +36592,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMagicMaxHit": 15
-            },
-            "herbloreLevel": 65
+            }
         },
         {
             "category": "Herblore",
@@ -35258,8 +36695,8 @@ var melvorData = {
                 {
                     "target": 3,
                     "chance": [
-                        75,
-                        796
+                        225,
+                        2458
                     ],
                     "maxQty": 1
                 }
@@ -35311,6 +36748,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -35363,8 +36802,8 @@ var melvorData = {
                 {
                     "chest": 360,
                     "chance": [
-                        10,
-                        1281
+                        5,
+                        641
                     ],
                     "qty": 1
                 }
@@ -35519,6 +36958,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 24,
+            "craftingCategory": 0,
             "craftingXP": 26
         },
         {
@@ -35580,6 +37020,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 28,
+            "craftingCategory": 0,
             "craftingXP": 32
         },
         {
@@ -35641,6 +37082,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 33,
+            "craftingCategory": 0,
             "craftingXP": 36
         },
         {
@@ -35698,6 +37140,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 39,
+            "craftingCategory": 0,
             "craftingXP": 44
         },
         {
@@ -35759,6 +37202,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 44,
+            "craftingCategory": 0,
             "craftingXP": 50
         },
         {
@@ -35820,6 +37264,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 50,
+            "craftingCategory": 0,
             "craftingXP": 54
         },
         {
@@ -35856,7 +37301,7 @@ var melvorData = {
             ],
             "canUpgrade": false,
             "hasStats": true,
-            "description": "Created by Patreon (ChapeauNoir)<br>Passive: +10% chance to receive double loot from slain monsters or Thieving.",
+            "description": "Created by Patreon (ChapeauNoir)<br>Passive: +10% Chance To Double Loot in Combat and +10% Chance to Double Items in Thieving",
             "sellsFor": 32000,
             "media": "assets/media/bank/chapeau_noir.png",
             "modifiers": {
@@ -35875,11 +37320,15 @@ var melvorData = {
             "name": "Mastery Token (Herblore)",
             "id": 631,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_herblore.png",
-            "skill": 19
+            "skill": 19,
+            "modifiers": {
+                "masteryToken": 1
+            }
         },
         {
             "category": "Combat",
@@ -35916,7 +37365,8 @@ var melvorData = {
                     ]
                 ]
             },
-            "description": "Produce 2x Potions",
+            "description": "x2 Items received from Herblore",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "hasStats": true,
             "buysFor": 1000000,
@@ -35958,8 +37408,7 @@ var melvorData = {
             "trimmedItemID": 634,
             "modifiers": {
                 "increasedAttackRolls": 1
-            },
-            "herbloreLevel": 85
+            }
         },
         {
             "category": "Herblore",
@@ -36002,8 +37451,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedAttackRolls": 1
-            },
-            "herbloreLevel": 85
+            }
         },
         {
             "category": "Herblore",
@@ -36046,8 +37494,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedAttackRolls": 1
-            },
-            "herbloreLevel": 85
+            }
         },
         {
             "category": "Herblore",
@@ -36088,8 +37535,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedAttackRolls": 1
-            },
-            "herbloreLevel": 85
+            }
         },
         {
             "category": "Herblore",
@@ -36098,7 +37544,8 @@ var melvorData = {
             "name": "Divine Potion I",
             "id": 637,
             "isEquipment": false,
-            "description": "+10% Chance to not consume Prayer Points",
+            "description": "+10% Chance To Preserve Prayer Points",
+            "ignoreLangGeneration": true,
             "sellsFor": 87,
             "media": "assets/media/bank/potion_prayer_i.png",
             "masteryID": [
@@ -36130,8 +37577,7 @@ var melvorData = {
             "trimmedItemID": 638,
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 10
-            },
-            "herbloreLevel": 57
+            }
         },
         {
             "category": "Herblore",
@@ -36140,7 +37586,8 @@ var melvorData = {
             "name": "Divine Potion II",
             "id": 638,
             "isEquipment": false,
-            "description": "+15% Chance to not consume Prayer Points",
+            "description": "+15% Chance To Preserve Prayer Points",
+            "ignoreLangGeneration": true,
             "sellsFor": 89,
             "media": "assets/media/bank/potion_prayer_ii.png",
             "masteryID": [
@@ -36178,8 +37625,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 15
-            },
-            "herbloreLevel": 57
+            }
         },
         {
             "category": "Herblore",
@@ -36188,7 +37634,8 @@ var melvorData = {
             "name": "Divine Potion III",
             "id": 639,
             "isEquipment": false,
-            "description": "+20% Chance to not consume Prayer Points",
+            "description": "+20% Chance To Preserve Prayer Points",
+            "ignoreLangGeneration": true,
             "sellsFor": 93,
             "media": "assets/media/bank/potion_prayer_iii.png",
             "masteryID": [
@@ -36226,8 +37673,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 20
-            },
-            "herbloreLevel": 57
+            }
         },
         {
             "category": "Herblore",
@@ -36236,7 +37682,8 @@ var melvorData = {
             "name": "Divine Potion IV",
             "id": 640,
             "isEquipment": false,
-            "description": "+35% Chance to not consume Prayer Points",
+            "description": "+35% Chance To Preserve Prayer Points",
+            "ignoreLangGeneration": true,
             "sellsFor": 99,
             "media": "assets/media/bank/potion_prayer_iv.png",
             "masteryID": [
@@ -36272,8 +37719,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 35
-            },
-            "herbloreLevel": 57
+            }
         },
         {
             "category": "Herblore",
@@ -36282,7 +37728,8 @@ var melvorData = {
             "name": "Lucky Herb Potion I",
             "id": 641,
             "isEquipment": false,
-            "description": "10% Chance for dropped Herb Seeds from killing monsters to turn into grown Herbs and also provide an extra 3 Herbs.",
+            "description": "+10% chance to convert combat seed drops to herbs",
+            "ignoreLangGeneration": true,
             "sellsFor": 69,
             "media": "assets/media/bank/potion_herblore_i.png",
             "masteryID": [
@@ -36310,8 +37757,7 @@ var melvorData = {
             "trimmedItemID": 642,
             "modifiers": {
                 "increasedChanceToConvertSeedDrops": 10
-            },
-            "herbloreLevel": 50
+            }
         },
         {
             "category": "Herblore",
@@ -36320,7 +37766,8 @@ var melvorData = {
             "name": "Lucky Herb Potion II",
             "id": 642,
             "isEquipment": false,
-            "description": "20% Chance for dropped Herb Seeds from killing monsters to turn into grown Herbs and also provide an extra 3 Herbs.",
+            "description": "+20% chance to convert combat seed drops to herbs",
+            "ignoreLangGeneration": true,
             "sellsFor": 69,
             "media": "assets/media/bank/potion_herblore_ii.png",
             "masteryID": [
@@ -36364,8 +37811,7 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "herbloreLevel": 50
+            ]
         },
         {
             "category": "Herblore",
@@ -36374,7 +37820,8 @@ var melvorData = {
             "name": "Lucky Herb Potion III",
             "id": 643,
             "isEquipment": false,
-            "description": "30% Chance for dropped Herb Seeds from killing monsters to turn into grown Herbs and also provide an extra 3 Herbs.",
+            "description": "+30% chance to convert combat seed drops to herbs",
+            "ignoreLangGeneration": true,
             "sellsFor": 69,
             "media": "assets/media/bank/potion_herblore_iii.png",
             "masteryID": [
@@ -36418,8 +37865,7 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "herbloreLevel": 50
+            ]
         },
         {
             "category": "Herblore",
@@ -36428,7 +37874,8 @@ var melvorData = {
             "name": "Lucky Herb Potion IV",
             "id": 644,
             "isEquipment": false,
-            "description": "50% Chance for dropped Herb Seeds from killing monsters to turn into grown Herbs and also provide an extra 3 Herbs.",
+            "description": "+50% chance to convert combat seed drops to herbs",
+            "ignoreLangGeneration": true,
             "sellsFor": 69,
             "media": "assets/media/bank/potion_herblore_iv.png",
             "masteryID": [
@@ -36470,8 +37917,7 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "herbloreLevel": 50
+            ]
         },
         {
             "category": "Misc",
@@ -36509,7 +37955,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Created by Patreon (Aorpheat)<br>Passive: When equipped - +100% GP granted from all sources except Alt. Magic and Item Selling, +5% chance to obtain double loot from slain monsters or Thieving, +10% chance to gain double resources from any skill.",
+            "description": "Created by Patreon (Aorpheat)<br>Passive: When equipped - +100% GP granted from all sources except Alt. Magic and Item Sales, +5% chance to obtain double loot from slain monsters or Thieving, +10% chance to gain double resources from any skill.",
             "sellsFor": 2800000,
             "media": "assets/media/bank/aorpheats_signet_ring.png",
             "itemsRequired": [
@@ -36708,7 +38154,17 @@ var melvorData = {
             "fishingLevel": 8,
             "fishingXP": 12,
             "minFishingInterval": 3000,
-            "maxFishingInterval": 8000
+            "maxFishingInterval": 8000,
+            "thievingSources": [
+                {
+                    "target": 14,
+                    "chance": [
+                        27,
+                        332
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -36800,10 +38256,10 @@ var melvorData = {
             "fishingID": 17,
             "fishingLevel": 80,
             "fishingXP": 325,
-            "minFishingInterval": 10000,
+            "minFishingInterval": 12000,
             "maxFishingInterval": 30000,
             "canEat": true,
-            "healsFor": 17
+            "healsFor": 14
         },
         {
             "category": "Fishing",
@@ -36820,8 +38276,18 @@ var melvorData = {
             "fishingID": 18,
             "fishingLevel": 50,
             "fishingXP": 100,
-            "minFishingInterval": 4000,
-            "maxFishingInterval": 12000
+            "minFishingInterval": 5000,
+            "maxFishingInterval": 12000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        20,
+                        127
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -36838,8 +38304,18 @@ var melvorData = {
             "fishingID": 19,
             "fishingLevel": 55,
             "fishingXP": 120,
-            "minFishingInterval": 3000,
-            "maxFishingInterval": 10000
+            "minFishingInterval": 4000,
+            "maxFishingInterval": 10000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        15,
+                        127
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -36856,7 +38332,7 @@ var melvorData = {
             "fishingID": 20,
             "fishingLevel": 15,
             "fishingXP": 25,
-            "minFishingInterval": 2000,
+            "minFishingInterval": 3000,
             "maxFishingInterval": 10000
         },
         {
@@ -36874,8 +38350,18 @@ var melvorData = {
             "fishingID": 21,
             "fishingLevel": 65,
             "fishingXP": 130,
-            "minFishingInterval": 4000,
-            "maxFishingInterval": 15000
+            "minFishingInterval": 6000,
+            "maxFishingInterval": 15000,
+            "thievingSources": [
+                {
+                    "target": 4,
+                    "chance": [
+                        9,
+                        127
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Fishing",
@@ -36910,7 +38396,8 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "+15% Fishing Skill XP when equipped.",
+            "description": "+15% Fishing Skill XP",
+            "ignoreLangGeneration": true,
             "hasStats": true,
             "sellsFor": 17500,
             "media": "assets/media/bank/pirates_lost_ring.png",
@@ -37043,21 +38530,41 @@ var melvorData = {
             "name": "Anglerfish",
             "id": 671,
             "isEquipment": false,
-            "sellsFor": 125,
+            "sellsFor": 209,
             "media": "assets/media/bank/anglerfish_cooked.png",
             "masteryID": [
                 3,
                 12
             ],
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 662,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1038,
+            "cookingXP": 60,
+            "cookingLevel": 50,
+            "cookingInterval": 6000,
             "healsFor": 12,
             "canEat": true,
-            "cookingLevel": 50,
-            "cookingXP": 60,
             "cookingID": 12,
             "cookReq": [
                 {
                     "id": 662,
                     "qty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        15,
+                        106
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -37067,17 +38574,27 @@ var melvorData = {
             "name": "Fanfish",
             "id": 672,
             "isEquipment": false,
-            "sellsFor": 150,
+            "sellsFor": 250,
             "media": "assets/media/bank/fanfish_cooked.png",
             "masteryID": [
                 3,
                 13
             ],
+            "cookingID": 13,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 663,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1039,
+            "cookingXP": 60,
+            "cookingLevel": 55,
+            "cookingInterval": 6000,
             "healsFor": 14,
             "canEat": true,
-            "cookingLevel": 55,
-            "cookingXP": 60,
-            "cookingID": 13,
             "cookReq": [
                 {
                     "id": 663,
@@ -37091,17 +38608,27 @@ var melvorData = {
             "name": "Seahorse",
             "id": 673,
             "isEquipment": false,
-            "sellsFor": 50,
+            "sellsFor": 65,
             "media": "assets/media/bank/seahorse_cooked.png",
             "masteryID": [
                 3,
                 14
             ],
-            "healsFor": 13,
-            "canEat": true,
-            "cookingLevel": 15,
-            "cookingXP": 30,
             "cookingID": 14,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 664,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1033,
+            "cookingXP": 30,
+            "cookingLevel": 15,
+            "cookingInterval": 4000,
+            "healsFor": 12,
+            "canEat": true,
             "cookReq": [
                 {
                     "id": 664,
@@ -37115,17 +38642,27 @@ var melvorData = {
             "name": "Carp",
             "id": 674,
             "isEquipment": false,
-            "sellsFor": 237,
+            "sellsFor": 395,
             "media": "assets/media/bank/carp_cooked.png",
             "masteryID": [
                 3,
                 15
             ],
+            "cookingID": 15,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 665,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1041,
+            "cookingXP": 75,
+            "cookingLevel": 65,
+            "cookingInterval": 7000,
             "healsFor": 18,
             "canEat": true,
-            "cookingLevel": 65,
-            "cookingXP": 75,
-            "cookingID": 15,
             "cookReq": [
                 {
                     "id": 665,
@@ -37139,7 +38676,8 @@ var melvorData = {
             "name": "Burnt Anglerfish",
             "id": 675,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/anglerfish_burnt.png",
             "cookingLevel": 50,
             "cookingXP": 60,
@@ -37157,7 +38695,8 @@ var melvorData = {
             "name": "Burnt Fanfish",
             "id": 676,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/fanfish_burnt.png",
             "cookingLevel": 55,
             "cookingXP": 60,
@@ -37175,7 +38714,8 @@ var melvorData = {
             "name": "Burnt Seahorse",
             "id": 677,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/seahorse_burnt.png",
             "cookingLevel": 15,
             "cookingXP": 30,
@@ -37193,7 +38733,8 @@ var melvorData = {
             "name": "Burnt Carp",
             "id": 678,
             "isEquipment": false,
-            "sellsFor": 1,
+            "ignoreCompletion": true,
+            "sellsFor": 0,
             "media": "assets/media/bank/carp_burnt.png",
             "cookingLevel": 65,
             "cookingXP": 75,
@@ -37234,7 +38775,7 @@ var melvorData = {
                 "increasedOffItemChance": 10
             },
             "canUpgrade": false,
-            "description": "Created by Patreon (Clue Scrolls)<br>+10% increased chance to recieve an off-item (An item from a skill that is not the main resource you are gathering)",
+            "description": "Created by Patreon (Clue Scrolls)<br>+10% increased chance to receive Global Rare Items, Mastery Tokens, Bird Nests from Woodcutting, Gems from Mining, and Coal from Firemaking.",
             "sellsFor": 0,
             "media": "assets/media/bank/clue_chasers_insignia.png",
             "increasedItemChance": 10
@@ -37249,6 +38790,7 @@ var melvorData = {
             "description": "April Fools 2020 Event",
             "sellsFor": 0,
             "media": "assets/april/images/lemon.jpg",
+            "mediaAlt": "assets/april/images/lemon.jpg",
             "trimmedItemID": 682,
             "ignoreCompletion": true,
             "monsterSources": [
@@ -38003,7 +39545,17 @@ var melvorData = {
             "fletchingLevel": 65,
             "fletchingXP": 150,
             "ammoTypeRequired": 1,
-            "fletchingCategory": 4
+            "fletchingCategory": 4,
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": [
+                        15,
+                        1328
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -38068,7 +39620,17 @@ var melvorData = {
             "fletchingLevel": 80,
             "fletchingXP": 200,
             "ammoTypeRequired": 1,
-            "fletchingCategory": 4
+            "fletchingCategory": 4,
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": [
+                        9,
+                        1328
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -38135,7 +39697,17 @@ var melvorData = {
             "ammoTypeRequired": 1,
             "fletchingCategory": 4,
             "canUpgrade": true,
-            "trimmedItemID": 806
+            "trimmedItemID": 806,
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": [
+                        3,
+                        1328
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -38192,6 +39764,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -38238,7 +39812,7 @@ var melvorData = {
                     "chest": 813,
                     "chance": [
                         1,
-                        634
+                        319
                     ],
                     "qty": 1
                 }
@@ -38284,7 +39858,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 7,
             "media": "assets/media/bank/weapon_javelin_bronze.png",
             "masteryID": [
@@ -38361,7 +39936,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 16,
             "media": "assets/media/bank/weapon_javelin_iron.png",
             "masteryID": [
@@ -38438,7 +40014,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 38,
             "media": "assets/media/bank/weapon_javelin_steel.png",
             "masteryID": [
@@ -38515,7 +40092,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 156,
             "media": "assets/media/bank/weapon_javelin_mithril.png",
             "masteryID": [
@@ -38592,7 +40170,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 223,
             "media": "assets/media/bank/weapon_javelin_adamant.png",
             "masteryID": [
@@ -38669,7 +40248,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 283,
             "media": "assets/media/bank/weapon_javelin_rune.png",
             "masteryID": [
@@ -38746,7 +40326,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 650,
             "media": "assets/media/bank/weapon_javelin_dragon.png",
             "masteryID": [
@@ -38813,7 +40394,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 1750,
             "media": "assets/media/bank/weapon_javelin_ancient.png",
             "ammoType": 2,
@@ -38886,7 +40468,8 @@ var melvorData = {
                     "value": 15
                 }
             ],
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 1,
             "media": "assets/media/bank/weapon_throwingknife_bronze.png",
             "masteryID": [
@@ -38958,7 +40541,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 2,
             "media": "assets/media/bank/weapon_throwingknife_iron.png",
             "masteryID": [
@@ -39030,7 +40614,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 3,
             "media": "assets/media/bank/weapon_throwingknife_steel.png",
             "masteryID": [
@@ -39102,7 +40687,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 5,
             "media": "assets/media/bank/weapon_throwingknife_mithril.png",
             "masteryID": [
@@ -39174,7 +40760,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 10,
             "media": "assets/media/bank/weapon_throwingknife_adamant.png",
             "masteryID": [
@@ -39246,7 +40833,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 18,
             "media": "assets/media/bank/weapon_throwingknife_rune.png",
             "masteryID": [
@@ -39318,7 +40906,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 25,
             "media": "assets/media/bank/weapon_throwingknife_dragon.png",
             "masteryID": [
@@ -39380,7 +40969,8 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "description": "+15% Ranged Ammo Preservation",
+            "description": "+15% Ammo Preservation",
+            "ignoreLangGeneration": true,
             "sellsFor": 60,
             "media": "assets/media/bank/weapon_throwingknife_ancient.png",
             "ammoType": 3,
@@ -41253,7 +42843,7 @@ var melvorData = {
                     "chest": 813,
                     "chance": [
                         50,
-                        317
+                        319
                     ],
                     "qty": 1
                 }
@@ -41317,7 +42907,7 @@ var melvorData = {
                     "chest": 813,
                     "chance": [
                         10,
-                        317
+                        319
                     ],
                     "qty": 1
                 }
@@ -41380,8 +42970,8 @@ var melvorData = {
                 {
                     "chest": 813,
                     "chance": [
-                        1,
-                        317
+                        2,
+                        319
                     ],
                     "qty": 1
                 }
@@ -41646,7 +43236,7 @@ var melvorData = {
                     "chest": 813,
                     "chance": [
                         250,
-                        317
+                        319
                     ],
                     "qty": 15
                 }
@@ -41711,6 +43301,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 60,
+            "craftingCategory": 1,
             "craftingXP": 99,
             "canUpgrade": true,
             "trimmedItemID": 763
@@ -41774,6 +43365,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 68,
+            "craftingCategory": 1,
             "craftingXP": 112,
             "canUpgrade": true,
             "trimmedItemID": 764
@@ -41837,6 +43429,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 75,
+            "craftingCategory": 1,
             "craftingXP": 129,
             "canUpgrade": true,
             "trimmedItemID": 765
@@ -41900,6 +43493,7 @@ var melvorData = {
             ],
             "craftQty": 1,
             "craftingLevel": 82,
+            "craftingCategory": 1,
             "craftingXP": 172,
             "canUpgrade": true,
             "trimmedItemID": 766
@@ -41958,7 +43552,7 @@ var melvorData = {
                     "chest": 813,
                     "chance": [
                         5,
-                        317
+                        319
                     ],
                     "qty": 1
                 }
@@ -43938,7 +45532,7 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicLifesteal": 10
             },
-            "description": "Passive: Magic spells heal you for 10% damage dealt",
+            "description": "Passive: +10% Magic lifesteal",
             "sellsFor": 420000,
             "media": "assets/media/bank/warlock_amulet.png",
             "chestSources": [
@@ -44009,7 +45603,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Passive: +5% Damage Reduction, but +10% Attack Interval. Both are doubled if you are below 50% HP.",
+            "description": "Passive: +5% Damage Reduction and +10% Attack Interval. Both are doubled if you are below 50% HP",
             "sellsFor": 420000,
             "media": "assets/media/bank/guardian_amulet.png",
             "modifiers": {
@@ -44140,6 +45734,8 @@ var melvorData = {
                     "attackInterval": 150,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -44243,6 +45839,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -44337,6 +45935,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -44433,6 +46033,8 @@ var melvorData = {
                     "attackInterval": 250,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -44573,6 +46175,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -44876,6 +46480,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -44935,7 +46541,7 @@ var melvorData = {
                     "chest": 813,
                     "chance": [
                         1,
-                        634
+                        319
                     ],
                     "qty": 1
                 }
@@ -44945,7 +46551,7 @@ var melvorData = {
             "category": "Combat",
             "type": "Armour",
             "tier": "Skillcape",
-            "name": "Max Skillcape",
+            "name": "Maximum Skillcape",
             "id": 810,
             "isEquipment": true,
             "hasSpecialAttack": false,
@@ -45117,8 +46723,7 @@ var melvorData = {
                     ]
                 ],
                 "decreasedAgilityObstacleCost": 20,
-                "decreasedFoodBurnChance": 100,
-                "decreasedSecondaryFoodBurnChance": 1,
+                "increasedChanceSuccessfulCook": 100,
                 "freeCompost": 1,
                 "increasedFiremakingCoalChance": 100,
                 "doubleItemsSkill": [
@@ -45141,7 +46746,11 @@ var melvorData = {
                 "bypassSlayerItems": 1,
                 "increasedSummoningChargePreservation": 10,
                 "increasedSummoningCreationCharges": 10,
-                "decreasedPrayerCost": 50
+                "decreasedPrayerCost": 50,
+                "increasedGPFromThieving": 100,
+                "increasedThievingStealth": 150,
+                "increasedChancePerfectCookGlobal": 2,
+                "increasedGPFromAgility": 10
             }
         },
         {
@@ -45197,7 +46806,7 @@ var melvorData = {
                 "increasedCompostPreservationChance": 50
             },
             "attackType": "melee",
-            "description": "Created by Patreon (Berlyn)<br>While equipped, you have a +50% chance to preserve Compost or Weird Gloop applied to Farming Plots when harvesting",
+            "description": "Created by Patreon (Berlyn)<br>+50% Chance to preserve Compost or Weird Gloop applied to Farming Plots when harvesting",
             "canUpgrade": false,
             "sellsFor": 580,
             "media": "assets/media/bank/bobs_rake.png",
@@ -45314,20 +46923,20 @@ var melvorData = {
                     20
                 ],
                 [
-                    752,
-                    2
-                ],
-                [
                     762,
                     10
                 ],
                 [
+                    752,
+                    4
+                ],
+                [
                     809,
-                    1
+                    2
                 ],
                 [
                     696,
-                    1
+                    2
                 ]
             ],
             "dropQty": [
@@ -45393,6 +47002,8 @@ var melvorData = {
                     "attackInterval": 400,
                     "lifesteal": 0,
                     "useRunesPerProc": true,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -45442,7 +47053,7 @@ var melvorData = {
             "modifiers": {
                 "increasedMaxWaterSpellDmg": 40
             },
-            "description": "All water spells gain +400 max hit. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
+            "description": "+400 Maximum Water Spell Dmg. Reduces the Water Rune cost of Magic Spells by 7 when equipped as a Weapon.",
             "attackType": "magic",
             "sellsFor": 1250000,
             "media": "assets/media/bank/cloudburst_staff.png?2",
@@ -45577,7 +47188,7 @@ var melvorData = {
             "modifiers": {
                 "autoBurying": 100
             },
-            "description": "Passive: Automatically buries bones that drop from combat and rewards 2x the amount of Prayer Points.",
+            "description": "Passive: Bones are automatically buried for 200% of their Prayer Point value",
             "canUpgrade": false,
             "sellsFor": 2500,
             "media": "assets/media/bank/bone_necklace.png",
@@ -45655,7 +47266,7 @@ var melvorData = {
                 }
             ],
             "canUpgrade": false,
-            "description": "Created by Patreon (Skull)<br>20% chance to preserve all runes when casting a Magic Spell in Combat.",
+            "description": "Created by Patreon (Skull)<br>+20% Rune Preservation",
             "sellsFor": 160000,
             "media": "assets/media/bank/skull_cape.png",
             "modifiers": {
@@ -45795,6 +47406,16 @@ var melvorData = {
                     ],
                     "maxQty": 10
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        18,
+                        713
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -45837,6 +47458,16 @@ var melvorData = {
                     ],
                     "maxQty": 20
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        147,
+                        2050
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -45870,6 +47501,16 @@ var melvorData = {
                         201
                     ],
                     "maxQty": 10
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        42,
+                        1025
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -45942,6 +47583,16 @@ var melvorData = {
             "providesRune": [
                 389,
                 391
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        45,
+                        1426
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -45979,6 +47630,16 @@ var melvorData = {
             "providesRune": [
                 389,
                 392
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        63,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -46016,6 +47677,16 @@ var melvorData = {
             "providesRune": [
                 391,
                 392
+            ],
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        51,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -46053,6 +47724,16 @@ var melvorData = {
             "providesRune": [
                 389,
                 393
+            ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        147,
+                        2050
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -46090,6 +47771,16 @@ var melvorData = {
             "providesRune": [
                 391,
                 393
+            ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        42,
+                        1025
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -46127,6 +47818,16 @@ var melvorData = {
             "providesRune": [
                 392,
                 393
+            ],
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        21,
+                        820
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -46163,7 +47864,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Air Spells.",
+            "description": "Passive: +5 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_air_acolyte.png",
             "masteryID": [
@@ -46183,7 +47884,17 @@ var melvorData = {
             "runecraftingID": 32,
             "modifiers": {
                 "increasedMinAirSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        225,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46219,7 +47930,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Air Spells.",
+            "description": "Passive: +5 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_air_acolyte.png",
             "masteryID": [
@@ -46239,7 +47950,17 @@ var melvorData = {
             "runecraftingID": 33,
             "modifiers": {
                 "increasedMinAirSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        87,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46275,7 +47996,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Air Spells.",
+            "description": "Passive: +5 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_air_acolyte.png",
             "masteryID": [
@@ -46295,7 +48016,17 @@ var melvorData = {
             "runecraftingID": 34,
             "modifiers": {
                 "increasedMinAirSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        27,
+                        713
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46331,7 +48062,7 @@ var melvorData = {
                     "value": 1
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Air Spells.",
+            "description": "Passive: +5 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_air_acolyte.png",
             "masteryID": [
@@ -46351,7 +48082,17 @@ var melvorData = {
             "runecraftingID": 35,
             "modifiers": {
                 "increasedMinAirSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        147,
+                        2852
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46387,7 +48128,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Water Spells.",
+            "description": "Passive: +5 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_water_acolyte.png",
             "masteryID": [
@@ -46443,7 +48184,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Water Spells.",
+            "description": "Passive: +5 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_water_acolyte.png",
             "masteryID": [
@@ -46499,7 +48240,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Water Spells.",
+            "description": "Passive: +5 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_water_acolyte.png",
             "masteryID": [
@@ -46555,7 +48296,7 @@ var melvorData = {
                     "value": 1
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Water Spells.",
+            "description": "Passive: +5 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_water_acolyte.png",
             "masteryID": [
@@ -46611,7 +48352,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +5 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_earth_acolyte.png",
             "masteryID": [
@@ -46631,7 +48372,17 @@ var melvorData = {
             "runecraftingID": 40,
             "modifiers": {
                 "increasedMinEarthSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        24,
+                        713
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46667,7 +48418,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +5 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_earth_acolyte.png",
             "masteryID": [
@@ -46687,7 +48438,17 @@ var melvorData = {
             "runecraftingID": 41,
             "modifiers": {
                 "increasedMinEarthSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        15,
+                        713
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46723,7 +48484,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +5 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_earth_acolyte.png",
             "masteryID": [
@@ -46743,7 +48504,17 @@ var melvorData = {
             "runecraftingID": 42,
             "modifiers": {
                 "increasedMinEarthSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        3,
+                        124
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46779,7 +48550,7 @@ var melvorData = {
                     "value": 1
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +5 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_earth_acolyte.png",
             "masteryID": [
@@ -46799,7 +48570,17 @@ var melvorData = {
             "runecraftingID": 43,
             "modifiers": {
                 "increasedMinEarthSpellDmg": 0.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        39,
+                        1426
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46835,7 +48616,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +5 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_fire_acolyte.png",
             "masteryID": [
@@ -46891,7 +48672,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +5 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_fire_acolyte.png",
             "masteryID": [
@@ -46947,7 +48728,7 @@ var melvorData = {
                     "value": 2
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +5 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_fire_acolyte.png",
             "masteryID": [
@@ -47003,7 +48784,7 @@ var melvorData = {
                     "value": 1
                 }
             ],
-            "description": "Passive: +5 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +5 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_fire_acolyte.png",
             "masteryID": [
@@ -47063,7 +48844,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Air Spells.",
+            "description": "Passive: +15 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_air_adept.png",
             "masteryID": [
@@ -47123,7 +48904,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Air Spells.",
+            "description": "Passive: +15 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_air_adept.png",
             "masteryID": [
@@ -47187,7 +48968,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Air Spells.",
+            "description": "Passive: +15 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_air_adept.png",
             "masteryID": [
@@ -47251,7 +49032,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Air Spells.",
+            "description": "Passive: +15 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_air_adept.png",
             "masteryID": [
@@ -47311,7 +49092,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Water Spells.",
+            "description": "Passive: +15 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_water_adept.png",
             "masteryID": [
@@ -47331,7 +49112,17 @@ var melvorData = {
             "runecraftingID": 52,
             "modifiers": {
                 "increasedMinWaterSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        63,
+                        820
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47371,7 +49162,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Water Spells.",
+            "description": "Passive: +15 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_water_adept.png",
             "masteryID": [
@@ -47395,7 +49186,17 @@ var melvorData = {
             "runecraftingID": 53,
             "modifiers": {
                 "increasedMinWaterSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        159,
+                        4100
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47435,7 +49236,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Water Spells.",
+            "description": "Passive: +15 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_water_adept.png",
             "masteryID": [
@@ -47459,7 +49260,17 @@ var melvorData = {
             "runecraftingID": 54,
             "modifiers": {
                 "increasedMinWaterSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        99,
+                        2050
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47499,7 +49310,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Water Spells.",
+            "description": "Passive: +15 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_water_adept.png",
             "masteryID": [
@@ -47523,7 +49334,17 @@ var melvorData = {
             "runecraftingID": 55,
             "modifiers": {
                 "increasedMinWaterSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        3,
+                        50
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47563,7 +49384,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +15 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_earth_adept.png",
             "masteryID": [
@@ -47627,7 +49448,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +15 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_earth_adept.png",
             "masteryID": [
@@ -47691,7 +49512,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +15 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_earth_adept.png",
             "masteryID": [
@@ -47755,7 +49576,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +15 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_earth_adept.png",
             "masteryID": [
@@ -47819,7 +49640,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +15 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_fire_adept.png",
             "masteryID": [
@@ -47843,7 +49664,17 @@ var melvorData = {
             "runecraftingID": 60,
             "modifiers": {
                 "increasedMinFireSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        93,
+                        2050
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47883,7 +49714,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +15 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_fire_adept.png",
             "masteryID": [
@@ -47907,7 +49738,17 @@ var melvorData = {
             "runecraftingID": 61,
             "modifiers": {
                 "increasedMinFireSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        21,
+                        820
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47947,7 +49788,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +15 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_fire_adept.png",
             "masteryID": [
@@ -47971,7 +49812,17 @@ var melvorData = {
             "runecraftingID": 62,
             "modifiers": {
                 "increasedMinFireSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        63,
+                        2050
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -48011,7 +49862,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "Passive: +15 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +15 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_fire_adept.png",
             "masteryID": [
@@ -48035,7 +49886,17 @@ var melvorData = {
             "runecraftingID": 63,
             "modifiers": {
                 "increasedMinFireSpellDmg": 1.5
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": [
+                        153,
+                        4100
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -48075,7 +49936,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Air Spells.",
+            "description": "Passive: +20 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_air_expert.png",
             "masteryID": [
@@ -48139,7 +50000,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Air Spells.",
+            "description": "Passive: +20 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_air_expert.png",
             "masteryID": [
@@ -48203,7 +50064,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Air Spells.",
+            "description": "Passive: +20 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_air_expert.png",
             "masteryID": [
@@ -48267,7 +50128,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Air Spells.",
+            "description": "Passive: +20 Minimum Air Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_air_expert.png",
             "masteryID": [
@@ -48331,7 +50192,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Water Spells.",
+            "description": "Passive: +20 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_water_expert.png",
             "masteryID": [
@@ -48395,7 +50256,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Water Spells.",
+            "description": "Passive: +20 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_water_expert.png",
             "masteryID": [
@@ -48459,7 +50320,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Water Spells.",
+            "description": "Passive: +20 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_water_expert.png",
             "masteryID": [
@@ -48523,7 +50384,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Water Spells.",
+            "description": "Passive: +20 Minimum Water Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_water_expert.png",
             "masteryID": [
@@ -48587,7 +50448,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +20 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_earth_expert.png",
             "masteryID": [
@@ -48651,7 +50512,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +20 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_earth_expert.png",
             "masteryID": [
@@ -48715,7 +50576,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +20 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_earth_expert.png",
             "masteryID": [
@@ -48779,7 +50640,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Earth Spells.",
+            "description": "Passive: +20 Minimum Earth Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_earth_expert.png",
             "masteryID": [
@@ -48843,7 +50704,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +20 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_hat_fire_expert.png",
             "masteryID": [
@@ -48907,7 +50768,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +20 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_robes_fire_expert.png",
             "masteryID": [
@@ -48971,7 +50832,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +20 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_bottoms_fire_expert.png",
             "masteryID": [
@@ -49035,7 +50896,7 @@ var melvorData = {
                     "value": 5
                 }
             ],
-            "description": "Passive: +20 Minimum Damage when using Fire Spells.",
+            "description": "Passive: +20 Minimum Fire Spell Dmg",
             "sellsFor": 10,
             "media": "assets/media/bank/wizard_boots_fire_expert.png",
             "masteryID": [
@@ -49092,6 +50953,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -49197,6 +51060,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -49302,6 +51167,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -49407,6 +51274,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -49604,7 +51473,7 @@ var melvorData = {
                     "value": 8
                 }
             ],
-            "description": "Created by Patreon (Michael7050)<br>Passive: Grants +30 Maximum HP.",
+            "description": "Created by Patreon (Michael7050)<br>Passive: +30 Maximum Hitpoints",
             "canUpgrade": false,
             "sellsFor": 357050,
             "media": "assets/media/bank/dragonfire_shield.png",
@@ -50052,6 +51921,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+7% Global Mastery XP",
+            "ignoreLangGeneration": true,
             "hasStats": true,
             "sellsFor": 26500,
             "media": "assets/media/bank/ancient_ring_of_mastery.png",
@@ -50153,8 +52023,7 @@ var melvorData = {
                 ],
                 "increasedFarmingYield": 20,
                 "decreasedAgilityObstacleCost": 20,
-                "decreasedFoodBurnChance": 100,
-                "decreasedSecondaryFoodBurnChance": 1,
+                "increasedChanceSuccessfulCook": 100,
                 "freeCompost": 1,
                 "increasedFiremakingCoalChance": 100,
                 "doubleItemsSkill": [
@@ -50177,7 +52046,11 @@ var melvorData = {
                 "bypassSlayerItems": 1,
                 "increasedSummoningChargePreservation": 10,
                 "increasedSummoningCreationCharges": 10,
-                "decreasedPrayerCost": 50
+                "decreasedPrayerCost": 50,
+                "increasedGPFromThieving": 100,
+                "increasedThievingStealth": 150,
+                "increasedChancePerfectCookGlobal": 2,
+                "increasedGPFromAgility": 10
             }
         },
         {
@@ -50605,6 +52478,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -50653,7 +52528,8 @@ var melvorData = {
                 "allowAttackAugmentingMagic": 1
             },
             "attackType": "melee",
-            "description": "Magic Curses and Auroras can be used alongside this Melee Weapon.",
+            "description": "Magic Curses and Auroras can be used without a Magic weapon",
+            "ignoreLangGeneration": true,
             "sellsFor": 6420,
             "media": "assets/media/bank/miolite_sceptre.png",
             "chestSources": [
@@ -50682,13 +52558,19 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "canUpgrade": false,
-            "description": "Passive: Grants +150 GP upon killing an Enemy in Combat, or successfully pickpocketing an NPC in Thieving. +5% Thieving Success Rate.",
+            "description": "Passive: +150 GP From Monsters,+150 GP From Thieving,+50 Stealth while Thieving and -0.1s Thieving Interval",
             "sellsFor": 4250,
             "media": "assets/media/bank/thief_gloves.png",
             "modifiers": {
                 "increasedGPFromMonstersFlat": 150,
                 "increasedGPFromThievingFlat": 150,
-                "increasedThievingSuccessRate": 5
+                "increasedThievingStealth": 50,
+                "decreasedSkillInterval": [
+                    [
+                        10,
+                        100
+                    ]
+                ]
             },
             "monsterSources": [
                 {
@@ -50729,7 +52611,7 @@ var melvorData = {
                     "value": 3
                 }
             ],
-            "description": "+3% Magic Damage Bonus.<br>Passive: +6 HP Regen.",
+            "description": "+3% Magic Damage Bonus.<br>Passive: +6 Flat Hitpoints Regen",
             "sellsFor": 13450,
             "media": "assets/media/bank/shaman_ring.png",
             "modifiers": {
@@ -50783,7 +52665,10 @@ var melvorData = {
                     "value": 13
                 }
             ],
-            "description": "Reduces the Body Rune cost of Magic Spells by 1 when equipped as an Off-hand.",
+            "modifiers": {
+                "increasedSummoningMaxHit": 20
+            },
+            "description": "Reduces the Body Rune cost of Magic Spells by 1 when equipped as an Off-hand. +20% Summoning Max Hit.",
             "hasStats": true,
             "sellsFor": 10200,
             "media": "assets/media/bank/book_of_occults.png",
@@ -51008,6 +52893,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -51109,6 +52996,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -51195,6 +53084,8 @@ var melvorData = {
                     "attackInterval": 400,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": false,
+                    "usePotionChargesPerProc": false,
                     "attackTypes": [
                         "melee"
                     ]
@@ -51282,6 +53173,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -51355,7 +53248,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Passive: -0.1s Attack Interval. +10% lifesteal for Attacks. 100% Lifesteal for Bleed Dmg.",
+            "description": "Passive: +10% Lifesteal,+100% Bleed lifesteal and -0.1s Attack Interval",
             "sellsFor": 136500,
             "media": "assets/media/bank/elder_crown.png",
             "modifiers": {
@@ -51484,6 +53377,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -51598,10 +53493,10 @@ var melvorData = {
                     "value": 6
                 }
             ],
+            "description": "Passive: Reflects up to 25% of damage dealt to you (Reflect dmg cannot activate more than once per enemy turn. Reflect dmg cannot kill an enemy nor provide XP).",
             "modifiers": {
                 "increasedReflectDamage": 25
             },
-            "description": "Passive: Reflects up to undefined% of damage dealt to you (Reflect dmg cannot activate more than once every 2 seconds. Reflect dmg cannot kill an enemy nor provide XP).",
             "sellsFor": 18600,
             "media": "assets/media/bank/recoil_shield.png",
             "monsterSources": [
@@ -51630,7 +53525,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Passive: +5% Auto Eat Threshold. -25% Auto Eat Food Efficiency.",
+            "description": "Passive: +5% Auto Eat Threshold and -25% Auto Eat Efficiency",
             "sellsFor": 19850,
             "media": "assets/media/bank/wasteful_ring.png",
             "modifiers": {
@@ -51679,6 +53574,8 @@ var melvorData = {
                     "attackInterval": 300,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -51821,6 +53718,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -51951,6 +53850,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -52078,6 +53979,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -52156,6 +54059,24 @@ var melvorData = {
             "sellsFor": 1805,
             "media": "assets/media/bank/ammo_bolt_jadestone.png",
             "ammoType": 1,
+            "masteryID": [
+                13,
+                56
+            ],
+            "fletchingLevel": 95,
+            "fletchReq": [
+                {
+                    "id": 1103,
+                    "qty": 1
+                },
+                {
+                    "id": 723,
+                    "qty": 3
+                }
+            ],
+            "fletchQty": 3,
+            "fletchingXP": 350,
+            "fletchingCategory": 3,
             "monsterSources": [
                 {
                     "monster": 132,
@@ -52163,7 +54084,7 @@ var melvorData = {
                         350,
                         351
                     ],
-                    "maxQty": 50
+                    "maxQty": 40
                 }
             ]
         },
@@ -52217,7 +54138,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Passive: Reduces cost of Prayer by 1.",
+            "description": "Passive: -1 Prayer Point Cost for Prayers",
             "canUpgrade": false,
             "sellsFor": 1250,
             "media": "assets/media/bank/priest_hat.png",
@@ -52273,7 +54194,8 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "description": "+200% GP granted from slain Monsters.",
+            "description": "+200% GP From Monsters",
+            "ignoreLangGeneration": true,
             "sellsFor": 6969,
             "media": "assets/media/bank/almighty_lute.png",
             "modifiers": {
@@ -52500,7 +54422,7 @@ var melvorData = {
                     "value": 6
                 }
             ],
-            "description": "Passive: +40% Slayer Skill XP. +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +3% Chance To Double Loot in Combat,+3% Chance to Double Items in Thieving,+40% Slayer Skill XP and +20% Flat Slayer Area Effect Negation",
             "canUpgrade": false,
             "sellsFor": 13600,
             "media": "assets/media/bank/armour_slayer_helmet_master.png",
@@ -52601,7 +54523,7 @@ var melvorData = {
                     "value": 6
                 }
             ],
-            "description": "Passive: +40% Slayer Skill XP. +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +3% Chance To Double Loot in Combat,+3% Chance to Double Items in Thieving,+40% Slayer Skill XP and +20% Flat Slayer Area Effect Negation",
             "canUpgrade": false,
             "sellsFor": 15800,
             "media": "assets/media/bank/armour_slayer_platebody_master.png",
@@ -52686,7 +54608,7 @@ var melvorData = {
                     "value": 6
                 }
             ],
-            "description": "Passive: +40% Slayer Skill XP. +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +3% Chance To Double Loot in Combat,+3% Chance to Double Items in Thieving,+40% Slayer Skill XP and +20% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 45800,
             "media": "assets/media/bank/armour_slayer_cowl_master.png",
@@ -52775,7 +54697,7 @@ var melvorData = {
                     "value": 6
                 }
             ],
-            "description": "Passive: +40% Slayer Skill XP. +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +3% Chance To Double Loot in Combat,+3% Chance to Double Items in Thieving,+40% Slayer Skill XP and +20% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 59600,
             "media": "assets/media/bank/armour_slayer_leather_master.png",
@@ -52852,7 +54774,7 @@ var melvorData = {
                     "value": 6
                 }
             ],
-            "description": "Passive: +40% Slayer Skill XP. +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +3% Chance To Double Loot in Combat,+3% Chance to Double Items in Thieving,+40% Slayer Skill XP and +20% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 42605,
             "media": "assets/media/bank/wizard_hat_slayer_master.png",
@@ -52925,7 +54847,7 @@ var melvorData = {
                     "value": 6
                 }
             ],
-            "description": "Passive: +40% Slayer Skill XP. +3% chance to receive double loot from slain monsters or Thieving. +20% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +3% Chance To Double Loot in Combat,+3% Chance to Double Items in Thieving,+40% Slayer Skill XP and +20% Flat Slayer Area Effect Negation",
             "hasStats": true,
             "sellsFor": 52690,
             "media": "assets/media/bank/wizard_robes_slayer_master.png",
@@ -53047,7 +54969,7 @@ var melvorData = {
             "occupiesSlots": [],
             "equipRequirements": [],
             "equipmentStats": [],
-            "description": "Passive: +10% Slayer XP. +10% Extra Slayer Coins from Slayer Tasks. +10% Flat Slayer Area Effect Negation.",
+            "description": "Passive: +10% Slayer Coins,+10% Slayer Skill XP and +10% Flat Slayer Area Effect Negation",
             "sellsFor": 62400,
             "media": "assets/media/bank/hunters_ring.png",
             "modifiers": {
@@ -53256,7 +55178,6 @@ var melvorData = {
             "name": "Candy Cane",
             "id": 959,
             "isEquipment": true,
-            "hasSpecialAttack": true,
             "validSlots": [
                 "Weapon"
             ],
@@ -53264,6 +55185,7 @@ var melvorData = {
                 "Shield"
             ],
             "equipRequirements": [],
+            "hasSpecialAttack": true,
             "specialAttacks": [
                 {
                     "name": "Candy Crush",
@@ -53291,6 +55213,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -53318,6 +55242,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -53501,11 +55427,15 @@ var melvorData = {
             "name": "Mastery Token (Agility)",
             "id": 964,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_agility.png",
-            "skill": 20
+            "skill": 20,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Combat",
@@ -53535,9 +55465,11 @@ var melvorData = {
                 }
             ],
             "modifiers": {
-                "decreasedAgilityObstacleCost": 20
+                "decreasedAgilityObstacleCost": 20,
+                "increasedGPFromAgility": 10
             },
-            "description": "-20% Agility Obstacle Build Costs",
+            "description": "-20% Agility Obstacle Build Costs and +10% GP From Agility",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "hasStats": true,
             "buysFor": 1000000,
@@ -53551,7 +55483,8 @@ var melvorData = {
             "name": "Performance Enhancing Potion I",
             "id": 966,
             "isEquipment": false,
-            "description": "+2% Decreased Agility Interval",
+            "description": "-2% Agility Interval",
+            "ignoreLangGeneration": true,
             "sellsFor": 225,
             "media": "assets/media/bank/potion_agility_i.png",
             "masteryID": [
@@ -53584,8 +55517,7 @@ var melvorData = {
                         2
                     ]
                 ]
-            },
-            "herbloreLevel": 62
+            }
         },
         {
             "category": "Herblore",
@@ -53594,7 +55526,8 @@ var melvorData = {
             "name": "Performance Enhancing Potion II",
             "id": 967,
             "isEquipment": false,
-            "description": "+4% Decreased Agility Interval",
+            "description": "-4% Agility Interval",
+            "ignoreLangGeneration": true,
             "sellsFor": 240,
             "media": "assets/media/bank/potion_agility_ii.png",
             "masteryID": [
@@ -53633,8 +55566,7 @@ var melvorData = {
                         4
                     ]
                 ]
-            },
-            "herbloreLevel": 62
+            }
         },
         {
             "category": "Herblore",
@@ -53643,7 +55575,8 @@ var melvorData = {
             "name": "Performance Enhancing Potion III",
             "id": 968,
             "isEquipment": false,
-            "description": "+6% Decreased Agility Interval",
+            "description": "-6% Agility Interval",
+            "ignoreLangGeneration": true,
             "sellsFor": 250,
             "media": "assets/media/bank/potion_agility_iii.png",
             "masteryID": [
@@ -53682,8 +55615,7 @@ var melvorData = {
                         6
                     ]
                 ]
-            },
-            "herbloreLevel": 62
+            }
         },
         {
             "category": "Herblore",
@@ -53692,7 +55624,8 @@ var melvorData = {
             "name": "Performance Enhancing Potion IV",
             "id": 969,
             "isEquipment": false,
-            "description": "+8% Decreased Agility Interval",
+            "description": "-8% Agility Interval",
+            "ignoreLangGeneration": true,
             "sellsFor": 265,
             "media": "assets/media/bank/potion_agility_iv.png",
             "masteryID": [
@@ -53729,8 +55662,7 @@ var melvorData = {
                         8
                     ]
                 ]
-            },
-            "herbloreLevel": 62
+            }
         },
         {
             "category": "Events",
@@ -53830,6 +55762,7 @@ var melvorData = {
                 }
             ],
             "description": "+30 GP Gained on successful Enemy Hit",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Small and cunning these creatures have developed an art of robbing adventurers when they least suspect it. Gold is all they really want no matter what it takes to get it.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_golbin_thief.svg",
@@ -53953,7 +55886,7 @@ var melvorData = {
                     "value": 4
                 }
             ],
-            "description": "+10% Evasion Ratings. -10% Enemy Evasion Ratings.",
+            "description": "+10% Global Evasion. -10% Enemy Evasion Ratings.",
             "summoningDescription": "A witch who was lost to the darker arts now plays with its victims without mercy. Their manipulation and evil magic knows no bounds leading to debilitating curses left on their victims.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_occultist.svg",
@@ -54009,6 +55942,7 @@ var melvorData = {
                 }
             ],
             "description": "+2% Lifesteal",
+            "ignoreLangGeneration": true,
             "summoningDescription": "The Wolf Familiar: These intelligent creatures hunt in packs surviving off their skills in hunting for prey. Once their prey is chosen it is only a matter of time before they fall victim to them.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_wolf.svg",
@@ -54207,6 +56141,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+10% Chance to gain +1 additional resource in Woodcutting. Cannot be doubled",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Wise and controlling these creatures are often the guardians of their forest land. Though protective they will sometimes allow people to also benefit from the forest.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_ent.svg",
@@ -54339,6 +56274,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+3% Chance to gain +1 additional resource in Mining. Cannot be doubled",
+            "ignoreLangGeneration": true,
             "summoningDescription": "A small underground tunnel digger these creatures are experts of the underground. What lies below could be extremely valuable so having them around is of great benefit.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_mole.svg",
@@ -54481,6 +56417,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+3% Chance to gain +1 additional resource in Fishing. Cannot be doubled",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Highly intelligent these creatures roam the sea beds hunting for their next meal. Their knowledge of hunting fish would prove useful to your fishing adventures.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_octopus.svg",
@@ -54717,7 +56654,8 @@ var melvorData = {
                     "value": 7.8
                 }
             ],
-            "description": "+5% Melee Max Hit. +5% Melee Accuracy Rating.",
+            "description": "+5% Melee Maximum Hit and +5% Melee Accuracy Rating",
+            "ignoreLangGeneration": true,
             "summoningDescription": "The Minotaur Familiar: Powerful and intimidating these creatures swing their axe with terrifying force. Overwhelminging their opponents with their melee abilities is their specialty.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_minotaur.svg",
@@ -54872,7 +56810,8 @@ var melvorData = {
                     "value": 9.7
                 }
             ],
-            "description": "+5% Ranged Max Hit. +5% Ranged Accuracy Rating.",
+            "description": "+5% Ranged Maximum Hit and +5% Ranged Accuracy Rating",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Being trained from a young age their speed and deadly precision lead them to be masters in battle with a bow. Their ranged prowess will greatly benefit your own marksman skills.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_centaur.svg",
@@ -55111,7 +57050,8 @@ var melvorData = {
                     "value": 11.6
                 }
             ],
-            "description": "+5% Magic Max Hit. +5% Magic Accuracy Rating.",
+            "description": "+5% Magic Maximum Hit and +5% Magic Accuracy Rating",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Dedicating their life to the study of the magic arts there are no limits as to what they can do with it. Skilled in the art of combat magic they will help you with your magic prowess while in combat.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_witch.svg",
@@ -55346,6 +57286,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+10% Chance to Preserve Resources in Cooking",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Is there anything you need more in a simple life besides eating and sleeping. These creatures are not picky eaters and therefore could help sustain some cooking.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_pig.svg",
@@ -55612,6 +57553,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "Create +2 Additional Runes of the same type in Runecrafting",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Often found in a large group these creatures are drawn to places where magic is the most potent. Where ever they go it would be best to follow if you want to pursue better runecrafting.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_crow.svg",
@@ -55733,6 +57675,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+50 GP From Thieving",
+            "ignoreLangGeneration": true,
             "summoningDescription": "These magical creatures seem to randomly appear every now and then after the rain bringing gold. Understanding and learning about these creatures could lead to even more gold.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_leprechaun.svg",
@@ -55849,6 +57792,7 @@ var melvorData = {
                 }
             ],
             "description": "+1% Damage Reduction",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Sturdy and enduring these creatures are often used as beast of burdens by fellow adventurers. The endurance of these creatures could prove useful against powerful foes.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_yak.svg",
@@ -56035,6 +57979,7 @@ var melvorData = {
                 }
             ],
             "description": "+50% Hitpoint Regeneration",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Resilient and majestic these magical creatures roam the land in search for safety from things that would hunt them. This has lead to a boost in their inherent ability to survive which you can learn from.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_unicorn.svg",
@@ -56094,7 +58039,8 @@ var melvorData = {
                     "value": 19.2
                 }
             ],
-            "description": "10% chance to apply a burn on hit",
+            "description": "+10% Chance to apply burn when attacking",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Fiery and often chaotic these creatures are able to produce fire from within making them feared across the lands. Adding their might to your own nothing will stand in your way.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_dragon.svg",
@@ -56150,6 +58096,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+10% Chance to Double Items in Crafting",
+            "ignoreLangGeneration": true,
             "summoningDescription": "The cheeky monkey has always been a hassle around adventurers often stealing jewellery. Loving jewellery these creatures know where to look and may also help in your crafting.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_monkey.svg",
@@ -56552,6 +58499,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+5% Chance to Preserve Resources in Smithing",
+            "ignoreLangGeneration": true,
             "summoningDescription": "The salamander loves to dwell in places of high heat and will find any stable sources it can. The heat from these sources may prove useful in your smithing goals.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_salamander.svg",
@@ -56738,6 +58686,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "+5% Chance to Preserve Resources in Herblore",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Intelligent and resourceful the bear is the master of the region it lives in. Their understanding of the land means they are able to locate different herbs throughout which may prove useful to you.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_bear.svg",
@@ -56924,6 +58873,7 @@ var melvorData = {
             "equipRequirements": [],
             "equipmentStats": [],
             "description": "-5% Firemaking Interval",
+            "ignoreLangGeneration": true,
             "summoningDescription": "Tricky and dangerous these dark creatures shouldn't be messed unless you know what you're up against. Often times they will offer things but be warned some may come at a hidden cost.",
             "sellsFor": 0,
             "media": "assets/media/bank/summoning_tablet_devil.svg",
@@ -57046,11 +58996,15 @@ var melvorData = {
             "name": "Mastery Token (Summoning)",
             "id": 997,
             "isEquipment": false,
-            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill.",
+            "description": "Grants Mastery Pool XP equal to 0.1% of the maximum Mastery Pool XP for the respective skill",
+            "ignoreLangGeneration": true,
             "isToken": true,
             "sellsFor": 1500,
             "media": "assets/media/bank/mastery_token_summoning.png",
-            "skill": 21
+            "skill": 21,
+            "modifiers": {
+                "masteryToken": 0.1
+            }
         },
         {
             "category": "Combat",
@@ -57059,7 +59013,8 @@ var melvorData = {
             "name": "Summoning Skillcape",
             "id": 998,
             "isEquipment": true,
-            "description": "+10% Chance to preserve Summoning Charges +20% Chance to Preserve Resources in Summoning. +10 Base Quantity for Summoning Tablet Creation",
+            "description": "+20% Chance to Preserve Resources in Summoning,+10% Chance to preserve Summoning Charges and +10 Base Quantity for Summoning Tablet Creation",
+            "ignoreLangGeneration": true,
             "canUpgrade": false,
             "hasStats": true,
             "validSlots": [
@@ -57123,7 +59078,8 @@ var melvorData = {
             "name": "Necromancer Potion I",
             "id": 1001,
             "isEquipment": false,
-            "description": "+1 Base Summoning Tablets created.",
+            "description": "+1 Base Quantity for Summoning Tablet Creation",
+            "ignoreLangGeneration": true,
             "sellsFor": 225,
             "media": "assets/media/bank/potion_summoning_i.png",
             "masteryID": [
@@ -57155,8 +59111,7 @@ var melvorData = {
             "trimmedItemID": 1002,
             "modifiers": {
                 "increasedSummoningCreationCharges": 1
-            },
-            "herbloreLevel": 55
+            }
         },
         {
             "category": "Herblore",
@@ -57165,7 +59120,8 @@ var melvorData = {
             "name": "Necromancer Potion II",
             "id": 1002,
             "isEquipment": false,
-            "description": "+2 Base Summoning Tablets created.",
+            "description": "+2 Base Quantity for Summoning Tablet Creation",
+            "ignoreLangGeneration": true,
             "sellsFor": 240,
             "media": "assets/media/bank/potion_summoning_ii.png",
             "masteryID": [
@@ -57203,8 +59159,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSummoningCreationCharges": 2
-            },
-            "herbloreLevel": 55
+            }
         },
         {
             "category": "Herblore",
@@ -57213,7 +59168,8 @@ var melvorData = {
             "name": "Necromancer Potion III",
             "id": 1003,
             "isEquipment": false,
-            "description": "+3 Base Summoning Tablets created.",
+            "description": "+3 Base Quantity for Summoning Tablet Creation",
+            "ignoreLangGeneration": true,
             "sellsFor": 250,
             "media": "assets/media/bank/potion_summoning_iii.png",
             "masteryID": [
@@ -57251,8 +59207,7 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSummoningCreationCharges": 3
-            },
-            "herbloreLevel": 55
+            }
         },
         {
             "category": "Herblore",
@@ -57261,7 +59216,8 @@ var melvorData = {
             "name": "Necromancer Potion IV",
             "id": 1004,
             "isEquipment": false,
-            "description": "+5 Base Summoning Tablets created.",
+            "description": "+5 Base Quantity for Summoning Tablet Creation",
+            "ignoreLangGeneration": true,
             "sellsFor": 265,
             "media": "assets/media/bank/potion_summoning_iv.png",
             "masteryID": [
@@ -57297,8 +59253,7 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedSummoningCreationCharges": 5
-            },
-            "herbloreLevel": 55
+            }
         },
         {
             "category": "Summoning",
@@ -57306,7 +59261,7 @@ var melvorData = {
             "name": "Necromancer Hat",
             "id": 1005,
             "isEquipment": true,
-            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation +2% Summoning Skill XP",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
             "validSlots": [
                 "Helmet",
                 "Passive"
@@ -57332,7 +59287,7 @@ var melvorData = {
             "name": "Necromancer Robes",
             "id": 1006,
             "isEquipment": true,
-            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation +2% Summoning Skill XP",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
             "validSlots": [
                 "Platebody",
                 "Passive"
@@ -57358,7 +59313,7 @@ var melvorData = {
             "name": "Necromancer Bottoms",
             "id": 1007,
             "isEquipment": true,
-            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation +2% Summoning Skill XP",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
             "validSlots": [
                 "Platelegs",
                 "Passive"
@@ -57384,7 +59339,7 @@ var melvorData = {
             "name": "Necromancer Boots",
             "id": 1008,
             "isEquipment": true,
-            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation +2% Summoning Skill XP",
+            "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
             "validSlots": [
                 "Boots",
                 "Passive"
@@ -57420,6 +59375,2441 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/cool_glasses.png",
             "ignoreCompletion": true
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "name": "Bag of Flour",
+            "description": "A bag of.... flour.",
+            "id": 1010,
+            "sellsFor": 1,
+            "buysFor": 4,
+            "media": "assets/media/bank/bag_of_flour.png",
+            "mediaAlt": "assets/media/bank/bag_of_flour_alt.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Bread",
+            "id": 1011,
+            "sellsFor": 5,
+            "media": "assets/media/bank/bread.png",
+            "healsFor": 1,
+            "canEat": true,
+            "masteryID": [
+                3,
+                16
+            ],
+            "cookingQty": 3,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1046,
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": [
+                        159,
+                        580
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "name": "Raw Beef",
+            "id": 1012,
+            "sellsFor": 1,
+            "media": "assets/media/bank/raw_beef.png",
+            "monsterSources": [
+                {
+                    "monster": 38,
+                    "chance": [
+                        1,
+                        2
+                    ],
+                    "maxQty": 6
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Beef",
+            "id": 1013,
+            "sellsFor": 5,
+            "media": "assets/media/bank/beef.png",
+            "healsFor": 5,
+            "canEat": true,
+            "masteryID": [
+                3,
+                17
+            ],
+            "cookingQty": 1,
+            "cookingInterval": 3000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1012,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1047
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "name": "Raw Chicken",
+            "id": 1014,
+            "sellsFor": 1,
+            "media": "assets/media/bank/raw_chicken.png",
+            "monsterSources": [
+                {
+                    "monster": 37,
+                    "chance": [
+                        1,
+                        2
+                    ],
+                    "maxQty": 4
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 346,
+                    "chance": [
+                        1,
+                        2
+                    ],
+                    "qty": 40
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Chicken",
+            "id": 1015,
+            "sellsFor": 8,
+            "media": "assets/media/bank/chicken.png",
+            "healsFor": 9,
+            "canEat": true,
+            "masteryID": [
+                3,
+                18
+            ],
+            "cookingQty": 1,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1014,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1048,
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": [
+                        111,
+                        580
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "name": "Apple",
+            "id": 1016,
+            "sellsFor": 1,
+            "media": "assets/media/bank/apple.png",
+            "healsFor": 3.2,
+            "canEat": true,
+            "farmingLevel": 70,
+            "farmingXP": 9785,
+            "timeToGrow": 24000,
+            "farmReq": [
+                {
+                    "id": 1111,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Plain Pizza Slice",
+            "id": 1017,
+            "sellsFor": 2,
+            "healsFor": 1.4,
+            "canEat": true,
+            "media": "assets/media/bank/plain_pizza_slice.png",
+            "masteryID": [
+                3,
+                19
+            ],
+            "cookingQty": 8,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 154,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1064,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1049,
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": [
+                        39,
+                        580
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Beef Pie",
+            "id": 1018,
+            "sellsFor": 37,
+            "healsFor": 24,
+            "canEat": true,
+            "media": "assets/media/bank/beef_pie.png",
+            "masteryID": [
+                3,
+                20
+            ],
+            "cookingQty": 1,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1012,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1050,
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": [
+                        21,
+                        580
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Meat Pizza Slice",
+            "id": 1019,
+            "sellsFor": 4,
+            "healsFor": 3.2,
+            "canEat": true,
+            "media": "assets/media/bank/meat_pizza_slice.png",
+            "masteryID": [
+                3,
+                21
+            ],
+            "cookingQty": 8,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 154,
+                        "qty": 2
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1064,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1012,
+                        "qty": 2
+                    }
+                ]
+            ],
+            "perfectItem": 1051
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Basic Soup",
+            "id": 1020,
+            "sellsFor": 8,
+            "healsFor": 3.6,
+            "canEat": true,
+            "media": "assets/media/bank/basic_soup.png",
+            "masteryID": [
+                3,
+                22
+            ],
+            "cookingQty": 4,
+            "cookingInterval": 7000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 151,
+                        "qty": 2
+                    }
+                ]
+            ],
+            "perfectItem": 1052
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Strawberry Cupcake",
+            "id": 1021,
+            "sellsFor": 42,
+            "healsFor": 8,
+            "canEat": true,
+            "media": "assets/media/bank/strawberry_cupcake.png",
+            "masteryID": [
+                3,
+                23
+            ],
+            "cookingQty": 2,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 156,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1053
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Hearty Soup",
+            "id": 1022,
+            "sellsFor": 22,
+            "healsFor": 4,
+            "canEat": true,
+            "media": "assets/media/bank/hearty_soup.png",
+            "masteryID": [
+                3,
+                24
+            ],
+            "cookingQty": 4,
+            "cookingInterval": 7000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 152,
+                        "qty": 1
+                    },
+                    {
+                        "id": 154,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1054,
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        63,
+                        424
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Cherry Cupcake",
+            "id": 1023,
+            "sellsFor": 78,
+            "healsFor": 10,
+            "canEat": true,
+            "media": "assets/media/bank/cherry_cupcake.png",
+            "masteryID": [
+                3,
+                25
+            ],
+            "cookingQty": 2,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1063,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1055,
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        39,
+                        424
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Cream Corn Soup",
+            "id": 1024,
+            "sellsFor": 42,
+            "healsFor": 5.8,
+            "canEat": true,
+            "media": "assets/media/bank/cream_corn_soup.png",
+            "masteryID": [
+                3,
+                26
+            ],
+            "cookingQty": 4,
+            "cookingInterval": 7000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 155,
+                        "qty": 2
+                    },
+                    {
+                        "id": 152,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1056
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Apple Pie",
+            "id": 1025,
+            "sellsFor": 253,
+            "healsFor": 22,
+            "canEat": true,
+            "media": "assets/media/bank/apple_pie.png",
+            "masteryID": [
+                3,
+                27
+            ],
+            "cookingQty": 1,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1016,
+                        "qty": 2
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1057,
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": [
+                        9,
+                        212
+                    ],
+                    "maxQty": 1
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Chicken Soup",
+            "id": 1026,
+            "sellsFor": 96,
+            "healsFor": 11,
+            "canEat": true,
+            "media": "assets/media/bank/chicken_soup.png",
+            "masteryID": [
+                3,
+                28
+            ],
+            "cookingQty": 4,
+            "cookingInterval": 7000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1014,
+                        "qty": 1
+                    },
+                    {
+                        "id": 470,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    },
+                    {
+                        "id": 152,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1058
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Strawberry Cake",
+            "id": 1027,
+            "sellsFor": 378,
+            "healsFor": 27,
+            "canEat": true,
+            "media": "assets/media/bank/strawberry_cake.png",
+            "masteryID": [
+                3,
+                29
+            ],
+            "cookingQty": 1,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 156,
+                        "qty": 3
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 2
+                    }
+                ]
+            ],
+            "perfectItem": 1059
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Carrot Cake",
+            "id": 1028,
+            "sellsFor": 751,
+            "healsFor": 30,
+            "canEat": true,
+            "media": "assets/media/bank/carrot_cake.png",
+            "masteryID": [
+                3,
+                30
+            ],
+            "cookingQty": 1,
+            "cookingInterval": 8000,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 470,
+                        "qty": 3
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 2
+                    }
+                ]
+            ],
+            "perfectItem": 1060
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Lemon Cake",
+            "id": 1029,
+            "sellsFor": 69,
+            "healsFor": 6.9,
+            "canEat": true,
+            "media": "assets/media/bank/lemon_cake.png",
+            "cookingQty": 1,
+            "cookingInterval": 6900,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 681,
+                        "qty": 4
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ],
+            "perfectItem": 1061,
+            "ignoreCompletion": true
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Shrimp (Perfect)",
+            "id": 1030,
+            "sellsFor": 3,
+            "healsFor": 3.3000000000000003,
+            "media": "assets/media/bank/shrimp_cooked_perfect.png",
+            "cookingID": 0
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Sardine (Perfect)",
+            "id": 1031,
+            "sellsFor": 7.5,
+            "healsFor": 4.4,
+            "media": "assets/media/bank/sardine_cooked_perfect.png",
+            "cookingID": 1
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Herring (Perfect)",
+            "id": 1032,
+            "sellsFor": 15,
+            "healsFor": 5.5,
+            "media": "assets/media/bank/herring_cooked_perfect.png",
+            "cookingID": 2
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "name": "Seahorse (Perfect)",
+            "id": 1033,
+            "sellsFor": 97.5,
+            "healsFor": 13.200000000000001,
+            "media": "assets/media/bank/seahorse_cooked_perfect.png",
+            "canEat": true,
+            "cookingID": 14
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Trout (Perfect)",
+            "id": 1034,
+            "sellsFor": 40.5,
+            "healsFor": 7.700000000000001,
+            "media": "assets/media/bank/trout_cooked_perfect.png",
+            "cookingID": 3
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Salmon (Perfect)",
+            "id": 1035,
+            "sellsFor": 87,
+            "healsFor": 9.9,
+            "media": "assets/media/bank/salmon_cooked_perfect.png",
+            "cookingID": 4
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Lobster (Perfect)",
+            "id": 1036,
+            "sellsFor": 162,
+            "healsFor": 12.100000000000001,
+            "media": "assets/media/bank/lobster_cooked_perfect.png",
+            "cookingID": 5
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Swordfish (Perfect)",
+            "id": 1037,
+            "sellsFor": 201,
+            "healsFor": 14.3,
+            "media": "assets/media/bank/swordfish_cooked_perfect.png",
+            "cookingID": 6
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "name": "Anglerfish (Perfect)",
+            "id": 1038,
+            "sellsFor": 313.5,
+            "healsFor": 13.200000000000001,
+            "media": "assets/media/bank/anglerfish_cooked_perfect.png",
+            "canEat": true,
+            "cookingID": 12
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "name": "Fanfish (Perfect)",
+            "id": 1039,
+            "sellsFor": 375,
+            "healsFor": 15.400000000000002,
+            "media": "assets/media/bank/fanfish_cooked_perfect.png",
+            "canEat": true,
+            "cookingID": 13
+        },
+        {
+            "category": "Cooking",
+            "type": "Food (Perfect)",
+            "id": 1040,
+            "canEat": true,
+            "name": "Crab (Perfect)",
+            "sellsFor": 420,
+            "healsFor": 16.5,
+            "media": "assets/media/bank/crab_cooked_perfect.png",
+            "cookingID": 7
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "name": "Carp (Perfect)",
+            "id": 1041,
+            "sellsFor": 592.5,
+            "healsFor": 19.8,
+            "media": "assets/media/bank/carp_cooked_perfect.png",
+            "canEat": true,
+            "cookingID": 15
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Shark (Perfect)",
+            "id": 1042,
+            "sellsFor": 1011,
+            "healsFor": 22,
+            "media": "assets/media/bank/shark_cooked_perfect.png",
+            "cookingID": 8
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Cave Fish (Perfect)",
+            "id": 1043,
+            "sellsFor": 807,
+            "healsFor": 24.200000000000003,
+            "media": "assets/media/bank/cavefish_cooked_perfect.png",
+            "cookingID": 9
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Manta Ray (Perfect)",
+            "id": 1044,
+            "sellsFor": 2436,
+            "healsFor": 44,
+            "media": "assets/media/bank/mantaray_cooked_perfect.png",
+            "cookingID": 10
+        },
+        {
+            "category": "Cooking",
+            "type": "Food",
+            "canEat": true,
+            "name": "Whale (Perfect)",
+            "id": 1045,
+            "sellsFor": 3072,
+            "healsFor": 52.800000000000004,
+            "media": "assets/media/bank/whale_cooked_perfect.png",
+            "cookingID": 11
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Bread (Perfect)",
+            "id": 1046,
+            "sellsFor": 7.5,
+            "canEat": true,
+            "healsFor": 1.1,
+            "media": "assets/media/bank/bread_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Beef (Perfect)",
+            "id": 1047,
+            "sellsFor": 7.5,
+            "canEat": true,
+            "healsFor": 5.5,
+            "media": "assets/media/bank/beef_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Chicken (Perfect)",
+            "id": 1048,
+            "sellsFor": 12,
+            "canEat": true,
+            "healsFor": 9.9,
+            "media": "assets/media/bank/chicken_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Plain Pizza Slice (Perfect)",
+            "id": 1049,
+            "sellsFor": 3,
+            "canEat": true,
+            "healsFor": 1.54,
+            "media": "assets/media/bank/plain_pizza_slice_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Beef Pie (Perfect)",
+            "id": 1050,
+            "sellsFor": 55.5,
+            "canEat": true,
+            "healsFor": 26.400000000000002,
+            "media": "assets/media/bank/beef_pie_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Meat Pizza Slice (Perfect)",
+            "id": 1051,
+            "sellsFor": 6,
+            "canEat": true,
+            "healsFor": 3.5200000000000005,
+            "media": "assets/media/bank/meat_pizza_slice_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Basic Soup (Perfect)",
+            "id": 1052,
+            "sellsFor": 12,
+            "canEat": true,
+            "healsFor": 3.9600000000000004,
+            "media": "assets/media/bank/basic_soup_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Strawberry Cupcake (Perfect)",
+            "id": 1053,
+            "sellsFor": 63,
+            "canEat": true,
+            "healsFor": 8.8,
+            "media": "assets/media/bank/strawberry_cupcake_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Hearty Soup (Perfect)",
+            "id": 1054,
+            "sellsFor": 33,
+            "canEat": true,
+            "healsFor": 4.4,
+            "media": "assets/media/bank/hearty_soup_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Cherry Cupcake (Perfect)",
+            "id": 1055,
+            "sellsFor": 117,
+            "canEat": true,
+            "healsFor": 11,
+            "media": "assets/media/bank/cherry_cupcake_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Cream Corn Soup (Perfect)",
+            "id": 1056,
+            "sellsFor": 63,
+            "canEat": true,
+            "healsFor": 6.38,
+            "media": "assets/media/bank/cream_corn_soup_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Apple Pie (Perfect)",
+            "id": 1057,
+            "sellsFor": 379.5,
+            "canEat": true,
+            "healsFor": 24.200000000000003,
+            "media": "assets/media/bank/apple_pie_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Chicken Soup (Perfect)",
+            "id": 1058,
+            "sellsFor": 144,
+            "canEat": true,
+            "healsFor": 12.100000000000001,
+            "media": "assets/media/bank/chicken_soup_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Strawberry Cake (Perfect)",
+            "id": 1059,
+            "sellsFor": 567,
+            "canEat": true,
+            "healsFor": 29.700000000000003,
+            "media": "assets/media/bank/strawberry_cake_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Carrot Cake (Perfect)",
+            "id": 1060,
+            "sellsFor": 1126.5,
+            "canEat": true,
+            "healsFor": 33,
+            "media": "assets/media/bank/carrot_cake_perfect.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Product",
+            "name": "Lemon Cake (Perfect)",
+            "id": 1061,
+            "sellsFor": 3,
+            "canEat": true,
+            "healsFor": 3.3000000000000003,
+            "media": "assets/media/bank/lemon_cake_perfect.png",
+            "ignoreCompletion": true
+        },
+        {
+            "category": "Farming",
+            "type": "Seeds",
+            "tier": "Allotment",
+            "name": "Cherry Seeds",
+            "id": 1062,
+            "sellsFor": 1,
+            "media": "assets/media/bank/seeds_cherry.png",
+            "masteryID": [
+                11,
+                22
+            ],
+            "seedsRequired": 3,
+            "farmingMasteryID": 22,
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": [
+                        105,
+                        4916
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 119,
+                    "chance": [
+                        7,
+                        202
+                    ],
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "category": "Farming",
+            "type": "Harvest",
+            "canEat": true,
+            "name": "Cherry",
+            "id": 1063,
+            "healsFor": 2.4,
+            "sellsFor": 1,
+            "media": "assets/media/bank/cherry.png",
+            "farmingLevel": 40,
+            "farmingXP": 42,
+            "timeToGrow": 10800,
+            "farmReq": [
+                {
+                    "id": 1062,
+                    "qty": 3
+                }
+            ],
+            "chestSources": [
+                {
+                    "chest": 1071,
+                    "chance": [
+                        23,
+                        370
+                    ],
+                    "qty": 100
+                }
+            ]
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "canEat": false,
+            "name": "Cheese",
+            "description": "Solid milk.",
+            "id": 1064,
+            "sellsFor": 1,
+            "buysFor": 4,
+            "media": "assets/media/bank/cheese.png"
+        },
+        {
+            "category": "Cooking",
+            "type": "Ingredient",
+            "canEat": false,
+            "name": "Cream",
+            "description": "Somewhat liquid milk but not really.",
+            "id": 1065,
+            "sellsFor": 1,
+            "buysFor": 4,
+            "media": "assets/media/bank/cream.png",
+            "mediaAlt": "assets/media/bank/cream_alt.png"
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Sneak-Ers",
+            "sellsFor": 15000,
+            "media": "assets/media/bank/boots_of_stealth.png",
+            "id": 1066,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Boots",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedThievingStealth": 40,
+                "increasedGPGlobal": 5
+            },
+            "description": "Passive: +40 Stealth while Thieving and +5% Global GP (except Item Sales)",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Amulet",
+            "name": "Jeweled Necklace",
+            "sellsFor": 5000,
+            "media": "assets/media/bank/jeweled_necklace.png",
+            "id": 1067,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Amulet"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedGPGlobal": 5
+            },
+            "description": "+5% Global GP (except Item Sales)",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Item",
+            "name": "Crate of Basic Supplies",
+            "sellsFor": 500,
+            "media": "assets/media/bank/crate_of_basic_supplies.png",
+            "id": 1068,
+            "isEquipment": false,
+            "canOpen": true,
+            "dropTable": [
+                [
+                    262,
+                    25
+                ],
+                [
+                    263,
+                    20
+                ],
+                [
+                    264,
+                    18
+                ],
+                [
+                    265,
+                    13
+                ],
+                [
+                    55,
+                    14
+                ],
+                [
+                    56,
+                    11
+                ],
+                [
+                    57,
+                    9
+                ],
+                [
+                    59,
+                    5
+                ],
+                [
+                    9,
+                    25
+                ],
+                [
+                    10,
+                    18
+                ],
+                [
+                    11,
+                    13
+                ],
+                [
+                    12,
+                    10
+                ]
+            ],
+            "dropQty": [
+                200,
+                200,
+                200,
+                200,
+                200,
+                200,
+                200,
+                200,
+                200,
+                200,
+                200,
+                200
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Cape",
+            "name": "Thiever&apos;s Cape",
+            "sellsFor": 3900,
+            "media": "assets/media/bank/thievers_cape.png",
+            "id": 1069,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Cape"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedThievingStealth": 25,
+                "increasedGPFromThieving": 10,
+                "increasedSkillXP": [
+                    [
+                        10,
+                        2
+                    ]
+                ]
+            },
+            "description": "+25 Stealth while Thieving,+10% GP From Thieving and +2% Thieving Skill XP",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Crafting Material",
+            "name": "Marksman&apos;s Sigil",
+            "description": "Will be used as a Crafting resource in a future update",
+            "sellsFor": 5000,
+            "media": "assets/media/bank/marksmans_sigil.png",
+            "id": 1070,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Item",
+            "name": "Crate of Food",
+            "sellsFor": 160,
+            "media": "assets/media/bank/crate_of_food.png",
+            "id": 1071,
+            "isEquipment": false,
+            "canOpen": true,
+            "dropTable": [
+                [
+                    151,
+                    100
+                ],
+                [
+                    152,
+                    52
+                ],
+                [
+                    153,
+                    45
+                ],
+                [
+                    154,
+                    37
+                ],
+                [
+                    155,
+                    30
+                ],
+                [
+                    156,
+                    25
+                ],
+                [
+                    1063,
+                    23
+                ],
+                [
+                    157,
+                    21
+                ],
+                [
+                    158,
+                    19
+                ],
+                [
+                    470,
+                    18
+                ]
+            ],
+            "dropQty": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Crafting Material",
+            "name": "Basic Bag",
+            "sellsFor": 4000,
+            "media": "assets/media/bank/basic_bag.png",
+            "id": 1072,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Cooking Apron",
+            "sellsFor": 5250,
+            "media": "assets/media/bank/cooking_apron.png",
+            "id": 1073,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Platebody"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "increasedMasteryXP": [
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "increasedFoodHealingValue": 20
+            },
+            "description": "+1% Cooking Skill XP,+1% Cooking Mastery XP and +20% Food Healing Value",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Misc",
+            "name": "Shipwheel",
+            "sellsFor": 10000,
+            "media": "assets/media/bank/shipwheel.png",
+            "id": 1074,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Fishing Hook",
+            "sellsFor": 7,
+            "media": "assets/media/bank/fishing_hook.png",
+            "id": 1075,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedChanceToDoubleItemsSkill": [
+                    [
+                        1,
+                        10
+                    ]
+                ]
+            },
+            "consumesOn": "Fishing",
+            "description": "+10% Chance to Double Items in Fishing. One item is consumed per Fishing action"
+        },
+        {
+            "category": "Thieving",
+            "type": "Misc",
+            "name": "Giant Club",
+            "sellsFor": 15000,
+            "media": "assets/media/bank/giant_club.png",
+            "id": 1076,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Item",
+            "name": "Stack of Bones",
+            "sellsFor": 1020,
+            "media": "assets/media/bank/stack_of_bones.png",
+            "id": 1077,
+            "isEquipment": false,
+            "canOpen": true,
+            "dropTable": [
+                [
+                    439,
+                    60
+                ],
+                [
+                    506,
+                    17
+                ],
+                [
+                    440,
+                    14
+                ],
+                [
+                    441,
+                    10
+                ]
+            ],
+            "dropQty": [
+                100,
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Item",
+            "name": "Pile of Logs",
+            "sellsFor": 980,
+            "media": "assets/media/bank/pile_of_logs.png",
+            "id": 1078,
+            "isEquipment": false,
+            "canOpen": true,
+            "dropTable": [
+                [
+                    0,
+                    57
+                ],
+                [
+                    1,
+                    37
+                ],
+                [
+                    2,
+                    21
+                ],
+                [
+                    3,
+                    17
+                ],
+                [
+                    4,
+                    15
+                ],
+                [
+                    5,
+                    13
+                ],
+                [
+                    6,
+                    12
+                ],
+                [
+                    7,
+                    11
+                ],
+                [
+                    8,
+                    10
+                ]
+            ],
+            "dropQty": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Item",
+            "name": "Pile of Ores",
+            "sellsFor": 460,
+            "media": "assets/media/bank/pile_of_ores.png",
+            "id": 1079,
+            "isEquipment": false,
+            "canOpen": true,
+            "dropTable": [
+                [
+                    45,
+                    110
+                ],
+                [
+                    46,
+                    110
+                ],
+                [
+                    47,
+                    45
+                ],
+                [
+                    48,
+                    26
+                ],
+                [
+                    49,
+                    26
+                ],
+                [
+                    50,
+                    20
+                ],
+                [
+                    51,
+                    17
+                ],
+                [
+                    52,
+                    13
+                ],
+                [
+                    53,
+                    12
+                ],
+                [
+                    54,
+                    10
+                ]
+            ],
+            "dropQty": [
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100,
+                100
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Crafting Material",
+            "name": "Knight&apos;s Sigil",
+            "description": "Will be used as a Crafting resource in a future update",
+            "sellsFor": 5000,
+            "media": "assets/media/bank/knights_sigil.png",
+            "id": 1080,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Cape",
+            "name": "Knight&apos;s Cape",
+            "sellsFor": 9950,
+            "media": "assets/media/bank/knights_cape.png",
+            "id": 1081,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Cape"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "meleeStrengthBonus",
+                    "value": 5
+                },
+                {
+                    "key": "stabAttackBonus",
+                    "value": 5
+                },
+                {
+                    "key": "slashAttackBonus",
+                    "value": 5
+                },
+                {
+                    "key": "blockAttackBonus",
+                    "value": 5
+                },
+                {
+                    "key": "meleeDefenceBonus",
+                    "value": 5
+                },
+                {
+                    "key": "damageReduction",
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Whetstone",
+            "sellsFor": 9,
+            "media": "assets/media/bank/whetstone.png",
+            "id": 1082,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedMeleeAccuracyBonus": 5,
+                "increasedMeleeMaxHit": 5
+            },
+            "consumesOn": "MeleeAttack",
+            "description": "+5% Melee Accuracy Rating and +5% Melee Maximum Hit. One item is consumed per Melee attack."
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Wizard&apos;s Scroll",
+            "sellsFor": 10,
+            "media": "assets/media/bank/wizards_scroll.png",
+            "id": 1083,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedRunePreservation": 10
+            },
+            "consumesOn": "RuneUse",
+            "description": "+10% Rune Preservation. One item is consumed whenever Runes are used."
+        },
+        {
+            "category": "Thieving",
+            "type": "Crafting Material",
+            "name": "Wizard&apos;s Sigil",
+            "description": "Will be used as a Crafting resource in a future update",
+            "sellsFor": 5000,
+            "media": "assets/media/bank/wizards_sigil.png",
+            "id": 1084,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Prayer Scroll",
+            "sellsFor": 10,
+            "media": "assets/media/bank/prayer_scroll.png",
+            "id": 1085,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedFlatPrayerCostReduction": 1,
+                "increasedChanceToPreservePrayerPoints": 5
+            },
+            "consumesOn": "PrayerPointCost",
+            "description": "-1 Prayer Point Cost for Prayers and +5% Chance To Preserve Prayer Points. One item is consumed per Active Prayer whenever Prayer Points are used."
+        },
+        {
+            "category": "Thieving",
+            "type": "Ring",
+            "name": "Ring of Wealth",
+            "sellsFor": 11200,
+            "media": "assets/media/bank/ring_of_wealth.png",
+            "id": 1086,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Ring",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedChanceToDoubleItemsGlobal": 7,
+                "decreasedGlobalPreservationChance": 3
+            },
+            "description": "Passive: +7% Chance to Double Items Globally and -3% Chance to Preserve Resources in Skills",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Item",
+            "name": "Chest of Gems",
+            "sellsFor": 19200,
+            "media": "assets/media/bank/chest_of_gems.png",
+            "id": 1087,
+            "isEquipment": false,
+            "canOpen": true,
+            "dropTable": [
+                [
+                    128,
+                    100
+                ],
+                [
+                    129,
+                    35
+                ],
+                [
+                    130,
+                    35
+                ],
+                [
+                    131,
+                    20
+                ],
+                [
+                    132,
+                    10
+                ]
+            ],
+            "dropQty": [
+                200,
+                200,
+                200,
+                200,
+                200
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Misc",
+            "name": "Antique Vase",
+            "sellsFor": 30000,
+            "media": "assets/media/bank/antique_vase.png",
+            "id": 1088,
+            "isEquipment": false
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Absorbing Shield",
+            "sellsFor": 12500,
+            "media": "assets/media/bank/absorbing_shield.png",
+            "id": 1089,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Shield",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "rangedDefenceBonus",
+                    "value": 25
+                },
+                {
+                    "key": "damageReduction",
+                    "value": 3
+                }
+            ],
+            "fightEffects": [
+                0
+            ],
+            "description": "Passive: When hit, lose 5% evasion ratings and gain +1% damage reduction, stacking up to 3 times (lasts until end of fight)"
+        },
+        {
+            "category": "Thieving",
+            "type": "Weapon",
+            "name": "Chef&apos;s Spoon",
+            "sellsFor": 14000,
+            "media": "assets/media/bank/chefs_spoon.png",
+            "id": 1090,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Weapon"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "attackSpeed",
+                    "value": 4000
+                }
+            ],
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "increasedMasteryXP": [
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "increasedChanceSuccessfulCook": 2
+            },
+            "attackType": "melee",
+            "description": "+1% Cooking Skill XP,+1% Cooking Mastery XP and +2% chance to successfully Cook an item.",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Chef&apos;s Hat",
+            "sellsFor": 18400,
+            "media": "assets/media/bank/chefs_hat.png",
+            "id": 1091,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Helmet"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "increasedMasteryXP": [
+                    [
+                        3,
+                        1
+                    ]
+                ],
+                "decreasedSkillInterval": [
+                    [
+                        3,
+                        100
+                    ]
+                ]
+            },
+            "description": "+1% Cooking Skill XP,+1% Cooking Mastery XP and -0.1s Cooking Interval",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Training Shield",
+            "sellsFor": 31000,
+            "media": "assets/media/bank/training_shield.png",
+            "id": 1092,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Shield",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "damageReduction",
+                    "value": 2
+                }
+            ],
+            "modifiers": {
+                "increasedSkillXP": [
+                    [
+                        6,
+                        3
+                    ],
+                    [
+                        7,
+                        3
+                    ],
+                    [
+                        8,
+                        3
+                    ],
+                    [
+                        9,
+                        3
+                    ],
+                    [
+                        12,
+                        3
+                    ],
+                    [
+                        16,
+                        3
+                    ],
+                    [
+                        17,
+                        3
+                    ]
+                ],
+                "increasedMinHitBasedOnMaxHit": 3
+            },
+            "description": "Passive: +3% Combat XP. Does not work with Slayer or Alt. Magic, +3% of Max Hit as Min Hit"
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Knight&apos;s Defender",
+            "sellsFor": 47400,
+            "media": "assets/media/bank/knights_defender.png",
+            "id": 1093,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Shield",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "meleeStrengthBonus",
+                    "value": 7
+                },
+                {
+                    "key": "stabAttackBonus",
+                    "value": 7
+                },
+                {
+                    "key": "slashAttackBonus",
+                    "value": 7
+                },
+                {
+                    "key": "blockAttackBonus",
+                    "value": 7
+                }
+            ],
+            "description": "Passive: (MELEE ONLY) -0.1s Attack Interval, -3% Damage Reduction, +7 Melee Defence Bonus"
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Cave Giant Boots",
+            "sellsFor": 28800,
+            "media": "assets/media/bank/cave_giant_boots.png",
+            "id": 1094,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Boots",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "meleeStrengthBonus",
+                    "value": 3
+                },
+                {
+                    "key": "stabAttackBonus",
+                    "value": 3
+                },
+                {
+                    "key": "slashAttackBonus",
+                    "value": 3
+                },
+                {
+                    "key": "blockAttackBonus",
+                    "value": 3
+                }
+            ],
+            "modifiers": {
+                "increasedMeleeMaxHit": 5,
+                "decreasedMeleeEvasion": 15
+            },
+            "description": "Passive: +5% Melee Maximum Hit and -15% Melee Evasion"
+        },
+        {
+            "category": "Thieving",
+            "type": "Misc",
+            "name": "Merchant&apos;s Permit",
+            "sellsFor": 15600,
+            "media": "assets/media/bank/merchants_permit.png",
+            "id": 1095,
+            "isEquipment": false,
+            "canRead": true,
+            "readTitle": "Merchant's Permit",
+            "readText": "<small><em>\"By the grace of the King of Melvor, the bearer of this writ is hereby granted exemption from the royal glove tax.\"</em><br> - Signed: The Lemvor Port Authority</small><br><br><small class=\"text-success\">Permanent: -10% Cost to Skilling Gloves</small>"
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Bob&apos;s Gloves",
+            "sellsFor": 22400,
+            "media": "assets/media/bank/bobs_gloves.png",
+            "id": 1096,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Gloves"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedFarmingYield": 3
+            },
+            "description": "+3% Farming Yield, if Bob's rake is equipped, its effect is increased to a 75% chance to preserve Compost or Weird Gloop."
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Golbin Mask",
+            "sellsFor": 13600,
+            "media": "assets/media/bank/golbin_mask.png",
+            "id": 1097,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Helmet"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedThievingStealth": 20,
+                "increasedGPFromThievingFlat": 20,
+                "increasedMasteryXP": [
+                    [
+                        10,
+                        2
+                    ]
+                ]
+            },
+            "description": "+20 Stealth while Thieving,+20 GP From Thieving and +2% Thieving Mastery XP",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Fine Coinpurse",
+            "sellsFor": 5950,
+            "media": "assets/media/bank/fine_coinpurse.png",
+            "id": 1098,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Shield",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedGPGlobal": 10
+            },
+            "description": "Passive: +10% Global GP (except Item Sales)"
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Lumberjack&apos;s Top",
+            "sellsFor": 27000,
+            "media": "assets/media/bank/lumberjacks_top.png",
+            "id": 1099,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Platebody"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedBirdNestDropRate": 2,
+                "increasedMasteryXP": [
+                    [
+                        0,
+                        2
+                    ]
+                ]
+            },
+            "description": "+2% Chance for Bird Nests to drop in Woodcutting and +2% Woodcutting Mastery XP",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Miner&apos;s Helmet",
+            "sellsFor": 34000,
+            "media": "assets/media/bank/miners_helmet.png",
+            "id": 1100,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Helmet"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedChanceNoDamageMining": 3,
+                "increasedMasteryXP": [
+                    [
+                        4,
+                        2
+                    ]
+                ]
+            },
+            "description": "+3% Chance to deal no Damage to a Mining Node and +2% Mining Mastery XP",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Sailor&apos;s Top",
+            "sellsFor": 20000,
+            "media": "assets/media/bank/sailors_top.png",
+            "id": 1101,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Platebody"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "decreasedFishingSpecialChance": 3
+            },
+            "description": "-3% chance to receive Special Items from Fishing",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Equipment",
+            "name": "Jester&apos;s Hat",
+            "sellsFor": 41000,
+            "media": "assets/media/bank/jesters_hat.png",
+            "id": 1102,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Helmet"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "decreasedThievingStealth": 75
+            },
+            "description": "-75 Stealth while Thieving, When you pickpocket a unique item gain flat gp equal to 0.5-3x its value"
+        },
+        {
+            "category": "Thieving",
+            "type": "Gem",
+            "name": "Jadestone",
+            "sellsFor": 4600,
+            "media": "assets/media/bank/jadestone.png",
+            "id": 1103,
+            "isEquipment": false,
+            "altMagicSources": [
+                6,
+                9
+            ]
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Gold Crested Shield",
+            "sellsFor": 55000,
+            "media": "assets/media/bank/gold_crested_shield.png",
+            "id": 1104,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Shield",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [
+                {
+                    "key": "stabAttackBonus",
+                    "value": 2
+                },
+                {
+                    "key": "slashAttackBonus",
+                    "value": 2
+                },
+                {
+                    "key": "blockAttackBonus",
+                    "value": 2
+                },
+                {
+                    "key": "rangedAttackBonus",
+                    "value": 2
+                },
+                {
+                    "key": "magicAttackBonus",
+                    "value": 2
+                },
+                {
+                    "key": "meleeStrengthBonus",
+                    "value": 2
+                },
+                {
+                    "key": "rangedStrengthBonus",
+                    "value": 2
+                },
+                {
+                    "key": "magicDamageBonus",
+                    "value": 2
+                },
+                {
+                    "key": "meleeDefenceBonus",
+                    "value": 2
+                },
+                {
+                    "key": "rangedDefenceBonus",
+                    "value": 2
+                },
+                {
+                    "key": "magicDefenceBonus",
+                    "value": 2
+                },
+                {
+                    "key": "damageReduction",
+                    "value": 2
+                }
+            ],
+            "modifiers": {
+                "increasedGPFromMonsters": 30
+            },
+            "description": "Passive: +30% GP From Monsters",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Armour",
+            "name": "Book of Scholars",
+            "sellsFor": 33000,
+            "media": "assets/media/bank/book_of_scholars.png",
+            "id": 1105,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Shield",
+                "Passive"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedGlobalSkillXP": 3,
+                "decreasedGPGlobal": 15
+            },
+            "description": "Passive: +3% Global Skill XP and -15% Global GP (except Item Sales)"
+        },
+        {
+            "category": "Thieving",
+            "type": "Amulet",
+            "name": "Amulet of Incantation",
+            "sellsFor": 43000,
+            "media": "assets/media/bank/amulet_of_incantation.png",
+            "id": 1106,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Amulet"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "decreasedSkillInterval": [
+                    [
+                        16,
+                        200
+                    ]
+                ],
+                "increasedAltMagicRunePreservation": 10
+            },
+            "description": "-0.2s Magic Interval and +10% Rune Preservation for Alt. Magic Spells",
+            "ignoreLangGeneration": true
+        },
+        {
+            "category": "Thieving",
+            "type": "Bag",
+            "name": "Thief&apos;s Moneysack",
+            "sellsFor": 0,
+            "media": "assets/media/bank/thiefs_moneysack.png",
+            "id": 1107,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedMinThievingGP": 20
+            },
+            "consumesOn": "Thieving",
+            "description": "+20% minimum GP from Thieving. One item is consumed per Thieving action.",
+            "masteryID": [
+                14,
+                48
+            ],
+            "craftReq": [
+                {
+                    "id": 1072,
+                    "qty": 1
+                }
+            ],
+            "craftGPCost": 50,
+            "craftQty": 25,
+            "craftingLevel": 49,
+            "craftingCategory": 4,
+            "craftingXP": 135
+        },
+        {
+            "category": "Thieving",
+            "type": "Bag",
+            "name": "Seed Pouch",
+            "sellsFor": 0,
+            "media": "assets/media/bank/seed_pouch.png",
+            "id": 1108,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedFarmingYield": 3,
+                "decreasedAllotmentSeedCost": 1
+            },
+            "consumesOn": "PlantingAllotment",
+            "description": "+3% Farming Yield and -1 seed cost to plant Allotments in Farming. One item is consumed per Allotment planted.",
+            "masteryID": [
+                14,
+                49
+            ],
+            "craftReq": [
+                {
+                    "id": 1072,
+                    "qty": 1
+                },
+                {
+                    "id": 144,
+                    "qty": 1
+                }
+            ],
+            "craftQty": 25,
+            "craftingLevel": 42,
+            "craftingCategory": 4,
+            "craftingXP": 108
+        },
+        {
+            "category": "Thieving",
+            "type": "Bag",
+            "name": "Runecrafting Pouch",
+            "sellsFor": 0,
+            "media": "assets/media/bank/runecrafting_pouch.png",
+            "id": 1109,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedRunecraftingEssencePreservation": 10
+            },
+            "consumesOn": "CraftingRunes",
+            "description": "+10% chance to preserve resources when Runecrafting runes. One item is consumed per Runecrafting action (when making runes).",
+            "masteryID": [
+                14,
+                50
+            ],
+            "craftReq": [
+                {
+                    "id": 1072,
+                    "qty": 1
+                },
+                {
+                    "id": 388,
+                    "qty": 1
+                }
+            ],
+            "craftQty": 25,
+            "craftingLevel": 35,
+            "craftingCategory": 4,
+            "craftingXP": 84
+        },
+        {
+            "category": "Thieving",
+            "type": "Bag",
+            "name": "Alchemist&apos;s Bag",
+            "sellsFor": 0,
+            "media": "assets/media/bank/alchemists_bag.png",
+            "id": 1110,
+            "isEquipment": true,
+            "hasSpecialAttack": false,
+            "validSlots": [
+                "Quiver"
+            ],
+            "occupiesSlots": [],
+            "equipRequirements": [],
+            "equipmentStats": [],
+            "modifiers": {
+                "increasedChanceToPreservePotionCharge": 10,
+                "increasedPotionChargesFlat": 5
+            },
+            "consumesOn": "PotionUsage",
+            "description": "+10% Chance To Preserve Potion Charge and +5 Charges per Potion. One item is consumed when a Potion charge is used.",
+            "masteryID": [
+                14,
+                51
+            ],
+            "craftReq": [
+                {
+                    "id": 1072,
+                    "qty": 1
+                },
+                {
+                    "id": 520,
+                    "qty": 1
+                }
+            ],
+            "craftQty": 25,
+            "craftingLevel": 56,
+            "craftingCategory": 4,
+            "craftingXP": 163
+        },
+        {
+            "category": "Farming",
+            "type": "Seeds",
+            "tier": "Tree",
+            "name": "Apple Tree Seeds",
+            "isEquipment": false,
+            "sellsFor": 4000,
+            "media": "assets/media/bank/seeds_tree_apple.png",
+            "id": 1111,
+            "masteryID": [
+                11,
+                23
+            ],
+            "seedsRequired": 1
         }
     ],
     "monsters": [
@@ -57803,23 +62193,28 @@ var melvorData = {
             "lootTable": [
                 [
                     47,
-                    10,
+                    20,
                     5
                 ],
                 [
                     48,
-                    10,
+                    20,
                     5
                 ],
                 [
                     10,
-                    10,
+                    20,
                     3
                 ],
                 [
                     11,
-                    10,
+                    20,
                     3
+                ],
+                [
+                    42,
+                    1,
+                    1
                 ]
             ],
             "lootChance": 100,
@@ -57967,7 +62362,52 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Frostburn",
+                    "id": 96,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -58023,7 +62463,52 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Frostburn",
+                    "id": 96,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -58116,7 +62601,6 @@ var melvorData = {
             "media": "assets/media/monsters/mummy.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 13,
             "slayerSources": [
                 0
             ]
@@ -58175,7 +62659,6 @@ var melvorData = {
             "media": "assets/media/monsters/statue.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 18,
             "slayerSources": [
                 0
             ]
@@ -58244,7 +62727,6 @@ var melvorData = {
             "media": "assets/media/monsters/stone_snake.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 30,
             "slayerSources": [
                 0
             ]
@@ -58672,7 +63154,6 @@ var melvorData = {
             "media": "assets/media/monsters/undead_wolf.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 24,
             "slayerSources": [
                 0
             ]
@@ -58764,7 +63245,6 @@ var melvorData = {
             "media": "assets/media/monsters/vampire.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 25,
             "slayerSources": [
                 0
             ]
@@ -58819,7 +63299,6 @@ var melvorData = {
             "media": "assets/media/monsters/fierce_devil.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 41,
             "slayerSources": [
                 0
             ]
@@ -58881,7 +63360,6 @@ var melvorData = {
             "media": "assets/media/monsters/many_eyed_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 18,
             "slayerSources": [
                 1
             ]
@@ -58943,7 +63421,6 @@ var melvorData = {
             "media": "assets/media/monsters/strange_eyed_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 32,
             "slayerSources": [
                 1
             ]
@@ -59005,7 +63482,6 @@ var melvorData = {
             "media": "assets/media/monsters/lots_of_eyes.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 12,
             "slayerSources": [
                 1
             ]
@@ -59063,7 +63539,6 @@ var melvorData = {
             "media": "assets/media/monsters/eyes.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 40,
             "slayerSources": [
                 1
             ]
@@ -59116,7 +63591,6 @@ var melvorData = {
             "media": "assets/media/monsters/griffin.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 75,
             "slayerSources": [
                 2
             ]
@@ -59173,7 +63647,6 @@ var melvorData = {
             "media": "assets/media/monsters/pegasus.svg",
             "bones": 441,
             "canSlayer": true,
-            "slayerXP": 110,
             "slayerSources": [
                 2
             ]
@@ -59261,7 +63734,6 @@ var melvorData = {
             "media": "assets/media/monsters/fairy.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 20,
             "slayerSources": [
                 3
             ]
@@ -59338,7 +63810,6 @@ var melvorData = {
             "media": "assets/media/monsters/valkyrie.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 27,
             "slayerSources": [
                 3
             ]
@@ -59420,7 +63891,6 @@ var melvorData = {
             "media": "assets/media/monsters/angel.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 40,
             "slayerSources": [
                 3
             ]
@@ -59516,7 +63986,6 @@ var melvorData = {
             "media": "assets/media/monsters/holy_archer.svg",
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 52,
             "slayerSources": [
                 3
             ]
@@ -59586,7 +64055,6 @@ var melvorData = {
             "media": "assets/media/monsters/goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 7,
             "slayerSources": [
                 4
             ]
@@ -59646,7 +64114,6 @@ var melvorData = {
             "media": "assets/media/monsters/green_goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27,
             "slayerSources": [
                 4
             ]
@@ -59711,7 +64178,6 @@ var melvorData = {
             "media": "assets/media/monsters/purple_goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27,
             "slayerSources": [
                 4
             ]
@@ -59760,7 +64226,6 @@ var melvorData = {
             "media": "assets/media/monsters/scattered_goo_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27,
             "slayerSources": [
                 4
             ]
@@ -59828,7 +64293,6 @@ var melvorData = {
             "media": "assets/media/monsters/raging_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 70,
             "slayerSources": [
                 5
             ]
@@ -59935,7 +64399,6 @@ var melvorData = {
             "media": "assets/media/monsters/seething_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 90,
             "slayerSources": [
                 5
             ]
@@ -60036,7 +64499,6 @@ var melvorData = {
             "media": "assets/media/monsters/dark_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 140,
             "slayerSources": [
                 5
             ]
@@ -60207,7 +64669,12 @@ var melvorData = {
                 [
                     278,
                     1,
-                    45
+                    90
+                ],
+                [
+                    1014,
+                    1,
+                    4
                 ]
             ],
             "lootChance": 100,
@@ -60262,7 +64729,12 @@ var melvorData = {
                 [
                     292,
                     1,
-                    3
+                    6
+                ],
+                [
+                    1012,
+                    1,
+                    6
                 ]
             ],
             "lootChance": 100,
@@ -60683,6 +65155,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -60743,6 +65217,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -60770,6 +65246,8 @@ var melvorData = {
                     "attackInterval": 100,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -60815,7 +65293,55 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Venom",
+                    "id": 98,
+                    "description": "Deals an <avoidable> Normal Attack. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Poison",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "MaxHP",
+                                    "maxPercent": 10
+                                }
+                            ],
+                            "procs": 4,
+                            "interval": 2500,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -60832,7 +65358,7 @@ var melvorData = {
         },
         {
             "id": 51,
-            "name": "Spider",
+            "name": "Brown Spider",
             "levels": {
                 "Hitpoints": 30,
                 "Attack": 50,
@@ -60848,7 +65374,55 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Venom",
+                    "id": 98,
+                    "description": "Deals an <avoidable> Normal Attack. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Poison",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "MaxHP",
+                                    "maxPercent": 10
+                                }
+                            ],
+                            "procs": 4,
+                            "interval": 2500,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -60881,7 +65455,55 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Venom",
+                    "id": 98,
+                    "description": "Deals an <avoidable> Normal Attack. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Poison",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "MaxHP",
+                                    "maxPercent": 10
+                                }
+                            ],
+                            "procs": 4,
+                            "interval": 2500,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -60914,7 +65536,55 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Venom",
+                    "id": 98,
+                    "description": "Deals an <avoidable> Normal Attack. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Poison",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "MaxHP",
+                                    "maxPercent": 10
+                                }
+                            ],
+                            "procs": 4,
+                            "interval": 2500,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": true,
             "dropCoins": [
@@ -60953,7 +65623,52 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Frostburn",
+                    "id": 96,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -60995,7 +65710,52 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Frostburn",
+                    "id": 96,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -61028,7 +65788,52 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Frostburn",
+                    "id": 96,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -61061,7 +65866,52 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Frostburn",
+                    "id": 96,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": true,
             "dropCoins": [
@@ -61373,7 +66223,56 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Dragonbreath",
+                    "id": 97,
+                    "description": "An <avoidable> attack that deals <damage>x<count> damage over <duration>. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "Fixed",
+                            "maxPercent": 3,
+                            "roll": false
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Burn",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "CurrentHP",
+                                    "maxPercent": 15
+                                }
+                            ],
+                            "procs": 10,
+                            "interval": 250,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 20,
+                    "attackInterval": 150,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
+            "overrideSpecialChances": [
+                10
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -61385,7 +66284,7 @@ var melvorData = {
                 [
                     293,
                     1,
-                    10
+                    15
                 ]
             ],
             "lootChance": 100,
@@ -61428,7 +66327,56 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Dragonbreath",
+                    "id": 97,
+                    "description": "An <avoidable> attack that deals <damage>x<count> damage over <duration>. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "Fixed",
+                            "maxPercent": 3,
+                            "roll": false
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Burn",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "CurrentHP",
+                                    "maxPercent": 15
+                                }
+                            ],
+                            "procs": 10,
+                            "interval": 250,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 20,
+                    "attackInterval": 150,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
+            "overrideSpecialChances": [
+                20
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -61440,7 +66388,7 @@ var melvorData = {
                 [
                     294,
                     1,
-                    10
+                    20
                 ]
             ],
             "lootChance": 100,
@@ -61483,7 +66431,56 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Dragonbreath",
+                    "id": 97,
+                    "description": "An <avoidable> attack that deals <damage>x<count> damage over <duration>. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "Fixed",
+                            "maxPercent": 3,
+                            "roll": false
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Burn",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "CurrentHP",
+                                    "maxPercent": 15
+                                }
+                            ],
+                            "procs": 10,
+                            "interval": 250,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 20,
+                    "attackInterval": 150,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
+            "overrideSpecialChances": [
+                30
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -61495,7 +66492,7 @@ var melvorData = {
                 [
                     295,
                     1,
-                    10
+                    25
                 ]
             ],
             "lootChance": 100,
@@ -61538,7 +66535,53 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Dragonbreath",
+                    "id": 97,
+                    "description": "An <avoidable> attack that deals <damage>x<count> damage over <duration>. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "Fixed",
+                            "maxPercent": 3,
+                            "roll": false
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Burn",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "CurrentHP",
+                                    "maxPercent": 15
+                                }
+                            ],
+                            "procs": 10,
+                            "interval": 250,
+                            "chance": 25
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 20,
+                    "attackInterval": 150,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -61550,7 +66593,7 @@ var melvorData = {
                 [
                     296,
                     1,
-                    10
+                    30
                 ]
             ],
             "lootChance": 100,
@@ -62419,7 +67462,50 @@ var melvorData = {
                 }
             ],
             "attackType": "ranged",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Rapid Fire",
+                    "id": 99,
+                    "description": "An <avoidable> attack that deals <damage> damage <count> times. <PrehitEffect>.",
+                    "defaultChance": 20,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "decreasedAttackIntervalPercent": 10
+                            },
+                            "maxStacks": 1,
+                            "character": "Attacker",
+                            "turns": 3,
+                            "countsOn": "Attacker",
+                            "media": "assets/media/status/speedup.svg"
+                        }
+                    ],
+                    "onhitEffects": [],
+                    "cantMiss": false,
+                    "attackCount": 2,
+                    "attackInterval": 300,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": true,
             "dropCoins": [
@@ -62877,6 +67963,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -62946,6 +68034,8 @@ var melvorData = {
                     "attackInterval": 600,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63018,6 +68108,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63092,6 +68184,8 @@ var melvorData = {
                     "attackInterval": 900,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63162,6 +68256,8 @@ var melvorData = {
                     "attackInterval": 900,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63236,6 +68332,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63262,6 +68360,8 @@ var melvorData = {
                     "attackInterval": 600,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63295,6 +68395,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63322,6 +68424,8 @@ var melvorData = {
                     "attackInterval": 900,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63362,6 +68466,8 @@ var melvorData = {
                     "attackInterval": 600,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63445,6 +68551,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63471,6 +68579,8 @@ var melvorData = {
                     "attackInterval": 800,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63541,6 +68651,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63568,6 +68680,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63653,6 +68767,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63728,6 +68844,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63760,6 +68878,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63830,6 +68950,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63862,6 +68984,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63936,6 +69060,8 @@ var melvorData = {
                     "attackInterval": 800,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63963,6 +69089,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -63996,6 +69124,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64028,6 +69158,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64054,6 +69186,8 @@ var melvorData = {
                     "attackInterval": 1100,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64141,6 +69275,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64217,6 +69353,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64287,6 +69425,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64374,6 +69514,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64460,6 +69602,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64535,6 +69679,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64568,6 +69714,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64595,6 +69743,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64634,6 +69784,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64660,6 +69812,8 @@ var melvorData = {
                     "attackInterval": 1300,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64761,6 +69915,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64834,6 +69990,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64921,6 +70079,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -64995,6 +70155,8 @@ var melvorData = {
                     "attackInterval": 1100,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65068,6 +70230,8 @@ var melvorData = {
                     "attackInterval": 1100,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65162,6 +70326,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65188,6 +70354,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65231,6 +70399,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65257,6 +70427,8 @@ var melvorData = {
                     "attackInterval": 1100,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65284,6 +70456,8 @@ var melvorData = {
                     "attackInterval": 800,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65348,7 +70522,52 @@ var melvorData = {
                 }
             ],
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Burning Fireball",
+                    "id": 100,
+                    "description": "An <avoidable> attack that deals <damage> damage. On a hit, <hitEffect>.",
+                    "defaultChance": 40,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "Fixed",
+                            "maxPercent": 45,
+                            "roll": false
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Burn",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "CurrentHP",
+                                    "maxPercent": 15
+                                }
+                            ],
+                            "procs": 10,
+                            "interval": 250,
+                            "chance": 100
+                        }
+                    ],
+                    "cantMiss": false,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": true,
             "dropCoins": [
@@ -65436,7 +70655,6 @@ var melvorData = {
             "media": "assets/media/monsters/furious_horned_elite.svg",
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 150,
             "slayerSources": [
                 5
             ]
@@ -65482,10 +70700,10 @@ var melvorData = {
                 [
                     151,
                     1,
-                    1
+                    3
                 ]
             ],
-            "lootChance": 75,
+            "lootChance": 100,
             "media": "assets/media/monsters/plant.svg",
             "bones": -1,
             "canSlayer": true,
@@ -65547,6 +70765,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65633,6 +70853,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65722,6 +70944,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65817,6 +71041,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -65922,7 +71148,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 17,
             "slayerSources": [
                 6
             ]
@@ -66001,7 +71226,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27,
             "slayerSources": [
                 6
             ]
@@ -66064,7 +71288,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 37,
             "slayerSources": [
                 6
             ]
@@ -66131,7 +71354,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 47,
             "slayerSources": [
                 6
             ]
@@ -66176,7 +71398,175 @@ var melvorData = {
             "selectedSpell": 5,
             "media": "assets/media/monsters/elementalist.svg",
             "attackType": "magic",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Elemental Impact (Stun)",
+                    "id": 93,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 5,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Stun",
+                            "turns": 1,
+                            "chance": 100,
+                            "flavour": "Stun"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                },
+                {
+                    "name": "Elemental Impact (Freeze)",
+                    "id": 94,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 5,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Stun",
+                            "turns": 1,
+                            "chance": 100,
+                            "flavour": "Freeze"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                },
+                {
+                    "name": "Elemental Impact (Burn)",
+                    "id": 92,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 5,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "DOT",
+                            "subtype": "Burn",
+                            "damage": [
+                                {
+                                    "character": "Target",
+                                    "roll": false,
+                                    "maxRoll": "CurrentHP",
+                                    "maxPercent": 15
+                                }
+                            ],
+                            "procs": 10,
+                            "interval": 250,
+                            "chance": 100
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                },
+                {
+                    "name": "Elemental Impact (Frostburn)",
+                    "id": 95,
+                    "description": "An <avoidable> attack that deals up to <damage>. <hitEffect>.",
+                    "defaultChance": 5,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [
+                        {
+                            "type": "Modifier",
+                            "modifiers": {
+                                "increasedFrostburn": 3,
+                                "increasedAttackIntervalPercent": 10
+                            },
+                            "turns": 2,
+                            "character": "Target",
+                            "countsOn": "Target",
+                            "maxStacks": 1,
+                            "media": "assets/media/bank/candy_cane.svg"
+                        }
+                    ],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -66198,7 +71588,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 62,
             "slayerSources": [
                 6
             ]
@@ -66234,7 +71623,47 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/turkul_riders.svg",
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Sandstorm",
+                    "id": 91,
+                    "description": "An <avoidable> attack that deals up to <damage>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        },
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "CurrentHP",
+                            "maxPercent": 5,
+                            "roll": true,
+                            "minRoll": "CurrentHP",
+                            "minPercent": 1
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -66266,7 +71695,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 27,
             "slayerSources": [
                 7
             ]
@@ -66306,7 +71734,47 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/turkul_archers.svg",
             "attackType": "ranged",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Sandstorm",
+                    "id": 91,
+                    "description": "An <avoidable> attack that deals up to <damage>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        },
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "CurrentHP",
+                            "maxPercent": 5,
+                            "roll": true,
+                            "minRoll": "CurrentHP",
+                            "minPercent": 1
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -66338,7 +71806,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 35,
             "slayerSources": [
                 7
             ]
@@ -66378,7 +71845,47 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/turkul_throwers.svg",
             "attackType": "ranged",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Sandstorm",
+                    "id": 91,
+                    "description": "An <avoidable> attack that deals up to <damage>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        },
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "CurrentHP",
+                            "maxPercent": 5,
+                            "roll": true,
+                            "minRoll": "CurrentHP",
+                            "minPercent": 1
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -66420,7 +71927,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 40,
             "slayerSources": [
                 7
             ]
@@ -66464,7 +71970,47 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/turkul_giant.svg",
             "attackType": "melee",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Sandstorm",
+                    "id": 91,
+                    "description": "An <avoidable> attack that deals up to <damage>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        },
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "CurrentHP",
+                            "maxPercent": 5,
+                            "roll": true,
+                            "minRoll": "CurrentHP",
+                            "minPercent": 1
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -66501,7 +72047,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 60,
             "slayerSources": [
                 7
             ]
@@ -66541,7 +72086,47 @@ var melvorData = {
             ],
             "media": "assets/media/monsters/turkul_general.svg",
             "attackType": "ranged",
-            "specialAttacks": [],
+            "specialAttacks": [
+                {
+                    "name": "Lesser Sandstorm",
+                    "id": 91,
+                    "description": "An <avoidable> attack that deals up to <damage>.",
+                    "defaultChance": 30,
+                    "damage": [
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "MaxHit",
+                            "maxPercent": 100,
+                            "minRoll": "MinHit",
+                            "minPercent": 100,
+                            "roll": true
+                        },
+                        {
+                            "character": "Attacker",
+                            "maxRoll": "CurrentHP",
+                            "maxPercent": 5,
+                            "roll": true,
+                            "minRoll": "CurrentHP",
+                            "minPercent": 1
+                        }
+                    ],
+                    "prehitEffects": [],
+                    "onhitEffects": [],
+                    "cantMiss": true,
+                    "minAccuracy": 0,
+                    "attackCount": 1,
+                    "attackInterval": -1,
+                    "lifesteal": 0,
+                    "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
+                    "attackTypes": [
+                        "melee",
+                        "ranged",
+                        "magic"
+                    ]
+                }
+            ],
             "ignoreCompletion": false,
             "isBoss": false,
             "dropCoins": [
@@ -66578,7 +72163,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 72,
             "slayerSources": [
                 7
             ]
@@ -66624,7 +72208,7 @@ var melvorData = {
             "attackType": "ranged",
             "specialAttacks": [
                 {
-                    "name": "Sandstorm",
+                    "name": "Greater Sandstorm",
                     "id": 59,
                     "description": "An unavoidable attack that deals <damage> damage <count> times over <duration>.",
                     "defaultChance": 40,
@@ -66646,6 +72230,8 @@ var melvorData = {
                     "attackInterval": 500,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -66674,7 +72260,6 @@ var melvorData = {
             "lootChance": 80,
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 92,
             "slayerSources": [
                 7
             ]
@@ -66752,6 +72337,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -66790,7 +72377,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 215,
             "slayerSources": [
                 8
             ]
@@ -66852,6 +72438,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 100,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -66885,7 +72473,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 506,
             "canSlayer": true,
-            "slayerXP": 245,
             "slayerSources": [
                 8
             ]
@@ -66963,6 +72550,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67001,7 +72590,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 270,
             "slayerSources": [
                 8
             ]
@@ -67072,6 +72660,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67115,7 +72705,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 290,
             "slayerSources": [
                 8
             ]
@@ -67181,6 +72770,8 @@ var melvorData = {
                     "attackInterval": 150,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67207,6 +72798,8 @@ var melvorData = {
                     "attackInterval": 500,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67235,7 +72828,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 440,
             "canSlayer": true,
-            "slayerXP": 355,
             "slayerSources": [
                 9
             ]
@@ -67297,6 +72889,8 @@ var melvorData = {
                     "attackInterval": 150,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67335,6 +72929,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67352,7 +72948,7 @@ var melvorData = {
                 [
                     935,
                     350,
-                    50
+                    40
                 ],
                 [
                     949,
@@ -67363,7 +72959,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 440,
             "canSlayer": true,
-            "slayerXP": 340,
             "slayerSources": [
                 9
             ]
@@ -67426,6 +73021,8 @@ var melvorData = {
                     "attackInterval": 150,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67452,6 +73049,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67485,7 +73084,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 440,
             "canSlayer": true,
-            "slayerXP": 325,
             "slayerSources": [
                 9
             ]
@@ -67558,6 +73156,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67596,6 +73196,8 @@ var melvorData = {
                     "attackInterval": 400,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67619,7 +73221,6 @@ var melvorData = {
             "lootChance": 2,
             "bones": 441,
             "canSlayer": true,
-            "slayerXP": 390,
             "slayerSources": [
                 10
             ]
@@ -67692,6 +73293,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67725,6 +73328,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67748,7 +73353,6 @@ var melvorData = {
             "lootChance": 2,
             "bones": 441,
             "canSlayer": true,
-            "slayerXP": 405,
             "slayerSources": [
                 10
             ]
@@ -67814,6 +73418,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67852,6 +73458,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -67875,7 +73483,6 @@ var melvorData = {
             "lootChance": 2,
             "bones": 441,
             "canSlayer": true,
-            "slayerXP": 420,
             "slayerSources": [
                 10
             ]
@@ -67947,7 +73554,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 60,
             "slayerSources": [
                 3
             ]
@@ -68002,7 +73608,6 @@ var melvorData = {
             "lootChance": 100,
             "bones": 500,
             "canSlayer": true,
-            "slayerXP": 72,
             "slayerSources": [
                 3
             ]
@@ -68055,8 +73660,7 @@ var melvorData = {
             ],
             "lootChance": 1,
             "bones": 439,
-            "canSlayer": true,
-            "slayerXP": 25
+            "canSlayer": true
         },
         {
             "id": 140,
@@ -68359,6 +73963,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68437,6 +74043,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68466,6 +74074,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68550,6 +74160,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68577,6 +74189,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68620,6 +74234,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68647,6 +74263,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68713,7 +74331,7 @@ var melvorData = {
                 {
                     "name": "Mark of Death",
                     "id": 78,
-                    "description": "An <avoidable> attack that deals <damage> damage, and <prehitEffect>.",
+                    "description": "An <avoidable> attack that deals <damage> damage, and <hitEffect>.",
                     "defaultChance": 50,
                     "damage": [
                         {
@@ -68723,7 +74341,8 @@ var melvorData = {
                             "roll": false
                         }
                     ],
-                    "prehitEffects": [
+                    "prehitEffects": [],
+                    "onhitEffects": [
                         {
                             "type": "Stacking",
                             "name": "Mark of Death",
@@ -68736,13 +74355,14 @@ var melvorData = {
                             "id": 0
                         }
                     ],
-                    "onhitEffects": [],
                     "cantMiss": true,
                     "minAccuracy": 0,
                     "attackCount": 1,
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68769,6 +74389,8 @@ var melvorData = {
                     "attackInterval": 250,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68795,6 +74417,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 100,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68877,7 +74501,7 @@ var melvorData = {
                 {
                     "name": "Mark of Death",
                     "id": 78,
-                    "description": "An <avoidable> attack that deals <damage> damage, and <prehitEffect>.",
+                    "description": "An <avoidable> attack that deals <damage> damage, and <hitEffect>.",
                     "defaultChance": 50,
                     "damage": [
                         {
@@ -68887,7 +74511,8 @@ var melvorData = {
                             "roll": false
                         }
                     ],
-                    "prehitEffects": [
+                    "prehitEffects": [],
+                    "onhitEffects": [
                         {
                             "type": "Stacking",
                             "name": "Mark of Death",
@@ -68900,13 +74525,14 @@ var melvorData = {
                             "id": 0
                         }
                     ],
-                    "onhitEffects": [],
                     "cantMiss": true,
                     "minAccuracy": 0,
                     "attackCount": 1,
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68930,9 +74556,11 @@ var melvorData = {
                     "onhitEffects": [],
                     "cantMiss": false,
                     "attackCount": 1,
-                    "attackInterval": -1,
+                    "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -68978,6 +74606,8 @@ var melvorData = {
                     "attackInterval": -1,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -69087,6 +74717,8 @@ var melvorData = {
                     "attackInterval": 700,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -69096,7 +74728,7 @@ var melvorData = {
                 {
                     "name": "Into the Mist",
                     "id": 84,
-                    "description": "<Attacker> dissapears into the Mist. <PrehitEffect>.",
+                    "description": "<Attacker> disappears into the Mist. <PrehitEffect>.",
                     "defaultChance": 15,
                     "damage": [],
                     "prehitEffects": [
@@ -69106,7 +74738,9 @@ var melvorData = {
                                 "increasedDamageReduction": 10
                             },
                             "maxStacks": 10,
-                            "media": "assets/media/status/evasion_increase.svg"
+                            "media": "assets/media/status/evasion_increase.svg",
+                            "turns": 0,
+                            "name": "Mist's Protection"
                         },
                         {
                             "type": "DOT",
@@ -69131,6 +74765,8 @@ var melvorData = {
                     "attackInterval": 10000,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -69158,6 +74794,8 @@ var melvorData = {
                     "attackInterval": 200,
                     "lifesteal": 0,
                     "useRunesPerProc": false,
+                    "usePrayerPointsPerProc": true,
+                    "usePotionChargesPerProc": true,
                     "attackTypes": [
                         "melee",
                         "ranged",
@@ -69244,7 +74882,6 @@ var melvorData = {
             "media": "assets/media/monsters/superior_eye_monster.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 90,
             "ignoreCompletion": false,
             "specialAttacks": [],
             "lootChance": 100,
@@ -69302,7 +74939,6 @@ var melvorData = {
             "media": "assets/media/monsters/eye_of_fear.svg",
             "bones": 439,
             "canSlayer": true,
-            "slayerXP": 165,
             "ignoreCompletion": false,
             "specialAttacks": [],
             "lootChance": 100,
@@ -69314,438 +74950,1314 @@ var melvorData = {
     ],
     "thievingTargets": [
         {
+            "id": 0,
             "name": "Man",
+            "media": "assets/media/skills/thieving/man.svg",
             "level": 1,
+            "perception": 110,
+            "maxHit": 2.2,
             "xp": 5,
-            "maxHit": 1,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 20,
-            "lootTable": [],
-            "media": "assets/media/skills/thieving/man.svg"
+            "maxGP": 100,
+            "uniqueDrop": {
+                "itemID": -1,
+                "qty": 1
+            },
+            "lootTable": []
         },
         {
+            "id": 1,
             "name": "Golbin",
-            "level": 10,
+            "media": "assets/media/skills/thieving/goblin.svg",
+            "level": 8,
+            "perception": 175,
+            "maxHit": 4,
             "xp": 10,
-            "maxHit": 2,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 50,
-            "lootTable": [],
-            "media": "assets/media/skills/thieving/goblin.svg"
-        },
-        {
-            "name": "Lumberjack",
-            "level": 20,
-            "xp": 20,
-            "maxHit": 3,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 100,
-            "lootTable": [
-                [
-                    0,
-                    70
-                ],
-                [
-                    1,
-                    50
-                ],
-                [
-                    2,
-                    30
-                ],
-                [
-                    3,
-                    20
-                ],
-                [
-                    4,
-                    15
-                ],
-                [
-                    5,
-                    7
-                ],
-                [
-                    6,
-                    5
-                ],
-                [
-                    7,
-                    2
-                ],
-                [
-                    8,
-                    1
-                ]
-            ],
-            "media": "assets/media/skills/thieving/lumberjack.svg"
-        },
-        {
-            "name": "Farmer",
-            "level": 30,
-            "xp": 30,
-            "maxHit": 3,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 120,
-            "lootTable": [
-                [
-                    143,
-                    280
-                ],
-                [
-                    144,
-                    180
-                ],
-                [
-                    620,
-                    150
-                ],
-                [
-                    145,
-                    140
-                ],
-                [
-                    146,
-                    110
-                ],
-                [
-                    147,
-                    80
-                ],
-                [
-                    148,
-                    50
-                ],
-                [
-                    149,
-                    20
-                ],
-                [
-                    159,
-                    20
-                ],
-                [
-                    150,
-                    18
-                ],
-                [
-                    469,
-                    15
-                ],
-                [
-                    160,
-                    80
-                ],
-                [
-                    161,
-                    30
-                ],
-                [
-                    162,
-                    15
-                ],
-                [
-                    163,
-                    5
-                ],
-                [
-                    164,
-                    1
-                ]
-            ],
-            "media": "assets/media/skills/thieving/farmer.svg"
-        },
-        {
-            "name": "Fisherman",
-            "level": 40,
-            "xp": 45,
-            "maxHit": 4,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 140,
-            "lootTable": [
-                [
-                    9,
-                    40
-                ],
-                [
-                    10,
-                    35
-                ],
-                [
-                    11,
-                    30
-                ],
-                [
-                    12,
-                    25
-                ],
-                [
-                    13,
-                    20
-                ],
-                [
-                    14,
-                    16
-                ],
-                [
-                    15,
-                    12
-                ],
-                [
-                    16,
-                    10
-                ],
-                [
-                    17,
-                    5
-                ],
-                [
-                    18,
-                    2
-                ],
-                [
-                    120,
-                    1
-                ]
-            ],
-            "media": "assets/media/skills/thieving/fisherman.svg"
-        },
-        {
-            "name": "Chef",
-            "level": 50,
-            "xp": 55,
-            "maxHit": 4,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 160,
-            "lootTable": [
-                [
-                    21,
-                    40
-                ],
-                [
-                    22,
-                    35
-                ],
-                [
-                    23,
-                    30
-                ],
-                [
-                    24,
-                    25
-                ],
-                [
-                    25,
-                    20
-                ],
-                [
-                    26,
-                    16
-                ],
-                [
-                    27,
-                    8
-                ],
-                [
-                    28,
-                    5
-                ],
-                [
-                    29,
-                    1
-                ]
-            ],
-            "media": "assets/media/skills/thieving/chef.svg"
-        },
-        {
-            "name": "Miner",
-            "level": 60,
-            "xp": 65,
-            "maxHit": 4,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 180,
+            "maxGP": 175,
+            "uniqueDrop": {
+                "itemID": -1,
+                "qty": 1
+            },
             "lootTable": [
                 [
                     45,
-                    210
+                    50,
+                    1
                 ],
                 [
                     46,
-                    210
+                    50,
+                    1
                 ],
                 [
                     47,
-                    140
+                    12,
+                    1
                 ],
                 [
-                    48,
-                    124
+                    55,
+                    50,
+                    1
                 ],
                 [
-                    49,
-                    100
+                    56,
+                    15,
+                    1
                 ],
+                [
+                    57,
+                    10,
+                    1
+                ],
+                [
+                    0,
+                    50,
+                    1
+                ],
+                [
+                    1,
+                    15,
+                    1
+                ],
+                [
+                    2,
+                    10,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Lumberjack",
+            "media": "assets/media/skills/thieving/lumberjack.svg",
+            "level": 61,
+            "perception": 480,
+            "maxHit": 15.5,
+            "xp": 62,
+            "maxGP": 500,
+            "uniqueDrop": {
+                "itemID": 1099,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    4,
+                    10,
+                    1
+                ],
+                [
+                    5,
+                    6,
+                    1
+                ],
+                [
+                    6,
+                    4,
+                    1
+                ],
+                [
+                    7,
+                    2,
+                    1
+                ],
+                [
+                    8,
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bob the Farmer",
+            "media": "assets/media/skills/thieving/farmer.svg",
+            "level": 39,
+            "perception": 420,
+            "maxHit": 13.7,
+            "xp": 36,
+            "maxGP": 400,
+            "uniqueDrop": {
+                "itemID": 1096,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    143,
+                    280,
+                    1
+                ],
+                [
+                    144,
+                    180,
+                    1
+                ],
+                [
+                    620,
+                    150,
+                    1
+                ],
+                [
+                    145,
+                    140,
+                    1
+                ],
+                [
+                    146,
+                    110,
+                    1
+                ],
+                [
+                    147,
+                    80,
+                    1
+                ],
+                [
+                    148,
+                    50,
+                    1
+                ],
+                [
+                    1062,
+                    35,
+                    1
+                ],
+                [
+                    149,
+                    20,
+                    1
+                ],
+                [
+                    159,
+                    20,
+                    1
+                ],
+                [
+                    150,
+                    18,
+                    1
+                ],
+                [
+                    469,
+                    15,
+                    1
+                ],
+                [
+                    160,
+                    80,
+                    1
+                ],
+                [
+                    161,
+                    30,
+                    1
+                ],
+                [
+                    162,
+                    15,
+                    1
+                ],
+                [
+                    163,
+                    5,
+                    1
+                ],
+                [
+                    164,
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Fisherman",
+            "media": "assets/media/skills/thieving/fisherman.svg",
+            "level": 54,
+            "perception": 400,
+            "maxHit": 10.1,
+            "xp": 46,
+            "maxGP": 450,
+            "uniqueDrop": {
+                "itemID": -1,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    15,
+                    80,
+                    1
+                ],
+                [
+                    662,
+                    80,
+                    1
+                ],
+                [
+                    663,
+                    60,
+                    1
+                ],
+                [
+                    16,
+                    46,
+                    1
+                ],
+                [
+                    665,
+                    36,
+                    1
+                ],
+                [
+                    17,
+                    29,
+                    1
+                ],
+                [
+                    18,
+                    23,
+                    1
+                ],
+                [
+                    19,
+                    16,
+                    1
+                ],
+                [
+                    20,
+                    11,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Chef",
+            "media": "assets/media/skills/thieving/chef.svg",
+            "level": 34,
+            "perception": 350,
+            "maxHit": 10.8,
+            "xp": 31,
+            "maxGP": 300,
+            "uniqueDrop": {
+                "itemID": 1091,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    26,
+                    39,
+                    1
+                ],
+                [
+                    1022,
+                    21,
+                    1
+                ],
+                [
+                    671,
+                    20,
+                    1
+                ],
+                [
+                    1023,
+                    13,
+                    1
+                ],
+                [
+                    29,
+                    7,
+                    1
+                ],
+                [
+                    1025,
+                    6,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Miner",
+            "media": "assets/media/skills/thieving/miner.svg",
+            "level": 70,
+            "perception": 600,
+            "maxHit": 18,
+            "xp": 73,
+            "maxGP": 550,
+            "uniqueDrop": {
+                "itemID": 1100,
+                "qty": 1
+            },
+            "lootTable": [
                 [
                     50,
-                    80
+                    156,
+                    1
                 ],
                 [
                     51,
-                    50
+                    80,
+                    1
                 ],
                 [
                     52,
-                    10
+                    29,
+                    1
                 ],
                 [
                     53,
+                    19,
                     1
                 ],
                 [
-                    128,
-                    1
-                ],
-                [
-                    129,
-                    1
-                ],
-                [
-                    130,
-                    1
-                ],
-                [
-                    131,
-                    1
-                ],
-                [
-                    132,
+                    54,
+                    11,
                     1
                 ]
-            ],
-            "media": "assets/media/skills/thieving/miner.svg"
+            ]
         },
         {
+            "id": 7,
             "name": "Knight",
-            "level": 75,
-            "xp": 90,
-            "maxHit": 5,
-            "baseSuccess": 57.5,
-            "maxSuccess": 95,
-            "maxCoins": 200,
+            "media": "assets/media/skills/thieving/knight.svg",
+            "level": 88,
+            "perception": 820,
+            "maxHit": 24.1,
+            "xp": 107,
+            "maxGP": 750,
+            "uniqueDrop": {
+                "itemID": 1093,
+                "qty": 1
+            },
             "lootTable": [
                 [
-                    63,
-                    80
+                    115,
+                    61,
+                    1
                 ],
                 [
-                    64,
-                    80
-                ],
-                [
-                    65,
-                    80
-                ],
-                [
-                    66,
-                    80
-                ],
-                [
-                    71,
-                    65
-                ],
-                [
-                    72,
-                    65
-                ],
-                [
-                    73,
-                    65
-                ],
-                [
+                    110,
                     74,
-                    65
+                    1
                 ],
                 [
-                    79,
-                    50
+                    101,
+                    199,
+                    1
                 ],
                 [
-                    80,
-                    50
-                ],
-                [
-                    81,
-                    50
-                ],
-                [
-                    82,
-                    50
-                ],
-                [
-                    134,
-                    35
-                ],
-                [
-                    135,
-                    35
-                ],
-                [
-                    136,
-                    35
-                ],
-                [
-                    137,
-                    35
-                ],
-                [
-                    87,
-                    15
-                ],
-                [
-                    88,
-                    15
-                ],
-                [
-                    89,
-                    15
-                ],
-                [
-                    90,
-                    15
-                ],
-                [
-                    95,
-                    5
-                ],
-                [
-                    96,
-                    5
+                    99,
+                    369,
+                    1
                 ],
                 [
                     97,
-                    5
-                ],
-                [
-                    98,
-                    5
-                ],
-                [
-                    104,
+                    343,
                     1
                 ],
                 [
                     105,
+                    129,
+                    1
+                ],
+                [
+                    111,
+                    83,
+                    1
+                ],
+                [
+                    98,
+                    226,
+                    1
+                ],
+                [
+                    126,
+                    103,
                     1
                 ]
-            ],
-            "media": "assets/media/skills/thieving/knight.svg"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Woman",
+            "media": "assets/media/skills/thieving/woman.svg",
+            "level": 4,
+            "perception": 140,
+            "maxHit": 3.2,
+            "xp": 7,
+            "maxGP": 150,
+            "uniqueDrop": {
+                "itemID": 1098,
+                "qty": 1
+            },
+            "lootTable": []
+        },
+        {
+            "id": 9,
+            "name": "Golbin Chief",
+            "media": "assets/media/skills/thieving/golbin_chief.svg",
+            "level": 16,
+            "perception": 280,
+            "maxHit": 10.1,
+            "xp": 18,
+            "maxGP": 275,
+            "uniqueDrop": {
+                "itemID": 1097,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    48,
+                    22,
+                    1
+                ],
+                [
+                    50,
+                    12,
+                    1
+                ],
+                [
+                    58,
+                    9,
+                    1
+                ],
+                [
+                    60,
+                    6,
+                    1
+                ],
+                [
+                    4,
+                    9,
+                    1
+                ],
+                [
+                    6,
+                    5,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Bandit Thug",
+            "media": "assets/media/skills/thieving/bandit_thug.svg",
+            "level": 12,
+            "perception": 220,
+            "maxHit": 5.4,
+            "xp": 13,
+            "maxGP": 200,
+            "uniqueDrop": {
+                "itemID": -1,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    250,
+                    20,
+                    1
+                ],
+                [
+                    256,
+                    20,
+                    1
+                ],
+                [
+                    262,
+                    20,
+                    10
+                ],
+                [
+                    263,
+                    20,
+                    10
+                ],
+                [
+                    251,
+                    4,
+                    1
+                ],
+                [
+                    257,
+                    4,
+                    1
+                ],
+                [
+                    264,
+                    4,
+                    10
+                ],
+                [
+                    252,
+                    1,
+                    1
+                ],
+                [
+                    258,
+                    1,
+                    1
+                ],
+                [
+                    265,
+                    1,
+                    10
+                ]
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Marauder",
+            "media": "assets/media/skills/thieving/marauder.svg",
+            "level": 21,
+            "perception": 250,
+            "maxHit": 6.8,
+            "xp": 19,
+            "maxGP": 225,
+            "uniqueDrop": {
+                "itemID": 1089,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    266,
+                    249,
+                    10
+                ],
+                [
+                    267,
+                    48,
+                    10
+                ],
+                [
+                    268,
+                    26,
+                    10
+                ],
+                [
+                    693,
+                    5,
+                    1
+                ],
+                [
+                    694,
+                    3,
+                    1
+                ],
+                [
+                    695,
+                    1,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Merchant",
+            "media": "assets/media/skills/thieving/merchant.svg",
+            "level": 31,
+            "perception": 300,
+            "maxHit": 9.7,
+            "xp": 29,
+            "maxGP": 350,
+            "uniqueDrop": {
+                "itemID": 1095,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    519,
+                    324,
+                    1
+                ],
+                [
+                    520,
+                    150,
+                    1
+                ],
+                [
+                    521,
+                    105,
+                    1
+                ],
+                [
+                    522,
+                    83,
+                    1
+                ],
+                [
+                    523,
+                    64,
+                    1
+                ],
+                [
+                    524,
+                    56,
+                    1
+                ],
+                [
+                    525,
+                    51,
+                    1
+                ],
+                [
+                    526,
+                    46,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Assistant Cook",
+            "media": "assets/media/skills/thieving/assistant_cook.svg",
+            "level": 26,
+            "perception": 275,
+            "maxHit": 8.6,
+            "xp": 26,
+            "maxGP": 250,
+            "uniqueDrop": {
+                "itemID": 1090,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    1011,
+                    53,
+                    1
+                ],
+                [
+                    1015,
+                    37,
+                    1
+                ],
+                [
+                    22,
+                    23,
+                    1
+                ],
+                [
+                    1017,
+                    13,
+                    1
+                ],
+                [
+                    23,
+                    12,
+                    1
+                ],
+                [
+                    1018,
+                    7,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Dock Hand",
+            "media": "assets/media/skills/thieving/dock_hand.svg",
+            "level": 45,
+            "perception": 375,
+            "maxHit": 11.9,
+            "xp": 42,
+            "maxGP": 375,
+            "uniqueDrop": {
+                "itemID": 1101,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    9,
+                    50,
+                    1
+                ],
+                [
+                    10,
+                    13,
+                    1
+                ],
+                [
+                    656,
+                    9,
+                    1
+                ],
+                [
+                    11,
+                    7,
+                    1
+                ],
+                [
+                    12,
+                    4,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Troll",
+            "media": "assets/media/skills/thieving/troll.svg",
+            "level": 49,
+            "perception": 450,
+            "maxHit": 15.1,
+            "xp": 50,
+            "maxGP": 425,
+            "uniqueDrop": {
+                "itemID": -1,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    49,
+                    40,
+                    1
+                ],
+                [
+                    51,
+                    11,
+                    1
+                ],
+                [
+                    133,
+                    27,
+                    1
+                ],
+                [
+                    59,
+                    19,
+                    1
+                ],
+                [
+                    3,
+                    27,
+                    1
+                ],
+                [
+                    5,
+                    8,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Cyclops",
+            "media": "assets/media/skills/thieving/cyclops.svg",
+            "level": 57,
+            "perception": 520,
+            "maxHit": 17.3,
+            "xp": 53,
+            "maxGP": 475,
+            "uniqueDrop": {
+                "itemID": 1094,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    7,
+                    26,
+                    1
+                ],
+                [
+                    4,
+                    100,
+                    1
+                ],
+                [
+                    61,
+                    31,
+                    1
+                ],
+                [
+                    60,
+                    59,
+                    1
+                ],
+                [
+                    53,
+                    22,
+                    1
+                ],
+                [
+                    52,
+                    31,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Squire",
+            "media": "assets/media/skills/thieving/squire.svg",
+            "level": 66,
+            "perception": 550,
+            "maxHit": 16.9,
+            "xp": 67,
+            "maxGP": 525,
+            "uniqueDrop": {
+                "itemID": 1092,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    64,
+                    100,
+                    1
+                ],
+                [
+                    432,
+                    53,
+                    1
+                ],
+                [
+                    134,
+                    12,
+                    1
+                ],
+                [
+                    82,
+                    23,
+                    1
+                ],
+                [
+                    89,
+                    6,
+                    1
+                ],
+                [
+                    122,
+                    53,
+                    1
+                ],
+                [
+                    464,
+                    23,
+                    1
+                ],
+                [
+                    68,
+                    100,
+                    1
+                ],
+                [
+                    94,
+                    6,
+                    1
+                ],
+                [
+                    75,
+                    53,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Wizard",
+            "media": "assets/media/skills/thieving/wizard.svg",
+            "level": 84,
+            "perception": 750,
+            "maxHit": 21.6,
+            "xp": 95,
+            "maxGP": 700,
+            "uniqueDrop": {
+                "itemID": 1106,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    395,
+                    137,
+                    10
+                ],
+                [
+                    850,
+                    105,
+                    1
+                ],
+                [
+                    821,
+                    98,
+                    10
+                ],
+                [
+                    827,
+                    98,
+                    10
+                ],
+                [
+                    853,
+                    82,
+                    1
+                ],
+                [
+                    852,
+                    66,
+                    1
+                ],
+                [
+                    858,
+                    62,
+                    1
+                ],
+                [
+                    822,
+                    56,
+                    10
+                ],
+                [
+                    828,
+                    56,
+                    10
+                ],
+                [
+                    851,
+                    53,
+                    1
+                ],
+                [
+                    861,
+                    51,
+                    1
+                ],
+                [
+                    860,
+                    42,
+                    1
+                ],
+                [
+                    829,
+                    35,
+                    10
+                ],
+                [
+                    859,
+                    35,
+                    1
+                ],
+                [
+                    396,
+                    29,
+                    10
+                ],
+                [
+                    397,
+                    20,
+                    10
+                ]
+            ]
+        },
+        {
+            "id": 19,
+            "name": "Acolyte",
+            "media": "assets/media/skills/thieving/acolyte.svg",
+            "level": 75,
+            "perception": 575,
+            "maxHit": 16.2,
+            "xp": 76,
+            "maxGP": 575,
+            "uniqueDrop": {
+                "itemID": 1105,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    388,
+                    75,
+                    1
+                ],
+                [
+                    389,
+                    75,
+                    10
+                ],
+                [
+                    830,
+                    75,
+                    1
+                ],
+                [
+                    390,
+                    60,
+                    10
+                ],
+                [
+                    833,
+                    49,
+                    1
+                ],
+                [
+                    391,
+                    43,
+                    10
+                ],
+                [
+                    832,
+                    36,
+                    1
+                ],
+                [
+                    392,
+                    32,
+                    10
+                ],
+                [
+                    838,
+                    32,
+                    1
+                ],
+                [
+                    824,
+                    30,
+                    10
+                ],
+                [
+                    831,
+                    29,
+                    1
+                ],
+                [
+                    841,
+                    26,
+                    1
+                ],
+                [
+                    393,
+                    25,
+                    10
+                ],
+                [
+                    820,
+                    24,
+                    10
+                ],
+                [
+                    840,
+                    23,
+                    1
+                ],
+                [
+                    394,
+                    21,
+                    10
+                ],
+                [
+                    825,
+                    21,
+                    10
+                ],
+                [
+                    839,
+                    20,
+                    1
+                ],
+                [
+                    826,
+                    17,
+                    10
+                ]
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Court Jester",
+            "media": "assets/media/skills/thieving/court_jester.svg",
+            "level": 79,
+            "perception": 715,
+            "maxHit": 19.8,
+            "xp": 82,
+            "maxGP": 625,
+            "uniqueDrop": {
+                "itemID": 1102,
+                "qty": 1
+            },
+            "lootTable": []
+        },
+        {
+            "id": 21,
+            "name": "King",
+            "media": "assets/media/skills/thieving/king.svg",
+            "level": 95,
+            "perception": 950,
+            "maxHit": 30.6,
+            "xp": 133,
+            "maxGP": 1000,
+            "uniqueDrop": {
+                "itemID": 1104,
+                "qty": 1
+            },
+            "lootTable": [
+                [
+                    130,
+                    9,
+                    1
+                ],
+                [
+                    317,
+                    16,
+                    1
+                ],
+                [
+                    327,
+                    14,
+                    1
+                ],
+                [
+                    322,
+                    13,
+                    1
+                ],
+                [
+                    332,
+                    14,
+                    1
+                ],
+                [
+                    131,
+                    9,
+                    1
+                ],
+                [
+                    318,
+                    15,
+                    1
+                ],
+                [
+                    323,
+                    12,
+                    1
+                ],
+                [
+                    328,
+                    14,
+                    1
+                ],
+                [
+                    333,
+                    12,
+                    1
+                ],
+                [
+                    132,
+                    1,
+                    1
+                ],
+                [
+                    324,
+                    3,
+                    1
+                ],
+                [
+                    334,
+                    3,
+                    1
+                ],
+                [
+                    316,
+                    36,
+                    1
+                ],
+                [
+                    326,
+                    68,
+                    1
+                ],
+                [
+                    321,
+                    46,
+                    1
+                ],
+                [
+                    331,
+                    44,
+                    1
+                ]
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Princess",
+            "media": "assets/media/skills/thieving/princess.svg",
+            "level": 92,
+            "perception": 890,
+            "maxHit": 26.6,
+            "xp": 120,
+            "maxGP": 850,
+            "uniqueDrop": {
+                "itemID": 1103,
+                "qty": 300
+            },
+            "lootTable": [
+                [
+                    128,
+                    8,
+                    1
+                ],
+                [
+                    315,
+                    10,
+                    1
+                ],
+                [
+                    325,
+                    9,
+                    1
+                ],
+                [
+                    320,
+                    10,
+                    1
+                ],
+                [
+                    330,
+                    9,
+                    1
+                ],
+                [
+                    129,
+                    6,
+                    1
+                ],
+                [
+                    316,
+                    7,
+                    1
+                ],
+                [
+                    326,
+                    9,
+                    1
+                ],
+                [
+                    321,
+                    7,
+                    1
+                ],
+                [
+                    331,
+                    7,
+                    1
+                ],
+                [
+                    319,
+                    2,
+                    1
+                ],
+                [
+                    329,
+                    3,
+                    1
+                ],
+                [
+                    58,
+                    13,
+                    1
+                ],
+                [
+                    133,
+                    32,
+                    1
+                ]
+            ]
         }
     ],
     "glovesCost": [
@@ -70389,10 +76901,11 @@ var melvorData = {
     ],
     "altMagic": [
         {
+            "id": 0,
             "name": "Just Learning",
             "media": "assets/media/skills/magic/magic.svg",
-            "description": "Convert selected item into 1 Rune Essence.<br>5 XP",
-            "magicLevelRequired": 1,
+            "description": "Convert selected item into 1 Rune Essence.",
+            "level": 1,
             "selectItem": 1,
             "isAlch": false,
             "isJunk": false,
@@ -70421,10 +76934,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 1,
             "name": "Superheat I",
             "media": "assets/media/skills/magic/superheat_i.svg",
-            "description": "Create 1 x bar using 1 x required ores.<br>8 XP",
-            "magicLevelRequired": 5,
+            "description": "Create 1 x bars using 1 x required ores.",
+            "level": 5,
             "selectItem": 0,
             "convertToQty": 1,
             "magicXP": 8,
@@ -70455,10 +76969,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 2,
             "name": "Item Alchemy I",
             "media": "assets/media/skills/magic/item_alchemy.svg",
-            "description": "Convert selected item into GP worth 40% of the item base sell value.<br>10 XP",
-            "magicLevelRequired": 10,
+            "description": "Convert selected item into GP worth 40% of the item's base sale price.",
+            "level": 10,
             "convertToQty": 0.4,
             "selectItem": 1,
             "isAlch": true,
@@ -70486,10 +77001,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 3,
             "name": "Bone Offering",
-            "media": "assets/media/bank/bones.svg",
-            "description": "Creates 2 x Bones<br>12 XP",
-            "magicLevelRequired": 18,
+            "media": "assets/media/bank/bones.png",
+            "description": "Creates 2 x Bones.",
+            "level": 18,
             "needCoal": false,
             "convertTo": 439,
             "convertToQty": 2,
@@ -70517,10 +77033,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 4,
             "name": "Superheat II",
             "media": "assets/media/skills/magic/superheat_ii.svg",
-            "description": "Create 2 x bars using 1 x required ores.<br>15 XP",
-            "magicLevelRequired": 25,
+            "description": "Create 2 x bars using 1 x required ores.",
+            "level": 25,
             "selectItem": 0,
             "convertToQty": 2,
             "ignoreCoal": false,
@@ -70551,10 +77068,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 5,
             "name": "Item Alchemy II",
             "media": "assets/media/skills/magic/item_alchemy.svg",
-            "description": "Convert selected item into GP worth 100% of the item base sell value.<br>18 XP",
-            "magicLevelRequired": 35,
+            "description": "Convert selected item into GP worth 100% of the item's base sale price.",
+            "level": 35,
             "convertToQty": 1,
             "selectItem": 1,
             "isAlch": true,
@@ -70582,10 +77100,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 6,
             "name": "Rags to Riches I",
             "media": "assets/media/skills/magic/rags_to_riches.svg",
-            "description": "Convert selected Junk item obtained from Fishing into a random Gem.<br>21 XP",
-            "magicLevelRequired": 48,
+            "description": "Convert selected Junk item, obtained from Fishing, into a random Gem.",
+            "level": 48,
             "selectItem": 1,
             "convertToQty": 1,
             "isAlch": false,
@@ -70617,10 +77136,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 7,
             "name": "Blessed Offering",
-            "media": "assets/media/bank/holy_dust.svg",
-            "description": "Creates 2 x Holy Dust<br>24 XP",
-            "magicLevelRequired": 56,
+            "media": "assets/media/bank/holy_dust.png",
+            "description": "Creates 2 x Holy Dust.",
+            "level": 56,
             "needCoal": false,
             "convertTo": 500,
             "convertToQty": 2,
@@ -70648,10 +77168,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 8,
             "name": "Superheat III",
             "media": "assets/media/skills/magic/superheat_iii.svg",
-            "description": "Create 3 x bars using 1 x required ores.<br>28 XP",
-            "magicLevelRequired": 64,
+            "description": "Create 3 x bars using 1 x required ores.",
+            "level": 64,
             "selectItem": 0,
             "convertToQty": 3,
             "ignoreCoal": false,
@@ -70690,10 +77211,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 9,
             "name": "Rags to Riches II",
             "media": "assets/media/skills/magic/rags_to_riches.svg",
-            "description": "Convert Coal Ore into a random Gem.<br>32 XP",
-            "magicLevelRequired": 70,
+            "description": "Convert Coal Ore into a random Gem.",
+            "level": 70,
             "selectItem": -1,
             "convertToQty": 1,
             "needCoal": true,
@@ -70732,10 +77254,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 10,
             "name": "Item Alchemy III",
             "media": "assets/media/skills/magic/item_alchemy.svg",
-            "description": "Convert selected item into GP worth 160% of the item base sell value.<br>39 XP",
-            "magicLevelRequired": 76,
+            "description": "Convert selected item into GP worth 160% of the item's base sale price.",
+            "level": 76,
             "convertToQty": 1.6,
             "selectItem": 1,
             "isAlch": true,
@@ -70771,10 +77294,11 @@ var melvorData = {
             ]
         },
         {
+            "id": 11,
             "name": "Superheat IV",
             "media": "assets/media/skills/magic/superheat_iv.svg",
-            "description": "Create 3 x bars using 1 x required ores, ignoring all Coal Requirements.<br>50 XP",
-            "magicLevelRequired": 95,
+            "description": "Create 3 x bars using 1 x required ores, ignoring all Coal Requirements.",
+            "level": 95,
             "selectItem": 0,
             "convertToQty": 3,
             "ignoreCoal": true,
@@ -70862,7 +77386,7 @@ var melvorData = {
         },
         {
             "name": "Cris",
-            "description": "5% Chance to receive 2x Cooked Fish",
+            "description": "+5% Chance to double items in Cooking",
             "media": "https://cdn.melvor.net/core/v018/assets/media/pets/cooking.svg",
             "acquiredBy": "Cooking",
             "skill": 3,
@@ -70907,7 +77431,7 @@ var melvorData = {
         },
         {
             "name": "Snek",
-            "description": "Gain 50% Extra Gold from Thieving",
+            "description": "+50% GP Gained from Thieving",
             "media": "https://cdn.melvor.net/core/v018/assets/media/pets/thieving.png",
             "acquiredBy": "Thieving",
             "skill": 10,
@@ -71184,7 +77708,7 @@ var melvorData = {
         },
         {
             "name": "Chio",
-            "description": "Bandit Base Boss Pet<br>+2% Ranged Max Hit",
+            "description": "Bandit Base Boss Pet<br>+2% Ranged Maximum Hit",
             "media": "https://cdn.melvor.net/core/v018/assets/media/pets/bandit_base.svg",
             "acquiredBy": "Bandit Base",
             "skill": -1,
@@ -71203,7 +77727,7 @@ var melvorData = {
         },
         {
             "name": "Bouncing Bob",
-            "description": "Hall of Wizards Boss Pet<br>+2% Magic Max Hit",
+            "description": "Hall of Wizards Boss Pet<br>+2% Magic Maximum Hit",
             "media": "https://cdn.melvor.net/core/v018/assets/media/pets/hall_of_wizards.svg",
             "acquiredBy": "Hall of Wizards",
             "skill": -1,
@@ -71412,7 +77936,7 @@ var melvorData = {
         },
         {
             "name": "Ren",
-            "description": "Fire God Dungeon Boss Pet<br>+2% Max Hit",
+            "description": "Fire God Dungeon Boss Pet<br>+2% Maximum Hit",
             "media": "https://cdn.melvor.net/core/v018/assets/media/pets/fire_god_dungeon.svg",
             "acquiredBy": "Fire God Dungeon",
             "skill": -1,
@@ -71512,146 +78036,229 @@ var melvorData = {
             "media": "assets/media/skills/woodcutting/woodcutting.svg",
             "hasMastery": true,
             "masteryTokenID": 481,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                1099
+            ],
+            "intName": "Woodcutting"
         },
         "1": {
             "name": "Fishing",
             "media": "assets/media/skills/fishing/fishing.svg",
             "hasMastery": true,
             "masteryTokenID": 475,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                245,
+                669,
+                1075,
+                1101
+            ],
+            "intName": "Fishing"
         },
         "2": {
             "name": "Firemaking",
             "media": "assets/media/skills/firemaking/firemaking.svg",
             "hasMastery": true,
             "masteryTokenID": 474,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Firemaking"
         },
         "3": {
             "name": "Cooking",
             "media": "assets/media/skills/cooking/cooking.svg",
             "hasMastery": true,
             "masteryTokenID": 471,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                335,
+                1073,
+                1091,
+                1090
+            ],
+            "intName": "Cooking"
         },
         "4": {
             "name": "Mining",
             "media": "assets/media/skills/mining/mining.svg",
             "hasMastery": true,
             "masteryTokenID": 477,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                339,
+                336,
+                1100
+            ],
+            "intName": "Mining"
         },
         "5": {
             "name": "Smithing",
             "media": "assets/media/skills/smithing/smithing.svg",
             "hasMastery": true,
             "masteryTokenID": 479,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                337
+            ],
+            "intName": "Smithing"
         },
         "6": {
             "name": "Attack",
             "media": "assets/media/skills/attack/attack.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Attack"
         },
         "7": {
             "name": "Strength",
             "media": "assets/media/skills/strength/strength.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Strength"
         },
         "8": {
             "name": "Defence",
             "media": "assets/media/skills/defence/defence.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Defence"
         },
         "9": {
             "name": "Hitpoints",
             "media": "assets/media/skills/hitpoints/hitpoints.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Hitpoints"
         },
         "10": {
             "name": "Thieving",
             "media": "assets/media/skills/thieving/thieving.svg",
             "masteryTokenID": 480,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                338,
+                913,
+                1069,
+                1107,
+                1102,
+                1097,
+                1066
+            ],
+            "intName": "Thieving"
         },
         "11": {
             "name": "Farming",
             "media": "assets/media/skills/farming/farming.svg",
             "masteryTokenID": 473,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                811,
+                1096,
+                1108
+            ],
+            "intName": "Farming"
         },
         "12": {
             "name": "Ranged",
             "media": "assets/media/skills/ranged/ranged.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Ranged"
         },
         "13": {
             "name": "Fletching",
             "media": "assets/media/skills/fletching/fletching.svg",
             "masteryTokenID": 476,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Fletching"
         },
         "14": {
             "name": "Crafting",
             "media": "assets/media/skills/crafting/crafting.svg",
             "masteryTokenID": 472,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Crafting"
         },
         "15": {
             "name": "Runecrafting",
             "media": "assets/media/skills/runecrafting/runecrafting.svg",
             "masteryTokenID": 478,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                1109
+            ],
+            "intName": "Runecrafting"
         },
         "16": {
             "name": "Magic",
             "media": "assets/media/skills/magic/magic.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                1106
+            ],
+            "intName": "Magic"
         },
         "17": {
             "name": "Prayer",
             "media": "assets/media/skills/prayer/prayer.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Prayer"
         },
         "18": {
             "name": "Slayer",
             "media": "assets/media/skills/slayer/slayer.svg",
             "hasMastery": false,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Slayer"
         },
         "19": {
             "name": "Herblore",
             "media": "assets/media/skills/herblore/herblore.svg",
             "masteryTokenID": 631,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Herblore"
         },
         "20": {
             "name": "Agility",
             "media": "assets/media/skills/agility/agility.svg",
             "masteryTokenID": 964,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [],
+            "intName": "Agility"
         },
         "21": {
             "name": "Summoning",
             "media": "assets/media/skills/summoning/summoning.svg",
             "masteryTokenID": 997,
             "hasMastery": true,
-            "maxLevel": 99
+            "maxLevel": 99,
+            "miniBarItems": [
+                1005,
+                1006,
+                1007,
+                1008
+            ],
+            "intName": "Summoning"
         }
     },
     "combatAreas": [
