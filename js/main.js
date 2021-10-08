@@ -7,7 +7,7 @@ $(document).ready(function() {
             },
             'items': items,
             'monsters': MONSTERS,
-            'thievingTargets': thievingNPC,
+            'thievingTargets': Thieving.npcs,
             'glovesCost': glovesCost,
             'dungeons': DUNGEONS,
             'altMagic': ALTMAGIC,
@@ -171,7 +171,7 @@ $(document).ready(function() {
             }
         });
         // Add Thieving Drops To Item Array
-        thievingNPC.forEach(function(target, targetID) {
+        Thieving.npcs.forEach(function(target, targetID) {
             if (target.hasOwnProperty('lootTable')) {
                 // Get the drop weight, add them together.
                 var totalWeight = target['lootTable'].map(x => x[1]).reduce((a, b) => a + b, 0);
@@ -299,9 +299,21 @@ $(document).ready(function() {
         });
         return returnStr;
     }
+    setLanguage('en')
+    function waitForLanguages(){
+        if(typeof loadedLangJson !== "undefined"){
+            var exp = generateDataExport();
+            $('#dataExport').val('var melvorData = ' + JSON.stringify(exp, null, 4));
+            $('#dataExportMinified').val('var melvorData = ' + JSON.stringify(exp));
+        }
+        else{
+            setTimeout(waitForLanguages, 250);
+        }
+    }
+    waitForLanguages()
     //$('#downloadCommands').val(generateDownloadCommands());
-    var exp = generateDataExport();
-    $('#dataExport').val('var melvorData = ' + JSON.stringify(exp, null, 4));
-    $('#dataExportMinified').val('var melvorData = ' + JSON.stringify(exp));
+    //var exp = generateDataExport();
+    //$('#dataExport').val('var melvorData = ' + JSON.stringify(exp, null, 4));
+    //$('#dataExportMinified').val('var melvorData = ' + JSON.stringify(exp));
     //generateDataExport()
 });
