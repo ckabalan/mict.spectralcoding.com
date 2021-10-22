@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.22.1",
-        "generationDate": "2021-10-08T16:02:17.495Z"
+        "generationDate": "2021-10-22T13:59:12.233Z"
     },
     "items": [
         {
@@ -76289,7 +76289,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 25,
             "dropBones": false,
-            "id": 0
+            "id": 0,
+            "isPremium": false
         },
         {
             "name": "Undead Graveyard",
@@ -76314,7 +76315,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 26,
             "dropBones": false,
-            "id": 1
+            "id": 1,
+            "isPremium": false
         },
         {
             "name": "Spider Forest",
@@ -76339,7 +76341,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 29,
             "dropBones": false,
-            "id": 2
+            "id": 2,
+            "isPremium": false
         },
         {
             "name": "Frozen Cove",
@@ -76364,7 +76367,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 32,
             "dropBones": false,
-            "id": 3
+            "id": 3,
+            "isPremium": false
         },
         {
             "name": "Deep Sea Ship",
@@ -76391,7 +76395,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 31,
             "dropBones": false,
-            "id": 4
+            "id": 4,
+            "isPremium": false
         },
         {
             "name": "Volcanic Cave",
@@ -76417,7 +76422,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 34,
             "dropBones": false,
-            "id": 5
+            "id": 5,
+            "isPremium": false
         },
         {
             "name": "Bandit Base",
@@ -76441,7 +76447,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 27,
             "dropBones": false,
-            "id": 6
+            "id": 6,
+            "isPremium": false
         },
         {
             "name": "Hall of Wizards",
@@ -76467,7 +76474,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 28,
             "dropBones": false,
-            "id": 7
+            "id": 7,
+            "isPremium": false
         },
         {
             "name": "Air God Dungeon",
@@ -76531,7 +76539,8 @@ var melvorData = {
                 4,
                 2,
                 1
-            ]
+            ],
+            "isPremium": true
         },
         {
             "name": "Water God Dungeon",
@@ -76595,7 +76604,8 @@ var melvorData = {
                 4,
                 2,
                 1
-            ]
+            ],
+            "isPremium": true
         },
         {
             "name": "Earth God Dungeon",
@@ -76659,7 +76669,8 @@ var melvorData = {
                 4,
                 2,
                 1
-            ]
+            ],
+            "isPremium": true
         },
         {
             "name": "Fire God Dungeon",
@@ -76723,7 +76734,8 @@ var melvorData = {
                 4,
                 2,
                 1
-            ]
+            ],
+            "isPremium": true
         },
         {
             "name": "Dragons Den",
@@ -76749,7 +76761,8 @@ var melvorData = {
             "entryRequirements": [],
             "petID": 33,
             "dropBones": false,
-            "id": 12
+            "id": 12,
+            "isPremium": true
         },
         {
             "name": "Miolite Caves",
@@ -76783,7 +76796,8 @@ var melvorData = {
             ],
             "petID": 30,
             "dropBones": false,
-            "id": 13
+            "id": 13,
+            "isPremium": true
         },
         {
             "name": "Infernal Stronghold",
@@ -76837,7 +76851,8 @@ var melvorData = {
             ],
             "petID": 35,
             "dropBones": false,
-            "id": 14
+            "id": 14,
+            "isPremium": true
         },
         {
             "name": "Into the Mist",
@@ -76896,7 +76911,8 @@ var melvorData = {
             ],
             "petID": 40,
             "dropBones": false,
-            "id": 15
+            "id": 15,
+            "isPremium": true
         }
     ],
     "altMagic": [
@@ -78040,7 +78056,8 @@ var melvorData = {
             "miniBarItems": [
                 1099
             ],
-            "intName": "Woodcutting"
+            "intName": "Woodcutting",
+            "isPremium": false
         },
         "1": {
             "name": "Fishing",
@@ -78054,7 +78071,8 @@ var melvorData = {
                 1075,
                 1101
             ],
-            "intName": "Fishing"
+            "intName": "Fishing",
+            "isPremium": false
         },
         "2": {
             "name": "Firemaking",
@@ -78063,7 +78081,8 @@ var melvorData = {
             "masteryTokenID": 474,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Firemaking"
+            "intName": "Firemaking",
+            "isPremium": false
         },
         "3": {
             "name": "Cooking",
@@ -78077,7 +78096,8 @@ var melvorData = {
                 1091,
                 1090
             ],
-            "intName": "Cooking"
+            "intName": "Cooking",
+            "isPremium": false
         },
         "4": {
             "name": "Mining",
@@ -78090,7 +78110,8 @@ var melvorData = {
                 336,
                 1100
             ],
-            "intName": "Mining"
+            "intName": "Mining",
+            "isPremium": false
         },
         "5": {
             "name": "Smithing",
@@ -78101,7 +78122,8 @@ var melvorData = {
             "miniBarItems": [
                 337
             ],
-            "intName": "Smithing"
+            "intName": "Smithing",
+            "isPremium": false
         },
         "6": {
             "name": "Attack",
@@ -78109,7 +78131,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Attack"
+            "intName": "Attack",
+            "isPremium": false
         },
         "7": {
             "name": "Strength",
@@ -78117,7 +78140,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Strength"
+            "intName": "Strength",
+            "isPremium": false
         },
         "8": {
             "name": "Defence",
@@ -78125,7 +78149,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Defence"
+            "intName": "Defence",
+            "isPremium": false
         },
         "9": {
             "name": "Hitpoints",
@@ -78133,7 +78158,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Hitpoints"
+            "intName": "Hitpoints",
+            "isPremium": false
         },
         "10": {
             "name": "Thieving",
@@ -78150,7 +78176,8 @@ var melvorData = {
                 1097,
                 1066
             ],
-            "intName": "Thieving"
+            "intName": "Thieving",
+            "isPremium": true
         },
         "11": {
             "name": "Farming",
@@ -78163,7 +78190,8 @@ var melvorData = {
                 1096,
                 1108
             ],
-            "intName": "Farming"
+            "intName": "Farming",
+            "isPremium": true
         },
         "12": {
             "name": "Ranged",
@@ -78171,7 +78199,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Ranged"
+            "intName": "Ranged",
+            "isPremium": true
         },
         "13": {
             "name": "Fletching",
@@ -78180,7 +78209,8 @@ var melvorData = {
             "hasMastery": true,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Fletching"
+            "intName": "Fletching",
+            "isPremium": true
         },
         "14": {
             "name": "Crafting",
@@ -78189,7 +78219,8 @@ var melvorData = {
             "hasMastery": true,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Crafting"
+            "intName": "Crafting",
+            "isPremium": true
         },
         "15": {
             "name": "Runecrafting",
@@ -78200,7 +78231,8 @@ var melvorData = {
             "miniBarItems": [
                 1109
             ],
-            "intName": "Runecrafting"
+            "intName": "Runecrafting",
+            "isPremium": true
         },
         "16": {
             "name": "Magic",
@@ -78210,7 +78242,8 @@ var melvorData = {
             "miniBarItems": [
                 1106
             ],
-            "intName": "Magic"
+            "intName": "Magic",
+            "isPremium": true
         },
         "17": {
             "name": "Prayer",
@@ -78218,7 +78251,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Prayer"
+            "intName": "Prayer",
+            "isPremium": true
         },
         "18": {
             "name": "Slayer",
@@ -78226,7 +78260,8 @@ var melvorData = {
             "hasMastery": false,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Slayer"
+            "intName": "Slayer",
+            "isPremium": true
         },
         "19": {
             "name": "Herblore",
@@ -78235,7 +78270,8 @@ var melvorData = {
             "hasMastery": true,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Herblore"
+            "intName": "Herblore",
+            "isPremium": true
         },
         "20": {
             "name": "Agility",
@@ -78244,7 +78280,8 @@ var melvorData = {
             "hasMastery": true,
             "maxLevel": 99,
             "miniBarItems": [],
-            "intName": "Agility"
+            "intName": "Agility",
+            "isPremium": true
         },
         "21": {
             "name": "Summoning",
@@ -78258,7 +78295,8 @@ var melvorData = {
                 1007,
                 1008
             ],
-            "intName": "Summoning"
+            "intName": "Summoning",
+            "isPremium": true
         }
     },
     "combatAreas": [
