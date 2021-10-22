@@ -22,6 +22,62 @@ $(document).ready(function() {
         fixPets(exp);
         return exp;
     }
+    function minifyExport(exp) {
+        removeProperties = {
+            'items': [
+                'masteryID',
+                'sellsFor',
+                'isEquipment',
+                'cookingCategory',
+                'timeToGrow',
+                'equipmentStats',
+                'equipRequirements',
+                'validSlots',
+                'hasSpecialAttack',
+                'tier',
+                'occupiesSlots',
+                'trimmedGPCost',
+                'ignoreLangGeneration',
+                'harvestBonus',
+                'modifiers',
+                'description',
+                'ammoTypeRequired',
+                'specialAttacks',
+                'summoningDescription',
+                'attackType'
+            ],
+            'monsters': [
+                'levels',
+                'equipmentStats',
+                'attackType',
+                'specialAttacks',
+                'dropCoins',
+            ],
+            'thievingTargets': [
+                'perception',
+                'maxHit',
+                'xp',
+                'maxGP'
+            ],
+            'dungeons': [
+                'difficulty',
+                'isPremium',
+                'entryRequirements'
+            ],
+            'altMagic': [
+                'description',
+                'magicXP'
+            ]
+        }
+        Object.keys(removeProperties).forEach(topLevelKey => {
+            exp[topLevelKey].forEach(function(dictItem) {
+                removeProperties[topLevelKey].forEach(function(property) {
+                    delete dictItem[property]
+                });
+            });
+        })
+        return exp
+    }
     function fixPets(exp) {
         exp['pets'].forEach(function(pet, petID) {
             // Ty incorrectly associated with Woodcutting. Remove the association.
@@ -385,6 +441,9 @@ $(document).ready(function() {
     function waitForLanguages(){
         if(typeof loadedLangJson !== "undefined"){
             var exp = generateDataExport();
+            // Probably comment this out for debugging
+            // Removes a ton of fields that we don't need in the actual output
+            exp = minifyExport(exp);
             $('#dataExport').val('var melvorData = ' + JSON.stringify(exp, null, 4));
             $('#dataExportMinified').val('var melvorData = ' + JSON.stringify(exp));
         }
