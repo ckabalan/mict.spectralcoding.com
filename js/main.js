@@ -100,7 +100,6 @@ $(document).ready(function() {
             'Woodcutting': '',
             'Mining': '',
             'Fishing': '',
-            'Cooking': 'cookReq',
             'Farming': 'farmReq',
             'Summoning': 'summoningReq'
         }
@@ -166,6 +165,18 @@ $(document).ready(function() {
                 return monsterStr.substring(5);
             });
             skillLines.push.apply(skillLines, monsterStrs);
+        }
+        // Add Cooking Sources
+        if (melvorData['items'][itemID].hasOwnProperty('recipeRequirements')) {
+            reqStr = 'Cooking (Level ' + melvorData['items'][itemID]['cookingLevel'] + ')';
+            melvorData['items'][itemID]['recipeRequirements'].forEach(function(recipe) {
+                skillLines.push(reqStr + ':');
+                recipe.forEach(function(recipeIngredient) {
+                    if (recipeIngredient['id'] >= 0) {
+                        skillLines.push(itemLink(recipeIngredient['id'], false, true) + ' x ' + recipeIngredient['qty'].toLocaleString())
+                    }
+                })
+            });
         }
         // Add Thieving Sources
         if (melvorData['items'][itemID].hasOwnProperty('thievingSources')) {

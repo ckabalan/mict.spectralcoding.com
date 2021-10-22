@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.22.1",
-        "generationDate": "2021-10-22T15:05:39.905Z"
+        "generationDate": "2021-10-22T15:48:07.038Z"
     },
     "items": [
         {
@@ -22,131 +22,13 @@ var melvorData = {
             "cookingLevel": 99,
             "cookingXP": 69,
             "cookingCategory": 1,
-            "cookReq": [
-                {
-                    "id": 1011,
-                    "qty": 1
-                },
-                {
-                    "id": 1013,
-                    "qty": 1
-                },
-                {
-                    "id": 1013,
-                    "qty": 1
-                },
-                {
-                    "id": 1015,
-                    "qty": 1
-                },
-                {
-                    "id": 1015,
-                    "qty": 1
-                },
-                {
-                    "id": 1017,
-                    "qty": 1
-                },
-                {
-                    "id": 1017,
-                    "qty": 1
-                },
-                {
-                    "id": 1018,
-                    "qty": 1
-                },
-                {
-                    "id": 1018,
-                    "qty": 1
-                },
-                {
-                    "id": 1019,
-                    "qty": 1
-                },
-                {
-                    "id": 1019,
-                    "qty": 1
-                },
-                {
-                    "id": 1020,
-                    "qty": 1
-                },
-                {
-                    "id": 1020,
-                    "qty": 1
-                },
-                {
-                    "id": 1021,
-                    "qty": 1
-                },
-                {
-                    "id": 1021,
-                    "qty": 1
-                },
-                {
-                    "id": 1022,
-                    "qty": 1
-                },
-                {
-                    "id": 1022,
-                    "qty": 1
-                },
-                {
-                    "id": 1023,
-                    "qty": 1
-                },
-                {
-                    "id": 1023,
-                    "qty": 1
-                },
-                {
-                    "id": 1024,
-                    "qty": 1
-                },
-                {
-                    "id": 1024,
-                    "qty": 1
-                },
-                {
-                    "id": 1025,
-                    "qty": 1
-                },
-                {
-                    "id": 1025,
-                    "qty": 1
-                },
-                {
-                    "id": 1026,
-                    "qty": 1
-                },
-                {
-                    "id": 1026,
-                    "qty": 1
-                },
-                {
-                    "id": 1027,
-                    "qty": 1
-                },
-                {
-                    "id": 1027,
-                    "qty": 1
-                },
-                {
-                    "id": 1028,
-                    "qty": 1
-                },
-                {
-                    "id": 1028,
-                    "qty": 1
-                },
-                {
-                    "id": 1029,
-                    "qty": 1
-                },
-                {
-                    "id": 1029,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
             ],
             "thievingSources": [
                 {
@@ -628,6 +510,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 1,
             "media": "assets/media/bank/shrimp.png",
+            "cookingID": 0,
+            "cookingLevel": 1,
+            "cookingXP": 5,
+            "cookedItemID": 21,
+            "burntItemID": 33,
             "masteryID": [
                 1,
                 0
@@ -684,6 +571,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 3,
             "media": "assets/media/bank/sardine.png",
+            "cookingID": 1,
+            "cookingLevel": 5,
+            "cookingXP": 10,
+            "cookedItemID": 22,
+            "burntItemID": 34,
             "masteryID": [
                 1,
                 1
@@ -733,6 +625,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 8,
             "media": "assets/media/bank/herring.png",
+            "cookingID": 2,
+            "cookingLevel": 10,
+            "cookingXP": 15,
+            "cookedItemID": 23,
+            "burntItemID": 35,
             "masteryID": [
                 1,
                 2
@@ -781,6 +678,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 16,
             "media": "assets/media/bank/trout.png",
+            "cookingID": 3,
+            "cookingLevel": 20,
+            "cookingXP": 25,
+            "cookedItemID": 24,
+            "burntItemID": 36,
             "masteryID": [
                 1,
                 3
@@ -845,6 +747,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 35,
             "media": "assets/media/bank/salmon.png",
+            "cookingID": 4,
+            "cookingLevel": 35,
+            "cookingXP": 30,
+            "cookedItemID": 25,
+            "burntItemID": 37,
             "masteryID": [
                 1,
                 4
@@ -889,6 +796,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 65,
             "media": "assets/media/bank/lobster.png",
+            "cookingID": 5,
+            "cookingLevel": 40,
+            "cookingXP": 40,
+            "cookedItemID": 26,
+            "burntItemID": 38,
             "masteryID": [
                 1,
                 5
@@ -933,6 +845,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 80,
             "media": "assets/media/bank/swordfish.png",
+            "cookingID": 6,
+            "cookingLevel": 50,
+            "cookingXP": 50,
+            "cookedItemID": 27,
+            "burntItemID": 39,
             "masteryID": [
                 1,
                 6
@@ -961,6 +878,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 135,
             "media": "assets/media/bank/crab.png",
+            "cookingID": 7,
+            "cookingLevel": 60,
+            "cookingXP": 70,
+            "cookedItemID": 28,
+            "burntItemID": 40,
             "masteryID": [
                 1,
                 7
@@ -999,6 +921,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 270,
             "media": "assets/media/bank/shark.png",
+            "cookingID": 8,
+            "cookingLevel": 70,
+            "cookingXP": 80,
+            "cookedItemID": 29,
+            "burntItemID": 41,
             "masteryID": [
                 1,
                 8
@@ -1027,6 +954,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 215,
             "media": "assets/media/bank/cavefish.png",
+            "cookingID": 9,
+            "cookingLevel": 75,
+            "cookingXP": 100,
+            "cookedItemID": 30,
+            "burntItemID": 42,
             "masteryID": [
                 1,
                 9
@@ -1055,6 +987,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 650,
             "media": "assets/media/bank/mantaray.png",
+            "cookingID": 10,
+            "cookingLevel": 85,
+            "cookingXP": 125,
+            "cookedItemID": 31,
+            "burntItemID": 43,
             "masteryID": [
                 1,
                 10
@@ -1083,6 +1020,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 750,
             "media": "assets/media/bank/whale.png",
+            "cookingID": 11,
+            "cookingLevel": 95,
+            "cookingXP": 150,
+            "cookedItemID": 32,
+            "burntItemID": 44,
             "masteryID": [
                 1,
                 11
@@ -1128,14 +1070,9 @@ var melvorData = {
             "perfectItem": 1030,
             "cookingXP": 5,
             "cookingLevel": 1,
+            "cookingCategory": 0,
             "cookingInterval": 2000,
-            "media": "assets/media/bank/shrimp_cooked.png",
-            "cookReq": [
-                {
-                    "id": 9,
-                    "qty": 1
-                }
-            ]
+            "media": "assets/media/bank/shrimp_cooked.png"
         },
         {
             "category": "Cooking",
@@ -1162,14 +1099,9 @@ var melvorData = {
             "perfectItem": 1031,
             "cookingXP": 10,
             "cookingLevel": 5,
+            "cookingCategory": 0,
             "cookingInterval": 2000,
             "media": "assets/media/bank/sardine_cooked.png",
-            "cookReq": [
-                {
-                    "id": 10,
-                    "qty": 1
-                }
-            ],
             "thievingSources": [
                 {
                     "target": 13,
@@ -1206,14 +1138,9 @@ var melvorData = {
             "perfectItem": 1032,
             "cookingXP": 15,
             "cookingLevel": 10,
+            "cookingCategory": 0,
             "cookingInterval": 3000,
             "media": "assets/media/bank/herring_cooked.png",
-            "cookReq": [
-                {
-                    "id": 11,
-                    "qty": 1
-                }
-            ],
             "thievingSources": [
                 {
                     "target": 13,
@@ -1248,8 +1175,9 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1034,
-            "cookingXP": 25,
+            "cookingXP": 33,
             "cookingLevel": 20,
+            "cookingCategory": 0,
             "cookingInterval": 4000,
             "media": "assets/media/bank/trout_cooked.png",
             "monsterSources": [
@@ -1260,12 +1188,6 @@ var melvorData = {
                         1151
                     ],
                     "maxQty": 30
-                }
-            ],
-            "cookReq": [
-                {
-                    "id": 12,
-                    "qty": 1
                 }
             ]
         },
@@ -1292,8 +1214,9 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1035,
-            "cookingXP": 30,
+            "cookingXP": 40,
             "cookingLevel": 35,
+            "cookingCategory": 0,
             "cookingInterval": 4000,
             "media": "assets/media/bank/salmon_cooked.png",
             "monsterSources": [
@@ -1329,12 +1252,6 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ],
-            "cookReq": [
-                {
-                    "id": 13,
-                    "qty": 1
-                }
             ]
         },
         {
@@ -1360,8 +1277,9 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1036,
-            "cookingXP": 40,
+            "cookingXP": 66,
             "cookingLevel": 40,
+            "cookingCategory": 0,
             "cookingInterval": 5000,
             "media": "assets/media/bank/lobster_cooked.png",
             "monsterSources": [
@@ -1388,12 +1306,6 @@ var melvorData = {
                         88
                     ],
                     "maxQty": 1
-                }
-            ],
-            "cookReq": [
-                {
-                    "id": 14,
-                    "qty": 1
                 }
             ],
             "thievingSources": [
@@ -1440,16 +1352,11 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1037,
-            "cookingXP": 50,
+            "cookingXP": 83,
             "cookingLevel": 50,
+            "cookingCategory": 0,
             "cookingInterval": 5000,
-            "media": "assets/media/bank/swordfish_cooked.png",
-            "cookReq": [
-                {
-                    "id": 15,
-                    "qty": 1
-                }
-            ]
+            "media": "assets/media/bank/swordfish_cooked.png"
         },
         {
             "category": "Cooking",
@@ -1474,8 +1381,9 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1040,
-            "cookingXP": 70,
+            "cookingXP": 140,
             "cookingLevel": 60,
+            "cookingCategory": 0,
             "cookingInterval": 7000,
             "media": "assets/media/bank/crab_cooked.png",
             "monsterSources": [
@@ -1486,12 +1394,6 @@ var melvorData = {
                         401
                     ],
                     "maxQty": 1
-                }
-            ],
-            "cookReq": [
-                {
-                    "id": 16,
-                    "qty": 1
                 }
             ],
             "shopSources": [
@@ -1528,8 +1430,9 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1042,
-            "cookingXP": 80,
+            "cookingXP": 186,
             "cookingLevel": 70,
+            "cookingCategory": 0,
             "cookingInterval": 8000,
             "media": "assets/media/bank/shark_cooked.png",
             "monsterSources": [
@@ -1556,12 +1459,6 @@ var melvorData = {
                         88
                     ],
                     "maxQty": 1
-                }
-            ],
-            "cookReq": [
-                {
-                    "id": 17,
-                    "qty": 1
                 }
             ],
             "thievingSources": [
@@ -1618,16 +1515,11 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1043,
-            "cookingXP": 100,
+            "cookingXP": 186,
             "cookingLevel": 75,
+            "cookingCategory": 0,
             "cookingInterval": 9000,
-            "media": "assets/media/bank/cavefish_cooked.png",
-            "cookReq": [
-                {
-                    "id": 18,
-                    "qty": 1
-                }
-            ]
+            "media": "assets/media/bank/cavefish_cooked.png"
         },
         {
             "category": "Cooking",
@@ -1652,16 +1544,11 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1044,
-            "cookingXP": 125,
+            "cookingXP": 291,
             "cookingLevel": 85,
+            "cookingCategory": 0,
             "cookingInterval": 10000,
             "media": "assets/media/bank/mantaray_cooked.png",
-            "cookReq": [
-                {
-                    "id": 19,
-                    "qty": 1
-                }
-            ],
             "chestSources": [
                 {
                     "chest": 120,
@@ -1696,16 +1583,11 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1045,
-            "cookingXP": 150,
+            "cookingXP": 400,
             "cookingLevel": 95,
+            "cookingCategory": 0,
             "cookingInterval": 11000,
             "media": "assets/media/bank/whale_cooked.png",
-            "cookReq": [
-                {
-                    "id": 20,
-                    "qty": 1
-                }
-            ],
             "chestSources": [
                 {
                     "chest": 120,
@@ -1728,12 +1610,15 @@ var melvorData = {
             "media": "assets/media/bank/shrimp_burnt.png",
             "cookingLevel": 1,
             "cookingXP": 5,
+            "cookingCategory": 0,
             "cookingID": 0,
-            "cookReq": [
-                {
-                    "id": 9,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 9,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1747,12 +1632,15 @@ var melvorData = {
             "media": "assets/media/bank/sardine_burnt.png",
             "cookingLevel": 5,
             "cookingXP": 10,
+            "cookingCategory": 0,
             "cookingID": 1,
-            "cookReq": [
-                {
-                    "id": 10,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 10,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1766,12 +1654,15 @@ var melvorData = {
             "media": "assets/media/bank/herring_burnt.png",
             "cookingLevel": 10,
             "cookingXP": 15,
+            "cookingCategory": 0,
             "cookingID": 2,
-            "cookReq": [
-                {
-                    "id": 11,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 11,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1784,13 +1675,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/trout_burnt.png",
             "cookingLevel": 20,
-            "cookingXP": 25,
+            "cookingXP": 33,
+            "cookingCategory": 0,
             "cookingID": 3,
-            "cookReq": [
-                {
-                    "id": 12,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 12,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1803,13 +1697,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/salmon_burnt.png",
             "cookingLevel": 35,
-            "cookingXP": 30,
+            "cookingXP": 40,
+            "cookingCategory": 0,
             "cookingID": 4,
-            "cookReq": [
-                {
-                    "id": 13,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 13,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1822,13 +1719,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/lobster_burnt.png",
             "cookingLevel": 40,
-            "cookingXP": 40,
+            "cookingXP": 66,
+            "cookingCategory": 0,
             "cookingID": 5,
-            "cookReq": [
-                {
-                    "id": 14,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 14,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1841,13 +1741,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/swordfish_burnt.png",
             "cookingLevel": 50,
-            "cookingXP": 50,
+            "cookingXP": 83,
+            "cookingCategory": 0,
             "cookingID": 6,
-            "cookReq": [
-                {
-                    "id": 15,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 15,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1860,13 +1763,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/crab_burnt.png",
             "cookingLevel": 60,
-            "cookingXP": 70,
+            "cookingXP": 140,
+            "cookingCategory": 0,
             "cookingID": 7,
-            "cookReq": [
-                {
-                    "id": 16,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 16,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1879,13 +1785,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/shark_burnt.png",
             "cookingLevel": 70,
-            "cookingXP": 80,
+            "cookingXP": 186,
+            "cookingCategory": 0,
             "cookingID": 8,
-            "cookReq": [
-                {
-                    "id": 17,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 17,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1907,13 +1816,16 @@ var melvorData = {
                 }
             ],
             "cookingLevel": 75,
-            "cookingXP": 100,
+            "cookingXP": 186,
+            "cookingCategory": 0,
             "cookingID": 9,
-            "cookReq": [
-                {
-                    "id": 18,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 18,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1926,13 +1838,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/mantaray_burnt.png",
             "cookingLevel": 85,
-            "cookingXP": 125,
+            "cookingXP": 291,
+            "cookingCategory": 0,
             "cookingID": 10,
-            "cookReq": [
-                {
-                    "id": 19,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 19,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -1945,13 +1860,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/whale_burnt.png",
             "cookingLevel": 95,
-            "cookingXP": 150,
+            "cookingXP": 400,
+            "cookingCategory": 0,
             "cookingID": 11,
-            "cookReq": [
-                {
-                    "id": 20,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 20,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -38850,6 +38768,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 50,
             "media": "assets/media/bank/anglerfish.png",
+            "cookingID": 12,
+            "cookingLevel": 50,
+            "cookingXP": 60,
+            "cookedItemID": 671,
+            "burntItemID": 675,
             "masteryID": [
                 1,
                 18
@@ -38878,6 +38801,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 120,
             "media": "assets/media/bank/fanfish.png",
+            "cookingID": 13,
+            "cookingLevel": 55,
+            "cookingXP": 60,
+            "cookedItemID": 672,
+            "burntItemID": 676,
             "masteryID": [
                 1,
                 19
@@ -38906,6 +38834,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 40,
             "media": "assets/media/bank/seahorse.png",
+            "cookingID": 14,
+            "cookingLevel": 15,
+            "cookingXP": 30,
+            "cookedItemID": 673,
+            "burntItemID": 677,
             "masteryID": [
                 1,
                 20
@@ -38924,6 +38857,11 @@ var melvorData = {
             "isEquipment": false,
             "sellsFor": 190,
             "media": "assets/media/bank/carp.png",
+            "cookingID": 15,
+            "cookingLevel": 65,
+            "cookingXP": 75,
+            "cookedItemID": 674,
+            "burntItemID": 678,
             "masteryID": [
                 1,
                 21
@@ -39126,18 +39064,12 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1038,
-            "cookingXP": 60,
+            "cookingXP": 100,
             "cookingLevel": 50,
+            "cookingCategory": 0,
             "cookingInterval": 6000,
             "healsFor": 12,
             "canEat": true,
-            "cookingID": 12,
-            "cookReq": [
-                {
-                    "id": 662,
-                    "qty": 1
-                }
-            ],
             "thievingSources": [
                 {
                     "target": 5,
@@ -39171,17 +39103,12 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1039,
-            "cookingXP": 60,
+            "cookingXP": 120,
             "cookingLevel": 55,
+            "cookingCategory": 0,
             "cookingInterval": 6000,
             "healsFor": 14,
-            "canEat": true,
-            "cookReq": [
-                {
-                    "id": 663,
-                    "qty": 1
-                }
-            ]
+            "canEat": true
         },
         {
             "category": "Cooking",
@@ -39205,17 +39132,12 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1033,
-            "cookingXP": 30,
+            "cookingXP": 50,
             "cookingLevel": 15,
+            "cookingCategory": 0,
             "cookingInterval": 4000,
             "healsFor": 12,
-            "canEat": true,
-            "cookReq": [
-                {
-                    "id": 664,
-                    "qty": 1
-                }
-            ]
+            "canEat": true
         },
         {
             "category": "Cooking",
@@ -39239,17 +39161,12 @@ var melvorData = {
                 ]
             ],
             "perfectItem": 1041,
-            "cookingXP": 75,
+            "cookingXP": 150,
             "cookingLevel": 65,
+            "cookingCategory": 0,
             "cookingInterval": 7000,
             "healsFor": 18,
-            "canEat": true,
-            "cookReq": [
-                {
-                    "id": 665,
-                    "qty": 1
-                }
-            ]
+            "canEat": true
         },
         {
             "category": "Cooking",
@@ -39261,13 +39178,15 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/anglerfish_burnt.png",
             "cookingLevel": 50,
-            "cookingXP": 60,
-            "cookingID": 12,
-            "cookReq": [
-                {
-                    "id": 662,
-                    "qty": 1
-                }
+            "cookingXP": 100,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 662,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -39280,13 +39199,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/fanfish_burnt.png",
             "cookingLevel": 55,
-            "cookingXP": 60,
+            "cookingXP": 120,
+            "cookingCategory": 0,
             "cookingID": 13,
-            "cookReq": [
-                {
-                    "id": 663,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 663,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -39299,13 +39221,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/seahorse_burnt.png",
             "cookingLevel": 15,
-            "cookingXP": 30,
+            "cookingXP": 50,
+            "cookingCategory": 0,
             "cookingID": 14,
-            "cookReq": [
-                {
-                    "id": 664,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 664,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -39318,13 +39243,16 @@ var melvorData = {
             "sellsFor": 0,
             "media": "assets/media/bank/carp_burnt.png",
             "cookingLevel": 65,
-            "cookingXP": 75,
+            "cookingXP": 150,
+            "cookingCategory": 0,
             "cookingID": 15,
-            "cookReq": [
-                {
-                    "id": 665,
-                    "qty": 1
-                }
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 665,
+                        "qty": 1
+                    }
+                ]
             ]
         },
         {
@@ -60309,8 +60237,13 @@ var melvorData = {
                 3,
                 16
             ],
+            "cookingCategory": 1,
+            "cookingID": 16,
+            "cookingLevel": 1,
+            "cookingXP": 13,
             "cookingQty": 3,
             "cookingInterval": 8000,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60362,8 +60295,14 @@ var melvorData = {
                 3,
                 17
             ],
+            "cookingCategory": 0,
+            "cookingID": 17,
+            "cookingLevel": 1,
+            "cookingXP": 10,
             "cookingQty": 1,
             "cookingInterval": 3000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60415,8 +60354,14 @@ var melvorData = {
                 3,
                 18
             ],
+            "cookingCategory": 1,
+            "cookingID": 18,
+            "cookingLevel": 4,
+            "cookingXP": 44,
             "cookingQty": 1,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60469,8 +60414,14 @@ var melvorData = {
                 3,
                 19
             ],
+            "cookingCategory": 1,
+            "cookingID": 19,
+            "cookingLevel": 9,
+            "cookingXP": 72,
             "cookingQty": 8,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60512,8 +60463,14 @@ var melvorData = {
                 3,
                 20
             ],
+            "cookingCategory": 1,
+            "cookingID": 20,
+            "cookingLevel": 17,
+            "cookingXP": 117,
             "cookingQty": 1,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60551,8 +60508,14 @@ var melvorData = {
                 3,
                 21
             ],
+            "cookingCategory": 1,
+            "cookingID": 21,
+            "cookingLevel": 25,
+            "cookingXP": 161,
             "cookingQty": 8,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60588,8 +60551,14 @@ var melvorData = {
                 3,
                 22
             ],
+            "cookingCategory": 2,
+            "cookingID": 22,
+            "cookingLevel": 33,
+            "cookingXP": 126,
             "cookingQty": 4,
             "cookingInterval": 7000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60613,8 +60582,14 @@ var melvorData = {
                 3,
                 23
             ],
+            "cookingCategory": 1,
+            "cookingID": 23,
+            "cookingLevel": 41,
+            "cookingXP": 214,
             "cookingQty": 2,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60646,8 +60621,14 @@ var melvorData = {
                 3,
                 24
             ],
+            "cookingCategory": 2,
+            "cookingID": 24,
+            "cookingLevel": 49,
+            "cookingXP": 223,
             "cookingQty": 4,
             "cookingInterval": 7000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60685,8 +60666,14 @@ var melvorData = {
                 3,
                 25
             ],
+            "cookingCategory": 1,
+            "cookingID": 25,
+            "cookingLevel": 57,
+            "cookingXP": 252,
             "cookingQty": 2,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60728,8 +60715,14 @@ var melvorData = {
                 3,
                 26
             ],
+            "cookingCategory": 2,
+            "cookingID": 26,
+            "cookingLevel": 65,
+            "cookingXP": 274,
             "cookingQty": 4,
             "cookingInterval": 7000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60761,8 +60754,14 @@ var melvorData = {
                 3,
                 27
             ],
+            "cookingCategory": 1,
+            "cookingID": 27,
+            "cookingLevel": 73,
+            "cookingXP": 424,
             "cookingQty": 1,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60800,8 +60799,14 @@ var melvorData = {
                 3,
                 28
             ],
+            "cookingCategory": 2,
+            "cookingID": 28,
+            "cookingLevel": 81,
+            "cookingXP": 617,
             "cookingQty": 4,
             "cookingInterval": 7000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60837,8 +60842,14 @@ var melvorData = {
                 3,
                 29
             ],
+            "cookingCategory": 1,
+            "cookingID": 29,
+            "cookingLevel": 89,
+            "cookingXP": 490,
             "cookingQty": 1,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60870,8 +60881,14 @@ var melvorData = {
                 3,
                 30
             ],
+            "cookingCategory": 1,
+            "cookingID": 30,
+            "cookingLevel": 97,
+            "cookingXP": 603,
             "cookingQty": 1,
             "cookingInterval": 8000,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60899,8 +60916,13 @@ var melvorData = {
             "healsFor": 6.9,
             "canEat": true,
             "media": "assets/media/bank/lemon_cake.png",
+            "cookingCategory": 1,
+            "cookingLevel": 99,
+            "cookingXP": 69,
             "cookingQty": 1,
             "cookingInterval": 6900,
+            "cookedItemID": 0,
+            "burntItemID": 0,
             "recipeRequirements": [
                 [
                     {
@@ -60929,7 +60951,18 @@ var melvorData = {
             "sellsFor": 3,
             "healsFor": 3.3000000000000003,
             "media": "assets/media/bank/shrimp_cooked_perfect.png",
-            "cookingID": 0
+            "cookingID": 0,
+            "cookingLevel": 1,
+            "cookingXP": 5,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 9,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -60940,7 +60973,18 @@ var melvorData = {
             "sellsFor": 7.5,
             "healsFor": 4.4,
             "media": "assets/media/bank/sardine_cooked_perfect.png",
-            "cookingID": 1
+            "cookingID": 1,
+            "cookingLevel": 5,
+            "cookingXP": 10,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 10,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -60951,7 +60995,18 @@ var melvorData = {
             "sellsFor": 15,
             "healsFor": 5.5,
             "media": "assets/media/bank/herring_cooked_perfect.png",
-            "cookingID": 2
+            "cookingID": 2,
+            "cookingLevel": 10,
+            "cookingXP": 15,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 11,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -60962,7 +61017,18 @@ var melvorData = {
             "healsFor": 13.200000000000001,
             "media": "assets/media/bank/seahorse_cooked_perfect.png",
             "canEat": true,
-            "cookingID": 14
+            "cookingID": 14,
+            "cookingLevel": 15,
+            "cookingXP": 50,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 664,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -60973,7 +61039,18 @@ var melvorData = {
             "sellsFor": 40.5,
             "healsFor": 7.700000000000001,
             "media": "assets/media/bank/trout_cooked_perfect.png",
-            "cookingID": 3
+            "cookingID": 3,
+            "cookingLevel": 20,
+            "cookingXP": 33,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 12,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -60984,7 +61061,18 @@ var melvorData = {
             "sellsFor": 87,
             "healsFor": 9.9,
             "media": "assets/media/bank/salmon_cooked_perfect.png",
-            "cookingID": 4
+            "cookingID": 4,
+            "cookingLevel": 35,
+            "cookingXP": 40,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 13,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -60995,7 +61083,18 @@ var melvorData = {
             "sellsFor": 162,
             "healsFor": 12.100000000000001,
             "media": "assets/media/bank/lobster_cooked_perfect.png",
-            "cookingID": 5
+            "cookingID": 5,
+            "cookingLevel": 40,
+            "cookingXP": 66,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 14,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61006,7 +61105,18 @@ var melvorData = {
             "sellsFor": 201,
             "healsFor": 14.3,
             "media": "assets/media/bank/swordfish_cooked_perfect.png",
-            "cookingID": 6
+            "cookingID": 6,
+            "cookingLevel": 50,
+            "cookingXP": 83,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 15,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61017,7 +61127,17 @@ var melvorData = {
             "healsFor": 13.200000000000001,
             "media": "assets/media/bank/anglerfish_cooked_perfect.png",
             "canEat": true,
-            "cookingID": 12
+            "cookingLevel": 50,
+            "cookingXP": 100,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 662,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61028,7 +61148,18 @@ var melvorData = {
             "healsFor": 15.400000000000002,
             "media": "assets/media/bank/fanfish_cooked_perfect.png",
             "canEat": true,
-            "cookingID": 13
+            "cookingID": 13,
+            "cookingLevel": 55,
+            "cookingXP": 120,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 663,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61039,7 +61170,18 @@ var melvorData = {
             "sellsFor": 420,
             "healsFor": 16.5,
             "media": "assets/media/bank/crab_cooked_perfect.png",
-            "cookingID": 7
+            "cookingID": 7,
+            "cookingLevel": 60,
+            "cookingXP": 140,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 16,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61050,7 +61192,18 @@ var melvorData = {
             "healsFor": 19.8,
             "media": "assets/media/bank/carp_cooked_perfect.png",
             "canEat": true,
-            "cookingID": 15
+            "cookingID": 15,
+            "cookingLevel": 65,
+            "cookingXP": 150,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 665,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61061,7 +61214,18 @@ var melvorData = {
             "sellsFor": 1011,
             "healsFor": 22,
             "media": "assets/media/bank/shark_cooked_perfect.png",
-            "cookingID": 8
+            "cookingID": 8,
+            "cookingLevel": 70,
+            "cookingXP": 186,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 17,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61072,7 +61236,18 @@ var melvorData = {
             "sellsFor": 807,
             "healsFor": 24.200000000000003,
             "media": "assets/media/bank/cavefish_cooked_perfect.png",
-            "cookingID": 9
+            "cookingID": 9,
+            "cookingLevel": 75,
+            "cookingXP": 186,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 18,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61083,7 +61258,18 @@ var melvorData = {
             "sellsFor": 2436,
             "healsFor": 44,
             "media": "assets/media/bank/mantaray_cooked_perfect.png",
-            "cookingID": 10
+            "cookingID": 10,
+            "cookingLevel": 85,
+            "cookingXP": 291,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 19,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61094,7 +61280,18 @@ var melvorData = {
             "sellsFor": 3072,
             "healsFor": 52.800000000000004,
             "media": "assets/media/bank/whale_cooked_perfect.png",
-            "cookingID": 11
+            "cookingID": 11,
+            "cookingLevel": 95,
+            "cookingXP": 400,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 20,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61104,7 +61301,19 @@ var melvorData = {
             "sellsFor": 7.5,
             "canEat": true,
             "healsFor": 1.1,
-            "media": "assets/media/bank/bread_perfect.png"
+            "media": "assets/media/bank/bread_perfect.png",
+            "cookingID": 16,
+            "cookingLevel": 1,
+            "cookingXP": 13,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61114,7 +61323,19 @@ var melvorData = {
             "sellsFor": 7.5,
             "canEat": true,
             "healsFor": 5.5,
-            "media": "assets/media/bank/beef_perfect.png"
+            "media": "assets/media/bank/beef_perfect.png",
+            "cookingID": 17,
+            "cookingLevel": 1,
+            "cookingXP": 10,
+            "cookingCategory": 0,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1012,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61124,7 +61345,19 @@ var melvorData = {
             "sellsFor": 12,
             "canEat": true,
             "healsFor": 9.9,
-            "media": "assets/media/bank/chicken_perfect.png"
+            "media": "assets/media/bank/chicken_perfect.png",
+            "cookingID": 18,
+            "cookingLevel": 4,
+            "cookingXP": 44,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1014,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61134,7 +61367,27 @@ var melvorData = {
             "sellsFor": 3,
             "canEat": true,
             "healsFor": 1.54,
-            "media": "assets/media/bank/plain_pizza_slice_perfect.png"
+            "media": "assets/media/bank/plain_pizza_slice_perfect.png",
+            "cookingID": 19,
+            "cookingLevel": 9,
+            "cookingXP": 72,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 154,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1064,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61144,7 +61397,23 @@ var melvorData = {
             "sellsFor": 55.5,
             "canEat": true,
             "healsFor": 26.400000000000002,
-            "media": "assets/media/bank/beef_pie_perfect.png"
+            "media": "assets/media/bank/beef_pie_perfect.png",
+            "cookingID": 20,
+            "cookingLevel": 17,
+            "cookingXP": 117,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1012,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61154,7 +61423,31 @@ var melvorData = {
             "sellsFor": 6,
             "canEat": true,
             "healsFor": 3.5200000000000005,
-            "media": "assets/media/bank/meat_pizza_slice_perfect.png"
+            "media": "assets/media/bank/meat_pizza_slice_perfect.png",
+            "cookingID": 21,
+            "cookingLevel": 25,
+            "cookingXP": 161,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 154,
+                        "qty": 2
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1064,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1012,
+                        "qty": 2
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61164,7 +61457,19 @@ var melvorData = {
             "sellsFor": 12,
             "canEat": true,
             "healsFor": 3.9600000000000004,
-            "media": "assets/media/bank/basic_soup_perfect.png"
+            "media": "assets/media/bank/basic_soup_perfect.png",
+            "cookingID": 22,
+            "cookingLevel": 33,
+            "cookingXP": 126,
+            "cookingCategory": 2,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 151,
+                        "qty": 2
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61174,7 +61479,27 @@ var melvorData = {
             "sellsFor": 63,
             "canEat": true,
             "healsFor": 8.8,
-            "media": "assets/media/bank/strawberry_cupcake_perfect.png"
+            "media": "assets/media/bank/strawberry_cupcake_perfect.png",
+            "cookingID": 23,
+            "cookingLevel": 41,
+            "cookingXP": 214,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 156,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61184,7 +61509,23 @@ var melvorData = {
             "sellsFor": 33,
             "canEat": true,
             "healsFor": 4.4,
-            "media": "assets/media/bank/hearty_soup_perfect.png"
+            "media": "assets/media/bank/hearty_soup_perfect.png",
+            "cookingID": 24,
+            "cookingLevel": 49,
+            "cookingXP": 223,
+            "cookingCategory": 2,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 152,
+                        "qty": 1
+                    },
+                    {
+                        "id": 154,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61194,7 +61535,27 @@ var melvorData = {
             "sellsFor": 117,
             "canEat": true,
             "healsFor": 11,
-            "media": "assets/media/bank/cherry_cupcake_perfect.png"
+            "media": "assets/media/bank/cherry_cupcake_perfect.png",
+            "cookingID": 25,
+            "cookingLevel": 57,
+            "cookingXP": 252,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1063,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61204,7 +61565,27 @@ var melvorData = {
             "sellsFor": 63,
             "canEat": true,
             "healsFor": 6.38,
-            "media": "assets/media/bank/cream_corn_soup_perfect.png"
+            "media": "assets/media/bank/cream_corn_soup_perfect.png",
+            "cookingID": 26,
+            "cookingLevel": 65,
+            "cookingXP": 274,
+            "cookingCategory": 2,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 155,
+                        "qty": 2
+                    },
+                    {
+                        "id": 152,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61214,7 +61595,23 @@ var melvorData = {
             "sellsFor": 379.5,
             "canEat": true,
             "healsFor": 24.200000000000003,
-            "media": "assets/media/bank/apple_pie_perfect.png"
+            "media": "assets/media/bank/apple_pie_perfect.png",
+            "cookingID": 27,
+            "cookingLevel": 73,
+            "cookingXP": 424,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1016,
+                        "qty": 2
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61224,7 +61621,31 @@ var melvorData = {
             "sellsFor": 144,
             "canEat": true,
             "healsFor": 12.100000000000001,
-            "media": "assets/media/bank/chicken_soup_perfect.png"
+            "media": "assets/media/bank/chicken_soup_perfect.png",
+            "cookingID": 28,
+            "cookingLevel": 81,
+            "cookingXP": 617,
+            "cookingCategory": 2,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 1014,
+                        "qty": 1
+                    },
+                    {
+                        "id": 470,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    },
+                    {
+                        "id": 152,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61234,7 +61655,27 @@ var melvorData = {
             "sellsFor": 567,
             "canEat": true,
             "healsFor": 29.700000000000003,
-            "media": "assets/media/bank/strawberry_cake_perfect.png"
+            "media": "assets/media/bank/strawberry_cake_perfect.png",
+            "cookingID": 29,
+            "cookingLevel": 89,
+            "cookingXP": 490,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 156,
+                        "qty": 3
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 2
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61244,7 +61685,27 @@ var melvorData = {
             "sellsFor": 1126.5,
             "canEat": true,
             "healsFor": 33,
-            "media": "assets/media/bank/carrot_cake_perfect.png"
+            "media": "assets/media/bank/carrot_cake_perfect.png",
+            "cookingID": 30,
+            "cookingLevel": 97,
+            "cookingXP": 603,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 470,
+                        "qty": 3
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 2
+                    }
+                ]
+            ]
         },
         {
             "category": "Cooking",
@@ -61255,7 +61716,26 @@ var melvorData = {
             "canEat": true,
             "healsFor": 3.3000000000000003,
             "media": "assets/media/bank/lemon_cake_perfect.png",
-            "ignoreCompletion": true
+            "ignoreCompletion": true,
+            "cookingLevel": 99,
+            "cookingXP": 69,
+            "cookingCategory": 1,
+            "recipeRequirements": [
+                [
+                    {
+                        "id": 681,
+                        "qty": 4
+                    },
+                    {
+                        "id": 1010,
+                        "qty": 1
+                    },
+                    {
+                        "id": 1065,
+                        "qty": 1
+                    }
+                ]
+            ]
         },
         {
             "category": "Farming",
