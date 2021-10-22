@@ -296,6 +296,7 @@ $(document).ready(function() {
     
 
     // Events
+	var timer;
     $('#logo').on('click', () => {
         $('#saveImport').val('');
         resetMissingTables();
@@ -308,7 +309,6 @@ $(document).ready(function() {
         // https://stackoverflow.com/a/41554434/606974
         // https://schier.co/blog/wait-for-user-to-stop-typing-using-javascript
         var selection = $(this).val().toLowerCase();
-        var timer;
         clearTimeout(timer);
         if (selection.length == 0) {
             // If empty recognize empty search immediately
@@ -320,14 +320,20 @@ $(document).ready(function() {
             }, 1000);
         }
     });
+	$('#filterOptional').on('input', function(){
+		clearTimeout(timer);
+		var selection = document.getElementById('filter').value.toLowerCase();
+		runFilter(selection);
+	});
     function runFilter(selection) {
         $('#missingWrapper table').show();
         var dataset = $('#missingWrapper table tbody').find('tr');
         // show all rows first
         dataset.show();
         // filter the rows that should be hidden
+		var hideOptional = document.getElementById('filterOptional').checked;
         dataset.filter(function(index, item) {
-            return $(item).find('td').text().toLowerCase().indexOf(selection) === -1;
+            return $(item).find('td').text().toLowerCase().indexOf(selection) === -1 || (hideOptional && $(item).find('td').text().toLowerCase().indexOf('(not required)') !== -1);
         }).hide();
     }
     function resetMissingTables() {
@@ -445,6 +451,7 @@ $(document).ready(function() {
             });
             // Show tables
             $('#missingWrapper').removeClass('d-none');
+			runFilter(document.getElementById('filter').value.toLowerCase());
         }
     }
 });
