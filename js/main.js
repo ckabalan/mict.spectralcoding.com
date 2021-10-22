@@ -116,38 +116,35 @@ $(document).ready(function() {
                 }
             })
         });
-        // Move Cooking Items From Raw to the Cooked counterpart
+        // Add requirements to Burnt and Perfect cooked items
         exp['items'].forEach(function(item, itemID) {
-            if (item.hasOwnProperty('cookedItemID')) {
-                exp['items'][item['cookedItemID']]['cookingLevel'] = item['cookingLevel'];
-                exp['items'][item['cookedItemID']]['cookingXP'] = item['cookingXP'];
-                exp['items'][item['cookedItemID']]['cookingCategory'] = item['cookingCategory'];
-                exp['items'][item['cookedItemID']]['cookingID'] = item['cookingID'];
-                if (!exp['items'][item['cookedItemID']].hasOwnProperty('cookReq')) {
-                    exp['items'][item['cookedItemID']]['cookReq'] = []
-                }
-                exp['items'][item['cookedItemID']]['cookReq'].push({ 'id': itemID, 'qty': 1 });
-            }
             if (item.hasOwnProperty('burntItemID')) {
-                exp['items'][item['burntItemID']]['cookingLevel'] = item['cookingLevel'];
-                exp['items'][item['burntItemID']]['cookingXP'] = item['cookingXP'];
-                exp['items'][item['burntItemID']]['cookingCategory'] = item['cookingCategory'];
-                exp['items'][item['burntItemID']]['cookingID'] = item['cookingID'];
-                if (!exp['items'][item['burntItemID']].hasOwnProperty('cookReq')) {
-                    exp['items'][item['burntItemID']]['cookReq'] = []
+                if (item.hasOwnProperty('recipeRequirements')) {
+                    sourceItem = item
+                } else if (exp['items'][item['cookedItemID']].hasOwnProperty('recipeRequirements')) {
+                    sourceItem = exp['items'][item['cookedItemID']]
                 }
-                exp['items'][item['burntItemID']]['cookReq'].push({ 'id': itemID, 'qty': 1 });
+                exp['items'][item['burntItemID']]['cookingLevel'] = sourceItem['cookingLevel'];
+                exp['items'][item['burntItemID']]['cookingXP'] = sourceItem['cookingXP'];
+                exp['items'][item['burntItemID']]['cookingCategory'] = sourceItem['cookingCategory'];
+                exp['items'][item['burntItemID']]['cookingID'] = sourceItem['cookingID'];
+                if (!exp['items'][item['burntItemID']].hasOwnProperty('recipeRequirements')) {
+                    exp['items'][item['burntItemID']]['recipeRequirements'] = sourceItem['recipeRequirements']
+                }
             }
-        });
-        // Clear Cooking attributes from the raw items (which are the only ones with cooked/burnt IDs)
-        exp['items'].forEach(function(item, itemID) {
-            if (item.hasOwnProperty('cookedItemID') || item.hasOwnProperty('burntItemID')) {
-                delete item['cookingLevel'];
-                delete item['cookingXP'];
-                delete item['cookingCategory'];
-                delete item['cookingID'];
-                delete item['cookedItemID'];
-                delete item['burntItemID'];
+            if (item.hasOwnProperty('perfectItem')) {
+                if (item.hasOwnProperty('recipeRequirements')) {
+                    sourceItem = item
+                } else if (exp['items'][item['cookedItemID']].hasOwnProperty('recipeRequirements')) {
+                    sourceItem = exp['items'][item['cookedItemID']]
+                }
+                exp['items'][item['perfectItem']]['cookingLevel'] = sourceItem['cookingLevel'];
+                exp['items'][item['perfectItem']]['cookingXP'] = sourceItem['cookingXP'];
+                exp['items'][item['perfectItem']]['cookingCategory'] = sourceItem['cookingCategory'];
+                exp['items'][item['perfectItem']]['cookingID'] = sourceItem['cookingID'];
+                if (!exp['items'][item['perfectItem']].hasOwnProperty('recipeRequirements')) {
+                    exp['items'][item['perfectItem']]['recipeRequirements'] = sourceItem['recipeRequirements']
+                }
             }
         });
         // Move Farming Items From Seeds to the Grown counterpart
