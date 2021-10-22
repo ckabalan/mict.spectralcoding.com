@@ -15,6 +15,7 @@ $(document).ready(function() {
             'skills': SKILLS,
             'combatAreas': combatAreas,
             'slayerAreas': slayerAreas,
+            'shop': SHOP,
         }
         addSourcesToItems(exp);
         addZonesToMonsters(exp);
@@ -102,7 +103,7 @@ $(document).ready(function() {
         // Add Herblore Level To Item Array
         herbloreItemData.forEach(function(herbloreData) {
             herbloreData['itemID'].forEach(function(itemID) {
-                exp['items'][itemID]['herbloreLevel'] = herbloreData['herbloreLevel'];
+                exp['items'][itemID]['herbloreLevel'] = herbloreData['level'];
             });
         });
         // Add Woodcutting Level To Item Array
@@ -221,6 +222,24 @@ $(document).ready(function() {
                 }
             });
         });
+        // Add Shop Sources To Item Array
+        for (const category in SHOP) {
+            categoryData = SHOP[category]
+            categoryData.forEach(function(shopListing) {
+                shopListing['contains']['items'].forEach(function(itemArr) {
+                    itemID = itemArr[0]
+                    if (!exp['items'][itemID].hasOwnProperty('shopSources')) {
+                        if (!exp['items'][itemID].hasOwnProperty('shopSources')) {
+                            exp['items'][itemID]['shopSources'] = []
+                        }
+                        exp['items'][itemID]['shopSources'].push({
+                            name: shopListing.name,
+                            cost: shopListing.cost
+                        });
+                    }
+                });
+            });
+        }
         // Add Alt Magic Sources To Item Array
         // https://github.com/MelvorIdle/Melvor-Wiki-Bot/blob/master/sources/main.js#L1016
         ALTMAGIC.forEach(function(spell, spellID) {
@@ -298,6 +317,12 @@ $(document).ready(function() {
             returnStr += 'curl ' + CDNDIR + resource.media + ' --create-dirs -o data_export/' + resource.media + "\n";
         });
         return returnStr;
+    }
+    playerModifiers = {
+        increasedBankSpaceShop: 0
+    }
+    game = {
+        merchantsPermitRead: true
     }
     setLanguage('en')
     function waitForLanguages(){
