@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.22.1",
-        "generationDate": "2021-10-22T13:59:12.233Z"
+        "generationDate": "2021-10-22T14:28:38.964Z"
     },
     "items": [
         {
@@ -32958,7 +32958,8 @@ var melvorData = {
             "trimmedItemID": 536,
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 8
-            }
+            },
+            "herbloreLevel": 5
         },
         {
             "category": "Herblore",
@@ -33002,7 +33003,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 12
-            }
+            },
+            "herbloreLevel": 5
         },
         {
             "category": "Herblore",
@@ -33046,7 +33048,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 15
-            }
+            },
+            "herbloreLevel": 5
         },
         {
             "category": "Herblore",
@@ -33088,7 +33091,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMeleeAccuracyBonus": 25
-            }
+            },
+            "herbloreLevel": 5
         },
         {
             "category": "Herblore",
@@ -33130,7 +33134,8 @@ var melvorData = {
             "trimmedItemID": 540,
             "modifiers": {
                 "increasedMeleeMaxHit": 1
-            }
+            },
+            "herbloreLevel": 60
         },
         {
             "category": "Herblore",
@@ -33178,7 +33183,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeMaxHit": 3
-            }
+            },
+            "herbloreLevel": 60
         },
         {
             "category": "Herblore",
@@ -33226,7 +33232,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeMaxHit": 6
-            }
+            },
+            "herbloreLevel": 60
         },
         {
             "category": "Herblore",
@@ -33272,7 +33279,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMeleeMaxHit": 10
-            }
+            },
+            "herbloreLevel": 60
         },
         {
             "category": "Herblore",
@@ -33310,7 +33318,8 @@ var melvorData = {
             "trimmedItemID": 544,
             "modifiers": {
                 "increasedMeleeEvasion": 8
-            }
+            },
+            "herbloreLevel": 10
         },
         {
             "category": "Herblore",
@@ -33354,7 +33363,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeEvasion": 12
-            }
+            },
+            "herbloreLevel": 10
         },
         {
             "category": "Herblore",
@@ -33398,7 +33408,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMeleeEvasion": 15
-            }
+            },
+            "herbloreLevel": 10
         },
         {
             "category": "Herblore",
@@ -33440,7 +33451,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMeleeEvasion": 25
-            }
+            },
+            "herbloreLevel": 10
         },
         {
             "category": "Herblore",
@@ -33479,7 +33491,8 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 4,
                 "increasedRangedEvasion": 4
-            }
+            },
+            "herbloreLevel": 15
         },
         {
             "category": "Herblore",
@@ -33524,7 +33537,8 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 8,
                 "increasedRangedEvasion": 8
-            }
+            },
+            "herbloreLevel": 15
         },
         {
             "category": "Herblore",
@@ -33569,7 +33583,8 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 12,
                 "increasedRangedEvasion": 12
-            }
+            },
+            "herbloreLevel": 15
         },
         {
             "category": "Herblore",
@@ -33612,7 +33627,8 @@ var melvorData = {
             "modifiers": {
                 "increasedRangedAccuracyBonus": 20,
                 "increasedRangedEvasion": 20
-            }
+            },
+            "herbloreLevel": 15
         },
         {
             "category": "Herblore",
@@ -33651,7 +33667,8 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 4,
                 "increasedMagicEvasion": 4
-            }
+            },
+            "herbloreLevel": 25
         },
         {
             "category": "Herblore",
@@ -33696,7 +33713,8 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 8,
                 "increasedMagicEvasion": 8
-            }
+            },
+            "herbloreLevel": 25
         },
         {
             "category": "Herblore",
@@ -33741,7 +33759,8 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 12,
                 "increasedMagicEvasion": 12
-            }
+            },
+            "herbloreLevel": 25
         },
         {
             "category": "Herblore",
@@ -33784,7 +33803,8 @@ var melvorData = {
             "modifiers": {
                 "increasedMagicAccuracyBonus": 20,
                 "increasedMagicEvasion": 20
-            }
+            },
+            "herbloreLevel": 25
         },
         {
             "category": "Herblore",
@@ -33822,7 +33842,8 @@ var melvorData = {
             "trimmedItemID": 556,
             "modifiers": {
                 "increasedHitpointRegeneration": 30
-            }
+            },
+            "herbloreLevel": 35
         },
         {
             "category": "Herblore",
@@ -33866,7 +33887,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedHitpointRegeneration": 60
-            }
+            },
+            "herbloreLevel": 35
         },
         {
             "category": "Herblore",
@@ -33910,7 +33932,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedHitpointRegeneration": 100
-            }
+            },
+            "herbloreLevel": 35
         },
         {
             "category": "Herblore",
@@ -33952,7 +33975,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedHitpointRegeneration": 150
-            }
+            },
+            "herbloreLevel": 35
         },
         {
             "category": "Herblore",
@@ -33994,7 +34018,8 @@ var melvorData = {
             "trimmedItemID": 560,
             "modifiers": {
                 "increasedDamageReduction": 2
-            }
+            },
+            "herbloreLevel": 90
         },
         {
             "category": "Herblore",
@@ -34042,7 +34067,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedDamageReduction": 4
-            }
+            },
+            "herbloreLevel": 90
         },
         {
             "category": "Herblore",
@@ -34090,7 +34116,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedDamageReduction": 6
-            }
+            },
+            "herbloreLevel": 90
         },
         {
             "category": "Herblore",
@@ -34136,7 +34163,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedDamageReduction": 10
-            }
+            },
+            "herbloreLevel": 90
         },
         {
             "category": "Herblore",
@@ -34174,7 +34202,8 @@ var melvorData = {
             "trimmedItemID": 564,
             "modifiers": {
                 "increasedBirdNestDropRate": 5
-            }
+            },
+            "herbloreLevel": 1
         },
         {
             "category": "Herblore",
@@ -34218,7 +34247,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedBirdNestDropRate": 10
-            }
+            },
+            "herbloreLevel": 1
         },
         {
             "category": "Herblore",
@@ -34262,7 +34292,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedBirdNestDropRate": 15
-            }
+            },
+            "herbloreLevel": 1
         },
         {
             "category": "Herblore",
@@ -34304,7 +34335,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedBirdNestDropRate": 30
-            }
+            },
+            "herbloreLevel": 1
         },
         {
             "category": "Herblore",
@@ -34347,7 +34379,8 @@ var melvorData = {
                         3
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 40
         },
         {
             "category": "Herblore",
@@ -34396,7 +34429,8 @@ var melvorData = {
                         5
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 40
         },
         {
             "category": "Herblore",
@@ -34445,7 +34479,8 @@ var melvorData = {
                         8
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 40
         },
         {
             "category": "Herblore",
@@ -34492,7 +34527,8 @@ var melvorData = {
                         12
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 40
         },
         {
             "category": "Herblore",
@@ -34529,7 +34565,8 @@ var melvorData = {
             "trimmedItemID": 572,
             "modifiers": {
                 "freeBonfires": 1
-            }
+            },
+            "herbloreLevel": 20
         },
         {
             "category": "Herblore",
@@ -34572,7 +34609,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "freeBonfires": 1
-            }
+            },
+            "herbloreLevel": 20
         },
         {
             "category": "Herblore",
@@ -34615,7 +34653,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "freeBonfires": 1
-            }
+            },
+            "herbloreLevel": 20
         },
         {
             "category": "Herblore",
@@ -34656,7 +34695,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "freeBonfires": 1
-            }
+            },
+            "herbloreLevel": 20
         },
         {
             "category": "Herblore",
@@ -34699,7 +34739,8 @@ var melvorData = {
                         10
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 32
         },
         {
             "category": "Herblore",
@@ -34748,7 +34789,8 @@ var melvorData = {
                         20
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 32
         },
         {
             "category": "Herblore",
@@ -34797,7 +34839,8 @@ var melvorData = {
                         30
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 32
         },
         {
             "category": "Herblore",
@@ -34844,7 +34887,8 @@ var melvorData = {
                         50
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 32
         },
         {
             "category": "Herblore",
@@ -34885,7 +34929,8 @@ var melvorData = {
             "trimmedItemID": 580,
             "modifiers": {
                 "increasedChanceNoDamageMining": 10
-            }
+            },
+            "herbloreLevel": 53
         },
         {
             "category": "Herblore",
@@ -34932,7 +34977,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceNoDamageMining": 20
-            }
+            },
+            "herbloreLevel": 53
         },
         {
             "category": "Herblore",
@@ -34979,7 +35025,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceNoDamageMining": 40
-            }
+            },
+            "herbloreLevel": 53
         },
         {
             "category": "Herblore",
@@ -35024,7 +35071,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceNoDamageMining": 80
-            }
+            },
+            "herbloreLevel": 53
         },
         {
             "category": "Herblore",
@@ -35062,7 +35110,8 @@ var melvorData = {
             "trimmedItemID": 584,
             "modifiers": {
                 "increasedSeeingGoldChance": 10
-            }
+            },
+            "herbloreLevel": 36
         },
         {
             "category": "Herblore",
@@ -35106,7 +35155,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSeeingGoldChance": 20
-            }
+            },
+            "herbloreLevel": 36
         },
         {
             "category": "Herblore",
@@ -35150,7 +35200,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSeeingGoldChance": 40
-            }
+            },
+            "herbloreLevel": 36
         },
         {
             "category": "Herblore",
@@ -35192,7 +35243,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedSeeingGoldChance": 75
-            }
+            },
+            "herbloreLevel": 36
         },
         {
             "category": "Herblore",
@@ -35230,7 +35282,8 @@ var melvorData = {
             "trimmedItemID": 588,
             "modifiers": {
                 "increasedThievingStealth": 15
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -35274,7 +35327,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedThievingStealth": 30
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -35318,7 +35372,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedThievingStealth": 50
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -35360,7 +35415,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedThievingStealth": 75
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -35402,7 +35458,8 @@ var melvorData = {
             "trimmedItemID": 592,
             "modifiers": {
                 "increasedChanceDoubleHarvest": 5
-            }
+            },
+            "herbloreLevel": 74
         },
         {
             "category": "Herblore",
@@ -35450,7 +35507,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceDoubleHarvest": 10
-            }
+            },
+            "herbloreLevel": 74
         },
         {
             "category": "Herblore",
@@ -35498,7 +35556,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceDoubleHarvest": 15
-            }
+            },
+            "herbloreLevel": 74
         },
         {
             "category": "Herblore",
@@ -35544,7 +35603,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceDoubleHarvest": 25
-            }
+            },
+            "herbloreLevel": 74
         },
         {
             "category": "Herblore",
@@ -35587,7 +35647,8 @@ var melvorData = {
                         5
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 42
         },
         {
             "category": "Herblore",
@@ -35636,7 +35697,8 @@ var melvorData = {
                         10
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 42
         },
         {
             "category": "Herblore",
@@ -35685,7 +35747,8 @@ var melvorData = {
                         15
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 42
         },
         {
             "category": "Herblore",
@@ -35732,7 +35795,8 @@ var melvorData = {
                         25
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 42
         },
         {
             "category": "Herblore",
@@ -35775,7 +35839,8 @@ var melvorData = {
                         5
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 49
         },
         {
             "category": "Herblore",
@@ -35824,7 +35889,8 @@ var melvorData = {
                         10
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 49
         },
         {
             "category": "Herblore",
@@ -35873,7 +35939,8 @@ var melvorData = {
                         15
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 49
         },
         {
             "category": "Herblore",
@@ -35920,7 +35987,8 @@ var melvorData = {
                         25
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 49
         },
         {
             "category": "Herblore",
@@ -35958,7 +36026,8 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 5,
                 "increasedElementalRuneGain": 2
-            }
+            },
+            "herbloreLevel": 63
         },
         {
             "category": "Herblore",
@@ -36002,7 +36071,8 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 10,
                 "increasedElementalRuneGain": 4
-            }
+            },
+            "herbloreLevel": 63
         },
         {
             "category": "Herblore",
@@ -36046,7 +36116,8 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 25,
                 "increasedElementalRuneGain": 6
-            }
+            },
+            "herbloreLevel": 63
         },
         {
             "category": "Herblore",
@@ -36088,7 +36159,8 @@ var melvorData = {
             "modifiers": {
                 "increasedChanceForElementalRune": 50,
                 "increasedElementalRuneGain": 8
-            }
+            },
+            "herbloreLevel": 63
         },
         {
             "category": "Herblore",
@@ -36122,7 +36194,8 @@ var melvorData = {
             "trimmedItemID": 608,
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 1
-            }
+            },
+            "herbloreLevel": 71
         },
         {
             "category": "Herblore",
@@ -36162,7 +36235,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 2
-            }
+            },
+            "herbloreLevel": 71
         },
         {
             "category": "Herblore",
@@ -36202,7 +36276,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 3
-            }
+            },
+            "herbloreLevel": 71
         },
         {
             "category": "Herblore",
@@ -36240,7 +36315,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceRandomPotionHerblore": 6
-            }
+            },
+            "herbloreLevel": 71
         },
         {
             "category": "Herblore",
@@ -36278,7 +36354,8 @@ var melvorData = {
             "trimmedItemID": 612,
             "modifiers": {
                 "increasedRangedMaxHit": 5
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -36322,7 +36399,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedRangedMaxHit": 10
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -36366,7 +36444,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedRangedMaxHit": 15
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -36408,7 +36487,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedRangedMaxHit": 25
-            }
+            },
+            "herbloreLevel": 45
         },
         {
             "category": "Herblore",
@@ -36450,7 +36530,8 @@ var melvorData = {
             "trimmedItemID": 616,
             "modifiers": {
                 "increasedMagicMaxHit": 1
-            }
+            },
+            "herbloreLevel": 65
         },
         {
             "category": "Herblore",
@@ -36498,7 +36579,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMagicMaxHit": 5
-            }
+            },
+            "herbloreLevel": 65
         },
         {
             "category": "Herblore",
@@ -36546,7 +36628,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedMagicMaxHit": 10
-            }
+            },
+            "herbloreLevel": 65
         },
         {
             "category": "Herblore",
@@ -36592,7 +36675,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedMagicMaxHit": 15
-            }
+            },
+            "herbloreLevel": 65
         },
         {
             "category": "Herblore",
@@ -37408,7 +37492,8 @@ var melvorData = {
             "trimmedItemID": 634,
             "modifiers": {
                 "increasedAttackRolls": 1
-            }
+            },
+            "herbloreLevel": 85
         },
         {
             "category": "Herblore",
@@ -37451,7 +37536,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedAttackRolls": 1
-            }
+            },
+            "herbloreLevel": 85
         },
         {
             "category": "Herblore",
@@ -37494,7 +37580,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedAttackRolls": 1
-            }
+            },
+            "herbloreLevel": 85
         },
         {
             "category": "Herblore",
@@ -37535,7 +37622,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedAttackRolls": 1
-            }
+            },
+            "herbloreLevel": 85
         },
         {
             "category": "Herblore",
@@ -37577,7 +37665,8 @@ var melvorData = {
             "trimmedItemID": 638,
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 10
-            }
+            },
+            "herbloreLevel": 57
         },
         {
             "category": "Herblore",
@@ -37625,7 +37714,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 15
-            }
+            },
+            "herbloreLevel": 57
         },
         {
             "category": "Herblore",
@@ -37673,7 +37763,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 20
-            }
+            },
+            "herbloreLevel": 57
         },
         {
             "category": "Herblore",
@@ -37719,7 +37810,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedChanceToPreservePrayerPoints": 35
-            }
+            },
+            "herbloreLevel": 57
         },
         {
             "category": "Herblore",
@@ -37757,7 +37849,8 @@ var melvorData = {
             "trimmedItemID": 642,
             "modifiers": {
                 "increasedChanceToConvertSeedDrops": 10
-            }
+            },
+            "herbloreLevel": 50
         },
         {
             "category": "Herblore",
@@ -37811,7 +37904,8 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ]
+            ],
+            "herbloreLevel": 50
         },
         {
             "category": "Herblore",
@@ -37865,7 +37959,8 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ]
+            ],
+            "herbloreLevel": 50
         },
         {
             "category": "Herblore",
@@ -37917,7 +38012,8 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
-            ]
+            ],
+            "herbloreLevel": 50
         },
         {
             "category": "Misc",
@@ -55517,7 +55613,8 @@ var melvorData = {
                         2
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 62
         },
         {
             "category": "Herblore",
@@ -55566,7 +55663,8 @@ var melvorData = {
                         4
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 62
         },
         {
             "category": "Herblore",
@@ -55615,7 +55713,8 @@ var melvorData = {
                         6
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 62
         },
         {
             "category": "Herblore",
@@ -55662,7 +55761,8 @@ var melvorData = {
                         8
                     ]
                 ]
-            }
+            },
+            "herbloreLevel": 62
         },
         {
             "category": "Events",
@@ -59111,7 +59211,8 @@ var melvorData = {
             "trimmedItemID": 1002,
             "modifiers": {
                 "increasedSummoningCreationCharges": 1
-            }
+            },
+            "herbloreLevel": 55
         },
         {
             "category": "Herblore",
@@ -59159,7 +59260,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSummoningCreationCharges": 2
-            }
+            },
+            "herbloreLevel": 55
         },
         {
             "category": "Herblore",
@@ -59207,7 +59309,8 @@ var melvorData = {
             ],
             "modifiers": {
                 "increasedSummoningCreationCharges": 3
-            }
+            },
+            "herbloreLevel": 55
         },
         {
             "category": "Herblore",
@@ -59253,7 +59356,8 @@ var melvorData = {
             "potionTier": 3,
             "modifiers": {
                 "increasedSummoningCreationCharges": 5
-            }
+            },
+            "herbloreLevel": 55
         },
         {
             "category": "Summoning",
