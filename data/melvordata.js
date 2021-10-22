@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.22.1",
-        "generationDate": "2021-10-22T14:28:38.964Z"
+        "generationDate": "2021-10-22T15:05:39.905Z"
     },
     "items": [
         {
@@ -1405,6 +1405,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Basic Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 5000,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -1482,6 +1492,16 @@ var melvorData = {
                 {
                     "id": 16,
                     "qty": 1
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Standard Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
                 }
             ]
         },
@@ -1562,6 +1582,16 @@ var melvorData = {
                         15
                     ],
                     "qty": 8
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Generous Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 20000,
+                        "items": []
+                    }
                 }
             ]
         },
@@ -9909,6 +9939,16 @@ var melvorData = {
                     ],
                     "maxQty": 1
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Compost",
+                    "cost": {
+                        "gp": 500,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -16787,6 +16827,16 @@ var melvorData = {
                     ],
                     "qty": 200
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Basic Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 5000,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -16891,6 +16941,16 @@ var melvorData = {
                     ],
                     "qty": 100
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Standard Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -16986,6 +17046,16 @@ var melvorData = {
                         571
                     ],
                     "qty": 100
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Generous Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 20000,
+                        "items": []
+                    }
                 }
             ]
         },
@@ -17367,6 +17437,16 @@ var melvorData = {
                     ],
                     "qty": 1000
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Feathers",
+                    "cost": {
+                        "gp": 8,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -17660,6 +17740,16 @@ var melvorData = {
                     653,
                     1
                 ]
+            ],
+            "shopSources": [
+                {
+                    "name": "Bowstring",
+                    "cost": {
+                        "gp": 24,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -17689,6 +17779,16 @@ var melvorData = {
                     ],
                     "maxQty": 6
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Leather",
+                    "cost": {
+                        "gp": 100,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -17709,6 +17809,21 @@ var melvorData = {
                         1
                     ],
                     "maxQty": 15
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Green Dragonhide",
+                    "cost": {
+                        "gp": 100,
+                        "slayerCoins": 0,
+                        "items": [
+                            [
+                                292,
+                                1
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -17731,6 +17846,21 @@ var melvorData = {
                     ],
                     "maxQty": 20
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Blue Dragonhide",
+                    "cost": {
+                        "gp": 250,
+                        "slayerCoins": 0,
+                        "items": [
+                            [
+                                292,
+                                1
+                            ]
+                        ]
+                    }
+                }
             ]
         },
         {
@@ -17751,6 +17881,21 @@ var melvorData = {
                         1
                     ],
                     "maxQty": 25
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Red Dragonhide",
+                    "cost": {
+                        "gp": 350,
+                        "slayerCoins": 0,
+                        "items": [
+                            [
+                                292,
+                                2
+                            ]
+                        ]
+                    }
                 }
             ]
         },
@@ -20212,7 +20357,17 @@ var melvorData = {
             "buysFor": 50000,
             "modifiers": {
                 "increasedChanceSuccessfulCook": 10
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Cooking Gloves",
+                    "cost": {
+                        "gp": 45000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -20232,7 +20387,17 @@ var melvorData = {
             "sellsFor": 1,
             "media": "assets/media/bank/gloves_mining.png",
             "gloveID": 1,
-            "buysFor": 75000
+            "buysFor": 75000,
+            "shopSources": [
+                {
+                    "name": "Mining Gloves",
+                    "cost": {
+                        "gp": 67500,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -20252,7 +20417,17 @@ var melvorData = {
             "sellsFor": 1,
             "media": "assets/media/bank/gloves_smithing.png",
             "gloveID": 2,
-            "buysFor": 100000
+            "buysFor": 100000,
+            "shopSources": [
+                {
+                    "name": "Smithing Gloves",
+                    "cost": {
+                        "gp": 90000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -20272,7 +20447,17 @@ var melvorData = {
             "sellsFor": 1,
             "media": "assets/media/bank/gloves_thieving.png",
             "gloveID": 3,
-            "buysFor": 100000
+            "buysFor": 100000,
+            "shopSources": [
+                {
+                    "name": "Thieving Gloves",
+                    "cost": {
+                        "gp": 90000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -20292,7 +20477,17 @@ var melvorData = {
             "sellsFor": 1,
             "media": "assets/media/bank/gloves_gems.png",
             "gloveID": 4,
-            "buysFor": 500000
+            "buysFor": 500000,
+            "shopSources": [
+                {
+                    "name": "Gem Gloves",
+                    "cost": {
+                        "gp": 450000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28030,6 +28225,16 @@ var melvorData = {
                     ],
                     "qty": 100
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Basic Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 5000,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -28230,7 +28435,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_attack.png"
+            "media": "assets/media/bank/skillcape_attack.png",
+            "shopSources": [
+                {
+                    "name": "Attack Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28268,7 +28483,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_cooking.png"
+            "media": "assets/media/bank/skillcape_cooking.png",
+            "shopSources": [
+                {
+                    "name": "Cooking Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28310,7 +28535,17 @@ var melvorData = {
                         500
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Crafting Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28343,7 +28578,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_defence.png"
+            "media": "assets/media/bank/skillcape_defence.png",
+            "shopSources": [
+                {
+                    "name": "Defence Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28382,7 +28627,17 @@ var melvorData = {
             "modifiers": {
                 "increasedFarmingYield": 20,
                 "freeCompost": 1
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Farming Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28420,7 +28675,17 @@ var melvorData = {
             "modifiers": {
                 "increasedGlobalSkillXP": 5,
                 "increasedFiremakingCoalChance": 100
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Firemaking Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28462,7 +28727,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_fishing.png"
+            "media": "assets/media/bank/skillcape_fishing.png",
+            "shopSources": [
+                {
+                    "name": "Fishing Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28504,7 +28779,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_fletching.png"
+            "media": "assets/media/bank/skillcape_fletching.png",
+            "shopSources": [
+                {
+                    "name": "Fletching Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28541,7 +28826,17 @@ var melvorData = {
             "media": "assets/media/bank/skillcape_hitpoints.png",
             "modifiers": {
                 "increasedHPRegenFlat": 1
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Hitpoints Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28578,7 +28873,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_magic.png"
+            "media": "assets/media/bank/skillcape_magic.png",
+            "shopSources": [
+                {
+                    "name": "Magic Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28615,7 +28920,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_mining.png"
+            "media": "assets/media/bank/skillcape_mining.png",
+            "shopSources": [
+                {
+                    "name": "Mining Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28652,7 +28967,17 @@ var melvorData = {
             "media": "assets/media/bank/skillcape_ranged.png",
             "modifiers": {
                 "increasedAmmoPreservation": 50
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Ranged Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28694,7 +29019,17 @@ var melvorData = {
                         35
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Runecrafting Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28731,7 +29066,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_smithing.png"
+            "media": "assets/media/bank/skillcape_smithing.png",
+            "shopSources": [
+                {
+                    "name": "Smithing Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28768,7 +29113,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_strength.png"
+            "media": "assets/media/bank/skillcape_strength.png",
+            "shopSources": [
+                {
+                    "name": "Strength Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28812,7 +29167,17 @@ var melvorData = {
                 ],
                 "increasedGPFromThieving": 100,
                 "increasedThievingStealth": 150
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Thieving Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -28854,7 +29219,17 @@ var melvorData = {
                         15
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Woodcutting Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Dungeons",
@@ -29756,7 +30131,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_prayer.png"
+            "media": "assets/media/bank/skillcape_prayer.png",
+            "shopSources": [
+                {
+                    "name": "Prayer Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -29822,7 +30207,17 @@ var melvorData = {
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 5
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Helmet (Basic)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -29888,7 +30283,17 @@ var melvorData = {
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 5
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Platebody (Basic)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -30632,7 +31037,17 @@ var melvorData = {
             "description": "Passive: Grants access to Strange Cave.",
             "canUpgrade": false,
             "sellsFor": 2200,
-            "media": "assets/media/bank/mirror_shield.png"
+            "media": "assets/media/bank/mirror_shield.png",
+            "shopSources": [
+                {
+                    "name": "Mirror Shield",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 2000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Herblore",
@@ -31042,7 +31457,17 @@ var melvorData = {
             "equipmentStats": [],
             "description": "Passive: Grants access to High Lands.",
             "sellsFor": 18500,
-            "media": "assets/media/bank/magical_ring.png"
+            "media": "assets/media/bank/magical_ring.png",
+            "shopSources": [
+                {
+                    "name": "Magical Ring",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 50000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31239,7 +31664,17 @@ var melvorData = {
                 "increasedDamageToSlayerTasks": 5,
                 "increasedSlayerAreaEffectNegationFlat": 25,
                 "bypassSlayerItems": 1
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Misc",
@@ -31399,7 +31834,17 @@ var melvorData = {
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 5
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Wizard Hat (Basic)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31440,7 +31885,17 @@ var melvorData = {
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 5
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Wizard Robes (Basic)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31757,7 +32212,17 @@ var melvorData = {
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 5
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Cowl (Basic)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31810,7 +32275,17 @@ var melvorData = {
                     ]
                 ],
                 "increasedSlayerAreaEffectNegationFlat": 5
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Slayer Leather Body (Basic)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -37455,7 +37930,17 @@ var melvorData = {
             "hasStats": true,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_herblore.png"
+            "media": "assets/media/bank/skillcape_herblore.png",
+            "shopSources": [
+                {
+                    "name": "Herblore Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Herblore",
@@ -38852,7 +39337,26 @@ var melvorData = {
             "sellsFor": 750,
             "buysFor": 0,
             "media": "assets/media/bank/weird_gloop.png",
-            "harvestBonus": 10
+            "harvestBonus": 10,
+            "shopSources": [
+                {
+                    "name": "Weird Gloop",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 0,
+                        "items": [
+                            [
+                                159,
+                                2
+                            ],
+                            [
+                                388,
+                                10
+                            ]
+                        ]
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -39076,6 +39580,16 @@ var melvorData = {
                     ],
                     "qty": 100
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Basic Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 5000,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -39136,6 +39650,16 @@ var melvorData = {
                     ],
                     "qty": 100
                 }
+            ],
+            "shopSources": [
+                {
+                    "name": "Standard Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000,
+                        "items": []
+                    }
+                }
             ]
         },
         {
@@ -39195,6 +39719,16 @@ var melvorData = {
                         447
                     ],
                     "qty": 100
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Generous Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 20000,
+                        "items": []
+                    }
                 }
             ]
         },
@@ -46432,7 +46966,17 @@ var melvorData = {
             "description": "Created by Patreon (deathbyconfetti)<br>Grants GP on-hit based on your current total GP | Capped at 250% of damage dealt when you have 50M GP. Requires Bolts as Ammunition.",
             "sellsFor": 5,
             "media": "assets/media/bank/weapon_crossbow_confetti.svg",
-            "ammoTypeRequired": 1
+            "ammoTypeRequired": 1,
+            "shopSources": [
+                {
+                    "name": "Confetti Crossbow",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 250000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -46847,7 +47391,17 @@ var melvorData = {
                 "increasedThievingStealth": 150,
                 "increasedChancePerfectCookGlobal": 2,
                 "increasedGPFromAgility": 10
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Maximum Skillcape",
+                    "cost": {
+                        "gp": 22000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47367,7 +47921,17 @@ var melvorData = {
             "media": "assets/media/bank/skull_cape.png",
             "modifiers": {
                 "increasedRunePreservation": 20
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Skull Cape",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 400000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -47511,6 +48075,16 @@ var melvorData = {
                         713
                     ],
                     "maxQty": 1
+                }
+            ],
+            "shopSources": [
+                {
+                    "name": "Basic Resupply",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 5000,
+                        "items": []
+                    }
                 }
             ]
         },
@@ -51513,7 +52087,17 @@ var melvorData = {
             "canUpgrade": false,
             "buysFor": 2147483647,
             "sellsFor": 69,
-            "media": "assets/media/bank/party_hat_red.png"
+            "media": "assets/media/bank/party_hat_red.png",
+            "shopSources": [
+                {
+                    "name": "Red Party Hat",
+                    "cost": {
+                        "gp": 2147483647,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -52147,7 +52731,17 @@ var melvorData = {
                 "increasedThievingStealth": 150,
                 "increasedChancePerfectCookGlobal": 2,
                 "increasedGPFromAgility": 10
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Cape of Completion",
+                    "cost": {
+                        "gp": 200000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -52166,7 +52760,17 @@ var melvorData = {
             "equipmentStats": [],
             "description": "Passive: Grants access to Arid Plains.",
             "sellsFor": 13000,
-            "media": "assets/media/bank/desert_hat.png"
+            "media": "assets/media/bank/desert_hat.png",
+            "shopSources": [
+                {
+                    "name": "Desert Hat",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 25000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -52185,7 +52789,17 @@ var melvorData = {
             "equipmentStats": [],
             "description": "Passive: Grants access to Shrouded Badlands.",
             "sellsFor": 62500,
-            "media": "assets/media/bank/blazing_lantern.png"
+            "media": "assets/media/bank/blazing_lantern.png",
+            "shopSources": [
+                {
+                    "name": "Blazing Lantern",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 250000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -52204,7 +52818,17 @@ var melvorData = {
             "equipmentStats": [],
             "description": "Passive: Grants access to Perilous Peaks.",
             "sellsFor": 125000,
-            "media": "assets/media/bank/climbing_boots.png"
+            "media": "assets/media/bank/climbing_boots.png",
+            "shopSources": [
+                {
+                    "name": "Climbing Boots",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 500000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -55048,7 +55672,17 @@ var melvorData = {
                         1
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Green Party Hat",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 10000000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -55143,7 +55777,17 @@ var melvorData = {
             "isEquipment": false,
             "description": "Used to upgrade Basic Slayer Gear to Strong.",
             "sellsFor": 100,
-            "media": "assets/media/bank/slayer_upgrade_kit_strong.png"
+            "media": "assets/media/bank/slayer_upgrade_kit_strong.png",
+            "shopSources": [
+                {
+                    "name": "Slayer Gear Upgrade Kit (Strong)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 50000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Slayer",
@@ -55153,7 +55797,17 @@ var melvorData = {
             "isEquipment": false,
             "description": "Used to upgrade Strong Slayer Gear to Elite.",
             "sellsFor": 500,
-            "media": "assets/media/bank/slayer_upgrade_kit_elite.png"
+            "media": "assets/media/bank/slayer_upgrade_kit_elite.png",
+            "shopSources": [
+                {
+                    "name": "Slayer Gear Upgrade Kit (Elite)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 200000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Slayer",
@@ -55163,7 +55817,17 @@ var melvorData = {
             "isEquipment": false,
             "description": "Used to upgrade Elite Slayer Gear to Master.",
             "sellsFor": 5000,
-            "media": "assets/media/bank/slayer_upgrade_kit_master.png"
+            "media": "assets/media/bank/slayer_upgrade_kit_master.png",
+            "shopSources": [
+                {
+                    "name": "Slayer Gear Upgrade Kit (Master)",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 1000000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Events",
@@ -55515,7 +56179,18 @@ var melvorData = {
             "canUpgrade": false,
             "sellsFor": 69,
             "media": "assets/media/bank/party_hat_yellow.png",
-            "ignoreCompletion": true
+            "ignoreCompletion": true,
+            "shopSources": [
+                {
+                    "name": "Yellow Party Hat",
+                    "cost": {
+                        "gp": 0,
+                        "slayerCoins": 0,
+                        "items": [],
+                        "raidCoins": 500000
+                    }
+                }
+            ]
         },
         {
             "category": "Mastery",
@@ -55570,7 +56245,17 @@ var melvorData = {
             "hasStats": true,
             "buysFor": 1000000,
             "sellsFor": 250000,
-            "media": "assets/media/bank/skillcape_agility.png"
+            "media": "assets/media/bank/skillcape_agility.png",
+            "shopSources": [
+                {
+                    "name": "Agility Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Herblore",
@@ -55784,7 +56469,17 @@ var melvorData = {
             "description": "Use to create Familiars in Summoning",
             "buysFor": 200,
             "sellsFor": 50,
-            "media": "assets/media/bank/summoning_shard_red.png"
+            "media": "assets/media/bank/summoning_shard_red.png",
+            "shopSources": [
+                {
+                    "name": "Summoning Shard (Red)",
+                    "cost": {
+                        "gp": 200,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -55795,7 +56490,17 @@ var melvorData = {
             "description": "Use to create Familiars in Summoning",
             "buysFor": 200,
             "sellsFor": 50,
-            "media": "assets/media/bank/summoning_shard_green.png"
+            "media": "assets/media/bank/summoning_shard_green.png",
+            "shopSources": [
+                {
+                    "name": "Summoning Shard (Green)",
+                    "cost": {
+                        "gp": 200,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -55806,7 +56511,17 @@ var melvorData = {
             "description": "Use to create Familiars in Summoning",
             "buysFor": 400,
             "sellsFor": 100,
-            "media": "assets/media/bank/summoning_shard_blue.png"
+            "media": "assets/media/bank/summoning_shard_blue.png",
+            "shopSources": [
+                {
+                    "name": "Summoning Shard (Blue)",
+                    "cost": {
+                        "gp": 400,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -55817,7 +56532,17 @@ var melvorData = {
             "description": "Use to create Familiars in Summoning",
             "buysFor": 400,
             "sellsFor": 100,
-            "media": "assets/media/bank/summoning_shard_silver.png"
+            "media": "assets/media/bank/summoning_shard_silver.png",
+            "shopSources": [
+                {
+                    "name": "Summoning Shard (Silver)",
+                    "cost": {
+                        "gp": 400,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -55828,7 +56553,17 @@ var melvorData = {
             "description": "Use to create Familiars in Summoning",
             "buysFor": 600,
             "sellsFor": 150,
-            "media": "assets/media/bank/summoning_shard_gold.png"
+            "media": "assets/media/bank/summoning_shard_gold.png",
+            "shopSources": [
+                {
+                    "name": "Summoning Shard (Gold)",
+                    "cost": {
+                        "gp": 600,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -55839,7 +56574,17 @@ var melvorData = {
             "description": "Use to create Familiars in Summoning",
             "buysFor": 600,
             "sellsFor": 150,
-            "media": "assets/media/bank/summoning_shard_black.png"
+            "media": "assets/media/bank/summoning_shard_black.png",
+            "shopSources": [
+                {
+                    "name": "Summoning Shard (Black)",
+                    "cost": {
+                        "gp": 600,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -59148,7 +59893,17 @@ var melvorData = {
                 ],
                 "increasedSummoningChargePreservation": 10,
                 "increasedSummoningCreationCharges": 10
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Summoning Skillcape",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Woodcutting",
@@ -59383,7 +60138,17 @@ var melvorData = {
                         2
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Necromancer Hat",
+                    "cost": {
+                        "gp": 500000,
+                        "slayerCoins": 100000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -59409,7 +60174,17 @@ var melvorData = {
                         2
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Necromancer Robes",
+                    "cost": {
+                        "gp": 10000000,
+                        "slayerCoins": 750000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -59435,7 +60210,17 @@ var melvorData = {
                         2
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Necromancer Bottoms",
+                    "cost": {
+                        "gp": 5000000,
+                        "slayerCoins": 500000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Summoning",
@@ -59461,7 +60246,17 @@ var melvorData = {
                         2
                     ]
                 ]
-            }
+            },
+            "shopSources": [
+                {
+                    "name": "Necromancer Boots",
+                    "cost": {
+                        "gp": 1000000,
+                        "slayerCoins": 250000,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Cool",
@@ -59489,7 +60284,17 @@ var melvorData = {
             "sellsFor": 1,
             "buysFor": 4,
             "media": "assets/media/bank/bag_of_flour.png",
-            "mediaAlt": "assets/media/bank/bag_of_flour_alt.png"
+            "mediaAlt": "assets/media/bank/bag_of_flour_alt.png",
+            "shopSources": [
+                {
+                    "name": "Bag of Flour",
+                    "cost": {
+                        "gp": 4,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Cooking",
@@ -60525,7 +61330,17 @@ var melvorData = {
             "id": 1064,
             "sellsFor": 1,
             "buysFor": 4,
-            "media": "assets/media/bank/cheese.png"
+            "media": "assets/media/bank/cheese.png",
+            "shopSources": [
+                {
+                    "name": "Cheese",
+                    "cost": {
+                        "gp": 4,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Cooking",
@@ -60537,7 +61352,17 @@ var melvorData = {
             "sellsFor": 1,
             "buysFor": 4,
             "media": "assets/media/bank/cream.png",
-            "mediaAlt": "assets/media/bank/cream_alt.png"
+            "mediaAlt": "assets/media/bank/cream_alt.png",
+            "shopSources": [
+                {
+                    "name": "Cream",
+                    "cost": {
+                        "gp": 4,
+                        "slayerCoins": 0,
+                        "items": []
+                    }
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -78939,5 +79764,4617 @@ var melvorData = {
             "areaEffectModifier": "increasedAttackIntervalPercent",
             "id": 10
         }
-    ]
+    ],
+    "shop": {
+        "General": [
+            {
+                "name": "Extra Bank Slot",
+                "description": "+1 Maximum Bank Space",
+                "media": "assets/media/main/bank_header.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedBankSpaceShop": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 34,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    88,
+                    0,
+                    0
+                ],
+                "showBuyLimit": true
+            },
+            {
+                "name": "Auto Eat - Tier I",
+                "description": "Using your current equipped food only, automatically consume the food to fill your HP to at least 40% when it is equal to or below 20% HP. Food Efficiency: 60% (Food heals for 60% of the value shown when Auto Eating).",
+                "media": "assets/media/shop/autoeat.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedAutoEatThreshold": 20,
+                        "increasedAutoEatEfficiency": 60,
+                        "increasedAutoEatHPLimit": 40
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Auto Eat - Tier II",
+                "description": "Using your current equipped food only, automatically consume the food to fill your HP to at least 60% when it is equal to or below 30% HP. Food Efficiency: 80% (Food heals for 80% of the value shown when Auto Eating).",
+                "media": "assets/media/shop/autoeat.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedAutoEatThreshold": 10,
+                        "increasedAutoEatEfficiency": 20,
+                        "increasedAutoEatHPLimit": 20
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 5000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "shopItemPurchased": [
+                        [
+                            "General",
+                            1
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Auto Eat - Tier III",
+                "description": "Using your current equipped food only, automatically consume the food to fill your HP to at least 80% when it is equal to or below 40% HP. Food Efficiency: 100% (Food heals for 100% of the value shown when Auto Eating).",
+                "media": "assets/media/shop/autoeat.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedAutoEatThreshold": 10,
+                        "increasedAutoEatEfficiency": 20,
+                        "increasedAutoEatHPLimit": 20
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 20000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "shopItemPurchased": [
+                        [
+                            "General",
+                            2
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Extra Equipment Set",
+                "description": "Unlock an extra Equipment Set for Combat.",
+                "media": "assets/media/shop/equipment_set.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedEquipmentSets": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 10000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Extra Equipment Set",
+                "description": "Unlock an extra Equipment Set for Combat.",
+                "media": "assets/media/shop/equipment_set.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedEquipmentSets": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 300000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Dungeon Equipment Swapping",
+                "description": "Enable Equipment Set swapping during Dungeons.",
+                "media": "assets/media/shop/equipment_swap.svg",
+                "contains": {
+                    "modifiers": {
+                        "dungeonEquipmentSwapping": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 30000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Multi-Tree",
+                "description": "Unlock the ability to cut 2 different trees in Woodcutting. Logs, Skill XP and Mastery XP granted based on highest interval.",
+                "media": "assets/media/shop/woodcutting_multi_tree.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedTreeCutLimit": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Cooking Upgrade 1",
+                "description": "Automatically equip Food that is Actively Cooked if that Food is already equipped or an empty Food slot is available. This can be toggled on or off.",
+                "media": "assets/media/skills/cooking/cooking.svg",
+                "contains": {
+                    "modifiers": {
+                        "autoEquipFoodUnlocked": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 10000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            3,
+                            80
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Cooking Upgrade 2",
+                "description": "When running out of Food in Combat, automatically swap to a different Food Slot that contains food. This can be toggled on or off.",
+                "media": "assets/media/skills/cooking/cooking.svg",
+                "contains": {
+                    "modifiers": {
+                        "autoSwapFoodUnlocked": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 75000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            3,
+                            90
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            }
+        ],
+        "SkillUpgrades": [
+            {
+                "name": "Iron Axe",
+                "description": "-5% Woodcutting Interval for a total of -5% applied from your Axe.",
+                "media": "assets/media/shop/axe_iron.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Steel Axe",
+                "description": "-5% Woodcutting Cut Interval for a total of -10% applied from your Axe.",
+                "media": "assets/media/shop/axe_steel.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 750,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            0
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Black Axe",
+                "description": "-10% Woodcutting Cut Interval for a total of -20% applied from your Axe.",
+                "media": "assets/media/shop/axe_black.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                10
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 2500,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            20
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            1
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mithril Axe",
+                "description": "-10% Woodcutting Cut Interval for a total of -30% applied from your Axe.",
+                "media": "assets/media/shop/axe_mithril.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                10
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 10000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            35
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            2
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Adamant Axe",
+                "description": "-5% Woodcutting Cut Interval for a total of -35% applied from your Axe.",
+                "media": "assets/media/shop/axe_adamant.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            50
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            3
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Rune Axe",
+                "description": "-5% Woodcutting Cut Interval for a total of -40% applied from your Axe.",
+                "media": "assets/media/shop/axe_rune.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 200000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            60
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            4
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Dragon Axe",
+                "description": "-10% Woodcutting Cut Interval for a total of -50% applied from your Axe.",
+                "media": "assets/media/shop/axe_dragon.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                0,
+                                10
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 2000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            80
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            5
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Iron Fishing Rod",
+                "description": "-5% Fishing Interval for a total of -5% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_iron.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 100,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Steel Fishing Rod",
+                "description": "-5% Fishing Interval for a total of -10% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_steel.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 1000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            10
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            7
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Black Fishing Rod",
+                "description": "-5% Fishing Interval for a total of -15% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_black.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 5000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            20
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            8
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mithril Fishing Rod",
+                "description": "-5% Fishing Interval for a total of -20% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_mithril.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 20000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            35
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            9
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Adamant Fishing Rod",
+                "description": "-5% Fishing Interval for a total of -25% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_adamant.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 75000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            50
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            10
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Rune Fishing Rod",
+                "description": "-5% Fishing Interval for a total of -30% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_rune.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 300000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            60
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            11
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Dragon Fishing Rod",
+                "description": "-10% Fishing Interval for a total of -40% applied from your Fishing Rod.",
+                "media": "assets/media/shop/fishing_dragon.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                1,
+                                10
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 2000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            80
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            12
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Iron Pickaxe",
+                "description": "-5% Mining Interval for a total of -5% applied from your Pickaxe. +1% chance to double ores per action for a total of +1% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_iron.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                5
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 250,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Steel Pickaxe",
+                "description": "-5% Mining Interval for a total of -10% applied from your Pickaxe. +1% chance to double ores per action for a total of +2% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_steel.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                5
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 2000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            10
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            14
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Black Pickaxe",
+                "description": "-5% Mining Interval for a total of -15% applied from your Pickaxe. +1% chance to double ores per action for a total of +3% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_black.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                5
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 10000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            20
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mithril Pickaxe",
+                "description": "-5% Mining Interval for a total of -20% applied from your Pickaxe. +1% chance to double ores per action for a total of +4% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_mithril.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                5
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            35
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            16
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Adamant Pickaxe",
+                "description": "-10% Mining Interval for a total of -30% applied from your Pickaxe. +1% chance to double ores per action for a total of +5% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_adamant.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                10
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 200000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            50
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            17
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Rune Pickaxe",
+                "description": "-10% Mining Interval for a total of -40% applied from your Pickaxe. +1% chance to double ores per action for a total of +6% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_rune.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                10
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            60
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            18
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Dragon Pickaxe",
+                "description": "-10% Mining Interval for a total of -50% applied from your Pickaxe. +1% chance to double ores per action for a total of +7% from your Pickaxe.",
+                "media": "assets/media/shop/pickaxe_dragon.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                10
+                            ]
+                        ],
+                        "increasedChanceToDoubleOres": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 5000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            80
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            19
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Normal Cooking Fire",
+                "description": "+5% Cooking XP for a total of +5% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_normal.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 20000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            0,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Oak Cooking Fire",
+                "description": "+5% Cooking XP for a total of +10% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_oak.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 40000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            1,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            10
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            21
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Willow Cooking Fire",
+                "description": "+5% Cooking XP for a total of +15% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_willow.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 70000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            2,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            25
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            22
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Teak Cooking Fire",
+                "description": "+5% Cooking XP for a total of +20% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_teak.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 100000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            3,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            35
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            23
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Maple Cooking Fire",
+                "description": "+5% Cooking XP for a total of +25% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_maple.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 150000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            4,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            45
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            24
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mahogany Cooking Fire",
+                "description": "+5% Cooking XP for a total of +30% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_mahogany.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                5
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 200000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            5,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            55
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            25
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Yew Cooking Fire",
+                "description": "+10% Cooking XP for a total of +40% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_yew.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                10
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 300000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            6,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            60
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            26
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Magic Cooking Fire",
+                "description": "+10% Cooking XP for a total of +50% Cooking XP from your Cooking Fire.",
+                "media": "assets/media/skills/cooking/cooking_fire_magic.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                10
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 500000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            7,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            75
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            27
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Redwood Cooking Fire",
+                "description": "+20% Cooking XP for a total of +70% Cooking XP from your Cooking Fire. +3% Perfect Cook chance for Fire only.",
+                "media": "assets/media/skills/cooking/cooking_fire_redwood.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookFire": 3,
+                        "increasedSkillXP": [
+                            [
+                                3,
+                                20
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            8,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            90
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            28
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Perpetual Haste",
+                "description": "-15% Base Crafting & Fletching Interval.",
+                "media": "assets/media/shop/perpetual_haste.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                14,
+                                15
+                            ],
+                            [
+                                13,
+                                15
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "dungeonCompletion": [
+                        [
+                            8,
+                            1
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Expanded Knowledge",
+                "description": "-15% Base Herblore & Runecrafting Interval.",
+                "media": "assets/media/shop/expanded_knowledge.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                15,
+                                15
+                            ],
+                            [
+                                19,
+                                15
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "dungeonCompletion": [
+                        [
+                            9,
+                            1
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Master of Nature",
+                "description": "-15% Base Mining & Woodcutting Interval.",
+                "media": "assets/media/shop/master_of_nature.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                4,
+                                15
+                            ],
+                            [
+                                0,
+                                15
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "dungeonCompletion": [
+                        [
+                            10,
+                            1
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Art of Control",
+                "description": "-15% Base Cooking, Firemaking & Smithing Interval.",
+                "media": "assets/media/shop/art_of_control.svg",
+                "contains": {
+                    "modifiers": {
+                        "decreasedSkillIntervalPercent": [
+                            [
+                                3,
+                                15
+                            ],
+                            [
+                                2,
+                                15
+                            ],
+                            [
+                                5,
+                                15
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 50000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "dungeonCompletion": [
+                        [
+                            11,
+                            1
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Basic Furnace",
+                "description": "+1% Perfect Cook chance for Furnace only for a total of +1% from Furnace.",
+                "media": "assets/media/skills/cooking/furnace.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookFurnace": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            0,
+                            500
+                        ],
+                        [
+                            55,
+                            500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            15
+                        ],
+                        [
+                            5,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Strong Furnace",
+                "description": "+1% Perfect Cook chance for Furnace only for a total of +2% chance from Furnace. +1% Chance to double items in Cooking for a total of +1% chance from Furnace.",
+                "media": "assets/media/skills/cooking/furnace_2.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookFurnace": 1,
+                        "increasedChanceToDoubleItemsSkill": [
+                            [
+                                3,
+                                1
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            1,
+                            1000
+                        ],
+                        [
+                            57,
+                            1000
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            30
+                        ],
+                        [
+                            5,
+                            30
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            34
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Magic Furnace",
+                "description": "+1% Perfect Cook chance for Furnace only for a total of +3% chance from Furnace. +1% Chance to double items in Cooking for a total of +2% chance from Furnace.",
+                "media": "assets/media/skills/cooking/furnace_3.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookFurnace": 1,
+                        "increasedChanceToDoubleItemsSkill": [
+                            [
+                                3,
+                                1
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            4,
+                            1500
+                        ],
+                        [
+                            61,
+                            1500
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            50
+                        ],
+                        [
+                            5,
+                            50
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            35
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Basic Pot",
+                "description": "+1% Perfect Cook chance for Pot only for a total of +1% chance from Pot.",
+                "media": "assets/media/skills/cooking/pot.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookPot": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            55,
+                            400
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            5,
+                            25
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Strong Pot",
+                "description": "+1% Perfect Cook chance for Pot only for a total of +2% chance from Pot. +1% Chance to double items in Cooking for a total of +1% chance from Pot",
+                "media": "assets/media/skills/cooking/pot_2.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookPot": 1,
+                        "increasedChanceToDoubleItemsSkill": [
+                            [
+                                3,
+                                1
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            57,
+                            800
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            5,
+                            50
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            37
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Magic Pot",
+                "description": "+1% Perfect Cook chance for Pot only for a total of +3% chance from Pot. +1% Chance to double items in Cooking for a total of +2% chance from Pot.",
+                "media": "assets/media/skills/cooking/pot_3.svg",
+                "contains": {
+                    "modifiers": {
+                        "increasedChancePerfectCookPot": 1,
+                        "increasedChanceToDoubleItemsSkill": [
+                            [
+                                3,
+                                1
+                            ]
+                        ]
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            61,
+                            1200
+                        ]
+                    ]
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            5,
+                            75
+                        ]
+                    ],
+                    "shopItemPurchased": [
+                        [
+                            "SkillUpgrades",
+                            38
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            }
+        ],
+        "Slayer": [
+            {
+                "name": "Auto Slayer",
+                "description": "Unlock the toggle option to automatically fight new Slayer Task Enemies",
+                "media": "assets/media/shop/auto_slayer.svg",
+                "contains": {
+                    "modifiers": {
+                        "autoSlayerUnlocked": 1
+                    },
+                    "items": []
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 150000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Basic Resupply",
+                "description": "+200 Mithril Arrows, +200 Topaz Bolts, +200 Light Runes, +100 Lobsters, +200 Magic Bones",
+                "media": "assets/media/bank/lobster_cooked.png",
+                "contains": {
+                    "items": [
+                        [
+                            265,
+                            200
+                        ],
+                        [
+                            684,
+                            200
+                        ],
+                        [
+                            820,
+                            200
+                        ],
+                        [
+                            26,
+                            100
+                        ],
+                        [
+                            441,
+                            200
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 5000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Standard Resupply",
+                "description": "+200 Adamant Arrows, +200 Sapphire Bolts, +500 Light Runes, +150 Crab, +500 Magic Bones",
+                "media": "assets/media/bank/crab_cooked.png",
+                "contains": {
+                    "items": [
+                        [
+                            266,
+                            200
+                        ],
+                        [
+                            685,
+                            200
+                        ],
+                        [
+                            820,
+                            500
+                        ],
+                        [
+                            28,
+                            150
+                        ],
+                        [
+                            441,
+                            500
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            18,
+                            50
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Generous Resupply",
+                "description": "+200 Rune Arrows, +200 Ruby Bolts, +1000 Light Runes, +200 Sharks, +1000 Magic Bones",
+                "media": "assets/media/bank/shark_cooked.png",
+                "contains": {
+                    "items": [
+                        [
+                            267,
+                            200
+                        ],
+                        [
+                            686,
+                            200
+                        ],
+                        [
+                            820,
+                            1000
+                        ],
+                        [
+                            29,
+                            200
+                        ],
+                        [
+                            441,
+                            1000
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 20000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            18,
+                            75
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mirror Shield",
+                "description": "Passive: Grants access to Strange Cave.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/mirror_shield.png",
+                "contains": {
+                    "items": [
+                        [
+                            494,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 2000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Magical Ring",
+                "description": "Passive: Grants access to High Lands.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/magical_ring.png",
+                "contains": {
+                    "items": [
+                        [
+                            502,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 50000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Desert Hat",
+                "description": "Passive: Grants access to Arid Plains.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/desert_hat.png",
+                "contains": {
+                    "items": [
+                        [
+                            904,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 25000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Blazing Lantern",
+                "description": "Passive: Grants access to Shrouded Badlands.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/blazing_lantern.png",
+                "contains": {
+                    "items": [
+                        [
+                            905,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 250000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Climbing Boots",
+                "description": "Passive: Grants access to Perilous Peaks.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/climbing_boots.png",
+                "contains": {
+                    "items": [
+                        [
+                            906,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 500000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Confetti Crossbow",
+                "description": "Created by Patreon (deathbyconfetti)<br>Grants GP on-hit based on your current total GP | Capped at 250% of damage dealt when you have 50M GP. Requires Bolts as Ammunition.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/weapon_crossbow_confetti.svg",
+                "contains": {
+                    "items": [
+                        [
+                            805,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 250000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Skull Cape",
+                "description": "Created by Patreon (Skull)<br>+20% Rune Preservation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skull_cape.png",
+                "contains": {
+                    "items": [
+                        [
+                            818,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 400000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Green Party Hat",
+                "description": "+1 Bragging Rights",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/party_hat_green.png",
+                "contains": {
+                    "items": [
+                        [
+                            948,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000000,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Necromancer Hat",
+                "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/necromancer_wizard_hat.png",
+                "contains": {
+                    "items": [
+                        [
+                            1005,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 500000,
+                    "slayerCoins": 100000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            21,
+                            20
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Necromancer Boots",
+                "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/necromancer_wizard_boots.png",
+                "contains": {
+                    "items": [
+                        [
+                            1008,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 250000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            21,
+                            50
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Necromancer Bottoms",
+                "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/necromancer_wizard_bottoms.png",
+                "contains": {
+                    "items": [
+                        [
+                            1007,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 5000000,
+                    "slayerCoins": 500000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            21,
+                            75
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Necromancer Robes",
+                "description": "Passive: +2 Base Quantity for Summoning Tablet Creation and +2% Summoning Skill XP",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/necromancer_wizard_robes.png",
+                "contains": {
+                    "items": [
+                        [
+                            1006,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 10000000,
+                    "slayerCoins": 750000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            21,
+                            90
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Helmet (Basic)",
+                "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/armour_slayer_helmet_basic.png",
+                "contains": {
+                    "items": [
+                        [
+                            484,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            1,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Platebody (Basic)",
+                "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/armour_slayer_platebody_basic.png",
+                "contains": {
+                    "items": [
+                        [
+                            485,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            1,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Cowl (Basic)",
+                "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/armour_slayer_cowl_basic.png",
+                "contains": {
+                    "items": [
+                        [
+                            513,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            1,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Leather Body (Basic)",
+                "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/armour_slayer_leather_basic.png",
+                "contains": {
+                    "items": [
+                        [
+                            514,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            1,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Wizard Hat (Basic)",
+                "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/wizard_hat_slayer_basic.png",
+                "contains": {
+                    "items": [
+                        [
+                            507,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            1,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Wizard Robes (Basic)",
+                "description": "Passive: +5% Slayer Skill XP and +5% Flat Slayer Area Effect Negation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/wizard_robes_slayer_basic.png",
+                "contains": {
+                    "items": [
+                        [
+                            508,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 10000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            1,
+                            15
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Gear Upgrade Kit (Strong)",
+                "description": "Used to upgrade Basic Slayer Gear to Strong.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/slayer_upgrade_kit_strong.png",
+                "contains": {
+                    "items": [
+                        [
+                            953,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 50000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            2,
+                            25
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Gear Upgrade Kit (Elite)",
+                "description": "Used to upgrade Strong Slayer Gear to Elite.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/slayer_upgrade_kit_elite.png",
+                "contains": {
+                    "items": [
+                        [
+                            954,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 200000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            3,
+                            30
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Gear Upgrade Kit (Master)",
+                "description": "Used to upgrade Elite Slayer Gear to Master.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/slayer_upgrade_kit_master.png",
+                "contains": {
+                    "items": [
+                        [
+                            955,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 1000000,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "slayerTaskCompletion": [
+                        [
+                            4,
+                            40
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            }
+        ],
+        "Gloves": [
+            {
+                "name": "Cooking Gloves",
+                "description": "+10% chance to successfully Cook an item.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/gloves_cooking.png",
+                "charges": 500,
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            335,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 45000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mining Gloves",
+                "description": "Collect 2x ore when worn, until depleted.",
+                "charges": 500,
+                "hasQty": true,
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/gloves_mining.png",
+                "contains": {
+                    "items": [
+                        [
+                            336,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 67500,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Smithing Gloves",
+                "description": "+60% Smithing XP when worn, until depleted.",
+                "charges": 500,
+                "hasQty": true,
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/gloves_smithing.png",
+                "contains": {
+                    "items": [
+                        [
+                            337,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 90000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Thieving Gloves",
+                "description": "+75 Thieving Stealth when worn, until depleted.",
+                "charges": 500,
+                "hasQty": true,
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/gloves_thieving.png",
+                "contains": {
+                    "items": [
+                        [
+                            338,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 90000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Gem Gloves",
+                "description": "Collect a random Gem for each mining action when equipped. Does not work on Rune Essence.",
+                "charges": 2000,
+                "hasQty": true,
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/gloves_gems.png",
+                "contains": {
+                    "items": [
+                        [
+                            339,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 450000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            }
+        ],
+        "Skillcapes": [
+            {
+                "name": "Maximum Skillcape",
+                "description": "Inherits all Skillcape perks.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_max.png",
+                "contains": {
+                    "items": [
+                        [
+                            810,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 22000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "customDescription": "Requires Level 99 in all Skills.",
+                    "skillLevel": [
+                        [
+                            20,
+                            99
+                        ],
+                        [
+                            6,
+                            99
+                        ],
+                        [
+                            3,
+                            99
+                        ],
+                        [
+                            14,
+                            99
+                        ],
+                        [
+                            8,
+                            99
+                        ],
+                        [
+                            11,
+                            99
+                        ],
+                        [
+                            2,
+                            99
+                        ],
+                        [
+                            1,
+                            99
+                        ],
+                        [
+                            13,
+                            99
+                        ],
+                        [
+                            19,
+                            99
+                        ],
+                        [
+                            9,
+                            99
+                        ],
+                        [
+                            16,
+                            99
+                        ],
+                        [
+                            4,
+                            99
+                        ],
+                        [
+                            17,
+                            99
+                        ],
+                        [
+                            12,
+                            99
+                        ],
+                        [
+                            15,
+                            99
+                        ],
+                        [
+                            18,
+                            99
+                        ],
+                        [
+                            5,
+                            99
+                        ],
+                        [
+                            21,
+                            99
+                        ],
+                        [
+                            7,
+                            99
+                        ],
+                        [
+                            10,
+                            99
+                        ],
+                        [
+                            0,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Agility Skillcape",
+                "description": "-20% Agility Obstacle Build Costs and +10% GP From Agility",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_agility.png",
+                "contains": {
+                    "items": [
+                        [
+                            965,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            20,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Attack Skillcape",
+                "description": "+10 Melee Attack Bonus",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_attack.png",
+                "contains": {
+                    "items": [
+                        [
+                            444,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            6,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Cooking Skillcape",
+                "description": "+100% chance to successfully Cook an item. and +2% Global Perfect Cook chance.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_cooking.png",
+                "contains": {
+                    "items": [
+                        [
+                            445,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            3,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Crafting Skillcape",
+                "description": "-0.5s Crafting Interval",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_crafting.png",
+                "contains": {
+                    "items": [
+                        [
+                            446,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            14,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Defence Skillcape",
+                "description": "+40 All Defences",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_defence.png",
+                "contains": {
+                    "items": [
+                        [
+                            447,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            8,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Farming Skillcape",
+                "description": "+20% Farming Yield and Composting crops in Farming is free.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_farming.png",
+                "contains": {
+                    "items": [
+                        [
+                            448,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            11,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Firemaking Skillcape",
+                "description": "+5% Global Skill XP and +100% chance to receive coal when burning logs in Firemaking",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_firemaking.png",
+                "contains": {
+                    "items": [
+                        [
+                            449,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            2,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Fishing Skillcape",
+                "description": "x2 Items received from Fishing",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_fishing.png",
+                "contains": {
+                    "items": [
+                        [
+                            450,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            1,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Fletching Skillcape",
+                "description": "x2 Items received from Fletching",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_fletching.png",
+                "contains": {
+                    "items": [
+                        [
+                            451,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            13,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Herblore Skillcape",
+                "description": "x2 Items received from Herblore",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_herblore.png",
+                "contains": {
+                    "items": [
+                        [
+                            632,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            19,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Hitpoints Skillcape",
+                "description": "+10 Flat Hitpoints Regen",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_hitpoints.png",
+                "contains": {
+                    "items": [
+                        [
+                            452,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            9,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Magic Skillcape",
+                "description": "Rune providing items provide 2x as many runes",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_magic.png",
+                "contains": {
+                    "items": [
+                        [
+                            453,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            16,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Mining Skillcape",
+                "description": "+1 Coal Ore per Ore Mined. (Item doubling does not apply)",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_mining.png",
+                "contains": {
+                    "items": [
+                        [
+                            454,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            4,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Prayer Skillcape",
+                "description": "-50% Prayer Point Cost for Prayers",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_prayer.png",
+                "contains": {
+                    "items": [
+                        [
+                            483,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            17,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Ranged Skillcape",
+                "description": "+50% Ammo Preservation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_ranged.png",
+                "contains": {
+                    "items": [
+                        [
+                            455,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            12,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Runecrafting Skillcape",
+                "description": "+35% Chance to Preserve Resources in Runecrafting",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_runecrafting.png",
+                "contains": {
+                    "items": [
+                        [
+                            456,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            15,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Slayer Skillcape",
+                "description": "+5% Damage To Slayer Tasks,+25% Flat Slayer Area Effect Negation and Bypass Slayer Area item requirements",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_slayer.png",
+                "contains": {
+                    "items": [
+                        [
+                            505,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            18,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Smithing Skillcape",
+                "description": "-50% Coal Costs for Smithing",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_smithing.png",
+                "contains": {
+                    "items": [
+                        [
+                            457,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            5,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Strength Skillcape",
+                "description": "+10 Melee Strength Bonus",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_strength.png",
+                "contains": {
+                    "items": [
+                        [
+                            458,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            7,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Skillcape",
+                "description": "+20% Chance to Preserve Resources in Summoning,+10% Chance to preserve Summoning Charges and +10 Base Quantity for Summoning Tablet Creation",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_summoning.png",
+                "contains": {
+                    "items": [
+                        [
+                            998,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            21,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Thieving Skillcape",
+                "description": "-0.5s Thieving Interval,+100% GP From Thieving and +150 Stealth while Thieving",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_thieving.png",
+                "contains": {
+                    "items": [
+                        [
+                            459,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            10,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Woodcutting Skillcape",
+                "description": "-15% Woodcutting Interval",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/skillcape_woodcutting.png",
+                "contains": {
+                    "items": [
+                        [
+                            460,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 1000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "skillLevel": [
+                        [
+                            0,
+                            99
+                        ]
+                    ]
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Cape of Completion",
+                "description": "Inherits all Skillcape perks. All Mastery Pool bonuses are active. 5% Damage Reduction.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/cape_of_completion.png",
+                "contains": {
+                    "items": [
+                        [
+                            903,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 200000000,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {
+                    "completionPercentage": 100
+                },
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            }
+        ],
+        "Materials": [
+            {
+                "name": "Bag of Flour",
+                "description": "A bag of.... flour.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/bag_of_flour.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            1010,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 4,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Cheese",
+                "description": "Solid milk.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/cheese.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            1064,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 4,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Cream",
+                "description": "Somewhat liquid milk but not really.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/cream.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            1065,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 4,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Feathers",
+                "description": "Used to create Arrows in Fletching.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/feathers.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            278,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 8,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Compost",
+                "description": "Used in Farming. Each use of Compost on a Farming Plot increased the crop survival chance by +10%. Can only be applied before the crop is planted.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/compost.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            159,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 500,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Weird Gloop",
+                "description": "Created by Patreon (RS Wikis)<br>Fills Farming Compost to 100% per use. +10% Increased crop harvest",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/weird_gloop.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            679,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            159,
+                            2
+                        ],
+                        [
+                            388,
+                            10
+                        ]
+                    ]
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Bowstring",
+                "description": "Used to string Bows in Fletching.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/bowstring.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            291,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 24,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Leather",
+                "description": "Used to create Leather gear in Crafting.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/leather.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            292,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 100,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Green Dragonhide",
+                "description": "Used to create Green Dragonhide gear in Crafting.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/dragonhide_green.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            293,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 100,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            292,
+                            1
+                        ]
+                    ]
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Blue Dragonhide",
+                "description": "Used to create Blue Dragonhide gear in Crafting.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/dragonhide_blue.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            294,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 250,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            292,
+                            1
+                        ]
+                    ]
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Red Dragonhide",
+                "description": "Used to create Red Dragonhide gear in Crafting.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/dragonhide_red.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            295,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 350,
+                    "slayerCoins": 0,
+                    "items": [
+                        [
+                            292,
+                            2
+                        ]
+                    ]
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Shard (Red)",
+                "description": "Use to create Familiars in Summoning",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/summoning_shard_red.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            971,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 200,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Shard (Green)",
+                "description": "Use to create Familiars in Summoning",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/summoning_shard_green.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            972,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 200,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Shard (Blue)",
+                "description": "Use to create Familiars in Summoning",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/summoning_shard_blue.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            973,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 400,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Shard (Silver)",
+                "description": "Use to create Familiars in Summoning",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/summoning_shard_silver.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            974,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 400,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Shard (Gold)",
+                "description": "Use to create Familiars in Summoning",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/summoning_shard_gold.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            975,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 600,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Summoning Shard (Black)",
+                "description": "Use to create Familiars in Summoning",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/summoning_shard_black.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            976,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 600,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            },
+            {
+                "name": "Red Party Hat",
+                "description": "+1 Bragging Rights",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/party_hat_red.png",
+                "hasQty": true,
+                "contains": {
+                    "items": [
+                        [
+                            882,
+                            1
+                        ]
+                    ]
+                },
+                "cost": {
+                    "gp": 2147483647,
+                    "slayerCoins": 0,
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "showBuyLimit": false
+            }
+        ],
+        "GolbinRaid": [
+            {
+                "name": "Reduce Wave Skip Cost",
+                "description": "Reduces the cost of Wave Skipping by 1% per purchase",
+                "media": "assets/media/main/logo.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 2500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidWaveSkipCostReduction": 1
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    50,
+                    50,
+                    50,
+                    50
+                ]
+            },
+            {
+                "name": "Food Bonus",
+                "description": "+5 to Minimum Food Qty per purchase",
+                "media": "assets/media/main/logo.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 1500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidIncreasedMinimumFood": 5
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Ammo Gatherer",
+                "description": "+5% to Maximum Ranged Ammo Qty possible.",
+                "media": "assets/media/main/logo.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 1500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidIncreasedMaximumAmmo": 5
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Rune Pouch",
+                "description": "+5% to Maximum Runes Qty possible.",
+                "media": "assets/media/main/logo.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 1500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidIncreasedMaximumRunes": 5
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Prayer",
+                "description": "Unlocks the Prayer Skill to be used within Golbin Raid",
+                "media": "assets/media/skills/prayer/prayer.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 25000
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidPrayerUnlocked": 1
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "Increase Prayer Level",
+                "description": "+1 Prayer Level for Golbin Raid",
+                "media": "assets/media/skills/prayer/prayer.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 2500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidIncreasedPrayerLevel": 1
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    98,
+                    98,
+                    98,
+                    98
+                ]
+            },
+            {
+                "name": "Increase Prayer Points gained per Wave Completion",
+                "description": "+5 Increased Prayer Points granted per Wave Completion",
+                "media": "assets/media/skills/prayer/prayer.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 2500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidIncreasedPrayerPointsWave": 5
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Increase Starting Prayer Points",
+                "description": "Start with +20 Prayer Points per purchase",
+                "media": "assets/media/main/logo.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 2500
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidIncreasedPrayerPointsStart": 20
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Unlock Combat Passive Slot",
+                "description": "Unlocks the Combat Passive Slot to be used in Golbin Raid. A passive item may be rolled every 10 waves.",
+                "media": "assets/media/main/logo.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 50000
+                },
+                "contains": {
+                    "modifiers": {
+                        "golbinRaidPassiveSlotUnlocked": 1
+                    },
+                    "items": []
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "Yellow Party Hat",
+                "description": "+1 Bragging Rights",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/bank/party_hat_yellow.png",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 500000
+                },
+                "contains": {
+                    "items": [
+                        [
+                            963,
+                            1
+                        ]
+                    ]
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "name": "Preston the Platypus",
+                "description": "+1000 to starting Elemental Rune count.",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/pets/platypus.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 100000
+                },
+                "contains": {
+                    "items": [],
+                    "pet": 43
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            {
+                "name": "Jerry the Giraffe",
+                "description": "Start the Golbin Raid with an Adamant Scimitar",
+                "media": "https://cdn.melvor.net/core/v018/assets/media/pets/giraffe.svg",
+                "cost": {
+                    "gp": 0,
+                    "slayerCoins": 0,
+                    "items": [],
+                    "raidCoins": 100000
+                },
+                "contains": {
+                    "items": [],
+                    "pet": 42
+                },
+                "unlockRequirements": {},
+                "buyLimit": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        ]
+    }
 }

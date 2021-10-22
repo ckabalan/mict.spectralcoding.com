@@ -198,23 +198,19 @@ $(document).ready(function() {
             skillLines.push.apply(skillLines, chestStrs)
         }
         // Add Shop Sources
-        if (melvorData['items'][itemID].hasOwnProperty('buysFor') || melvorData['items'][itemID].hasOwnProperty('slayerCost') || melvorData['items'][itemID].hasOwnProperty('buysForItems') || melvorData['items'][itemID].hasOwnProperty('gloveID')) {
-            skillLines.push('Shop:');
-            shopStrs = []
-            if (melvorData['items'][itemID].hasOwnProperty('buysFor') && melvorData['items'][itemID]['buysFor'] > 0) {
-                skillLines.push(goldCoinsLink(false, true) + ' x ' + melvorData['items'][itemID]['buysFor'].toLocaleString())
-            }
-            if (melvorData['items'][itemID].hasOwnProperty('slayerCost')) {
-                skillLines.push(slayerCoinsLink(false, true) + ' x ' + melvorData['items'][itemID]['slayerCost'].toLocaleString())
-            }
-            if (melvorData['items'][itemID].hasOwnProperty('buysForItems')) {
-                melvorData['items'][itemID]['buysForItems'].forEach(function(material) {
+        if (melvorData['items'][itemID].hasOwnProperty('shopSources')) {
+            melvorData['items'][itemID]['shopSources'].forEach(function(shopListing) {
+                skillLines.push('Shop (' + shopListing['name'] + '):');
+                if (shopListing['cost']['gp'] > 0) {
+                    skillLines.push(goldCoinsLink(false, true) + ' x ' + shopListing['cost']['gp'].toLocaleString())
+                }
+                if (shopListing['cost']['slayerCoins'] > 0) {
+                    skillLines.push(slayerCoinsLink(false, true) + ' x ' + shopListing['cost']['slayerCoins'].toLocaleString())
+                }
+                shopListing['cost']['items'].forEach(function(material) {
                     skillLines.push(itemLink(material[0], false, true) + ' x ' + material[1].toLocaleString())
                 });
-            }
-            if (melvorData['items'][itemID].hasOwnProperty('gloveID')) {
-                skillLines.push(goldCoinsLink(false, true) + ' x ' + melvorData['glovesCost'][melvorData['items'][itemID]['gloveID']].toLocaleString())
-            }
+            });
         }
         // Add Dungeon Sources - https://github.com/MelvorIdle/Melvor-Wiki-Bot/blob/master/sources/main.js#L1300
         if (melvorData['items'][itemID].hasOwnProperty('dungeonSources')) {
