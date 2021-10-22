@@ -168,8 +168,10 @@ $(document).ready(function() {
                 delete item['grownItemID'];
             }
         });
+        thievingNPCSet = new Set()
         // Add Thieving Drops To Item Array
-        Thieving.npcs.forEach(function(target, targetID) {
+        Thieving.npcs.forEach(function(target) {
+            targetID = target['id']
             if (target.hasOwnProperty('lootTable')) {
                 // Get the drop weight, add them together.
                 var totalWeight = target['lootTable'].map(x => x[1]).reduce((a, b) => a + b, 0);
@@ -185,6 +187,64 @@ $(document).ready(function() {
                     });
                 });
             }
+            if (target.hasOwnProperty('uniqueDrop') && target['uniqueDrop']['itemID'] != -1) {
+                // Drop rate varies
+                if (!exp['items'][target['uniqueDrop']['itemID']].hasOwnProperty('thievingSources')) {
+                    exp['items'][target['uniqueDrop']['itemID']]['thievingSources'] = []
+                }
+                exp['items'][target['uniqueDrop']['itemID']]['thievingSources'].push({
+                    "target": targetID,
+                    // According to the Wiki Unique NPC drops are dependant on player and NPC stats
+                    "chance": 'Varies',
+                    "maxQty": 1
+                });
+            }
+            thievingNPCSet.add(targetID)
+        });
+        Thieving.areas.forEach(function(area) {
+            areaID = area['id']
+            area['npcs'].forEach(function(npcID) {
+                area['uniqueDrops'].forEach(function(drop) {
+                    if (!exp['items'][drop['itemID']].hasOwnProperty('thievingSources')) {
+                        exp['items'][drop['itemID']]['thievingSources'] = []
+                    }
+                    exp['items'][drop['itemID']]['thievingSources'].push({
+                        "target": npcID,
+                        // According to the Wiki Unique Area Drops are 1/500
+                        "chance": fracReduce(1, 500),
+                        "maxQty": 1
+                    });
+                })
+                thievingNPCSet.add(npcID)
+            })
+        });
+        // Add General Rare Items to any Thieving NPC. Comes From Thieving.generalRareItems
+        // I'm adding the multiply by 100 because while Bobby's Pocket chance is 0.83 it is
+        // compared to Math.random()*100 in rollPercentage so 0.83 is 0.83% and not 83%.
+        thievingRares = [{
+            itemID: CONSTANTS.item.Bobbys_Pocket,
+            dropNumerator: 100,
+            dropDenominator: 120 * 100
+        }, {
+            itemID: CONSTANTS.item.Chapeau_Noir,
+            dropNumerator: 100,
+            dropDenominator: 20000 * 100
+        }, {
+            itemID: CONSTANTS.item.Boots_Of_Stealth,
+            dropNumerator: 100,
+            dropDenominator: 15000 * 100
+        }, ];
+        thievingRares.forEach(function(drop) {
+            if (!exp['items'][drop['itemID']].hasOwnProperty('thievingSources')) {
+                exp['items'][drop['itemID']]['thievingSources'] = []
+            }
+            thievingNPCSet.forEach(function(targetID) {
+                exp['items'][drop['itemID']]['thievingSources'].push({
+                    "target": targetID,
+                    "chance": fracReduce(drop['dropNumerator'], drop['dropDenominator']),
+                    "maxQty": 1
+                });
+            });
         });
         // Add Openable Drops To Item Array
         exp['items'].forEach(function(item, itemID) {
