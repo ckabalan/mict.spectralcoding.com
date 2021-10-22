@@ -109,11 +109,11 @@
                 <li class="nav-item">
                     <a class="nav-link text-wrap px-sm-3 py-sm-2 px-2 py-1" id="monsters-tab" data-toggle="tab" href="#tabMonsters" role="tab" aria-controls="tabMonsters" aria-selected="false">Monsters</a>
                 </li>
-                <li class="nav-item ml-auto mr-sm-2">
-                    <input type="checkbox" id="filterOptional">Hide Optional</input>
-                </li>
-                <li class="nav-item" id="filterWrap">
-                    <input type="text" class="form-control px-sm-3 py-sm-2 px-1 py-0" placeholder="Filter..." aria-label="Filter" id="filter">
+                <li class="nav-item ml-auto form-inline" id="filterWrap">
+
+                    <input class="form-check-input py-0 my-0" type="checkbox" id="filterOptional">
+                    <label class="form-check-label" for="inlineCheckbox1">Hide Optional</label>
+                    <input class="form-control px-sm-3 py-sm-2 px-1 py-0" type="text" placeholder="Filter..." aria-label="Filter" id="filter">
                 </li>
             </ul>
             <div class="tab-content bg-white p-2 border-right border-bottom border-left mb-2" id="missingTabContent">
