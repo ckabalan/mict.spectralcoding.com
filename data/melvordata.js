@@ -1,7 +1,7 @@
 var melvorData = {
     "dataSource": {
         "gameVersion": "Alpha v0.22.1",
-        "generationDate": "2021-10-22T15:48:07.038Z"
+        "generationDate": "2021-10-22T17:09:10.505Z"
     },
     "items": [
         {
@@ -7472,6 +7472,24 @@ var melvorData = {
                     "chance": [
                         1,
                         101
+                    ],
+                    "maxQty": 1
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 14,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 4,
+                    "chance": [
+                        1,
+                        500
                     ],
                     "maxQty": 1
                 }
@@ -30012,7 +30030,193 @@ var melvorData = {
             "isEquipment": false,
             "description": "Created by Patreon (Hxlmer)",
             "sellsFor": 4000,
-            "media": "assets/media/bank/bobbys_pocket.png"
+            "media": "assets/media/bank/bobbys_pocket.png",
+            "thievingSources": [
+                {
+                    "target": 0,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 1,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 2,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 4,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 8,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 10,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 11,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 12,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 13,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 14,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 17,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 18,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 19,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 20,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 21,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        120
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Combat",
@@ -31023,6 +31227,24 @@ var melvorData = {
                         6
                     ],
                     "maxQty": 24
+                }
+            ],
+            "thievingSources": [
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
                 }
             ]
         },
@@ -37789,7 +38011,193 @@ var melvorData = {
                         10
                     ]
                 ]
-            }
+            },
+            "thievingSources": [
+                {
+                    "target": 0,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 1,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 2,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 4,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 8,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 10,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 11,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 12,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 13,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 14,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 17,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 18,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 19,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 20,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 21,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        20000
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Mastery",
@@ -60213,6 +60621,24 @@ var melvorData = {
             "buysFor": 4,
             "media": "assets/media/bank/bag_of_flour.png",
             "mediaAlt": "assets/media/bank/bag_of_flour_alt.png",
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ],
             "shopSources": [
                 {
                     "name": "Bag of Flour",
@@ -61865,7 +62291,193 @@ var melvorData = {
                 "increasedGPGlobal": 5
             },
             "description": "Passive: +40 Stealth while Thieving and +5% Global GP (except Item Sales)",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 0,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 1,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 2,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 4,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 8,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 10,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 11,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 12,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 13,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 14,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 17,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 18,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 19,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 20,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 21,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        15000
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -61886,7 +62498,25 @@ var melvorData = {
                 "increasedGPGlobal": 5
             },
             "description": "+5% Global GP (except Item Sales)",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 0,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 8,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -61960,6 +62590,24 @@ var melvorData = {
                 200,
                 200,
                 200
+            ],
+            "thievingSources": [
+                {
+                    "target": 1,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 9,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -61988,7 +62636,25 @@ var melvorData = {
                 ]
             },
             "description": "+25 Stealth while Thieving,+10% GP From Thieving and +2% Thieving Skill XP",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 11,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -61998,7 +62664,25 @@ var melvorData = {
             "sellsFor": 5000,
             "media": "assets/media/bank/marksmans_sigil.png",
             "id": 1070,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 10,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 11,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62062,6 +62746,24 @@ var melvorData = {
                 100,
                 100,
                 100
+            ],
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -62071,7 +62773,25 @@ var melvorData = {
             "sellsFor": 4000,
             "media": "assets/media/bank/basic_bag.png",
             "id": 1072,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62104,7 +62824,25 @@ var melvorData = {
                 "increasedFoodHealingValue": 20
             },
             "description": "+1% Cooking Skill XP,+1% Cooking Mastery XP and +20% Food Healing Value",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 5,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62113,7 +62851,25 @@ var melvorData = {
             "sellsFor": 10000,
             "media": "assets/media/bank/shipwheel.png",
             "id": 1074,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 14,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 4,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62139,7 +62895,25 @@ var melvorData = {
                 ]
             },
             "consumesOn": "Fishing",
-            "description": "+10% Chance to Double Items in Fishing. One item is consumed per Fishing action"
+            "description": "+10% Chance to Double Items in Fishing. One item is consumed per Fishing action",
+            "thievingSources": [
+                {
+                    "target": 14,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 4,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62148,7 +62922,25 @@ var melvorData = {
             "sellsFor": 15000,
             "media": "assets/media/bank/giant_club.png",
             "id": 1076,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62182,6 +62974,24 @@ var melvorData = {
                 100,
                 100,
                 100
+            ],
+            "thievingSources": [
+                {
+                    "target": 15,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 16,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -62241,6 +63051,24 @@ var melvorData = {
                 100,
                 100,
                 100
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -62305,6 +63133,24 @@ var melvorData = {
                 100,
                 100,
                 100
+            ],
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 6,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -62315,7 +63161,25 @@ var melvorData = {
             "sellsFor": 5000,
             "media": "assets/media/bank/knights_sigil.png",
             "id": 1080,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62356,6 +63220,24 @@ var melvorData = {
                     "key": "damageReduction",
                     "value": 1
                 }
+            ],
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -62378,7 +63260,25 @@ var melvorData = {
                 "increasedMeleeMaxHit": 5
             },
             "consumesOn": "MeleeAttack",
-            "description": "+5% Melee Accuracy Rating and +5% Melee Maximum Hit. One item is consumed per Melee attack."
+            "description": "+5% Melee Accuracy Rating and +5% Melee Maximum Hit. One item is consumed per Melee attack.",
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 7,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62399,7 +63299,25 @@ var melvorData = {
                 "increasedRunePreservation": 10
             },
             "consumesOn": "RuneUse",
-            "description": "+10% Rune Preservation. One item is consumed whenever Runes are used."
+            "description": "+10% Rune Preservation. One item is consumed whenever Runes are used.",
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 18,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62409,7 +63327,25 @@ var melvorData = {
             "sellsFor": 5000,
             "media": "assets/media/bank/wizards_sigil.png",
             "id": 1084,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 18,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62431,7 +63367,25 @@ var melvorData = {
                 "increasedChanceToPreservePrayerPoints": 5
             },
             "consumesOn": "PrayerPointCost",
-            "description": "-1 Prayer Point Cost for Prayers and +5% Chance To Preserve Prayer Points. One item is consumed per Active Prayer whenever Prayer Points are used."
+            "description": "-1 Prayer Point Cost for Prayers and +5% Chance To Preserve Prayer Points. One item is consumed per Active Prayer whenever Prayer Points are used.",
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 18,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62454,7 +63408,33 @@ var melvorData = {
                 "decreasedGlobalPreservationChance": 3
             },
             "description": "Passive: +7% Chance to Double Items Globally and -3% Chance to Preserve Resources in Skills",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 20,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 21,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62493,6 +63473,32 @@ var melvorData = {
                 200,
                 200,
                 200
+            ],
+            "thievingSources": [
+                {
+                    "target": 20,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 21,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
             ]
         },
         {
@@ -62502,7 +63508,33 @@ var melvorData = {
             "sellsFor": 30000,
             "media": "assets/media/bank/antique_vase.png",
             "id": 1088,
-            "isEquipment": false
+            "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 20,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 22,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 21,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62532,7 +63564,14 @@ var melvorData = {
             "fightEffects": [
                 0
             ],
-            "description": "Passive: When hit, lose 5% evasion ratings and gain +1% damage reduction, stacking up to 3 times (lasts until end of fight)"
+            "description": "Passive: When hit, lose 5% evasion ratings and gain +1% damage reduction, stacking up to 3 times (lasts until end of fight)",
+            "thievingSources": [
+                {
+                    "target": 11,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62571,7 +63610,14 @@ var melvorData = {
             },
             "attackType": "melee",
             "description": "+1% Cooking Skill XP,+1% Cooking Mastery XP and +2% chance to successfully Cook an item.",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 13,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62609,7 +63655,14 @@ var melvorData = {
                 ]
             },
             "description": "+1% Cooking Skill XP,+1% Cooking Mastery XP and -0.1s Cooking Interval",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 5,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62665,7 +63718,14 @@ var melvorData = {
                 ],
                 "increasedMinHitBasedOnMaxHit": 3
             },
-            "description": "Passive: +3% Combat XP. Does not work with Slayer or Alt. Magic, +3% of Max Hit as Min Hit"
+            "description": "Passive: +3% Combat XP. Does not work with Slayer or Alt. Magic, +3% of Max Hit as Min Hit",
+            "thievingSources": [
+                {
+                    "target": 17,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62700,7 +63760,14 @@ var melvorData = {
                     "value": 7
                 }
             ],
-            "description": "Passive: (MELEE ONLY) -0.1s Attack Interval, -3% Damage Reduction, +7 Melee Defence Bonus"
+            "description": "Passive: (MELEE ONLY) -0.1s Attack Interval, -3% Damage Reduction, +7 Melee Defence Bonus",
+            "thievingSources": [
+                {
+                    "target": 7,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62739,7 +63806,14 @@ var melvorData = {
                 "increasedMeleeMaxHit": 5,
                 "decreasedMeleeEvasion": 15
             },
-            "description": "Passive: +5% Melee Maximum Hit and -15% Melee Evasion"
+            "description": "Passive: +5% Melee Maximum Hit and -15% Melee Evasion",
+            "thievingSources": [
+                {
+                    "target": 16,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62751,7 +63825,14 @@ var melvorData = {
             "isEquipment": false,
             "canRead": true,
             "readTitle": "Merchant's Permit",
-            "readText": "<small><em>\"By the grace of the King of Melvor, the bearer of this writ is hereby granted exemption from the royal glove tax.\"</em><br> - Signed: The Lemvor Port Authority</small><br><br><small class=\"text-success\">Permanent: -10% Cost to Skilling Gloves</small>"
+            "readText": "<small><em>\"By the grace of the King of Melvor, the bearer of this writ is hereby granted exemption from the royal glove tax.\"</em><br> - Signed: The Lemvor Port Authority</small><br><br><small class=\"text-success\">Permanent: -10% Cost to Skilling Gloves</small>",
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62771,7 +63852,14 @@ var melvorData = {
             "modifiers": {
                 "increasedFarmingYield": 3
             },
-            "description": "+3% Farming Yield, if Bob's rake is equipped, its effect is increased to a 75% chance to preserve Compost or Weird Gloop."
+            "description": "+3% Farming Yield, if Bob's rake is equipped, its effect is increased to a 75% chance to preserve Compost or Weird Gloop.",
+            "thievingSources": [
+                {
+                    "target": 3,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62799,7 +63887,14 @@ var melvorData = {
                 ]
             },
             "description": "+20 Stealth while Thieving,+20 GP From Thieving and +2% Thieving Mastery XP",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 9,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62820,7 +63915,14 @@ var melvorData = {
             "modifiers": {
                 "increasedGPGlobal": 10
             },
-            "description": "Passive: +10% Global GP (except Item Sales)"
+            "description": "Passive: +10% Global GP (except Item Sales)",
+            "thievingSources": [
+                {
+                    "target": 8,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62847,7 +63949,14 @@ var melvorData = {
                 ]
             },
             "description": "+2% Chance for Bird Nests to drop in Woodcutting and +2% Woodcutting Mastery XP",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 2,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62874,7 +63983,14 @@ var melvorData = {
                 ]
             },
             "description": "+3% Chance to deal no Damage to a Mining Node and +2% Mining Mastery XP",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 6,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62895,7 +64011,14 @@ var melvorData = {
                 "decreasedFishingSpecialChance": 3
             },
             "description": "-3% chance to receive Special Items from Fishing",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 14,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62915,7 +64038,14 @@ var melvorData = {
             "modifiers": {
                 "decreasedThievingStealth": 75
             },
-            "description": "-75 Stealth while Thieving, When you pickpocket a unique item gain flat gp equal to 0.5-3x its value"
+            "description": "-75 Stealth while Thieving, When you pickpocket a unique item gain flat gp equal to 0.5-3x its value",
+            "thievingSources": [
+                {
+                    "target": 20,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -62925,6 +64055,13 @@ var melvorData = {
             "media": "assets/media/bank/jadestone.png",
             "id": 1103,
             "isEquipment": false,
+            "thievingSources": [
+                {
+                    "target": 22,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ],
             "altMagicSources": [
                 6,
                 9
@@ -62999,7 +64136,14 @@ var melvorData = {
                 "increasedGPFromMonsters": 30
             },
             "description": "Passive: +30% GP From Monsters",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 21,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -63021,7 +64165,14 @@ var melvorData = {
                 "increasedGlobalSkillXP": 3,
                 "decreasedGPGlobal": 15
             },
-            "description": "Passive: +3% Global Skill XP and -15% Global GP (except Item Sales)"
+            "description": "Passive: +3% Global Skill XP and -15% Global GP (except Item Sales)",
+            "thievingSources": [
+                {
+                    "target": 19,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -63048,7 +64199,14 @@ var melvorData = {
                 "increasedAltMagicRunePreservation": 10
             },
             "description": "-0.2s Magic Interval and +10% Rune Preservation for Alt. Magic Spells",
-            "ignoreLangGeneration": true
+            "ignoreLangGeneration": true,
+            "thievingSources": [
+                {
+                    "target": 18,
+                    "chance": "Varies",
+                    "maxQty": 1
+                }
+            ]
         },
         {
             "category": "Thieving",
@@ -63218,7 +64376,25 @@ var melvorData = {
                 11,
                 23
             ],
-            "seedsRequired": 1
+            "seedsRequired": 1,
+            "thievingSources": [
+                {
+                    "target": 12,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                },
+                {
+                    "target": 3,
+                    "chance": [
+                        1,
+                        500
+                    ],
+                    "maxQty": 1
+                }
+            ]
         }
     ],
     "monsters": [

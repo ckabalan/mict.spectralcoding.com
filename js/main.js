@@ -180,14 +180,27 @@ $(document).ready(function() {
         }
         // Add Thieving Sources
         if (melvorData['items'][itemID].hasOwnProperty('thievingSources')) {
-            // This section is OK for now because CURRENTLY you can't get an item from
-            // two Thieving sources. If this changes will have to change this section.
-            var targetSource = melvorData['items'][itemID]['thievingSources'][0];
-            skillLines.push('Thieving (Level ' + melvorData['thievingTargets'][targetSource['target']]['level'] + '):');
-            var pctChance = (targetSource['chance'][0]/targetSource['chance'][1]*100).toFixed(2)
-            // Format string as "<Drop Chance><Icon> (<Drop Fraction> - <Drop Percent>)"
-            // The first <Drop Chance> will be used to sort but then trimmed from final display.
-            skillLines.push(targetLink(targetSource['target'], false, true) + ' (' + targetSource['chance'][0] + '/' + targetSource['chance'][1] + ' - ' + pctChance + '%)');
+            // Do some ugly object stuff here JUST so we can sort by level when we add the lines to the output
+            thievingTempObjs = []
+            melvorData['items'][itemID]['thievingSources'].forEach(function(thievingSource) {
+                tempLines = []
+                tempLines.push('Thieving (Level ' + melvorData['thievingTargets'][thievingSource['target']]['level'] + '):');
+                var pctChance = (thievingSource['chance'][0]/thievingSource['chance'][1]*100).toFixed(2)
+                // Format string as "<Drop Chance><Icon> (<Drop Fraction> - <Drop Percent>)"
+                // The first <Drop Chance> will be used to sort but then trimmed from final display.
+                tempLines.push(targetLink(thievingSource['target'], false, true) + ' (' + thievingSource['chance'][0] + '/' + thievingSource['chance'][1] + ' - ' + pctChance + '%)');
+                thievingTempObjs.push({
+                    level: melvorData['thievingTargets'][thievingSource['target']]['level'],
+                    lines: tempLines
+                })
+            });
+            // Sort by level and then just add all lines in the new object order
+            thievingTempObjs.sort((a, b) => (a.level > b.level) ? 1 : -1)
+            thievingTempObjs.forEach(function(tempObj) {
+                tempObj.lines.forEach(function(line) {
+                    skillLines.push(line)
+                });
+            });
         }
         // Add Chest Sources
         if (melvorData['items'][itemID].hasOwnProperty('chestSources')) {
