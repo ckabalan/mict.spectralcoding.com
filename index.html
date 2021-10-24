@@ -60,13 +60,8 @@
         td {
             word-wrap:break-word;
         }
-        #filterOptional {
-            width: 16px;
-            height: 16px;
-            margin: 12px 6px;
-        }
         #filterWrap {
-            width: 33%;
+			width: 24%;
         }
         @media screen and (max-width: 576px) {
             /* Make form-control be form-control-sm on screens where we shrink other items. */
@@ -109,10 +104,14 @@
                 <li class="nav-item">
                     <a class="nav-link text-wrap px-sm-3 py-sm-2 px-2 py-1" id="monsters-tab" data-toggle="tab" href="#tabMonsters" role="tab" aria-controls="tabMonsters" aria-selected="false">Monsters</a>
                 </li>
-                <li class="nav-item ml-auto form-inline" id="filterWrap">
-
-                    <input class="form-check-input py-0 my-0" type="checkbox" id="filterOptional">
-                    <label class="form-check-label" for="inlineCheckbox1">Hide Optional</label>
+				<li class="nav-item ml-md-auto mr-1">
+					<label class="btn px-sm-2 py-sm-1 px-2 py-0 mb-0">
+						<input type="checkbox" class="mx-1" id="filterOptional">
+						<label class="d-none d-sm-inline-block" for="filterOptional">Required Only</label>
+						<label class="d-sm-none" for="filterOptional">RQ. Only</label>
+					</label>
+				</li>
+                <li class="nav-item" id="filterWrap">
                     <input class="form-control px-sm-3 py-sm-2 px-1 py-0" type="text" placeholder="Filter..." aria-label="Filter" id="filter">
                 </li>
             </ul>
